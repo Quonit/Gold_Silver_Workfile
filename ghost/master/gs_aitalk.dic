@@ -1,0 +1,593 @@
+﻿AiTalk
+{
+	if RAND(100) < communicateratio
+ 	{
+ 		StartCommunicate
+	}
+ 	else
+	{
+ 		if mikireflag == 0
+		{
+			if CHAIN.IDName == "" {
+ 				lastTalk = RandomTalk
+			}
+			else {
+				lastTalk = ChainTalk
+			}
+			lastTalk
+		}
+ 		else
+		{ 
+		MikireTalk
+ 		}
+	}
+}
+// You can change the size of text using \f[height,(number, or the word default).
+ // \f[strike,true] makes the words struck out.
+ // \f[strike,defualt] resets the text to defualt.
+ // \f[sub,true] makes text subscript.
+ // \f[sub,default] resets text to normal.
+ // \f[sup,true] makes text superscript.
+ // \f[sup,false] makes the text normal again.
+ // \f[underline,true] underlines text.
+ // \f[underline,default] removes the line from under the text.
+ // \f[bold,true] makes your statement bold.
+ // \f[bold,false] makes the text not so bold.
+ // \f[italic,true] makes text slanted.
+ // \f[italic,false] de-slants the text.
+ // \f[color0-255,0-255,0-255] changes the color of the text.
+ // \f[color,default] will return the color to default.
+ // \f[default] returns everything back to normal.
+ // \_a[[http://www.website.com/](put text here)\_a can link a website in dialogue.
+ // \0\s[0]\1\s[0]\_s(put dialogue here) has characters say dialogue at the same time.
+ // The envelope %(username)
+ // The envelope %(heshe)
+
+//Potential play mode. Gold and Silver's Pokemon can be out on screen, but to make it easier to code I only want one at a time. If you swap out for a different one they do %(the name of the Pokemon) return!"
+//Pokemon battles could also be a thing
+//Should be separated into their own DIC files to avoid clutter
+
+RandomTalk : nonoverlap
+{
+
+	/*
+	I can't find the joke but it was something like
+	> Silver: What's effective against Fairy Types?
+	> Gold: Um... Dark?
+	> Silver: You should know this! You have a Fairy Type on your team!
+	> Gold: I do?
+	*/
+	"\1\s[10]What Pokemon do you think could beat a %(psychictype)?\w8\0\s[4]Atticus!\w4 Obviously!\1\s[206]\i[8]\w8\n\nSigh\w2.\w2.\w2.\e"
+	
+	"\0\s[5]I heard that they're opening a contest circuit in Jotoh soon!\w8\1\s[10]Huh?\w8\0\s[5]\n\nIt's like\w2.\w2.\w2.\w8 Instead of battles, \w6\0\s[7]you try to make your Pokemon seem as interesting as possible to a bunch of judges-\w8\1\s[206]\i[7]\n\nI know what Pokemon Contests are.\w8\0\s[4]\n\nand THEN you battle other people!\w8\1\n\nSigh\w2.\w2.\w2.\w8\0\s[6]\n\nI think you'd have a good shot if you tried some of them!\w8 You keep your Pokemon \f[italic,true]VERY\f[italic,false] well groomed!\w8\1\s[203]\n\n!\w8\n\n\1\s[204]\i[6].\w2.\w2.\w2I don't want to have them be objectified like that.\w8\0\s[8]\n\nBut you didn't even aaaask them if they're interested.\w8\1\s[207]\n\nThere aren't any contest circuts in Jotoh or Kanto yet anyways!\w8\0\s[8]\n\n.\w2.\w2.\w2Yet.\e"
+	
+	"\0\s[4]Have you ever seen any legendaries before, %(username)??\w8 I have!\w8\1\s[206]\i[8]The Ho-Oh doesn't count.\w4\w8\0\s[2]\n\nYeah it does!\w8\n\nAnd that's not the one I'm talking about anyways.\w8\1\s[204]\n\n(sigh...)\w8\0\s[9]\n\n\f[italic,true]I\f[italic,false] saw a Moltres.\w8\n\n\0\s[7]I was walking around Mt.Silver,\w4\0\s[4] and deep inside I saw one standing in the center of the room!\w8\1\s[206]\i[7]\n\nDid you catch it?\w8\0\s[1]\n\nUh,\w3 no?\w8\1\s[202]\n\nCourse not\w2.\w2.\w2.\w8\0\s[2]\n\n\eWhen I went closer I tried to battle it, but it flew away\w2.\w2.\w2."
+	
+	"\0\s[6]You've got a lot of Pokemon,\w3 right?\w8\1\s[206]\i[8]Yeah,\w3 so?\w8\0\s[5]\n\nWhich one is your favorite?\w8\1\s[206]\i[7]\n\nWhich one is \f[italic,true]your\f[italic,false] favorite?\w8\0\s[11]\n\n!\w8\w8\0\s[12]\n\n\w2.\w2.\w2.\w2Good point."
+	
+	"\0\s[13]Have you ever been in a bug-catching contest, %(username)?\w8\1\s[206]\i[7]I don't think they have those outside of Jotoh\w2.\w2.\w2.\w8\0\s[11]\n\nReally?? \w8\s[5]\i[9]I think they're kinda fun!\w8\1\s[206]\i[8]\n\nI hear complaints about the judges are common\w2.\w2.\w2.\w8\0\s[14]\n\nI've never had any issues with them at least.\w8\s[3] I caught a Pinsir at one once!\w8\1\n\nI've never seen you with it.\w8\0\s[5]\n\nYeah,\w5 me and him aren't super friendly.\w8 But he's helpful for cutting and climbing things.\e"
+	
+	"\0\s[2]I don't think Lucario should be a Dark/Steel type.\w8\1\s[201]\f[italic,true]I\f[italic,false] don't think that's something you can decide.\w8\0\s[11]\n\nBut like!!\w8\n\n\s[1]It has AURAS and can sense other Pokemon and read minds!!\w8 That's totally psychic!\w8\1\n\n...?\w8\0\s[2]\n\nI think it should be a psychic fighting type,\w5\0\s[4]and that'd be super cool because fighting is usually weak to psychic!!\w8\1\s[202]\n\n(Lucario isn't even a dark type...)\e"
+	
+	"\0\s[4]Once I saw a-\w6\1\s[206]\i[8]Isn't it funny that whenever you \f[italic,true]claim\f[italic,false] to have seen a legendary, either nobody was there to confirm it or somebody was there to de-confirm it?\w8\0\s[2]\n\nhmph!\e"
+	
+	//temp dialogue
+	"\0\s[2]Things must be difficult for Rock types.\1Why?\0They're weak to both Water AND Grass! Aren't those like, the most common types??? And they're usually starters too!\1 They have their strengths. \0Like what, not being able to go outside because the grass and water sting?"
+	
+	/*
+	S: What type attacks are strong against Steel type?
+	--
+	Op1:
+	G: Um... Fighting.
+	G: I only remember because it sounds weird. If you punch a metal pipe hard enough, you'll break your hand, not break the pipe!
+	Op2:
+	G: Fire. Fire melts steel. But it'd have to be a really hot fire... Because otherwise every building that burns down would melt.
+	Op3:
+	G: [snap snap] I can remember this... Ground? But it doesn't work a lot of the time because Steel types know levitate!
+	S: The only steel type that knows levitate is the Metnemite line.
+	G: And magnamite are EVERYWHERE!!!
+	
+	S: What's bug type strong against?
+	G: I never bother to remember, it's bug type!
+	G: Uhg... Grass? 'Cause bugs eat grass?
+	S: Anything else?
+	G: Um... Psychic, because Psychics are scaredy-cats. Are there any psychic cats?
+	S: They're also effective against dark types.
+	G: What!? Why! Why would a bug be able to beat a dark type. I can't even think of a clever anecdote for that.
+	G: Bugs are weak to light, because they fly into lights... But they aren't strong in the dark.
+	S: While most creatures struggle in the dark, bugs do not.
+	G: YOU'RE a bug type. because you bug me.
+	
+	S: Name all eighteen types.
+	G: Normal, Ghost, Dark, Steel, Rock, Ground, Electric, Fire, Water, Grass, Fairy, Psychic...
+	S: That's twelve.
+	G: Ice... Bug, Poison-
+	S: Fifteen.
+	G: Flying! Flying, Dragon, and... Fighting!
+	
+	G: If Psychic Types can talk... Why doesn't Silklay talk to me?
+	S: Why, are you worried about it or something?
+	G: Pff, you say that like you care about me.
+	S: No I- ...hmph.
+	G: You're probably right though. I know she loves me!
+	S: /Most/ Pokemon can't talk and the ones that have the capability to have to be trained.
+	
+	G: Do you think I could be a shōnen protaganist?
+	S: [dryly] Do I think you could be a shōnen protaganist.
+	G: I'm young, energetic, determined, empathetic, overall successful-
+	S: -Annoying, and stubborn.
+	G: Even you can see it! I'm PERFECT for there to be a TV show about me.
+	S: Why would anybody want to watch people like you for fun?
+	G: What, didn't you watch any shōnen anime growing up?
+	S: ... T_T
+	G: If it DID happen, you'd totally watch every episode, and then pretend like you didn't. Then you'd reference something in it, accidentally letting me know you DO watch it and you're just too proud to admit it..
+	S: It's a wonder you're able to learn *anything* with how dull you are.
+	
+	G: Hey Silver, are you named after Mt.Silver? Like... the mountain?
+	S: What are you named after?
+	G: [contemplative] You know... I never asked...
+	
+	G: How does mega evolution work anyways? Do you get, like, a specific mega-stone or whatever for the Pokemon and it'll Mega-evolve for a little while then go back to normal?
+	S: The method is similar to that...
+	G: Cool!!! I want to see what my Shiny Flygon would look like mega evolved.
+	S: Currently there's no known way to Mega evolve a Flygon.
+	G: [Gets down on knees] NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!
+	[goes into chain]
+	S: You can Mega evolve Gardevoir, though.
+	G: Can you Mega evolve Ampharos?
+	S: Yes.
+	G: What about... Delcatty?
+	S: No.
+	G: Aw man.
+	S: [Thinking] ...You can Mega evolve a Pinsir.
+	G: Why would I do that?
+	[chain 3]
+	G: CAN you mega evolve a Tropius?
+	S: No.
+	G: Lanturn or Houndoom?
+	S: No on Lanturn, yes on Houndoom.
+	G: Sick...
+	G: What about your Pokemon? Which of them can mega evolve? Aside from Ampharos.
+	S: None of them. And none of your Pokemon can either because we don't live in Kalos and don't have any Mega stones.
+	G: Siiighhh. Yeah I guess not. Where can you get them anyways?
+	S: Drown on your way swimming to Kalos yourself >:|
+	G: Psh... If I died trying to get to Kalos, I'd at least be surfing on my Pokemon and then get lost at sea.
+	[Chain 4??]
+	G: Looking up Mega Houndoom. I don't really know if it's pulling off that bone collar or not...
+	G: It's difficult to judge without being in person.
+	S: ...
+	G: Mega Gardivior is slaying though! It's basically just a poofier dress, but it works! Looks like a big ol' wedding gown.
+	G: Mega Ampharos is DEFINITELY the best one though. It grows its sheep wool back and looks all magestic!
+	G: I'd love to see what yours would look like mega evolved, since Cloud is reeeaally big for an Ampharos you'd get WAY MORE sheep wool.
+	S: Its name isn't Cloud.
+	G: Sure it's not REGISTERED as Cloud, since technecally it's stolen and it's not registered with you at all, but you call it Cloud!
+	S: No I don't!
+	G: I've seen you do it! It's just a Pokemon name, you don't have to get defensive.
+	G: I think it's cute.
+	S: You thinking something I do is cute is a failure on my part.
+	G: So you ADMIT IT! Cloud the Ampharos IS REAL
+	S: I haven't admitted to anything! I just said that it /would/ be bad if it did happen-
+	G: Cloud cloud cloud cloud cloud-
+	S: -but it didn't.
+	G: ...
+	G: Softie
+	[CHAIN 5 OR SOMETHING]
+	G: So hows Cloud doing
+	S: [Summons Cloud out of Pokeball] Ampharos I order you to kill him
+	G: Hi Silver's Ampharos!
+	A: Ammmmmmph :)
+	G: Does Silver call you cloud sometimes
+	A: [nod] [amiable ampharos noises]
+	S: I don't! Ampharos do I call you Cloud
+	A: [Blinks then shakes head no]
+	S: See?
+	G: Awwww it knows how to lie when you tell it to!!! The Lab Assistants were right you've raised an evil Pokemon
+	A: [Laughing]
+	S: THIS ISN'T FUNNY STOP
+	[Ampharos Mode == On]
+	[Maybe once you unlock one of Silver's Pokemon it stays unlocked from the menu?]
+	
+	G: If you were a Pokemon what Pokemon would you be?
+	S: That question doesn't make any sense.
+	S: People don't choose how they're born and personality is shaped by circumstance not form.
+	G: I think I'd be a Cyndaquil, no question. I kind of look like one already!
+	S: I don't see the resemblence. Set yourself on fire first and I'll check again.
+	G: I'm not sure what Pokemon you'd be... A lot of the red ones are too scary or lizard looking, but your scariness is mostly a front. You're very cute.
+	S: I'm what
+	G: Maybe you're like... An Umbreon, because it's a Dark/Evil type, and you think you're locked onto this path of destruction and don't have a chance at friendship. But actually you're still just an Eevee and haven't grown up yet!
+	S: [Playing with his Poketch instead of listening]
+	G: Actually wait you're obviously a Weavile. IGNORE THAT.
+	S: Already done.
+	
+	G: Do you think I could pull off long hair?
+	S: [on Poketch] Why are you asking me.
+	G: I dunno if it'd look good on me. I think my front bangs would look less cool if I had more hair distracting from them.
+	S: Ok?
+	G: I think your hair looks nice.
+	S: ...
+	G: You're pretty.
+	S: Can you shut up?
+	G: :3
+	
+	G: DUMB POKEDEX ENTREES.
+	S: It's crowdsorced.
+	G: how about: xrays from the moon.
+	
+	One of the ideas I had while watching the anime, was that I believed that people could sit in nearby bleachers and watch the gym battles happening. Like just for fun you could hang out and watch trainers fight the gym leader all day
+	I think it would be fun and make a lot of sense if Gold used to do that a lot when he was younger, because it explains how he already knew so much about Pokemon
+	
+	S: What is Poison strong against?
+	G: Uhhh... Grass... Though many Grass types are Poison types...
+	S: What else?
+	G: uhhg... I know Steel is immune to Poison.
+	S: Poison types are the most common type in Kanto, you should know this!
+	G: I just find it so hard to remember for some reason! A lot of people don't actually raise the Poison Types, and the ones that are commonly used by trainers are dual type.
+	S: It's also effective against Fairy types.
+	G: Oh that's not fair! I've barely run into a Fairy Type!
+	G: ...Is it really not effective against anything else?
+	S: Not type wise-
+	G/S at same time: but Poison is still often lethal.
+	G: Yeah... I think I get it. It's more important to remember what it's innefective against.
+	[Chain]
+	G: Man, a Gengar could totally mess up Silklay... I mean, she's not a Fairy Type yet- but if she were. She doesn't deal well with Poison already.
+	G: I think Konkurs could deal with one pretty well he's a ground type, and since he's a dragon he's strong enough he could probably just wipe them out.
+	S: Does it know any Ground moves?
+	G: Well it has the resistance, the only ground move it actually knows is Sandstorm, but I plan to teach him some.
+	[Chain 3]
+	G: Don't you have any Ghost Pokemon?
+	S: No.
+	G: Right, Weavile's a Dark Type.
+	S: Dark/Ice.
+	G: Whaaaaaat I didn't know that! That's a pretty cool typing I'll be honest.
+	S: Both Sneasel and Weavile are dark ice types, they're native to Jotoh, you should know this
+	G: There's not very many Ice Types! I can't remember everything.
+	
+	G: Do you think there's Pokemon on %(username)'s computer?
+	S: Yes.
+	G: Whoa, really!?
+	S:
+	G: Hey our Pokemon don't count, you know what I meant!
+	
+	G: [YAWN] I'm hungry. [Gets down on ground and starts eating]
+	It would turn into an event kind of like sit mode where for during lunch time or whatever just whenever they get hungry they can sit down and have a snack. Maybe they could also release their Pokemon to eat some food as well
+	If I made it it's own shell, then I could reuse dialogue from the main pool. But I don't think I should do that just so that there's more variety
+	
+	G: I think that I think I should give Konkurs a bowtie. He'd look very distinguished.
+	S: [Not responding]
+	G: I also think he would've looked good with it as a Trapinch and Vibrava, but he evolved really quickly after I got him.
+	S: ...
+	G: I think your Ampharos would look really cute with a white fabric colar with a flower on it. Maybe a rose it match the red gem on its tail?
+	S: If you want to play dressup you can do it with your own Pokemon.
+	G: Hey but they might enjoy it! It's a fun bonding activity.
+	G: And you clearly have your own fashion sense!
+	S: uhg.
+	G: You're so shy...
+	
+	G: Did you have any house pets growing up?
+	S: Yes.
+	G: ...
+	G: Are you gonna tell me more?
+	S: No.
+	G: :|
+	
+	G: Before I started training Pokemon, I had this real thought out list of what I wanted my team to be.
+	G: But, most of the Pokemon I have werent on that list!
+	G: Fate sure is funny.
+	G: Hey Silver, what Pokemon do you want?
+	S: I don't know what I want.
+	G: ...Well you didn't have to sound so sad saying it!
+	
+	S: You know what they say about the boy that cried wolf.
+	G: What do they say?
+	S: He dies.
+	G: X_X
+	
+	G: [Poketch rings] Oh, let me take this.
+	G: [Answers call]
+	--
+	[Insert really dumb canon dialogue, multiple options, wrong numbers, ect]
+	--
+	G: ...?
+	S: [judgemental]
+	G: That's fair...
+	*/
+/* Month dialogue
+
+	if month >= 12
+	{
+		"\0\s[0]This is dialogue for December.\w8\1\s[18]A cold month?\e"
+		
+		"\0\s[0]This is more dialogue for December.\w8\1\s[18]Still cold?\e"
+	}
+	
+	if month == 1
+	{
+		"\0\s[0]This is dialogue for January.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for January.\w8\1\s[10]That it is.\e"
+	}
+	if month == 2
+	{
+		"\0\s[0]This is dialogue for February.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for February.\w8\1\s[10]That it is.\e"
+	}
+	if month == 3
+	{
+		"\0\s[0]This is dialogue for March.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for March.\w8\1\s[10]That it is.\e"
+	}
+	if month == 4
+	{
+		"\0\s[0]This is dialogue for April.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for April.\w8\1\s[10]That it is.\e"
+	}
+	if month == 5
+	{
+		"\0\s[0]This is dialogue for May.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for May.\w8\1\s[10]That it is.\e"
+	}
+	if month == 6
+	{
+		"\0\s[0]This is dialogue for June.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for June.\w8\1\s[10]That it is.\e"
+	}
+	if month == 7
+	{
+		"\0\s[0]This is dialogue for July.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for July.\w8\1\s[10]That it is.\e"
+	}
+	if month == 8
+	{
+		"\0\s[0]This is dialogue for August.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for August.\w8\1\s[10]That it is.\e"
+	}
+	if month == 9
+	{
+		"\0\s[0]This is dialogue for September.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for September.\w8\1\s[10]That it is.\e"
+	}
+	if month == 10
+	{
+		"\0\s[0]This is dialogue for October.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for October.\w8\1\s[10]That it is.\e"
+	}
+	if month == 11
+	{
+		"\0\s[0]This is dialogue for November.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for November.\w8\1\s[10]That it is.\e"
+	}
+	
+	*/
+	
+	/*
+	//These ifs check what day of the week it is.
+	
+	if weekday == 1
+	{
+		"\0\s[0]This is dialogue for Monday.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for Monday.\w8\1\s[10]That it is.\e"
+	}
+	if weekday == 2
+	{
+		"\0\s[0]This is dialogue for Tuesday.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for Tuesday.\w8\1\s[10]That it is.\e"
+	}
+	if weekday == 3
+	{
+		"\0\s[0]This is dialogue for Wednesday.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for Wednesday.\w8\1\s[10]That it is.\e"
+	}
+	if weekday == 4
+	{
+		"\0\s[0]This is dialogue for Thursday.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for Thursday.\w8\1\s[10]That it is.\e"
+	}
+	if weekday == 5
+	{
+		"\0\s[0]This is dialogue for Friday.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for Friday.\w8\1\s[10]That it is.\e"
+	}
+	if weekday == 6
+	{
+		"\0\s[0]This is dialogue for Saturday.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for Saturday.\w8\1\s[10]That it is.\e"
+	}
+	if weekday == 7
+	{
+		"\0\s[0]This is dialogue for Sunday.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for Sunday.\w8\1\s[10]That it is.\e"
+	}
+	
+	//These ifs check for the time of day as defined in bootend.dic.
+	
+	if timeslot == "earlymorning"
+	{
+		"\0\s[0]This is dialogue for the early morning.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for early morning.\w8\1\s[10]That it is.\e"
+	}
+	if timeslot == "morning"
+	{
+		"\0\s[0]This is dialogue for the morning.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for the morning.\w8\1\s[10]That it is.\e"
+	}
+	if timeslot == "lunch"
+	{
+		"\0\s[0]This is dialogue for lunch time.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for lunch time.\w8\1\s[10]That it is.\e"
+	}
+	if timeslot == "afternoon"
+	{
+		"\0\s[0]This is dialogue for the afternoon.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for the afternoon.\w8\1\s[10]That it is.\e"
+	}
+	if timeslot == "evening"
+	{
+		"\0\s[0]This is dialogue for the evening.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for the evening.\w8\1\s[10]That it is.\e"
+	}
+	if timeslot == "latenight"
+	{
+		"\0\s[0]This is dialogue for the late night.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for the late night.\w8\1\s[10]That it is.\e"
+	}
+	if timeslot == "midnight"
+	{
+		"\0\s[0]This is dialogue for midnight.\w8\1\s[10]Yup.\e"
+		
+		"\0\s[0]This is more dialogue for midnight.\w8\1\s[10]That it is.\e"
+	}
+	*/
+	
+	//--Double Envelopes
+	//note that this is enclosed in its own set of brackets
+	{
+	_korean = lessonkor //Here, the envelope "lessonkor" (which is in word.dic) is stored as a new temporary value called _korean. As a reminder, when coding, it goes "4 = 2 + 2" and not "2 + 2 = 4". The result always comes first!
+	//If you look at lessonkor in word.dic, you'll see it goes "Korean word, meaning". So "Korean word" is the first value in that array, and "meaning" is the second. Arrays always start at 0, as a note.
+	_korword = _korean[0] //Now we make a temporary value called "_korword", which is what will store the Korean word. Since the Korean word is the first value in the array _korean which we just defined, then we can pull that value from the array with _korean[0]. [0] is telling it which entry in the array to take - in this case, the first one (again, arrays start at 0).
+	_kormean = _korean[1] //Now we make a temporary value called "_kormean", which is what will store the meaning of the Korean word. This is the second value in the array, so we can pull it out of _korean by using _korean[1].
+	
+	//Now we put it all together!
+	"\1\s[10]Here is an example of a double envelope. The Korean word is %(_korword).\w8\0\s[0]The word means %(_kormean).\e"
+	
+	//As you can see here, we then use the values we set above for _korword and _kormean up there in the dialogue as our new envelopes.
+	//The underscores in front of korword and kormean mean that the value is temporary, and will disappear when the dialogue has finished.
+	
+	//Additional Note - You can't test this kind of dialogue in Script Input. You'll have to wait until it comes up naturally in your ghost's random dialogue.
+	}
+	
+	//--Multiple Responses
+	/*
+	{ //Again, note the brackets around these unique bits of dialogue.
+	
+	"\0\s[0]I am asking you a generic question, Triangle. Generic question?\w8\1\s[10]"
+	--
+	"This is my first response."
+	"This is my second response."
+	"This is my third response."
+	"This is my fourth response."
+	"This is my fifth response."
+	"This is my sixth response."
+	--
+	"\w8\0\s[0]\n\n[half]"
+	-- 
+	"First response to your response."
+	"Second response to your response."
+	"Third response to your response."
+	"Fourth response to your response."
+	--
+	"\e"
+	}
+	*/
+}
+
+//--Chains
+achain
+{{CHAIN
+	//this will happen the first time the chain is called
+	"\0\s[0]Here is the second part of the chain.\w8\1\s[10]Will there be more?\e"
+	
+	//they will then go to this dialogue next
+	"\0\s[0]This is the third part of chained dialogue.\1\w8\s[10]This will lead to a fourth part.\e"
+	
+	//this will be the last piece of dialogue in the chain, then they will go back to their normal dialogue
+	"\0\s[0]This is the fourth piece of chained dialogue.\1\w8\s[10]This is the end.\e:chain=end"
+}}CHAIN
+
+HourCheck
+{
+if passmin >= 59
+	{
+		passmin = 0
+		passhour = passhour + 1
+	}
+}
+OnMinuteChange
+{
+	HourCheck
+	--
+ 	if minute == 0
+	{
+	}
+	elseif mikireflag == 1
+ 	{
+ 		MikireTalk
+	}
+}
+OnSecondChange
+{
+	if passsec == 59
+ 	{
+	passsec = 1
+ 	passmin = passmin + 1
+	}
+ 	else
+ 	{
+	passsec = passsec + 1
+	}
+	if mikireflag == 0 && reference1 == 1
+	{
+		MikireTalk
+	}
+	if mikireflag == 1 && reference1 == 0
+	{
+		EndMikireTalk
+	}
+	mikireflag = reference1
+	if reference2 == 1
+	{
+ 		//Overlapping
+	}
+}
+
+MikireTalk
+{
+	//Offscreen
+}
+EndMikireTalk
+{
+	//Onscreen
+}
+
+OnSurfaceRestore
+{
+	"\0\s[0]\1\s[10]\e"
+}
+
+OnKeyPress
+{
+	if reference0 == "t"
+	{
+	OnAiTalk
+	}
+	elseif reference0 == "r"
+	{
+	OnLastTalk
+	}
+	elseif reference0 == "f1"
+	{
+	"\![open,readme]"
+	}
+}

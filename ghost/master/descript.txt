@@ -1,0 +1,12 @@
+﻿charset,UTF-8
+name,Gold and Silver
+type,ghost
+sakura.name,Gold and Silver
+kero.name,Silver
+craftman,Quonit
+craftmanw,Quonit
+craftmanurl,https://quonit.tumblr.com/
+sstp.allowunspecifiedsend,0
+shiori,yaya.dll
+icon,gt_template.ico
+balloon,z_simple

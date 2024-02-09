@@ -1,0 +1,106 @@
+﻿psychictype
+{
+	"Abra"
+    "Kadabra"
+    "Alakazam"
+    "Drowzee"
+    "Exeggcute"
+    "Exeggutor"
+    "Hypno"
+    "Jynx"
+	"Mime Jr."
+    "Mr. Mime"
+    "Slowbro"
+    "Slowpoke"
+    "Starmie"
+	"Espeon"
+	"Girafarig"
+	"Natu"
+	"Xatu"
+	"Slowking"
+	"Smoochum"
+	"Unown"
+	"Wobbuffet"
+	"Baltoy"
+	"Beldum"
+	"Medicham"
+	"Meditite"
+	"Chimecho"
+	"Claydol"
+	"Gardevoir"
+	"Ralts"
+	"Kirlia"
+	"Spoink"
+	"Grumpig"
+	"Lunatone"
+	"Solrock"
+	"Metang"
+	"Metagross"
+	"Wynaut"
+	"Bronzong"
+	"Gallade"
+	"Bronzor"
+	"Chingling"
+	"Alolan Raichu"
+}
+
+weakpokemon
+{
+	"Caterpie"
+	"Weedle"
+	"Pidgy"
+	"Rattata"
+	"Radicate" //Yes I am including this nobody likes Radicate
+	"Ekans"
+	"Zubat"
+	"Abra"
+	"Magicarp"
+	"Sentret"
+	"Hoothoot"
+	"Ledyba"
+	"Qwillfish"
+	"Smeargle"
+	"Zigzagoon"
+	"Wurmple"
+	"Seedot"
+	"Tailow"
+	"Starly"
+	"Bidoof"
+	"Kricketot"
+	"Cherubi"
+	"Lillipup"
+	"Stunfisk"
+	"Fletchling"
+	"Scatterbug"
+	"Baltoy"
+	"Wimpod"
+}
+internalenvelope
+{
+	"Internal Envelope Dialogue 1 - %(exampleenvelope)"
+	"%(username)'s computer"
+	"Here is a blanklist object - %(blanklist)."
+}
+
+usersfolder
+{
+	"%(username)'s Recycle Bin"
+	"%(username)'s Document folder"
+	"%(username)'s secret folder"
+}
+lessonkor
+{
+	"사과(sa-gua),apple"
+	"노동(no-dong),labor"
+	"손가락(son-ga-rak),finger"
+	"마르크스(ma-r-k-s),Marx"
+	"자본주의(ja-bon-ju-yi),capitalism"
+}
+blanklistparagraph
+{
+	"List paragraph 1"; "List paragraph 2"; "List paragraph 3"; "List paragraph 4"; "List paragraph 5";
+}
+ On_\person
+{
+ 	person
+}

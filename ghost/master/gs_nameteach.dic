@@ -1,0 +1,49 @@
+﻿OnTeachName	
+{
+	if reference0 == "TEACHNAME" //ignore this
+		{
+		"\0\s[0]The user wants to change their name. What do you want it to be?\![open,inputbox,OnNameTeach,-1]\e"
+		}
+	else
+		{
+		}
+}
+OnNameTeach
+{
+	tempname = reference0
+	reference0 = TOLOWER(reference0)
+	reference0 = REPLACE(reference0," ","")
+	reference0 = REPLACE(reference0,".","")
+	reference0 = REPLACE(reference0,"-","")
+	if reference0 == "girl"
+	{
+		"\0\s[0]That's my name.\w8\1\s[10]That might be confusing. You should try again.\![open,inputbox,OnNameTeach,-1]"
+	}
+	elseif reference0 == "triangle" 
+	{
+		"\1\s[10]That's my name. Try putting in another one.\![open,inputbox,OnNameTeach,-1]"
+	}
+	elseif reference0 == ""
+	{
+		username = "USER"
+		"\1\s[10]You didn't put in anything.\w8\0\s[0]We will call you USER.\e"
+	}
+	else
+	{
+		username = tempname
+		OnFirstBoot2
+	}
+}
+NameDone
+{
+	if firstboot == 1
+	{
+		firstboot = 0
+		//Snowpoff
+		"Thank you for inserting your name. All of these settings can be changed later in the Options Menu.\w8 Ghost booting now.	\x\0\s[206]\i[7]\0\s[4]-And then Silklay used Psychic and-\w8\1Gold.\w8\0\s[2]\n\nWhat?\w8\n\n.\w4.\w4.\w8\0\s[?]\n\nOh!\w8 \w2.\w2.\w2.\w2Hi?\n\n\w8\1\s[202]\n\nSigh...\w8\0\s[4]\n\nLook Silver!\w8 We've been \w3\0\s[7] Downloaded.\w8\1\s[201]\n\n[some mean comment]\w8\0\s[2]\n\nSo mean\w2.\w2.\w2.\w8\n\n\0\s[0]Anyways!\w8 I'm Sens,\w4 or Gold if you *insist*, and this is my friend Silver!!!\w8\1\n\nWe're not friends. \0That's what he says. Nice to meet you %(username)!\e"
+	}
+	else
+	{
+	"\0\s[0]The user is now called %(username).\e"
+	}	
+}

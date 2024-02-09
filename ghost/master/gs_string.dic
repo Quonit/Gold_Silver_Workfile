@@ -1,0 +1,189 @@
+﻿On_username
+{
+	username
+}
+On_homeurl
+{
+	"http://www.somekindofwebhost.com/yourghostsdirectory/"
+}
+On_recommendrootbutton.caption
+{
+	"Reference Sites"
+}
+On_sakura.recommendsites
+{
+	"Ghost Template Walkthrough"
+	--
+	"%ASC(1)http://www.ashido.com/ukagaka/walkthrough.html%ASC(2)"
+	--
+	"Quonit's LJ"
+	--
+	"%ASC(1)http://quonit.livejournal.com/"
+	--
+	
+	"Quonit's Tumblr"
+	--
+	"%ASC(1)https://quonit.tumblr.com/"
+	--
+	
+	"Quonit's DeviantArt"
+	--
+	"%ASC(1)https://quonit37.deviantart.com/"
+	--
+	
+	"SSP"
+	--
+	"%ASC(1)http://ssp.shillest.net/%ASC(2)"
+	--
+	
+	"Crow + SSP Reference (J)"
+	--
+	"%ASC(1)http://crow.aqrs.jp/reference/all/index.html%ASC(2)"
+	--
+	
+	"Ghost Documentation (J)"
+	--
+	"%ASC(1)http://usada.sakura.vg/contents/specification.html%ASC(2)"
+	--
+	
+	"Disc-2 (J)"
+	--
+	"%ASC(1)http://disc2.s56.xrea.com/%ASC(2)"
+}
+On_portalrootbutton.caption
+{
+	"Second Website Caption"
+	"Another Second Website Caption"
+}
+On_sakura.portalsites
+{
+ 	"Site Name 1"
+	"Site Name 1 Alternate"
+	--
+	"%ASC(1)http://somesite.com/%ASC(2)"
+	--
+	
+	"Site Name 2"
+	--
+	"%ASC(1)http://www.anothersite.org/%ASC(2)"
+	--
+
+	"Site Name 3"
+	--
+	"%ASC(1)http://www.thirdsite.com/%ASC(2)"
+	--
+	"Site Name 4"
+	--
+	"%ASC(1)http://www.fourthsite.com/%ASC(2)"
+	--
+	"Site Name 5"
+	--
+	"%ASC(1)http://www.fifthsite.com/%ASC(2)"
+}
+
+On_kero.recommendbuttoncaption
+{
+	"Top Menu Option Caption"
+}
+On_kero.recommendsites
+{
+	"A Site"
+	--
+	"%ASC(1)http://www.asite.com/%ASC(2)"
+	--
+	"Another Site"
+	--
+	"%ASC(1)http://anothersite.org/%ASC(2)"
+}
+On_updatebutton.caption
+{
+	"Update"
+}
+On_dressuprootbutton.caption
+{
+	"Dress-Up Caption"
+}
+On_headlinesenserootbutton.caption
+{
+	"Headlines + RSS Feeds"
+}
+On_readmebutton.caption
+{
+	"READ ME"
+	"readme.txt"
+	"Manual"
+}
+On_vanishbutton.caption
+{
+	"Uninstall"
+}
+On_shellrootbutton.caption
+{
+	"Alter Appearence"
+}
+On_ghostrootbutton.caption
+{
+	"Swap Ghost"
+}
+On_callghostrootbutton.caption
+{
+	"Add Ghost"
+}
+On_quitbutton.caption
+{
+	"Quit"
+}
+//----------------------------------Stop!------------------------------------
+On_vanishbutton.visible
+ {
+ 	if deleteshitai == "ON"
+ 	{
+	"1"
+	}
+	else
+	{
+	"0"
+	}
+}
+On_otherghostname
+{
+	ghostexlist = ""
+	_i = 0
+	while _i >= 0 {
+		_ghostname = NAMETOVALUE("reference%_i")
+		if _ghostname != "" {
+			if _i > 0; ghostexlist += ","
+			ghostexlist += _ghostname[0]
+			_i++
+		}
+		else; _i = -1
+	}
+	ghostexcount = ARRAYSIZE(ghostexlist)
+}
+On_version
+{
+	GETSETTING(AYAINFO_VERSION)
+}
+On_craftman
+{
+	"umeici"
+}
+On_craftmanw
+{
+	"?럖"
+}
+On_name
+{
+	"AYA"
+}
+On_uniqueid
+{
+	uniqueid = reference0
+}
+On_hwnd
+{
+	sakurahwnd    = reference0[0]
+	kerohwnd      = reference0[1]
+	sakurablnhwnd = reference1[0]
+	keroblnhwnd   = reference1[1]
+}

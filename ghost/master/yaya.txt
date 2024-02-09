@@ -1,0 +1,21 @@
+﻿charset, UTF-8
+charset.dic, UTF-8
+charset.output, UTF-8
+charset.file, UTF-8
+charset.save, UTF-8
+charset.extension, UTF-8
+
+include, system_config.txt		
+dic, gs_aitalk.dic			
+dic, gs_anchor.dic
+dic, gs_bootend.dic		
+dic, gs_commu.dic
+dic, gs_etc.dic			
+dic, gs_menu.dic
+dic, gs_mouse.dic			
+dic, gs_nameteach.dic
+dic, gs_pokemon.dic
+dic, gs_string.dic			
+dic, gs_word.dic
+
+msglang,english

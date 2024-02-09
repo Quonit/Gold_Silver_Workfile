@@ -1,0 +1,5 @@
+The Red and Blue shell for Gold and Silver.  Assuming that you're in here, it must mean you're snooping through the files! Facinating.
+
+I made two seperate shells because it's divided on what eye color the characters have, and at first I was going to just make two shells where the eye color was different. Then I decided if I'm having two shells, might as well change all of the colors so that the eye color fits more. It was just fun to make.
+
+This shell uses more cool tones.

@@ -1,0 +1,23 @@
+//Red and Blue
+charset,UTF-8
+version,1
+option,DisableNoDefineSurfaces
+0,Default
+1,Argue
+2,hmph
+3,Up
+4,Pumped
+5,Think
+6,Friendly
+7,Sparkle
+8,Leaning Side Eye Smirk
+9,Smug finger on chest
+10,SemiQuestion
+201,Anger
+202,Pokeball
+203,Surprise
+204,Cross
+205,Pixel
+206,Judge
+207,Questioning
+207,Fluster Argue

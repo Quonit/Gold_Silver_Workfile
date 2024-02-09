@@ -1,0 +1,2220 @@
+//Stolen from the Hunter/Smoker ghost
+Select.parser
+{
+	OnParser
+}
+
+
+OnParser
+{
+	"\[55]* (Type the name of a pokemon. Has to be lowercase.)\![open,inputbox,Onparserinput,-1]\e"
+}
+
+//Typing in Gold's Pokemon will have him do the same dialogue as if you asked him in the menu
+
+//Parser Mode
+Onparserinput
+{
+	reference0 = TOLOWER(reference0)
+	reference0 = REPLACE(reference0," ","")
+	reference0 = REPLACE(reference0,".","")
+	reference0 = REPLACE(reference0,"-","")
+/*				
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⠛⠂⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⣀⣤⠲⢄⠞⠃⢀⡌⣿⠀⠀⠀
+⠀⠀⣀⣀⠀⡰⠟⡡⠂⣈⣀⠀⢀⠏⠁⢹⢄⠄⠀
+⠀⠀⡏⠉⠾⠟⠛⠻⢏⠀⢈⢆⠘⠀⠀⠀⢫⢻⡀
+⠀⣸⠇⡀⠀⠀⠞⠀⣤⠀⢀⠙⢦⠀⠀⠀⡸⢸⡇
+⢠⡟⠎⠞⠀⠀⠀⠸⢆⣱⡈⠁⣠⠈⢺⡋⢀⢌⡇
+⢬⠂⠑⢛⣛⣛⣛⣻⠁⠀⠑⠠⠉⠤⠌⠻⡋⠀⠀
+⠈⠓⠄⠤⢵⡄⠀⠀⠁⠢⠤⠂⠄⠀⠀⠀⠸⡆⠀
+⠀⠀⠀⠀⠈⣀⠀⠐⠲⠦⢤⢼⣄⠀⠀⠀⠀⣇⠀
+⠀⠀⠀⠀⠀⠈⠉⠐⠒⢆⣡⣃⠉⠐⢖⣀⡼⠀⠀
+*/
+	//Gen 1
+	if reference0 == "bulbasaur" || reference0 == "ivysaur" || reference0 == "venusaur" || reference0 == "charmander" || reference0 == "charmeleon" || reference0 == "charizard" || reference0 == "squirtle" || reference0 == "wartortle" || reference0 == "blastoise"
+	{
+		//G: Silver you're very lizard-core to me. I think if you had to pick between the Kanto starters you'd fit Charizard best. It's red and got a dragon mouth.
+		//G: And not that shineys are relavent, but the shiny IS black and red.
+		//S: Aren't they all lizards...?
+		//G: If I had a Kanto starter... Hmmm I dunno! I like all of them. Though what I'd REALLY want is a Wartortle. But, like, bigger.
+		//S: ...Blastiose?
+		//G: No I mean like, if it got dragon ears and a more whispy tail.
+		//G: Bulbasaur is cool too though. It's got flowers on it!
+	}
+	elseif reference0 == "caterpie" || reference0 == "metapod" || reference0 == "butterfree"
+	{
+		//G: When I was in Kanto I saw them all over the place... There were a few forests I had to travel through, and not a single one was missing a Caterpie, Metapod, and Butterfree. There were a lot of young trainers with them too.
+		//Just because they're common doesn't mean they're weak, though! Stuff like Sleep and Poison Powder can really mess up a fight. ...That is, if their trainers knew how to use those attacks.
+	}
+	elseif reference0 == "weedle" || reference0 == "kakuna" || reference0 == "beedrill"
+	{
+		//I'm glad I started training in Johto, not Kanto! There aren't as many Bedrill out here. If me and Silklay when she was a Wralts got attacked by a bunch of angry Bedrill, we never would've made it out of that forest alive.
+	}
+	elseif reference0 == "pidgey" || reference0 == "pidgeotto" || reference0 == "pidgeot"
+	{
+		//G: For YEARS I thought the line was Pidgy, Pidgeot, then Pidgeotto. It just makes intuitive sense for the name to keep getting longer each time it evolves! I feel like someone must've typed it down wrong.
+		//S: ...So what, are you going to charge up to the office of Mr.Pokemon-Namer and ask him to change the names?
+		//G: Maybe I will! You don't know I won't.
+	}
+	elseif reference0 == "rattata" || reference0 == "raticate"
+	{
+		//G: Does anyone actually... Like them
+		//G: They're used by Team Rocket grunts all the time, because they're common and easy to catch, but is there anyone who's best friend is a Rattata?
+		//S: ...Obviously?
+		//G: I wonder what a well groomed Raticade looks like. I only see them when they're all scruffy. You could probably do a lot with that hair!
+	}
+	elseif reference0 == "spearow" || reference0 == "fearow"
+	{
+		//G: It must be weird evolving from Spearow to a Fearow! They've got completely different beaks. Wouldn't they need to learn how to eat different?
+		//S: Have you ever considered... That Ho-Oh you allegedly encountered and defeated with Hoana... Perhaps it was a colorful Fearow?
+		//G: Whaat, no way! They look totally different.
+		//G: ...Actually, no, you might have a point.
+	}
+	elseif reference0 == "ekans" || reference0 == "arbok"
+	{
+		//G: I heard that Arbok's fake-face pattern matches their trainers if it was attached enough to them when it evolves!
+		//G: Not that I've seen enough Arbok to tell... Most of the Ekans and Arbok's I've seen were just being used by Rocket grunts.
+		//S: Some Arbok have rare patterns that are sought out by collectors...
+		//G: ooooo interesting.
+	}
+	elseif reference0 == "pikachu"
+	{
+		//G: Pikachu... Pi-ka-chu... Sorry, I can't seem to recall any Pokemon by that name.
+		//G: PFFF NAH I was just messing with you. COULD YOU IMAGINE THOUGH?
+		//S: Easily.
+		//G: There's more advertizements with a Pikachu on them than there are actual Pikachu, I swear.
+	}
+	elseif reference0 == "raichu" || reference0 == "pichu"
+	{
+		//G: Poor Pichu and Raichu... There are some people who doesn't even know Raichu EXISTS because of how popular Pikachu is! They're like... What do you mean it can evolve! Why would I do that!
+		//G: So, Pokedex. How Pokemon are indexed is that you give the first Pokemon in an evolution line a number, so, like, number 25. Then the second number is how many times it's evolved. It'd be like, Pichu 25.0, Pikachu 25.1, and then Raichu 25.2. And 25 would be known as "The Pichu Line".
+		//EXCEPT, this is the ONLY LINE where it's NOT named after the first Pokemon in the evolution! It's just CALLED the Pikachu line! Because they only indexed Pichu later and didn't want to change it.
+		//S: I heard there's a rare evolution after Raichu.
+		//G: Whaaat? No way, you're joking.
+		//S: There's no pictures of it, but there's some documents describing a pokemon evolved from Raichu named "Gorochu".
+		//G: That's SO COOL!!! I hope someone finds it again some day- I'd like to see that.
+	}
+	elseif reference0 == "sandshrew" || reference0 == "alolan sandshrew" || reference0 == "sandslash" || reference0 == "alolan sandslash"
+	{
+		//G: Silver has a Sandshrew!
+		//S: [Looking away] It's a Sandslash.
+		//G: It's not from Kanto though- He got it while trading. It's from Alola and it's an Ice Type!
+		//S: ...
+		//G: Its name is Popcicle.
+		//S: Its previous owner named it that before I got it and I didn't bother changing it.
+		//G: Silver why don't you show %(username)!!!
+		//S: |: No
+		//G: Pretty pleeeaase? Pretty please which a Cherubi on top?
+		//S: Have I ever once caved to your incessant pleading?
+		//G: What if.... I gave you 500 Pokedollars.
+		//S: You already buy me items. I don't need more.
+		//G: Sighhh
+	}
+	elseif reference0 == "nidoran" || reference0 == "nidorino" || reference0 == "nidorina" || reference0 == "nidoqueen" || reference0 == "nidoking"
+	{
+		//G: Hey %(username), have you ever seen a shiny Nidoqueen?
+		//S: [sigh]
+		//G: The shinies are really cute! The boys are normally purple, the girls are normally blue, so their shinies swap colors! Boy Nidoran is blue, Nidorino is blue, Nidoking is blue, then girl Nidorina is purple, Nidorina is purple, and Nidoqueen is... Look it up for yourself!
+	}
+	elseif reference0 == "clefairy" || reference0 == "clefable" || reference0 == "cleffa"
+	{
+		//G: While in Kanto I traveled to Mt.Moon, and it's said there are Clefairy living there- but I didn't see any. They're rare I'm told, so it's expected, but it would've been kinda cool to see!
+		//S: They normally only come out during full moons, and even then they're aversed to humans.
+		//G: There's an idea, we could go there during a full moon and hike around the mountain! Even if we don't spot any Clefairy, it could be fun.
+		//S: You want to hike around a dangerous mountain during nighttime? Are you looking for trouble?
+		//G: Hm... Yeah maybe I didn't think that one through.
+	}
+	elseif reference0 == "vulpix" || reference0 == "ninetails"
+	{
+		//G: I've always liked Vulpix! But I've never caught one. I spotted a couple small ones while traveling- but I didn't want to bother them. They weren't causing me trouble and were probably still young enough that they had a Mom taking care of them.
+		//G: I always pictured myself with a Vulpix in my team when I got old enough to have Pokemon, but sometimes fate just has different plans, y'know?
+	}
+	elseif reference0 == "jigglypuff" || reference0 == "wigglytuff" || reference0 == "igglybuff"
+	{
+		//G: Here's a tip for if you ever go to Kanto: /avoid Jigglypuff/. You're probably not going to run into any, but if you do, don't mess with them! They're not just cute to be cute like Swirlex, they're real menaces! Specifically the wild ones.
+		//S: ...You ran into one?
+		//G: One put me and Konkurs to sleep right outside town!! Who knows what could've happened to my Flygon if someone nefarious spotted it...
+	}
+	elseif reference0 == "zubat" || reference0 == "golbat" || reference0 == "crowbat"
+	{
+		//G: People were right... Zubat are EVERYWHERE in Kanto caves! Even when I was quiet as possible a zubat would sneak up on me and start biting my bag or trying to attack me! Either I could run away or try to fight back, and both options just woke up MORE ZUBATS!
+		//G: They make these high pitched cries that gave me the worst headaches I've ever had in my young life!
+		//G: I felt pretty bad attacking them too. Just sort of... Hyper-Beamed the entire area. The floor had so many knocked out Zubats.
+		//G: I know that's their natural habitat but people should really make more accessible pathways that don't involve going through those caves... I just don't imagine it's safe for everyone! And it's probably not safe for the Zubats for Trainers to be traveling through it either.
+		//G: ...Oh yeah, Silver, don't you have a Crowbat?
+		//S: I was hoping you'd forgotten.
+	}
+	elseif reference0 == "oddish" || reference0 == "gloom" || reference0 == "vileplume" || reference0 == "bellossom"
+	{
+		//G: Between Vileplume and Bellossom, I definitely think Bellossom is better.
+		//S: Depends on what you're doing... Vileplume is a better Special Attacker.
+		//G: Yeah, but that giant flower on its head limits its vision!
+		//S: There are plenty of good Pokemon with limited vision.
+		//G: "Good" Pokemon?
+		//S: You started it with comparing one or the other as "Better"!
+		//G: Yeah but- ...No, you have a point. I AM NOT FREE OF BIAS!
+	}
+	elseif reference0 == "paras" || reference0 == "parasect"
+	{
+		//G: Paras are SO creepy. They look cute in pictures- Err, kind of, but when you're in a cave, they're so short you don't see them until they're TOUCHING YOUR LEG
+		//G: I didn't mean to kick it!!! It was just a reflexive response! I thought it was going to cut my leg with its sharp claws!
+		//S: It might've.
+		//G: See, I was justified! D:
+	}
+	elseif reference0 == "venonat" || reference0 == "venomoth"
+	{
+		//G: One of my first memories as a baby is with a venonat!
+		//G: I think I was in the backyard of my old house... One was there and I started petting it.
+		//G: Then my Mom got really worried and made me take a bath, since Venonat are part Poison type.
+		//G: ...I guess it's not the most interesting story, but most first memories are like that!
+		//G: Anyways, have you ever thought that Venonat looks a lot like Butterfree?
+		//S: It's thought the two have a shared ancestory...
+		//G: Haha nice!!!
+	}
+	elseif reference0 == "diglet" || reference0 == "dugtrio"
+	{
+		//G: I crossed Diglet cave once! It was a lot of looking at my feet to make sure I wasn't accidentally playing Wack-O-Mole. I had Norma out with me, since she likes rolling in the dirt so much.
+		//S: Might've been a good idea to have used Honoa...
+		//G: Right, water type. I didn't want to ruin their home is all!
+		//S: It would've been fine.
+		//G: MAYBE, but what if I drowned some poor guy!!! I'd be responsible for murder.
+		//S: [rolls eyes]
+	}
+	elseif reference0 == "meowth" || reference0 == "persian"
+	{
+		//S: ...
+		//G: I've always thought Persian looked so different from Meowth... Like, I'd expect an evolution to look more anthro-pra-morphic.
+		//S:
+		//G: So I can definitely understand the people who don't evolve their Meowths. That's like turning it into a completely different person!
+		//S: ...
+		//G: Whats up?
+		//S: I knew a Persian growing up.
+		//G: Oooo neat! I've seen people with small Dog pokemon and Glameows as pets, but weirdly not a lot of Persians. Did it have a name?
+		//S: I'm not interested in talking about it.
+		//G: Mysterious as always.
+	}
+	elseif reference0 == "psyduck" || reference0 == "golduck"
+	{
+		//I've always felt bad for Psyducks! I mean, why would the world be cruel enough to just have something exist that ALWAYS has headaches? They can evolve out of it sure, but that's just mean!
+		//Poor things... Golduck is pretty cool looking though.
+	}
+	elseif reference0 == "mankey" || reference0 == "primeape" || reference0 == "ANNIHILAPE"
+	{
+		//G: My Mom used to read me stories about Mankey. It went something like...
+		//G: Once there was an Angry Mankey. His friends asked, whats the problem? But instead of answering, he screamed and shouted at them.
+		//G: They brought him gifts to try to cheer him up, but he threw them on the floor and destroyed them. The angrier he got, the bigger he got! He turned into a Primeape
+		//G: Nothing his friends did would work. So they decided to leave him alone.
+		//G: But he was angry, so he started taking it out on others- pushing them over because of his bad mood.
+		//G: The more he bullied, the bigger he got. Everyone was scared of him because of how mean he was being!
+		//G: Then he got SO big and SO mean, that he explodes and dies. The end.
+		//S: ... O_O
+		//G: It's basically a story about how you should tell other people your problems instead of bottling them upthen taking your frustration out on other people? Or something. I dunno why it got so dark though!
+		//S: I mean... That is what happens to Mankeys...
+		//G: They DIE?
+		//S: Annihilape is part Ghost Type.
+		//G: That's... Pretty fucked up!
+	}
+	elseif reference0 == "growlithe" || reference0 == "arcanine"
+	{
+		//G: Tip for Kanto! If you see a Growlithe, don't mess with it!
+		//G: They aren't that strong, but a lot of them have reeeaally protective parents. If you want a Growlithe it's... Actually better to get one from a breeder than to catch a wild one.
+	}
+	elseif reference0 == "poliwag" || reference0 == "poliwhirl" || reference0 == "poliwrath" || reference0 == "politoed"
+	{
+		//G: Politoad is real cute...
+		//G: Why is Polywrath basically just Poliwhirl with a raised fist? That's like, barely a difference.
+		//S: Evolution's an evolution. It's not just about appearance, it's the change in power.
+		//G: Is there ANY Pokemon that changes less than Poliwrath?
+		//S: ...Palophin?
+		//G: That's a Paliphin.
+		//S: Paldeon Pokemon.
+		//G: Ah, so that's why I haven't heard of it.
+	}
+	elseif reference0 == "abra" || reference0 == "kadabra" || reference0 == "alakazam"
+	{
+		//G: I teleported with an Abra once! It was ONE OF THE SCARIEST THINGS I'VE EVER WENT THROUGH.
+		//S: Haven't been through a lot of scary things, then.
+		//G: Do you know what it's like to have your body EVAPORATED? I mean it doesn't hurt at all- It just feels weird, and it's not a GOOD weird. It's like if you saw yourself bleeding but didn't actually feel any pain. Like, yeah something's WRONG, and it's worrying it doesn't FEEL worse.
+		//G: For what a brief experience it is it's TERRIFYING! I'm lucky that I don't get nightmares.
+	}
+	elseif reference0 == "machop" || reference0 == "machoke" || reference0 == "machamp"
+	{
+		//G: I remember finding it really cool when I first saw some Machoke helping with constructing a building... I guess up to that point I thought of Pokemon as either pets or "some hobby Trainers have", but hadn't really thought a lot about their utility and how they make a lot of jobs for humans way easier.
+		//G: Like... Electricity! Pokemon help a lot with generating that. And travel is so much easier with anyone being able to hop on a dragon to get somewhere.
+	}
+	elseif reference0 == "bellsprout" || reference0 == "weepinbell" || reference0 == "victreebel"
+	{
+		"Victreebel look funny in pictures but wait till you actually encounter one... Not as funny anymore when it looks like it could eat you!"
+	}
+	elseif reference0 == "tentacool" || reference0 == "tentacruel"
+	{
+		//G: So Cinnibar blew up.
+		//S: O_O
+		//G: The gym leader moved to these nearby islands, but the easiest way there for me was by surfing with Hoana.
+		//G: If I had a Pokedollar for every Tentacool and Tentacruel I saw, I would be able to buy my Mom and Drugia a vacation house.
+		//G: I'm just glad that Hoana is part electric types! It keeps most of the common water types away.
+	}
+	elseif reference0 == "geodude" || reference0 == "graveler" || reference0 == "golem"
+	{
+		//G: For a long time I thought Geodude and Graveler were independent Pokemon. It must suck to lose the ability to FLOAT! I wish I could float.
+	}
+	elseif reference0 == "ponyta" || reference0 == "rapidash"
+	{
+		//G: Ponyta and Rapidash look more different in person. You just feel a lot less threatened when there's a cute pony instead of this giant horse...
+		//G: Hey Silver, do people ride Rapidash?
+		//S: *They're on fire.*
+		//G: Well someone has to've.
+	}
+	elseif reference0 == "slowpoke" || reference0 == "slowbro" || reference0 == "slowking"
+	{
+		//G: They %(username) did you know that Slowbro is the only Pokemon that can de-evolve?
+		//S: [At the same time] -only Pokemon that can de-evolve.
+		//G: Hey, just because you know doesn't mean %(heshe) %(doesdo)!
+	}
+	elseif reference0 == "magnemite" || reference0 == "magneton" || reference0 == "magneton"
+	{
+		//G: Aparently, Magnemite are really popular. Not with trainers- I mean they're common so some trainers still have them, and magneton can be... a lot to deal with...
+		//G: But it's mostly with companies! Since they're a good source of energy.
+		//G: Aparently you can find Magnemite in every region now just because of that...
+		//G: Hey Silver, are Magnemite an invasive species?
+		//S: It depends on if they harm the ecosystem or not.
+		//G: Do they?
+		//S: If they do there's cover ups preventing it from being wide knowledge... Many companies that use Magnemite have to sign Government Enviornmental Protection forms though, since using Pokemon for labor is restricted... and the forms include preventing their Pokemon from damaging the surroundings.
+		//G: How do you know all this!!! You're so smart.
+		//S: [Looks away] >:|
+	}
+	elseif reference0 == "farfetch'd"
+	{
+		//G: Can a farfetch'd lose its leek?
+		//S: ...
+		//G: Maybe it's like Slowbro, and the leek is an uncatalogued Pokemon and it'll devolve to "Normal Duck" if it loses it, hehe.
+	}
+	elseif reference0 == "doduo" || reference0 == "dodrio"
+	{
+		//G: BABY DODUO HAS THREE HEADS.
+	}
+	elseif reference0 == "seel" || reference0 == "dewgong"
+	{
+		//G: Yeah, I know what that is ^_^
+		//G: ...
+		//S: ...
+		//G: ...
+		//S: Don't you have... anything else to say?
+		//G: Nope! Hey what if we looked up the Shiny? [opens Pokedex]
+		//G: Oh hey! That one's black!
+		//S: That's image editing. The real one is that.
+		//G: Oh... it's kind of cream colored- I dunno, I like the white it normally is.
+		//G: ...
+		//G: ...Yeah, I've got nothin'.
+	}
+	elseif reference0 == "grimer" || reference0 == "muk"
+	{
+		//G: I don't even know why Team Rocket bothers with those things. They might be common and easy to catch but wouldn't they be hard to... like... clean after?
+		//G: And the smell gives everyone headaches for hours.
+		//S: ...I don't think everyone gets headaches from smells, at least not for hours.
+		//G: Huh... Really?
+		//S: They are a real enviornmental threat, though. There's been action trying to limit the number of them and attempts to find ways to make them safer.
+		//G: Limit their numbers- Are they KILLING POKEMON???
+		//S: They're numbers naturally decrease as there's less pollution.
+		//G: So we're starving them to extinction.
+		//G: Great! I'm in support.
+	}
+	elseif reference0 == "shelder" || reference0 == "cloyster"
+	{
+	}
+	elseif reference0 == "gastly" || reference0 == "haunter" || reference0 == "gengar"
+	{
+		//G: What do you think of the theory that Gengar is Clefable's shadow?
+		//S: What?
+		//G: Well you know, Gengar just looks like Clefable's silhouette.
+		//S: Well if that's the case, then why doesn't Haunter look like Clefairy?
+		//G: ... I don't know, does that matter?
+		//S: Wouldn't it follow the whole evolution line so Gastly is Cleffa, Haunter's Clefairy, Gengar is Clefable?
+		//G: Maybe it doesn't have to. I don't know. Have some imagination!
+	}
+	elseif reference0 == "ONIX" || reference0 == "steelix"
+	{
+		//G: It's too bad that Onyx is so frail cuz it looks so cool and big. It's like this giant scary intimidating rock monster, but then you just spray a little water gun at it and it falls over dead. All it really has is it's intimidation
+		//G: I'd like to fight a really really strong Onix, I think that would be a fun challenge
+		//S: Have you never encountered a Steelix?
+		//G: No I think Onyx looks cooler anyways. Steelix' got a weird face, and Since it changes types it can no longer be an ambassador for the rock type! I wish I could meet a good rock type.
+	}
+	elseif reference0 == "drowzee" || reference0 == "hypno"
+	{
+		
+	}
+	elseif reference0 == "krabby" || reference0 == "kingler"
+	{
+		//
+	}
+	elseif reference0 == "voltorb" || reference0 == "electrode"
+	{
+		//G: So did the Pokeball invent the Voltorb, or did the Voltorb invent the Pokeball?
+		//S: A Pokeball can't invent anything it's an inanimate object.
+		//G: You know what I meant!
+		//S: When pokeballs used to be made out of wood, voltorbs were also made out of wood.
+		//G: Were they literally made out of wood or did they just look like it?
+		//s: Obviously just looked like it they're living creatures
+		//G: Well they're a Pokemon with plants growing off of them, I don't see why there can't be Pokemon that are partially made out of wood
+		//G: I mean rock type is mostly just literally rocks.
+		//S: They also don't look like that anymore so we can't test it
+		//G: Man those things are confusing.
+	}
+	elseif reference0 == "exeggcute" || reference0 == "exeggutor" || reference0 == "alolan exeggutor"
+	{
+		//When I first saw the alolan exeggutor, I thought it was just a normal evolution. ALL exeggutors should get long necks!
+	}
+	elseif reference0 == "cubone" || reference0 == "marowak"
+	{
+		//When I was a kid I heard that cubone's skull is from its dead mom. But, like, there's a lot of cubones! They can't ALL be from their dead moms.
+		//S: That's just the first cubone. It was a kangaskid, then it became its own pokemon when it evolved with its skull... So it had its children just be born with the outer skull.
+		//G: That's WICKED COOL
+	}
+	elseif reference0 == "hitmonlee" || reference0 == "hitmonchan"
+	{
+		//G: Which is which...
+		//G: Are the gloves fabric, or is it fabric like flesh? If you can't remove them, I'm going to have to go with the creepier option.
+	}
+	elseif reference0 == "lickitung" || reference0 == "lickilicky"
+	{
+		//G: When people said Lickitung were gross, I mean, I thought I understood why they thought that, but I didn't believe them. They're pink and cute looking! From the pictures.
+		//G: I've been to Kanto now. I know better. There's just some things they don't photograph...
+	}
+	elseif reference0 == "koffing" || reference0 == "weezing"
+	{
+		//There aren't THAT many Poison Types native to Jotoh. Just... If you're traveling to somewhere else, like Kanto... bring a mask.
+		//It's a good idea in general, but between the Powder the grass and bug types throw at you and the Weezing...
+	}
+	elseif reference0 == "rhyhorn" || reference0 == "rhydon" || reference0 == "rhyperior"
+	{
+		//G: I HEARD that rhydon is the first ever pokemon.
+		//S: What? No, that's mew. Or Arceus according to some religions.
+		//G: Shame it evolves into that ugly thing.
+		//S: rhyperior?
+		//G: Poor thing.
+	}
+	elseif reference0 == "chansey" || reference0 == "blissey" || reference0 == "happiny"
+	{
+		//G: I've only ever seen Chansey and Blissey in Pokecenters. I know that Happiny exist, and some trainers have Chanseys, but I haven't actually seen them...
+		//S: Trainers sometimes take them with them to places far from civilization, since potions aren't an option.
+		//G: I consider myself an adventurer, but I wouldn't want to go THAT far away from a City.
+	}
+	elseif reference0 == "tangela" || reference0 == "tangrowth"
+	{
+		//G: What would it look like without its blue vines?
+		//S: Dead.
+		//G: What? I have a morbid curiosity!
+	}
+	elseif reference0 == "kangaskhan"
+	{
+		//G: Kangaskid IS a real Pokemon it's just ILLEGAL to catch. Okay. The only reason it's not in the Pokedex is to dissuade trainers from trying to catch it!
+		//S: Doesn't stop some people...
+		//G: Boooo Team Rocket!
+	}
+	elseif reference0 == "horsea" || reference0 == "seadra" || reference0 == "kingdra"
+	{
+		//G: First time I encountered a Kingdra, I was surprised! I didn't know Horsea had a third evolution. Especially one that was part Dragon.
+		//G: It would've been really useful if Silklay knew any Fairy moves at the time. Atticus was at a disadvantage because he can't jump very high.
+		//G: I still haven't beaten the guy with it!
+		//S: You've battled them more than once?
+		//G: Yeah, he's really powerful. I respect him a lot.
+		//S: ...?
+		//G: I'm not telling you who it is!
+	}
+	elseif reference0 == "goldeen" || reference0 == "seaking"
+	{
+		//In the big League Tornement, if there's a water Pokemon they'll change the stage to a biiiig pool for it. Usually only half the stage though, since they can't just ban land pokemon from fighting!
+		//It's really important for fish Pokemon to have a space to swim in.
+		//I really liked the atmousphere of the water gyms.
+	}
+	elseif reference0 == "staryu" || reference0 == "starmie"
+	{
+		//G: I'll be honest, Staryu and Starmie scare me!
+		//G: They have feelings like any other Pokemon... Presumably... But they don't have faces. Not being able to tell how they're feeling freak me out.
+		//G: When they faint, their gem powers down like they're an ancient robot...
+		//S: Staryu and Starmie can easily regenerate any limb as long as the core is kept in tact. The core's red light flickers at the same rate as a human heartbeat.
+		//G: Ahhg. freaky.
+		//S: People sometimes like to wear its core as jewelry.
+		//G: O_O???
+		//S: They're known to live up to 500 years, and are one of the oldest still living species of Pokemon known. Their gems send radio waves to the night sky, so some people suspect they might have extraterestrial origins.
+		//G: I call them creepy, but ACTUALLY? I kind of what a Staryu now.
+	}
+	elseif reference0 == "mr. mime" || reference0 == "mr.mime" || reference0 == "mr mime" || reference0 == "mime jr" || reference0 == "mime jr."
+	{
+	}
+	elseif reference0 == "scyther" || reference0 == "SCIZOR" || reference0 == "KLEAVOR"
+	{
+	}
+	elseif reference0 == "jynx" || reference0 == "smoochum"
+	{
+	}
+	elseif reference0 == "electabuzz" || reference0 == "elekid" || reference0 == "Electivire"
+	{
+	}
+	elseif reference0 == "magmar" || reference0 == "magby" || reference0 == "magmortar"
+	{
+	}
+	elseif reference0 == "pinsir"
+	{
+		//"Creh!"
+		//S: Why did you name a Pokemon that?
+		//G: Dunno, just came to me.
+	}
+	elseif reference0 == "tauros"
+	{
+		//G: Do you ever wonder if Tauros and Miltank have a shared pre-evolution, that evolves into either Tauros or Miltank depending on if they're male or female?
+		//S: No.
+		//G: Well I think it's possible.
+		//S: Go become a scientist then.
+	}
+	elseif reference0 == "magikarp" || reference0 == "gyarados"
+	{
+		//Something something Lake of Rage
+		
+	}
+	elseif reference0 == "lapras"
+	{
+	}
+	elseif reference0 == "ditto"
+	{
+		//I heard that dittos come from failed mew experiments! Some Kanto scientists were trying to clone mew, but they failed a few times and ended up with a bunch of dittos.
+		//s: how do you- ...
+	}
+	elseif reference0 == "eevee"
+	{
+		//G: OO! ask me about the eevee-lutions! Get it, eevee evolution?
+		//S: It's common slang...
+		//G: I like to think that there's a Normal Type Eeveelution, but no one's got it to not evolve for long enough, that no one's actually discovered it yet.
+		//S: [Looking at something else]
+		//G: Evie aren't really all that common in the wild, I actually saw some, but I was super off track. They were all living together really peacefully so I didn't want to disturb them.
+		//G: Easier still really popular though, so most of them are gotten from breeders To give people as gifts, especially when it comes to first Pokemon. People being able to have a lot more choice of what it turns into makes it more personal feeling.
+		//G: When I won the League, people were giving me a bunch of interviews. In one of them, a lady gifted me an Eevee! I really wasn't planning on raising an Eevee, but she was really insistant and the Eevee was so cute...
+		//G: I named him Citrus!
+		//S: [Agressively ignoring conversation for some reason]
+	}
+	elseif reference0 == "vaporeon"
+	{
+		//G: Whenever I pictured my dream team before I started the league I always imagined a Vaporeon on it.
+		//G: They just look beautiful to me! The scales, the fins... Its tail makes it swim so gracefully.
+		//G: But, turns out, Eevee Are harder to obtain than you imagine.
+		//G: Honoa Is my water type now anyways, I don't need more as long as I've got him!
+	}
+	elseif reference0 == "jolteon"
+	{
+		
+	}
+	elseif reference0 == "flareon"
+	{
+		
+	}
+	elseif reference0 == "porygon" || reference0 == "porygon 2" || reference0 == "porygon-z" || reference0 == "porygon z"
+	{
+		//is porygon real?
+	}
+	elseif reference0 == "omanyte" || reference0 == "omastar" || reference0 == "kabuto" || reference0 == "kabutops"
+	{
+		//G: I sometimes make fun of Rock types since they're weak to the most common type, Water.
+		//G: BUT, being part Water DIDN'T SAVE IT. It just made it EVEN WEAKER to Grass types! The second most common type!
+		//S: Grass is the third most common not second...
+		//G: That Omastar and Kabutops were no match for me. My Tropius barely even had to try to take them down.
+		//S: Type advantage isn't everything.
+		//G: It was that one time though! Boulder Badge win >:D
+	}
+	elseif reference0 == "aerodactyl"
+	{
+		//G: I wonder how a ROCK is able to fly.
+		//S: It used to be a dragon type...
+		//G: Huh
+		//S: It's an imperfect revive of an extinct Pokemon. The Pokemon it's revived from used to be a dragon type.
+	}
+	elseif reference0 == "snorlax" || reference0 == "munchlax"
+	{
+		//G: The Pokedex says that they need to eat []pokedex numbers], but I've SEEN trainers with them. There's no way they're able to feed them that much, right?
+		//S: Some people have a lot of money and no other hobbies.
+		//G: Hey! Stop describing me!
+	}
+	elseif reference0 == "zapdos"
+	{
+		//G: I saw a Zapdos once!
+		//S: Here we go...
+		//G: I saw it nesting in Mt.Silver. When it heared me it flew away.
+		//G: It made this crackling sound- A riotous creak of sharp electric clicks...
+		//G: It was really loud, and strangely beautiful.
+		//S: How are we supposed to believe you with how much you lie about everything else?
+		//G: I Don't need you to believe me! I'll always know in my heart that it happened.
+		//S: Why didn't you try to catch it?
+		//G: Well, it didn't want to be caught. I just ran into its home, where no trainers are allowed, it's not used to humans. That would be cruel.
+		//S: And you have no pictures or video...
+		//G: I didn't want to waste my time setting up a recording, I was... Transfixed. It was so brief anyways I would have just missed out on the moment and sometimes that's all that matters. Not everything has to be documented to be important.
+	}
+	elseif reference0 == "articuno"
+	{
+	}
+	elseif reference0 == "moltres"
+	{
+	}
+	elseif reference0 == "dratini" || reference0 == "dragonair" || reference0 == "dragonite"
+	{
+	}
+	elseif reference0 == "mew"
+	{
+	}
+	elseif reference0 == "mewtwo"
+	{
+	}
+	/*
+░░░░░░░░░░░░░░██░░██
+░░░░░░░░░██░░█▓█░█▓█
+░░░░████░█▓██▓▓██▓▓█
+░░░█▓▓▓▓██▓▓█▓▓▓▓▓█░
+░░█▓▓▓██▓█▓▒▓░▓▓▓▓█░
+░░█▓▓█░░░▓█░▓░▓░░▓██
+░█▓▓█░░░░░█░░░░▓▓▓▓█
+░█▓▓█░░██░▓▒░░░░▒▓█░
+█▓▓▓░░█░░░██▒░░▒▓██░
+█▓▓░░░░░░▒▓███░░▒▓▓█
+█▓░███▒▒░░░░▓██▓████
+░██░█░█░░█▒░░████░░░
+░░░░░██░█░░█░░█░░░░░
+░░░░░░█▒░██░░░█░░░░░
+░░░░░█░░▒░▒░░█░░░░░░
+░░░░░░██████▒█░░░░░░
+░░░░░░░░░░█░░█░░░░░░
+░░░░░░░░░░░██░░░░░░░ ⠀⠀
+	*/
+	
+	//GEN 2
+	elseif reference0 == "cyndaquil" || reference0 == "quilava" || reference0 == "typhlosion" || reference0 == "totodile" || reference0 == "croconaw" || reference0 == "feraligatr" || reference0 == "chikorita" || reference0 == "bayleef" || reference0 == "meganium"
+	{
+		//G: So there's this program started by some professor where once a year you sign up to get your first pokemon... Usually it's kids joining, since it's an easy way to let a kid pick what they first want...
+		//G: The day I got there though, they were out of the starters. Well- more like they got less than expected.
+		//G: So they got replacements, three stage evolutions that are still managable to inexperienced trainers.
+		//G: I like Silklay! She's my friend! But if they had the original pokemon... I totally would'a picked Cyndaquil. I just think Fire type is my thing! I kind of look like a Cyndaquil too.
+		//S: You... "look" like a Cyndaquil?
+		//G: Yeah! Come on, you can see it, right?
+		//S: [squints]
+		//G: So if I picked Cyndaquil, what would've you picked in this alternate timeline where the original starters were there?
+		//S: Huh?
+		//G: You TOTALLY would've gone for the type advantage!
+	}
+	elseif reference0 == "sentret" || reference0 == "furret"
+	{
+	}
+	elseif reference0 == "hoothoot" || reference0 == "noctowl"
+	{
+	}
+	elseif reference0 == "ledyba" || reference0 == "ledian"
+	{
+	}
+	elseif reference0 == "spinarak" || reference0 == "ariados"
+	{
+	}
+	elseif reference0 == "chinchou" || reference0 == "lanturn"
+	{
+	}
+	elseif reference0 == "togepi" || reference0 == "togetic" || reference0 == "togekiss"
+	{
+	}
+	elseif reference0 == "natu" || reference0 == "xatu"
+	{
+	}
+	elseif reference0 == "mareep" || reference0 == "flaffy" || reference0 == "ampharos"
+	{
+	}
+	elseif reference0 == "marill" || reference0 == "azumarill" || reference0 == "azurill"
+	{
+	}
+	elseif reference0 == "sudowoodo" || reference0 == "bonsly"
+	{
+	}
+	elseif reference0 == "hoppip" || reference0 == "skiploom" || reference0 == "jumpluff"
+	{
+	}
+	elseif reference0 == "aipom" || reference0 == "ambipom"
+	{
+	}
+	elseif reference0 == "sunkern" || reference0 == "sunflora"
+	{
+	}
+	elseif reference0 == "yanma" || reference0 == "yanmega"
+	{
+	}
+	elseif reference0 == "wooper" || reference0 == "QUAGSIRE"
+	{
+		//G: I have one of those! Or, had.
+	}
+	elseif reference0 == "espeon" || reference0 == "umbreon"
+	{
+		//G: Espeon is the Pokemon that made me think about evolution more than any other.
+		//G: I ruminated a long time on the decision to evolve Norma from a Skitty to a Delcatty, but turning Candy into an Espeon was something much more interesting...
+		//G: Silver's really the better one to ask about it though.
+		//S: [head down eyes closed contemplative]
+	}
+	elseif reference0 == "murkrow" || reference0 == "honchkrow"
+	{
+	}
+	elseif reference0 == "misdreavus" || reference0 == "mismagius"
+	{
+	}
+	elseif reference0 == "unown"
+	{
+	}
+	elseif reference0 == "wobbuffet"
+	{
+	}
+	elseif reference0 == "girafarig" || reference0 == "FARIGIRAF"
+	{
+		//G: I love Girafarig, I'm a little jealous of trainers that have them! I already have Norma, my team's pretty filled out, but I always like meeting the Girafarig that other trainers have.
+	}
+	elseif reference0 == "pineco" || reference0 == "forretress"
+	{
+		//G: It's a little embarrassing how long it took me to figure out that pineco evolves into foretress... I just thought they were two totally separate Pokemon!
+		//S: What did you think pineco evolved into?
+		//G: I didn't even know... There are so many Pokemon, I can't always know all of them is all I thought.
+	}
+	elseif reference0 == "dunsparce" || reference0 == "dudunsparce"
+	{
+	}
+	elseif reference0 == "gligar" || reference0 == "gliscor"
+	{
+	}
+	elseif reference0 == "snubbul" || reference0 == "granbull"
+	{
+	}
+	elseif reference0 == "qwilfish" || reference0 == "OVERQWIL"
+	{
+		//whats a qwilfish again?
+		//[reading gen 2 pokedex entree]
+		//SNORE... SNORE...
+		//[rolls eyes]
+		//does qwilfish evolve?
+		//S: A varient of it is historically known to have evolved into Overqwil...
+		//G: But Jotoh Qwilfish are just Qwilfish.
+		//S: ...Yes?
+		//G: [snore]
+	}
+	elseif reference0 == "shuckle"
+	{
+		//G: People who use them have such egos, they think they're immortal!
+		//G: Shuckle aren't really that hard to defeat. Sure they can retreat into their shell at any time, and that shell is basically impenetrable defense...
+		//G: All you have to do though is get a flying Pokemon, get it to carry it up really high, and then threaten to drop it. They'll give up instantly!
+		//S: O_O
+		//G: Look, we don't actually drop them, it's just... y'know.
+		//S: Psychological warfare.
+		//G: It's within league rules!
+	}
+	elseif reference0 == "heracross"
+	{
+	}
+	elseif reference0 == "sneasel" || reference0 == "WEAVILE" || reference0 == "SNEASLER"
+	{
+		
+	}
+	elseif reference0 == "teddiursa" || reference0 == "ursaring" || reference0 == "URSALUNA"
+	{
+	}
+	elseif reference0 == "slugma" || reference0 == "magcargo"
+	{
+		//G: It looks like an old man with a soggy face.
+	}
+	elseif reference0 == "swinub" || reference0 == "piloswine" || reference0 == "mamoswine"
+	{
+	}
+	elseif reference0 == "corsola" || reference0 == "Galarian Corsola" || reference0 == "CURSOLA"
+	{
+		//I live in Jotoh! Corsola are all over the beaches there. They're friendly and pink and just, like, a nice water type I sometimes see people carry with them!!! I like Corsola!
+		//have you SEEN what happened to them in Galar??? They're killing all the corsola!!! They killed them so much there's a ghost corsola now!!!!
+	}
+	elseif reference0 == "remoraid" || reference0 == "octillery"
+	{
+	}
+	elseif reference0 == "delibird"
+	{
+	}
+	elseif reference0 == "mantine" || reference0 == "mantyke"
+	{
+	}
+	elseif reference0 == "skarmory"
+	{
+		//G: Is Skarmory a normal Pokemon or a fossil Pokemon?
+		//S: It's modern. Steel/Flying Type. Its wings can recover completely from injury.
+		//G: Woah.. impressive
+		//G: Sounds like it would be a real beast to battle. Steel Types have so many defenses!
+	}
+	elseif reference0 == "houndour" || reference0 == "houndoom"
+	{
+	}
+	elseif reference0 == "phanpy" || reference0 == "donphan"
+	{
+	}
+	elseif reference0 == "stantler" || reference0 == "WYRDEER"
+	{
+		//it has a silly butt :P
+	}
+	elseif reference0 == "smeargle"
+	{
+	}
+	elseif reference0 == "tyrogue" || reference0 == "hitmontop"
+	{
+	}
+	elseif reference0 == "miltank"
+	{
+		//G: I heard a LOT of things about Wittney before I went to her gym- how her Miltank was really tough and people needed to get real creative to get past it.
+		//G: When I got there though, she wasn't even using a Miltank!
+		//G: So I can't really give my opinion on THAT argument.
+	}
+	elseif reference0 == "raikou" || reference0 == "entei" || reference0 == "suicune"
+	{
+		//S: So, any alleged encounters with the beasts?
+		//G: Honestly... No. I DID hear a theory about them once, though. Like, were they originally some extinct pokemon of smaller normaler dogs? or were they corrupted eeveelutions?
+	}
+	elseif reference0 == "larvitar" || reference0 == "pupitar" || reference0 == "tyranitar"
+	{
+		//G: Blue has a Tyranitar!!!
+		//G: [hands on cheeks closed eyes dreamily] I'll admit it, I have a celebtrity crush on him.
+		//S: O_O what?
+		//G: I dunno!!! He just has a malignant charisma about him but is still sensitive and strong. I just knew him from all the stuff that happened with the Champions in Kanto a few years ago- but then I met him on Cinabar islands... or, the remains of it... It was really sad. He talked to me about it and turned out, and said he'd battle me if I got all the other badges.
+		//G: It was weirdly bittersweet and motivating! I just remembered him for being kind of mean on TV but he's good hearted and thoughtful now.
+		//S: [blink blink]
+		//G: BUT we don't know each other that well and he's a little too old for me. Like, he's in his teens. I can imagine though!
+	}
+	elseif reference0 == "ho-oh" || reference0 == "ho oh"
+	{
+	}
+	elseif reference0 == "lugia"
+	{
+	}
+	elseif reference0 == "celebi"
+	{
+		//q: maybe silver saw a celebi once?
+	}
+	
+	//GEN 3
+/*
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠴⡖⠉⢱⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣔⠁⠀⠃⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢠⠏⢸⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⡎⠀⢸⠀⠀⡆⠀⢠⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠈⠀⠀⡇⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠃⠀⡌⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢣⠀⠀⠀⠀⠀⢀⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢀⠸⠀⠀⠀⠀⠐⠺⠄⣀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠔⠒⢄
+⠀⠀⠀⠀⠀⣠⠞⠁⠀⠇⠀⠀⠀⠀⠀⠀⠈⠑⢄⠀⠀⠀⣀⠔⠊⠀⠀⠀⠀⢸
+⠀⠀⠀⠀⡰⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣣⡠⠊⣀⣀⠀⢀⣠⠤⠒⡘
+⢀⣤⣄⣰⣧⠀⠀⡰⡆⠀⠀⠀⠀⡔⣆⠀⠀⣴⣿⣿⣿⣿⣿⡟⠊⠁⠀⠀⢠⠃
+⠈⣿⣿⣿⣿⣇⠀⠻⠇⠀⠀⠀⠀⠻⠏⠀⣸⣿⣿⣿⣿⣿⣿⣧⣄⠀⠀⠀⠎⠀
+⣰⣿⣿⣿⣿⣿⡏⢰⠒⠒⠒⠒⠒⠒⠀⢉⣿⣿⣿⣿⣿⣿⣿⠿⠛⠀⠀⡜⠀⠀
+⠉⠛⢿⣿⣿⡿⣿⠧⣀⠀⠀⠀⠀⢀⡠⠚⣿⣿⠿⣿⣿⣿⠹⠉⠐⢒⠞⠀⠀⠀
+⠀⠀⠘⠿⠋⠀⡸⠓⠢⠭⣭⠭⠭⠥⢤⠐⠋⠀⠀⢸⠛⠛⠀⢇⡠⠊⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⡰⠁⠀⠀⢀⠜⠑⠆⠤⠬⡄⠀⠀⠀⢸⠀⠀⠀⠸⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢀⢴⠁⠀⢀⡴⠁⠀⢸⠀⠀⢀⠷⡀⠀⠀⢸⠲⢄⠀⠀⢣⠀⠀⠀⠀⠀
+⠀⠀⠀⠈⠛⠒⠊⠁⠀⠀⠀⠈⠉⠈⠁⠀⠱⣀⣄⡼⠀⠀⠉⠋⠁⠀⠀⠀⠀⠀
+*/
+	elseif reference0 == "torchic" || reference0 == "combusken" ||  reference0 == "blaziken" || reference0 == "treecko" || reference0 == "grovyle" || reference0 == "sceptile" || reference0 == "mudkip" || reference0 == "marshtomp" ||  reference0 == "swampert"
+	{
+		//G: Okay, of the Hoenn starters...
+		//G: I do like Torchic, I'm just not sure about what it involves into. I'm a big fan of the bird but it keeps getting less and less bird like.
+		//G: I think Swampert is really cool though, it's got pretty unique typing
+		//S: It shares its type with that wooper you gave away.
+		//G: I just thought she'd get more use out of it! I know Bango is in good hands.
+		//G: What do you think about the giant tree on sceptile's back?
+		//S: I wouldn't want my Pokemon getting hit with it.
+		//G: I know, right? I think I'd be pretty happy with any of the starters from Hoenn.
+	}
+	elseif reference0 == "poochyena" || reference0 == "mightyena"
+	{
+	}
+	elseif reference0 == "zigzagoon" || reference0 == "linoone"
+	{
+		//G: I've never seen a Zigzagoon but they look quite funny.
+		//S: travelers often carry zigzagoon with them because they're good scavengers.
+		//S: Oftentimes trainers will release them before they get to evolve into Linoone.
+		//G: Aww... I feel bad for the poor fellas! Maybe one day I'll go to Hoenn and get a Zigzagoon, And then actually train it.
+	}
+	elseif reference0 == "wurmple" || reference0 == "solcoon" || reference0 == "beautifly" || reference0 == "cascoon" || reference0 == "dustox"
+	{
+		//S: There's still no reliable way to find out if a wurmple will evolve into a dustox or beautifly... If you're wanting to get a specific one, it's easier to catch them in their cacoon states.
+		//G: But isn't that part of the fun? Either way that wurmple is your friend, so it'll be a surprise for both of you. And you'll still love it either way.
+	}
+	elseif reference0 == "lotad" || reference0 == "lombre" || reference0 == "ludicolo"
+	{
+	}
+	elseif reference0 == "seedot" || reference0 == "nuzleaf" || reference0 == "shiftry"
+	{
+	}
+	elseif reference0 == "tailow" || reference0 == "swellow"
+	{
+	}
+	elseif reference0 == "wingul" || reference0 == "pelipper"
+	{
+	}
+	elseif reference0 == "ralts" || reference0 == "kirlia" || reference0 == "gardevoir"
+	{
+	}
+	elseif reference0 == "surskit" || reference0 == "masquerain"
+	{
+	}
+	elseif reference0 == "shroomish" || reference0 == "breloom"
+	{
+	}
+	elseif reference0 == "slakoth" || reference0 == "vigoroth" || reference0 == "slaking"
+	{
+	}
+	elseif reference0 == "nincada" || reference0 == "ninjask"
+	{
+	}
+	elseif reference0 == "shedinja"
+	{
+		//G: shedinja? what's that?
+		//S: when you evolve a nincada to a ninjask with only five pokemon with you and an extra pokeball, one appears. It's made from the shed skin of the ninjask when it evolved. It's incredibly weak, but it's completely invulnerable to attacks that it's not type weak to.
+		//G: WHAT? Sounds made up. Are you starting to tell tall tales too?
+	}
+	elseif reference0 == "whismur" || reference0 == "loudred" || reference0 == "exploud"
+	{
+		//G: Sound type.
+		//S: Uhg.
+		//G: There WERE a bunch of Normal Type Pokemon, who were all pink and cute or whatever, then it turns out... They weren't Normal Types! They're Fairy Types.
+		//G: I bet that's gonna happen again with sound. There's just enough Pokemon who's "thing" is Sound that don't have a perfect typing.
+		//S: You can't just "make up" types. They have to be researched and then if you do find it there's a whole mess of recataloguing that has to be done, not just with Pokemon but with moves and figuring out type effectiveness...
+		//G: Just you wait!! In a few years, there's gonna be a Sound type and you'll be sorry!
+	}
+	elseif reference0 == "makuhita" || reference0 == "hariyama"
+	{
+	}
+	elseif reference0 == "nosepass" || reference0 == "probopass"
+	{
+	}
+	elseif reference0 == "skitty" || reference0 == "delcatty"
+	{
+		//G: Sometimes I'll see a Skitty wandering around a Pokecenter, and I'll think it's Norma and try to put her back into her Pokeball... Before remembering, hey wait, Norma's not a Skitty!
+		//S: ...
+		//G: Why are you giving me that look!
+		//S: Do you... /often/ mistake other people's Pokemon as your own?
+		//G: I'll have you know I can recognize them just fine! I haven't met anyone else with a Tropius or Shiny Flygon anyways. It's just the Skitty that look the same!
+		//S: The famous youngest League winner Johto's ever seen, can't recognize his own Pokemon.
+		//G: Guess not! Maybe looks aren't everything.
+	}
+	elseif reference0 == "sableye"
+	{
+		//G: Did you know sableye are invinsible???
+		//S: ...Why in the world do you believe that.
+		//G: There are no types that are super-effective against it!
+		//S: Except Fairy.
+		//G: [incredibly disappointed] Aw man! I forgot about those!
+		//S: Evidently...
+	}
+	elseif reference0 == "mawile"
+	{
+		//G: Just from looking at it I can tell that's a Pokemon that looks good in pictures, but I'd never want to meet in real life.
+		//G: Hey Silv, isn't Mawile part Fairy?
+		//S: It's Steel/Fairy.
+		//G: Heh... Guess Fairy Types aren't as innocent as they seem.
+		//S: They beat /Dragons./
+		//G: Yeah, but usually in a cute way!
+	}
+	elseif reference0 == "aron" || reference0 == "lairon" || reference0 == "aggron"
+	{
+	}
+	elseif reference0 == "meditite" || reference0 == "medicham"
+	{
+	}
+	elseif reference0 == "electrike" || reference0 == "manetric"
+	{
+	}
+	elseif reference0 == "plusle" || reference0 == "minun"
+	{
+		//G: Is it unethical to keep one but not the other? I never see them used in anything but double battles.
+		//S: Plusle and Minun are not commonly used by trainers... They're usually used to help generate electricity or are kept as pets.
+		//G: Makes me wonder about the one guy who /does/ use them for battling! How much could we be missing out on?
+		//S: ...Not much?
+		//G: Yeah pr'y not much.
+	}
+	elseif reference0 == "volbeat" || reference0 == "illumise"
+	{
+	}
+	elseif reference0 == "roselia" || reference0 == "budew" || reference0 == "roserade"
+	{
+	}
+	elseif reference0 == "gulpin" || reference0 == "swalot"
+	{
+	}
+	elseif reference0 == "carvanha" || reference0 == "sharpedo"
+	{
+	}
+	elseif reference0 == "wailmer" || reference0 == "wailord"
+	{
+	}
+	elseif reference0 == "numel" || reference0 == "camerupt"
+	{
+	}
+	elseif reference0 == "tarkoal"
+	{
+	}
+	elseif reference0 == "spoink" || reference0 == "grumpig"
+	{
+	}
+	elseif reference0 == "spinda"
+	{
+	}
+	elseif reference0 == "trapinch" || reference0 == "vibrava" || reference0 == "flygon"
+	{
+		//G: [Dreamy] I love my Konkurs...
+		//S: How did you manage to find a Shiny trapinch in Johto? Trapinch don't live in Johto. There aren't enough for trainers to randomly find, and definitely not nearly enough for the 1/8000 genetic chance for one of them to naturally be born shiny.
+		//G: [sweats] Well... Actually, when I found him, he was wearing a collar.
+		//S: A collar?
+		//G: It was more like a metal ring? It had a lot of mechanical bits on it. It wasn't hard for me to unlatch, I just had to press a button and pull, but It was definitely something that no Trapinch could get on their own.
+		//G: The collar had a Team Rocket R on it.
+		//S: ... [Looks at attention]
+		//G: ...So he was probably found in Hoenn, taken in by Team Rocket, and managed to escape...
+		//G: But he has me now! And I'll do anything to protect him.
+		//G: I don't tell people this, though, I kind of worry it makes both me and my Pokemon a target if they know that I technically stole from them.
+		//S: ...Right... Well, your Flygon is a definitely very lucky.
+		//G: [Releases Konkurs From his pokeball] Konkurs!!! [Big hug] I love you ^_^
+	}
+	elseif reference0 == "cacnea" || reference0 == "cacturne"
+	{
+	}
+	elseif reference0 == "swablu" || reference0 == "altaria"
+	{
+		//G: If I ever got a Swablu, I'd name it Maily.
+		//S: [Not interested]
+		//G: It's because I think the name would be cute for a Swablu.
+		//S: ...
+		//G: Oh Silver, why don't you ever take an interest in me...
+		//S: I'll ask when you actually have something interesting to say.
+		//G: Wooooow, harsh. I'll tell Maily you said that one day.
+	}
+	elseif reference0 == "zangoose"
+	{
+	}
+	elseif reference0 == "seviper"
+	{
+	}
+	elseif reference0 == "lunatone" || reference0 == "solrock"
+	{
+	}
+	elseif reference0 == "barboach" || reference0 == "wishcash"
+	{
+	}
+	elseif reference0 == "corphish" || reference0 == "crawdaunt"
+	{
+	}
+	elseif reference0 == "baltoy" || reference0 == "claydol"
+	{
+	}
+	elseif reference0 == "lileep" || reference0 == "craydily"
+	{
+		//being rock/grass would help it with the major rock downsides.
+	}
+	elseif reference0 == "anorith" || reference0 == "armaldo"
+	{
+	}
+	elseif reference0 == "feebas" || reference0 == "milotic"
+	{
+	}
+	elseif reference0 == "castform"
+	{
+		//G: Castform SEEMS cool, but it's pretty frustrating to train. Changing its type doesn't mean very much if it can't actually utilize that...
+		//S: Not all Pokemon are........ /naturally talented/ at battling. Some are just caused by nature, instead of selective breeding.
+		//G: What is Castform normally used for then?
+		//S: Science... Specifically meteorology.
+		//G: Oh, those are the people that tell weather. Well, that sounds useful.
+	}
+	elseif reference0 == "kecleon"
+	{
+	}
+	elseif reference0 == "shuppet" || reference0 == "banette"
+	{
+		//G: Hey Silver, don't you have a Banette?
+		//G: Wait, no, that's Weavile.
+		//S: Shuppet and Bennett are from Hoenn.
+		//S: Not that that stops you from having over half your team be Hoenn Pokemon
+		//G: I dunno how that happened! It just did!
+	}
+	elseif reference0 == "duskull" || reference0 == "dusclops" || reference0 == "dusknior"
+	{
+	}
+	elseif reference0 == "tropius"
+	{
+	}
+	elseif reference0 == "chimecho" || reference0 == "chingling"
+	{
+		//G: Sound Type! They're instruments.
+		//S: They're also really weak...
+		//G: Hey but Chimecho are really cute! I'm going to catch one and beat you with it just for saying that.
+		//S: But Chingling can't be found in Johto, they're in Hoe- ...Nevermind, four of your Pokemon are from Hoenn. That won't stop you.
+		//G: I could also trade, like how you got Sandslash!
+		//S: uhg...
+	}
+	elseif reference0 == "absol"
+	{
+		//I always thought that Absol were dark/ice type, since they're found at the tops of mountains where it snows and they're blue... but they're just dark type! Talk about a rip off.
+		//S: What?
+	}
+	elseif reference0 == "wynaunt" || reference0 == "wabafette"
+	{
+		//G: Debate: Is Whynaunt/Wabafette's tail it's real face, or does it just have eyes for no reason?
+		//S: Its a punching bag... But the mouth on its body is real.
+		//G: That must be really weird, having your eyes be on your tail in front of your face. Controlling that body must be weird. I'm surprised it doesn't walk backwards.
+		//S: It's a Psychic Type, eyes aren't the only way for them to see...
+	}
+	elseif reference0 == "snorunt" || reference0 == "glalie" || reference0 == "froslass"
+	{
+		//G: In my opinion, the superior evolution of snowrunt isn't Glalie, it's definitely Frosslass.
+		//S: Let me guess... It has nothing to do with the fact it's faster and can learn better special moves?
+		//G: She's dual Dark/Ice type and Glalie is just Ice type.
+		//S: I figured.
+	}
+	elseif reference0 == "spheal" || reference0 == "sealeo" || reference0 == "walrein"
+	{
+	}
+	elseif reference0 == "clamperl" || reference0 == "huntail" || reference0 == "gorebyss"
+	{
+	}
+	elseif reference0 == "relicanth"
+	{
+		//G: reli.. huh?
+		//S: relicanth. It's a Rock/Water type Pokémon only found in the deep seas. It feeds on microscopic organisms. It's existed for millions of years without changing, and was once believed to be extinct.
+		//Oh. What does it look like?
+		//S: [shows pokedex]
+		//G: ...It's a brown fish.
+		//S: Since it lives deep undersea it has hard scales to protect it from the pressures of the ocean. And, since it's dark down there, no one is supposed to be looking at it for aesthetics.
+	}
+	elseif reference0 == "luvdisk"
+	{
+	}
+	elseif reference0 == "bagon" || reference0 == "shelgon" || reference0 == "salamence"
+	{
+	}
+	elseif reference0 == "beldum" || reference0 == "metang" || reference0 == "metagross"
+	{
+	}
+	elseif reference0 == "regirock" || reference0 == "registeel" || reference0 == "regigigas" || reference0 == "REGIELEKI" || reference0 == "REGIDRAGO" || reference0 == "REGICE"
+	{
+		//G: SILVER TRIED TO KILL ME WITH A REGICE
+		//S: *Beartic.*
+	}
+	elseif reference0 == "latias" || reference0 == "latios"
+	{
+		//G: Are those the pokemon that look kind of like planes?
+		//S: [lore]
+	}
+	elseif reference0 == "kyogre"
+	{
+	}
+	elseif reference0 == "groudon"
+	{
+		//S: I DID NOT HAVE A GROUDON.
+	}
+	elseif reference0 == "rayquaza"
+	{
+	}
+	elseif reference0 == "jirachi"
+	{
+		//G: I was training my Pokemon in the wild, we were wandering through the forest and we ran into a wild Jirachi
+		//S: ...
+		//G: It was a menace! It wouldn't leave us alone we try to run away but it kept attacking us. I started attacking it with my Pokemon, but every time we did any damage to it it would just heal! Wish is a really strong move.
+		//S: ...
+		//G: Tactics with Norma where I tried to put it to sleep and stuff we're pretty hard to pull off. They were also the only way we could get any damage on it just because of how it healed all the time. It would wake up from a nap and heal from all the work we've done while it was sleeping
+		//S: ...
+		//G: We did ultimately beat it in the end though
+		//S: You fainted a Jirachi.
+		//G: Yep.
+		//S: And you didn't catch it?
+		//G: Yep
+		//S: T_T
+		//G: I don't know what the big deal is honestly
+	}
+	elseif reference0 == "deoxys"
+	{
+		//I saw a Deoxys at the top of the bell tower
+		//[look up ho oh lead up]
+	}
+	
+	
+	//GEN 4
+/*
+       ░░░
+    ░░░░░░░░░
+   ▓███░░░░░░░
+┌─███P██░░░░░░░
+│/███P███░░░░░░
+/__██████░░░░░
+    ███░░░░░░
+     ░░░░░░░▓░░░  ░
+   ▓▒▓░░▓░░▓▒▓▓░░░
+  ▓▒▓▓██▓██▓▓▒▒▓░░
+  ▓▒▓▓▓▓▓▓▓▓▓ ▒▒▓
+   ▒▒▓▓▒▒▒▒▓▓
+    ▓▓    ▓▓
+   <_|   <_|
+*/
+	elseif reference0 == "turtwig" || reference0 == "grotle" || reference0 == "torterra" || reference0 == "chimchar" || reference0 == "monferno" || reference0 == "infernape" || reference0 == "piplup" || reference0 == "prinplup" || reference0 == "empoleon"
+	{
+	}
+	elseif reference0 == "starly" || reference0 == "staravia" || reference0 == "staraptor"
+	{
+	}
+	elseif reference0 == "bidoof" || reference0 == "bibarel"
+	{
+		//G: Bidoof.
+		//S: what?
+		//G: Bidoof is a fun word. Bidoof. Silver say Bidoof.
+		//S: No...
+		//G: Bidoof and Binarelare from...Hoenn?
+		//S: Sinnoh.
+		//G: Hah, see, I barely know anything about Sinnoh.
+	}
+	elseif reference0 == "kricketot" || reference0 == "kricketune"
+	{
+		//G: Bug/Sound type.
+		//S: Sound type is still not real and it /never will be./
+		//G: Kricketune is SO Sound Type coded you have no idea! it is going to be a Sound Type just you wait!
+		//S: What would the strengths and weaknesses of sound type even be?
+		//G: Well probably good against Psychic because they can disrupt their focus, bad against Steel since a lot of steel types don't have ears.
+		//S: But soundproof is a specific ability?
+		//G: Oh, right. Hey aren't all deaf people soundproof? You just turn it into a total compliment, like it's a superpower
+		//S: That's-
+		//G: Maybe Sound Type would actually be good against Ice Types because of that myth that sound causes avalanches. That would be cute!
+		//S: Ice Type does not need more weaknesses.
+		//G: Actually, that might mean that Ice Type has an advantage over it because that means if they're using Sound Type, it'll kill them.
+		//S: "Kill" seems like the wrong word here.
+		//G: Imagine if there was a middle stage evolution called Kricketoot.
+		//S: Sigh...
+	}
+	elseif reference0 == "shinx" || reference0 == "luxio" || reference0 == "luxray"
+	{
+	}
+	elseif reference0 == "carnidos" || reference0 == "rampardos"
+	{
+	}
+	elseif reference0 == "shieldon" || reference0 == "bastiodon"
+	{
+	}
+	elseif reference0 == "burmy" || reference0 == "wormadam" || reference0 == "mothim"
+	{
+	}
+	elseif reference0 == "combee" || reference0 == "vespiquen"
+	{
+	}
+	elseif reference0 == "pachirisu"
+	{
+	}
+	elseif reference0 == "buizel" || reference0 == "floatzel"
+	{
+	}
+	elseif reference0 == "cherubi" || reference0 == "cherrim"
+	{
+	}
+	elseif reference0 == "shellos" || reference0 == "gastrodon"
+	{
+	}
+	elseif reference0 == "driftloon" || reference0 == "drifblim"
+	{
+	}
+	elseif reference0 == "buneary" || reference0 == "lopunny"
+	{
+	}
+	elseif reference0 == "buneary" || reference0 == "lopunny"
+	{
+	}
+	elseif reference0 == "glameow" || reference0 == "purugly"
+	{
+	}
+	elseif reference0 == "stunky" || reference0 == "skunktank"
+	{
+	}
+	elseif reference0 == "bronzor" || reference0 == "bronzong"
+	{
+	}
+	elseif reference0 == "chatot"
+	{
+		//G: Sound Type!
+		//S: Chatot don't usually speak, but they're known to repeat words and phrases they hear from humans. Because of this, some competitions have banned Chatot.
+		//G: Man, that sounds embarressing. You take your Pokemon out to fight during a huge televised battle and it starts swearing out the opponant on TV...
+	}
+	elseif reference0 == "spiritomb"
+	{
+	}
+	elseif reference0 == "gible" || reference0 == "gabite" || reference0 == "garchomp"
+	{
+	}
+	elseif reference0 == "riolu" || reference0 == "lucario"
+	{
+	}
+	elseif reference0 == "hippowdon" || reference0 == "hippopotas"
+	{
+	}
+	elseif reference0 == "skorupi" || reference0 == "drapion"
+	{
+		//G: drapion sounds like an eeveelution.
+	}
+	elseif reference0 == "croagunk" || reference0 == "toxicroak"
+	{
+	}
+	elseif reference0 == "carnivine"
+	{
+	}
+	elseif reference0 == "finneon" || reference0 == "lumineon"
+	{
+		//G: finneon sounds like a name.
+		//S: It is a name. Of a pokemon.
+		//G: lumineon sounds like an eeveelution. Like, a light eevee.
+		//S: Light isn't a type.
+		//G: What are you, a pokemon scientist?
+		//S: T_T
+	}
+	elseif reference0 == "snowver" || reference0 == "abomasnow"
+	{
+	}
+	elseif reference0 == "leafeon"
+	{
+	}
+	elseif reference0 == "glaceon"
+	{
+	}
+	elseif reference0 == "gallade"
+	{
+		//G: Sometimes I wonder if Silklay would've prefered to be a gallade instead...
+	}
+	elseif reference0 == "rotom"
+	{
+		//G: Don't they use Rotom for Pokedexes somewhere?
+		//S: Alola.
+		//G: Why though? Looks way bigger than a Poketch.
+		//S: There are some benefits to having something living with you that a robot can't replicate.
+		//G: Does it count towards your Pokemon limit? Since you can only carry six at a time?
+		//S: No, since you don't battle with it.
+		//G: I don't really think I get Rotom in general. Changing type sounds useful but most Pokemon can only remember so many moves that I don't know how helpful that'd be.
+		//S: It changes their defenses, there are some moves that change what type they are depending on circumstances, and types aren't everything.
+		//That's true... World'd be a lot easier if it were, though.
+		}
+	elseif reference0 == "uxie" || reference0 == "mesprit" || reference0 == "azelf"
+	{
+	}
+	elseif reference0 == "dialga" || reference0 == "palkia"
+	{
+	}
+	elseif reference0 == "heatran"
+	{
+	}
+	elseif reference0 == "giratina"
+	{
+	}
+	elseif reference0 == "cresselia"
+	{
+	}
+	elseif reference0 == "phione" || reference0 == "manaphy"
+	{
+		//S: Manaphy is the only Legendary Pokemon documented to have eggs.
+		//G: Well I'm sure the others do it's just not documented. I mean, they can't all be immortal, and they have to have been born /somehow./
+		//S: The Pokemon that hatches from its egg is a Phione, which is not known to evolve into Manaphy.
+		//G: What!!! No Pokemon lays eggs that aren't from their species! It probably does evolve into Manaphy, the scienists just haven't figured out how yet. It just doesn't make sense otherwise.
+		//S: They could fill a library with the things that don't make sense to you.
+	}
+	elseif reference0 == "darkrai"
+	{
+	}
+	elseif reference0 == "shaymin"
+	{
+	}
+	elseif reference0 == "arceus"
+	{
+	}
+	
+	
+	//GEN 5
+	elseif reference0 == "VICTINI"
+	{
+	}
+	elseif reference0 == "snivy" || reference0 == "SERVINE" || reference0 == "SERPERIOR"
+	{
+		//G: losing your arms gotta be tough
+	}
+	elseif reference0 == "tepig" || reference0 == "PIGNITE" || reference0 == "EMBOAR"
+	{
+		//G: Emboar looks like a pot
+	}
+	elseif reference0 == "oshawott" || reference0 == "dewott" || reference0 == "samurott"
+	{
+	}
+	elseif reference0 == "patrat" || reference0 == "watchhog"
+	{
+	}
+	elseif reference0 == "lilipup" || reference0 == "herdier" || reference0 == "stoutland"
+	{
+	}
+	elseif reference0 == "purrloin" || reference0 == "liepard"
+	{
+	}
+	elseif reference0 == "pansage" || reference0 == "simisage" || reference0 == "pansear" || reference0 == "simisear" || reference0 == "panpour" || reference0 == "simipour"
+	{
+	}
+	elseif reference0 == "MUNNA" || reference0 == "MUSHARNA"
+	{
+	}
+	elseif reference0 == "PIDOVE" || reference0 == "TRANQUILL" || reference0 == "UNFEZANT"
+	{
+	}
+	elseif reference0 == "BLITZLE" || reference0 == "ZEBSTRIKA"
+	{
+	}
+	elseif reference0 == "ROGGENROLA" || reference0 == "BOLDORE" || reference0 == "GIGALITH"
+	{
+	}
+	elseif reference0 == "WOOBAT" || reference0 == "SWOOBAT"
+	{
+	}
+	elseif reference0 == "DRILBUR" || reference0 == "EXCADRILL"
+	{
+	}
+	elseif reference0 == "AUDINO"
+	{
+	}
+	elseif reference0 == "TIMBURR" || reference0 == "GURDURR" || reference0 == "CONKELDURR"
+	{
+	}
+	elseif reference0 == "TYMPOLE" || reference0 == "PALPITOAD" || reference0 == "SEISMITOAD"
+	{
+	}
+	elseif reference0 == "THROH" || reference0 == "SAWK"
+	{
+	}
+	elseif reference0 == "swaddle" || reference0 == "SWADLOON" || reference0 == "LEAVANNY"
+	{
+	}
+	elseif reference0 == "VENIPEDE" || reference0 == "WHIRLIPEDE" || reference0 == "SCOLIPEDE"
+	{
+	}
+	elseif reference0 == "COTTONEE" || reference0 == "WHIMSICOTT"
+	{
+	}
+	elseif reference0 == "PETILI" || reference0 == "LILIGANT"
+	{
+	}
+	elseif reference0 == "BASCULINE" || reference0 == "BASCULEGION"
+	{
+	}
+	elseif reference0 == "SANDILE" || reference0 == "KROKOROK" || reference0 == "KROOKODILE"
+	{
+	}
+	elseif reference0 == "DARUMAKA" || reference0 == "DARMANITAN"
+	{
+	}
+	elseif reference0 == "MARACTUS"
+	{
+		//G: Maractus...?
+		//S: [Opens pokedex] The Cactus Pokemon. It scares away bird Pokémon with song and dance that sounds similar to maracas.
+		//G: Looks like a Cactnia evolution. Is it the female evolution?
+		//S: No. It doesn't evolve from or into anything.
+		//G: Well maybe it does evolve from Cacnea we just haven't figured out the METHOD yet.
+		//S: Then be my guest, become a scientist and discover a new evolution method.
+		//[possibly a randomtalk after maractus has been asked about]
+		//G: I think Maractus could be a Sound type. Grass/Sound to mirror Cacturn's Grass/Dark.
+		//S: Sound type isn't real.
+		//G: Could be!!!!
+	}
+	elseif reference0 == "Dwebble" || reference0 == "Crustle"
+	{
+		//G: Dweeble
+	}
+	elseif reference0 == "SCRAGGY" || reference0 == "SCRAFTY"
+	{
+	}
+	elseif reference0 == "SIGILYPH"
+	{
+	}
+	elseif reference0 == "YAMASK" || reference0 == "COFAGRIGUS"
+	{
+	}
+	elseif reference0 == "TIRTOUGA" || reference0 == "CARRACOSTA"
+	{
+	}
+	elseif reference0 == "ARCHEN" || reference0 == "ARCHEOPS"
+	{
+	}
+	elseif reference0 == "TRUBBISH" || reference0 == "GARBODOR"
+	{
+	}
+	elseif reference0 == "ZORUA" || reference0 == "ZOROARK"
+	{
+	}
+	elseif reference0 == "MINCCINO" || reference0 == "CINCCINO"
+	{
+		//G: I want one ;~;
+	}
+	elseif reference0 == "GOTHITA" || reference0 == "GOTHORITA" || reference0 == "GOTHITELLE"
+	{
+	}
+	elseif reference0 == "SOLOSIS" || reference0 == "DUOSION" || reference0 == "REUNICLUS"
+	{
+	}
+	elseif reference0 == "DUCKLETT" || reference0 == "SWANNA"
+	{
+	}
+	elseif reference0 == "VANILLITE" || reference0 == "VANILLISH" || reference0 == "VANILLUXE"
+	{
+	}
+	elseif reference0 == "DEERLING" || reference0 == "SAWSBUCK"
+	{
+	}
+	elseif reference0 == "EMOLGA"
+	{
+	}
+	elseif reference0 == "KARRABLAST" || reference0 == "ESCAVALIER"
+	{
+	}
+	elseif reference0 == "FOONGUS" || reference0 == "AMOONGUSS"
+	{
+	}
+	elseif reference0 == "FRILLISH" || reference0 == "JELLICENT"
+	{
+	}
+	elseif reference0 == "ALOMOMOLA"
+	{
+		//Looks like a luvdisk evolution?
+	}
+	elseif reference0 == "JOLTIK" || reference0 == "GALVANTULA"
+	{
+	}
+	elseif reference0 == "FERROSEED" || reference0 == "FERROTHORN"
+	{
+	}
+	elseif reference0 == "KLINK" || reference0 == "KLANG" || reference0 == "KLINKLANG"
+	{
+	}
+	elseif reference0 == "TYNAMO" || reference0 == "EELEKTRIK" || reference0 == "EELEKTROSS"
+	{
+	}
+	elseif reference0 == "ELGYEM" || reference0 == "BEHEEYEM"
+	{
+	}
+	elseif reference0 == "LITWICK" || reference0 == "LAMPENT" || reference0 == "CHANDELURE"
+	{
+	}
+	elseif reference0 == "AXEW" || reference0 == "FRAXURE" || reference0 == "HAXORUS"
+	{
+	}
+	elseif reference0 == "CUBCHOO" || reference0 == "BEARTIC"
+	{
+		//S: I HAD A BEARTIC
+	}
+	elseif reference0 == "CRYOGONAL"
+	{
+		//G: Oh hey now that I look at it I think it's beautiful :O
+	}
+	elseif reference0 == "SHELMET" || reference0 == "ACCELGOR"
+	{
+	}
+	elseif reference0 == "STUNFISK"
+	{
+	}
+	elseif reference0 == "MIENFOO" || reference0 == "MIENSHAO"
+	{
+	}
+	elseif reference0 == "DRUDDIGON"
+	{
+		//G: What's that?
+		//S: A dragon pokemon. [shows pokedex]
+		//G: I've NEVER seen that in my life.
+		//S: "The Cave Pokemon. It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move."
+		//G: Why is it in CAVES if it needs SUNLIGHT? Caves don't have sunlight!
+	}
+	elseif reference0 == "GOLETT" || reference0 == "GOLURK"
+	{
+		//G: What's that?
+	}
+	elseif reference0 == "PAWNIARD" || reference0 == "BISHARP" || reference0 == "KINGAMBIT"
+	{
+	}
+	elseif reference0 == "BOUFFALANT"
+	{
+		//G: Buffowhat?
+		//S: Bouffalant, the Bash Buffalo Pokemon. [Shows Pokedex]
+		//G: Oh that's a Touros evolution.
+		//S: It's not.
+		//G: THAT LOOKS SO MUCH LIKE TOUROS THOUGH
+		//S: Not related as far as we know.
+	}
+	elseif reference0 == "RUFFLET" || reference0 == "BRAVIARY"
+	{
+		//G: Pretty bird I've never seen before.
+	}
+	elseif reference0 == "VULLABY" || reference0 == "MANDIBUZZ"
+	{
+	}
+	elseif reference0 == "HEATMOR"
+	{
+	}
+	elseif reference0 == "DURANT"
+	{
+	}
+	elseif reference0 == "DEINO" || reference0 == "ZWEILOUS" || reference0 == "HYDREIGON"
+	{
+	}
+	elseif reference0 == "LARVESTA" || reference0 == "VOLCARONA"
+	{
+	}
+	elseif reference0 == "COBALION" || reference0 == "TERRAKION" || reference0 == "VIRIZION"
+	{
+		//G: Don't they have some legend associated with them?
+		//S: Cobalion Terrakion and Virizion [blah blah blah]
+		//G: I think Virizion looks like a Shaymin evolution.
+		//S: Huh?
+		//G: Look at Shaymin, Shaymin Sky, and Virizion next to each other! It totally looks like an evolution line!
+		//S: They aren't related though.
+		//G: As far as YOU know
+	}
+	elseif reference0 == "TORNADUS" || reference0 == "THUNDURUS" || reference0 == "LANDORUS" || reference0 == "ENAMORUS"
+	{
+	}
+	elseif reference0 == "RESHIRAN" || reference0 == "ZEKROM"
+	{
+		//G: Yeah you can tell I don't know a lot about Unova. Like, I know that's a thing FROM Unova, just don't recognize it at all.
+	}
+	elseif reference0 == "KYUREM"
+	{
+		//G: Yeah you can tell I don't know a lot about Unova. Like, I know that's a thing FROM Unova, just don't recognize it at all.
+	}
+	elseif reference0 == "KELDEO"
+	{
+		//G: It and Ponyta can be friends!
+	}
+	elseif reference0 == "MELOETTA"
+	{
+	}
+	elseif reference0 == "GENESECT"
+	{
+	}
+	
+	
+	
+	//GEN 6
+	elseif reference0 == "CHESPIN" || reference0 == "QUILLADIN" || reference0 == "CHESNAUGHT" || reference0 == "FROAKIE" || reference0 == "FROGADIER" || reference0 == "GRENINJA"
+	{
+		//G: Kalos starters! I think I like them, I always thought that Chesnaught looks really weird in pictures. I've started to come around to it, though.
+		//G: I think I could see Silver with a Greninja. Fits his edgy vibe. Personally, though, I think I'm a Delphox kind of girl!
+		//S: ...You're a boy.
+		//G: I am a boy! I just meant it in the... Metaphorical sense, y'know?
+	}
+	elseif reference0 == "BUNNELBY" || reference0 == "DIGGERSBY"
+	{
+	}
+	elseif reference0 == "FETCHLING" || reference0 == "FLETCHINDER" || reference0 == "TALONFLAME"
+	{
+	}
+	elseif reference0 == "SCATTERBUG" || reference0 == "SPEWPA" || reference0 == "VIVILLON"
+	{
+	}
+	elseif reference0 == "LITLEO" || reference0 == "PYROAR"
+	{
+		//GROWLITHE FOREVER
+	}
+	elseif reference0 == "FLABEBE" || reference0 == "Flabébé" || reference0 == "FLOETTE" || reference0 == "FLORGES"
+	{
+	}
+	elseif reference0 == "SKIDDO" || reference0 == "GOGOAT"
+	{
+	}
+	elseif reference0 == "PANCHAM" || reference0 == "PANGORO"
+	{
+	}
+	elseif reference0 == "FURFROU"
+	{
+	}
+	elseif reference0 == "ESPURR" || reference0 == "MEOWSTIC"
+	{
+		//G: I would travel to Kalos just for this pokemon. I...... love it.
+		//S: [Interested writing it down]
+		//G: Whacha writing
+		//S: None of your business.
+	}
+	elseif reference0 == "HONEDGE" || reference0 == "DOUBLADE" || reference0 == "AEGISLASH"
+	{
+	}
+	elseif reference0 == "SPRITZEE" || reference0 == "AROMATISSE"
+	{
+	}
+	elseif reference0 == "SWIRLIX" || reference0 == "SLURPUFF"
+	{
+		//G: But have you SEEN how CUTE Swirlix is??? I've never touched one but I bet they're so soft ;~; I just wanna give it a hug......
+		//G: You'd mistake it for a cotton candy pokemon if it didn't evolve!!!! aaaaaaa
+	}
+	elseif reference0 == "INKAY" || reference0 == "MALAMAR"
+	{
+	}
+	elseif reference0 == "BINACLE" || reference0 == "BARBACLE"
+	{
+	}
+	elseif reference0 == "SKRELP" || reference0 == "DRAGALGE"
+	{
+	}
+	elseif reference0 == "CLAUNCHER" || reference0 == "CLAWITZER"
+	{
+	}
+	elseif reference0 == "HELIOPTILE" || reference0 == "HELIOLISK"
+	{
+	}
+	elseif reference0 == "TYRUNT" || reference0 == "TYRANTRUM"
+	{
+	}
+	elseif reference0 == "AMAURA" || reference0 == "AURORUS"
+	{
+	}
+	elseif reference0 == "SYLVEON"
+	{
+	}
+	elseif reference0 == "HAWLUCHA"
+	{
+	}
+	elseif reference0 == "DEDENNE"
+	{
+	}
+	elseif reference0 == "CARBINK" || reference0 == "DIANCIE"
+	{
+	}
+	elseif reference0 == "GLOOMY" || reference0 == "SLIGGOO" || reference0 == "GOODRA"
+	{
+	}
+	elseif reference0 == "KLEFKI"
+	{
+	}
+	elseif reference0 == "PHANTUMP" || reference0 == "TREVENANT"
+	{
+	}
+	elseif reference0 == "PUMPKABOO" || reference0 == "GOURGEIST"
+	{
+	}
+	elseif reference0 == "BERGMITE" || reference0 == "AVALUGG"
+	{
+		//G: Thinking... uhh...
+		//G: I know there's a Pokemon with that name I just don't remember what it is. The name sounds like a Rock type. Is it from... Kalos?
+		//S: Native to Kalos, Bergmite, which evolves into Avalugg are both Ice types. [opens pokedex]
+		//G: ohhhh i kind of recognize Avalugg.
+		//S: Historically Avalugg was known to be part Rock Type.
+		//G: I'm just not very familiar with /kalos mon!
+	}
+	elseif reference0 == "NOIBAT" || reference0 == "NOIVERN"
+	{
+		//G: Sound type
+	}
+	elseif reference0 == "XERNEAS" || reference0 == "YVELTAL" || reference0 == "ZYGARDE"
+	{
+	}
+	elseif reference0 == "HOOPA"
+	{
+	}
+	elseif reference0 == "VOLVANION"
+	{
+	}
+	
+	
+	//GEN 7
+	elseif reference0 == "ROWLET" || reference0 == "DRATRIX" || reference0 == "DECIDUEYE" || reference0 == "POPPLIO" || reference0 == "BRIONNE" || reference0 == "PRIMARINA" || "LITTEN" || reference0 == "TORRACAT" || reference0 == "INCINEROUR"
+	{
+	//G: SILVER if I got one of the Alolan starters which one do you think I'd pick
+	//S: Of the Alolan starters... Litten?
+	//G: I think I'm a Popplio myself!!
+	//S: Huh?
+	//G: It turns into this mermaid looking thing! I think it's very pretty. Litten turns into Incinerour which is a Fire/Dark type, and I already HAVE Atticus.
+	//G: Incineroar looks too... mean, you know?
+	//G: WHICH, *was* your thing. But I think you're more of a Decidueye guy now.
+	//S: Because...?
+	//G: It's a mysterious owl thing! You USED to be into whatever looks scariest, but ACTUALLY you're just a shy boy. I think the hooded thing reminds me of you, personality wise.
+	//S: ...
+	
+	}
+	elseif reference0 == "PIKIPEK" || reference0 == "TRUMBEAK" || reference0 == "TOUCANNON"
+	{
+	}
+	elseif reference0 == "YUNGOOS" || reference0 == "GUMSHOOS"
+	{
+		//G: don't you think Gumshoos looks familiar...
+		//S: To what
+		//G: actually idk what im talking about lol
+	}
+	elseif reference0 == "GRUBBIN" || reference0 == "CHARJABUG" || reference0 == "VIKAVOLT"
+	{
+	}
+	elseif reference0 == "CRABRAWLER" || reference0 == "CRABOMINABLE"
+	{
+	}
+	elseif reference0 == "ORICORNIO"
+	{
+	}
+	elseif reference0 == "CUTIEFLY" || reference0 == "RIBOMBEE"
+	{
+		//S: [explains]
+		//G: Cutiefly sounds like a baby version of beautifly, if it wasn't one of those bugs.
+		//S: [shows pokedex]
+		//G: [hold hands up to face] it's so cute......
+		//S: Hm?
+		//G: I want to gently hold it in my hands and give it a kiss on the forhead. The name was not a lie!!!
+	}
+	elseif reference0 == "ROCKRUFF" || reference0 == "LYCANROC"
+	{
+		//G: I like Rockruff, its finally a Rock Type that doesn't just look like... Uh, a rock.
+		//S: Of course most Rock types are made of rocks. They're... rocks.
+		//G: And this one's a cute puppy that turns into a werewolf!
+		//S: I think that the Midday Form is more like a normal wolf...
+		//G: What is a normal wolf to you anyways?
+		//S: ...Mightyena.
+		//G: Those are from Hoenn... You ever seen one?
+		//S: No. But they look cool in pictures-
+		//G: GASP Silver LIKES something? I, for one, am shocked.
+		//S: Psh...
+	}
+	elseif reference0 == "WISHIWASHI"
+	{
+	}
+	elseif reference0 == "MAREANIE" || reference0 == "TOXAPEX"
+	{
+		//G: The Alolan Poison/Water type is way more exciting than the Poison/Water types here... Kanto has the common Tentacruel and Jotoh has... like... It's so boring I can't even remember the name.
+		//S: You can't remember the name of Qwilfish?
+		//G: I can I was just pretending I couldn't because it makes me so bored to even think of it.
+	}
+	elseif reference0 == "MUDBRAY" || reference0 == "MUDSDALE"
+	{
+	}
+	elseif reference0 == "DEWPIDER" || reference0 == "ARAQUANID"
+	{
+	}
+	elseif reference0 == "FROMANTIS" || reference0 == "LURANTIS"
+	{
+	}
+	elseif reference0 == "MORELULL" || reference0 == "SHIINOTIC"
+	{
+	}
+	elseif reference0 == "SALANDIT" || reference0 == "SALAZZLE"
+	{
+	}
+	elseif reference0 == "STUFFUL" || reference0 == "BEWEAR"
+	{
+	}
+	elseif reference0 == "BOUNSWEET" || reference0 == "STEENEE" || reference0 == "TSAREENA"
+	{
+	}
+	elseif reference0 == "BOUNSWEET" || reference0 == "STEENEE" || reference0 == "TSAREENA"
+	{
+	}
+	elseif reference0 == "COMFEY"
+	{
+	}
+	elseif reference0 == "ORANGURU"
+	{
+	}
+	elseif reference0 == "PASSIMIAN"
+	{
+	}
+	elseif reference0 == "WIMPPOD" || reference0 == "GOLISOPOD"
+	{
+	}
+	elseif reference0 == "SANDYGAST" || reference0 == "PALOSSAND"
+	{
+	}
+	elseif reference0 == "PYUKUMUKU"
+	{
+	}
+	elseif reference0 == "TYPE NULL" || reference0 == "TYPE: NULL" || reference0 == "TYPE:NULL"
+	{
+	}
+	elseif reference0 == "SILVALLY"
+	{
+	}
+	elseif reference0 == "MINIOR"
+	{
+	}
+	elseif reference0 == "KOMALA"
+	{
+	}
+	elseif reference0 == "TURTONATOR"
+	{
+	}
+	elseif reference0 == "TOGEDEMARU"
+	{
+	}
+	elseif reference0 == "MIMIKYU"
+	{
+	}
+	elseif reference0 == "BRUXISH"
+	{
+	}
+	elseif reference0 == "DRAMPA"
+	{
+	}
+	elseif reference0 == "DHELMISE"
+	{
+	}
+	elseif reference0 == "JANGMO-O" || reference0 == "JANGMO O" || reference0 == "HAKAMO-O" || reference0 == "HAKAMO O" || reference0 == "KOMMO-O" || reference0 == "KOMMO O"
+	{
+	}
+	elseif reference0 == "TAPU KOKO" || reference0 == "TAPU LELE" || reference0 == "TAPU BULU" || reference0 == "TAPU FINI"
+	{
+		//G: I dunno much about the tapus...
+	}
+	elseif reference0 == "COSMOG" || reference0 == "COSMOEM" || reference0 == "SOLGELEO" || reference0 == "LUNALA"
+	{
+	}
+	elseif reference0 == "NIHILEGO"
+	{
+	}
+	elseif reference0 == "BUZZWOLE"
+	{
+	}
+	elseif reference0 == "PHEROMOSA"
+	{
+	}
+	elseif reference0 == "XURKITREE"
+	{
+	}
+	elseif reference0 == "CELESTEELA"
+	{
+	}
+	elseif reference0 == "KARTANA"
+	{
+	}
+	elseif reference0 == "GUZZLORD"
+	{
+	}
+	elseif reference0 == "NECROZMA"
+	{
+	}
+	elseif reference0 == "MEGEARNA"
+	{
+	}
+	elseif reference0 == "MARSHADOW"
+	{
+	}
+	elseif reference0 == "POIPOLE" || reference0 == "NAGANADEL"
+	{
+	}
+	elseif reference0 == "STAKATAKA"
+	{
+	}
+	elseif reference0 == "BLACEPHALON"
+	{
+	}
+	elseif reference0 == "ZERAORA"
+	{
+		//G: Does it have a pre-evo?
+		//S: Not that is known.
+		//G: Looks like it should. Feels similar to, like, Lucario and Zorua you know?
+	}
+	elseif reference0 == "MELTAN" || reference0 == "MELMETAL"
+	{
+	}
+	
+	
+	//GEN 8
+	elseif reference0 == "GROOKEY" || reference0 == "THWACKEY" || reference0 == "RILLABOOM" || reference0 == "SCORBUNNY" || reference0 == "RABOOT" || reference0 == "CINDERACE" || reference0 == "SOBBLE" || reference0 == "DRIZZILE" || reference0 == "INTELEON"
+	{
+		//G: Ok so out of the Galar starters which one do you think I'd pick?
+		//S: [Thinking] ...Cinderace.
+		//G: Hehe you think of them based on their final forms
+		//S: Rillaboom is too obviously powerful looking, and you're typically interested in the fluffier pokemon...
+		//G: It's true!!! hehe we're such good friends
+		//S: T_T
+		//G: What about you? Which one do you think you'd pick?
+		//S: I think I'm skipping this one... There are other Galar pokemon.
+	}
+	elseif reference0 == "SKWOVET" || reference0 == "GREEDENT"
+	{
+	}
+	elseif reference0 == "ROOKIDIEE" || reference0 == "CORVISQUIRE" || reference0 == "CORVIKNIGHT"
+	{
+	}
+	elseif reference0 == "BLIPBUG" || reference0 == "BOTTLER" || reference0 == "ORBEETLE"
+	{
+	}
+	elseif reference0 == "NICKIT" || reference0 == "THIEVUL"
+	{
+	}
+	elseif reference0 == "GOSSIFLEUR" || reference0 == "ELDEGOSS"
+	{
+	}
+	elseif reference0 == "WOOLOO" || reference0 == "DUBWOOL"
+	{
+	}
+	elseif reference0 == "CHEWTLE" || reference0 == "DREDNAW"
+	{
+	}
+	elseif reference0 == "YAMPER" || reference0 == "BOLTUND"
+	{
+	}
+	elseif reference0 == "ROLYCOLY" || reference0 == "CARKOL" || reference0 == "COALOSSAL"
+	{
+	}
+	elseif reference0 == "APPLIN" || reference0 == "FLAPPLE" || reference0 == "APPLETUN" || reference0 == "DRIPPLIN" || reference0 == "HYDRAPPLE"
+	{
+	}
+	elseif reference0 == "SILICOBRA" || reference0 == "SANDACONDA"
+	{
+	}
+	elseif reference0 == "CRAMORANT"
+	{
+	}
+	elseif reference0 == "ARROKUDA" || reference0 == "BARRASKEWDA"
+	{
+	}
+	elseif reference0 == "TOXEL" || reference0 == "TOXTRICITY"
+	{
+	}
+	elseif reference0 == "SIZZLIPEDE" || reference0 == "CENTISKORCH"
+	{
+	}
+	elseif reference0 == "SLOBBOPUS" || reference0 == "GRAPPLOCT"
+	{
+	}
+	elseif reference0 == "SINISTEA" || reference0 == "POLTEAGEIST"
+	{
+	}
+	elseif reference0 == "HATENNA" || reference0 == "HATTREM" || reference0 == "HATTERENE"
+	{
+	}
+	elseif reference0 == "IMPIDIMP" || reference0 == "MORGREM" || reference0 == "GRIMMSNARL"
+	{
+	}
+	elseif reference0 == "GALARIAN ZIGZAGOON" || reference0 == "GALAR ZIGZAGOON" || reference0 == "GALARIAN LINOONE" || reference0 == "GALAR LINOONE" || reference0 == "OBSTAGOON"
+	{
+		//G: The Galarian zigzagoon are so much cooler than the ones I've seen...
+	}
+	elseif reference0 == "GALARIAN MEOWTH" || reference0 == "GALAR MEOWTH" || reference0 == "PERRSERKER"
+	{
+		//G: I'll be honest, Perrserker looks way more like a Meowth evolution than Persian does.
+	}
+	elseif reference0 == "SIRFETCH'D" || reference0 == "SIRFETCHD" || reference0 == "SIRFETCHED" || reference0 == "GALARIAN FARFETCH'D"
+	{
+		//G: I think ALL farfetched should evolve into this thing.
+	}
+	elseif reference0 == "MR RIME" || reference0 == "MR. RIME"
+	{
+		//G: What do you MEAN there's more mr mimes
+	}
+	elseif reference0 == "RUNERIGUS"
+	{
+	}
+	elseif reference0 == "MILCERY" || reference0 == "ALCREMIE"
+	{
+		//G: I can't recall...
+		//S: Here, you'll like this one.
+		//G: [looks at pokedex]
+		//G: It's MADE of CREAM?
+		//S: [looking at pokedex, so they're both on it] Milkcery evolves into Alcremie when the player dances while holding a "sweet"... It has many different forms and depending on what treat you were holding it turns into something different.
+		//G: That's the cutest thing I've ever heard!!! I would go to Galar JUST for this thing. But I don't wanna support a place that did whatever happened to Corsola!!!
+	}
+	elseif reference0 == "FALINKS"
+	{
+	}
+	elseif reference0 == "PINCHURCHIN"
+	{
+	}
+	elseif reference0 == "SNOM" || reference0 == "FROSMOTH"
+	{
+		//out of all the pokemon I don't have........... I love snom.
+	}
+	elseif reference0 == "STONJOURNER"
+	{
+	}
+	elseif reference0 == "EISCUE"
+	{
+	}
+	elseif reference0 == "INDEEDEE"
+	{
+	}
+	elseif reference0 == "MORPEKO"
+	{
+	}
+	elseif reference0 == "CUFANT" || reference0 == "COPPERAJAH"
+	{
+		//G: I think it and Phanphy would be friends.
+		//S: [talking about type advantages
+	}
+	elseif reference0 == "DRACOZOLT" || reference0 == "ARCTOZOLT" || reference0 == "DRACOVISH" || reference0 == "ARCTOVISH"
+	{
+	}
+	elseif reference0 == "DURALUDON" || reference0 == "ARCHALUDON"
+	{
+	}
+	elseif reference0 == "DREEPY" || reference0 == "DRAKLOAK" || reference0 == "DRAGAPULT"
+	{
+	}
+	elseif reference0 == "ZACIAN" || reference0 == "ZAMAZENTA"
+	{
+	}
+	elseif reference0 == "ETERNATUS"
+	{
+	}
+	elseif reference0 == "KUBFU" || reference0 == "URSHIFU"
+	{
+	}
+	elseif reference0 == "ZARUDE"
+	{
+	}
+	elseif reference0 == "GLASTRIER" || reference0 == "SPECTRIER"
+	{
+	}
+	elseif reference0 == "CALREX"
+	{
+	}
+	
+	
+	//Gen 9
+	elseif reference0 == "SPRIGATITO" || reference0 == "FLORAGATO" || reference0 == "MEOWSCARADA" || reference0 == "FUECOCO" || reference0 == "CROCALOR" || reference0 == "SKELEDIRGE" || reference0 == "QUAXLY" || reference0 == "QUAXWELL" || reference0 == "QUAQUAVAL"
+	{
+		//G: okok, in Paldea, which starter?
+		//S: Uhg... [thinking] The furry one, Meowscarada.
+		//G: I think you'd pick Fuecoco. It IS a really big intimidating thing- I see you as a Todidile guy, and it's a kind of aligator person.
+	}
+	elseif reference0 == "LECHONK" || reference0 == "OINKOLOGNE"
+	{
+	}
+	elseif reference0 == "TAROUNTULA" || reference0 == "SPIDOPS"
+	{
+	}
+	elseif reference0 == "NYMBLE" || reference0 == "LOKIX"
+	{
+	}
+	elseif reference0 == "PAWMI" || reference0 == "PAWMO" || reference0 == "PAWMOT"
+	{
+		//G: What do you MEAN it evolves??
+	}
+	elseif reference0 == "TANDEMAUSE" || reference0 == "MAUSHOLD"
+	{
+	}
+	elseif reference0 == "FIDOUGH" || reference0 == "DACHSBUN"
+	{
+	}
+	elseif reference0 == "SMOLIV" || reference0 == "DOLLIV" || reference0 == "ARBOLIVA"
+	{
+	}
+	elseif reference0 == "SQUAWKABILLY"
+	{
+	}
+	elseif reference0 == "NACLI" || reference0 == "NACLISTACK" || reference0 == "GARGANACLE"
+	{
+	}
+	elseif reference0 == "CHARCADET" || reference0 == "ARMAROUGE" || reference0 == "CERULEDGE"
+	{
+	}
+	elseif reference0 == "TADBULB" || reference0 == "BELLIBOLT"
+	{
+	}
+	elseif reference0 == "WATTREL" || reference0 == "KILOWATTREL"
+	{
+	}
+	elseif reference0 == "MASCHIFF" || reference0 == "MABOSSTIFF"
+	{
+	}
+	elseif reference0 == "SHROODLE" || reference0 == "GRAFAIAI"
+	{
+	}
+	elseif reference0 == "BRAMBLIN" || reference0 == "BRAMBLEGHAST"
+	{
+	}
+	elseif reference0 == "TOEDSCOOL" || reference0 == "TOEDSCRUEL"
+	{
+	}
+	elseif reference0 == "KLAWF"
+	{
+	}
+	elseif reference0 == "CAPSAKID" || reference0 == "SCOVILLAIN"
+	{
+	}
+	elseif reference0 == "RELLOR" || reference0 == "RABSCA"
+	{
+	}
+	elseif reference0 == "FLITTLE" || reference0 == "ESPATHRA"
+	{
+	}
+	elseif reference0 == "TINKATINK" || reference0 == "TINKATUFF" || reference0 == "TINKATON"
+	{
+	}
+	elseif reference0 == "WIGLETT" || reference0 == "WUGTRIO"
+	{
+	}
+	elseif reference0 == "BOMBIRDIER"
+	{
+	}
+	elseif reference0 == "FINIZEN" || reference0 == "PALAFIN"
+	{
+	}
+	elseif reference0 == "VAROOM" || reference0 == "REVAVROOM"
+	{
+		//G: What is it a car?
+		//G: Noooo I hate cars!!!!
+	}
+	elseif reference0 == "CYCLIZAR" || reference0 == "KORAIDON" || reference0 == "MIRAIDON"
+	{
+	}
+	elseif reference0 == "ORTHWORM"
+	{
+	}
+	elseif reference0 == "GLIMMET" || reference0 == "GLIMMORA"
+	{
+	}
+	elseif reference0 == "GREAVARD" || reference0 == "HOUNDSTONE"
+	{
+	}
+	elseif reference0 == "FLAMIGO"
+	{
+	}
+	elseif reference0 == "CETODDLE" || reference0 == "CETITAN"
+	{
+	}
+	elseif reference0 == "VELUZA"
+	{
+	}
+	elseif reference0 == "DONDOZO"
+	{
+	}
+	elseif reference0 == "TATSUGIRI"
+	{
+	}
+	elseif reference0 == "PALDEAN WOOPER" || reference0 == "CLODSIRE"
+	{
+	}
+	elseif reference0 == "PALDEAN WOOPER" || reference0 == "CLODSIRE"
+	{
+	}
+	elseif reference0 == "GREAT TUSK" || reference0 == "SCREAM TAIL" || reference0 == "BRUTE BONNET" || reference0 == "FLUTTER MANE" || reference0 == "SLITHER WING" || reference0 == "SANDY SHOCKS" || reference0 == "IRON TREADS" || reference0 == "IRON BUNDLE" || reference0 == "IRON HANDS" || reference0 == "IRON JUGULIS" || reference0 == "IRON MOTH" || reference0 == "IRON THORNS" || reference0 == "Roaring Moon" || reference0 == "IRON VALIANT" || reference0 == "WALKING WAKE" || reference0 == "IRON LEAVES" || reference0 == "GOUGING FIRE" || reference0 == "RAGING BOLT" || reference0 == "IRON BOULDER" || reference0 == "IRON CROWN"
+	{
+	}
+	elseif reference0 == "FRIGIBAX" || reference0 == "ARCTIBAX" || reference0 == "BAXCALIBUR"
+	{
+	}
+	elseif reference0 == "GRIMMIGHOUL" || reference0 == "GHOLDENGO"
+	{
+	}
+	elseif reference0 == "WO-CHIEN" || reference0 == "TING-LU" || reference0 == "CHIEN-PAO" || reference0 == "CHIN-YU"
+	{
+		//G: I wish Chien-Pao were more common... They look so cool! But no it's some mystic thing.
+	}
+	elseif reference0 == "POLTCHAGEIST" || reference0 == "SINISTCHA"
+	{
+	}
+	elseif reference0 == "OKIDOGI" || reference0 == "MUNKIDORI" || reference0 == "FEZANDIPITI"
+	{
+	}
+	elseif reference0 == "ORGERPON"
+	{
+	}
+	elseif reference0 == "TERAPAGOS"
+	{
+	}
+	elseif reference0 == "PERCHARUNT"
+	{
+	}
+	//reference0 == ""
+	
+	elseif reference0 == "a" || reference0 == "b" || reference0 == "c" || reference0 == "d" || reference0 == "e" || reference0 == "f" || reference0 == "g" || reference0 == "h" || reference0 == "i" || reference0 == "j" || reference0 == "k" || reference0 == "l" || reference0 == "m" || reference0 == "n" || reference0 == "o" || reference0 == "p" || reference0 == "q" || reference0 == "r" || reference0 == "s" || reference0 == "t" || reference0 == "u" || reference0 == "v" || reference0 == "w" || reference0 == "x" || reference0 == "y" || reference0 == "z"
+	{
+		//G: Are there any pokemon whos names are just one letter?
+		//S: You could start counting unown...
+	}
+	
+	else //Doesn't match any of the specified words
+	{
+		"\i[55]* (Try again!)\![open,inputbox,Onparserinput,-1]\e"
+	}
+}

@@ -1,0 +1,6 @@
+charset,UTF-8
+type,ghost
+name,Gold and Silver
+directory,gold_silver
+
+balloon.directory,q_heartgoldsoulsilver
