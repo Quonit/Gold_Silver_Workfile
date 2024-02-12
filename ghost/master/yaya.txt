@@ -12,7 +12,7 @@ dic, gs_bootend.dic
 dic, gs_commu.dic
 dic, gs_etc.dic			
 dic, gs_menu.dic
-dic, gs_mouse.dic			
+dic, gs_mouse.dic
 dic, gs_nameteach.dic
 dic, gs_pokedex.dic
 dic, gs_pokemon.dic

@@ -5,9 +5,7 @@
 
 OpenSakuraMenu
 {
-		"\0\s[0]\b2This is the first random menu open dialogue."
-		"\0\s[0]\b2This is the second random menu open dialogue."
-		"\0\s[0]\b2This is the third random menu open dialogue."
+		"\0\s[0]\b2"
 		--
 		MenuRun
 }
@@ -26,10 +24,10 @@ MenuRun
 	}
 	--
  	"\![*]\q[Say something,OnAiTalk]\n"
-	"\![*]\q[Say something 2,OnAiTalk]\n"
 	--
-	"\![*]\q[Config Menu,configmenu]\n/
-	\![*]\q[Functions,dosomething]\n\n[half]/
+	"\![*]\q[Options,configmenu]\n/
+	\![*]\q[Options,configmenu]\n/
+	\![*]\q[Functions,dosomething]\n/
  	\![*]\q[Nevermind,CANCEL]\n\n\n[half]%(wd) %(nowhour):%(nowmin) %(ap), %(month)/%(day)/%(year)\e"
 }
 
