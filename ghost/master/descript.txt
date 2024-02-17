@@ -8,5 +8,5 @@ craftmanw,Quonit
 craftmanurl,https://quonit.tumblr.com/
 sstp.allowunspecifiedsend,0
 shiori,yaya.dll
-icon,gt_template.ico
-balloon,z_simple
+icon,icon.ico
+balloon,Pokemon HGSS

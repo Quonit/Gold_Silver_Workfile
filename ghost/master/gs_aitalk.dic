@@ -42,10 +42,24 @@
  // \0\s[0]\1\s[0]\_s(put dialogue here) has characters say dialogue at the same time.
  // The envelope %(username)
  // The envelope %(heshe)
-
+/*
+Grammar Rules:
+ Pokèmon is always spelled with the accent. Words including the prefix pokè- also include the accent.
+ Types are capitalized. Ground Type, Bug Type, Flying Type, etc. Both words are capitalized.
+ The plural of any Pokemon is just their name. No s or anything at the end. Plural Pikachu is Pikachu. 
+*/ 
 //Potential play mode. Gold and Silver's Pokemon can be out on screen, but to make it easier to code I only want one at a time. If you swap out for a different one they do %(the name of the Pokemon) return!"
 //Pokemon battles could also be a thing
 //Should be separated into their own DIC files to avoid clutter
+
+/*
+Cloud Pool
+
+	//G: Isn't your Ampharos really big for members of its species? Usually they're like 4ft or so.
+	//S: It's always been a little large for its species...
+	//G: Makes it EXTRA STRONG I bet. You could teach it body slam.
+	//S: T_T
+*/
 
 RandomTalk : nonoverlap
 {
@@ -287,9 +301,91 @@ RandomTalk : nonoverlap
 	--
 	[Insert really dumb canon dialogue, multiple options, wrong numbers, ect]
 	--
-	G: ...?
-	S: [judgemental]
-	G: That's fair...
+	[Multi Option]
+	S: What if you got an important phone call but didn't notice because you expected it to be something unimportant?
+	G: I always answer my phone, so it's never been an issue, but I should probably organize my contact list. 
+	G: Man remember when I came back from Mt silver? I had so much mail! I thought they were done interviewing me after the league but apparently not even close.
+	
+	G: One I was in a cave, and I ran across a trainer from Unova. They had a Serperior, but they were really stressed out because it'd gotten stuck in a wall, and neither they or their Serperior could get it out.
+	S: Why didn't they just return the Serperior to its Pokeball?
+	G: So /I/ came up to them and asked, why don't you just return Serperior to its Pokeball?
+	S: [Lean in]
+	G: ...
+	G: They returned it to the Pokeball.
+	S: [T_T]
+	
+	G: Hey Silver.
+	G: What does Pichu evolve into?
+	S: [confused why he's asking] Pikachu...?
+	G: Gazuntite.
+	S: -! [annoyed]
+	G: [cracking up] Every 6 year old tells that joke to each other!!! I can't believe 	you've never heard it hahaha
+	[Chain1]
+	G: Hey Silver.
+	S: ...
+	G: How do you make a Meowth get into a bus?
+	S: ...
+	G: You Poke-'em-on.
+	S: ...
+	G: Tough crowd, hehe.
+	[Chain2]
+	G: Knock knock.
+	S: ...
+	G: Come on, Silv, work with me.
+	S: ...Who's there...?
+	G: ...
+	G: ...
+	G: ...
+	G: ...
+	G: ...
+	S: [Annoyed] Who's there?
+	G: Slowpoke!
+	[Gold laughs, Silver annoyed.]
+	[Chain3]
+	G: Hey Silver.
+	S: /What?/
+	G: What do you call it when a Pokemon uses the move Rain?
+	S: Strategic.
+	G: A Pokemonsoon.
+	S: Uhg >:/
+	G: Hey Silver- Hey Silver-	
+	S: I've learned that's the que you're going to start being annoying.
+	G: What's Onyx' favorite music genre?
+	S: Do not say rock.
+	G: It's rock! [Laughing]
+	//S: [Rolls eyes]
+	[Chain4]
+	S: ...
+	S: What did the Weavile say to the Cyndaquil?
+	G: What did it say?
+	S: ...
+	[He got too embarressed to finish.]
+	G:
+	G: Aww come on, you can do it!
+	S: No... I realized it's not actually that funny.
+	G: Whynauuuutt?
+	S: T_T
+	G: I've just told a way worse! You can do it!
+	S: ...I'll think of another one.
+	[Chain5]
+	G: What did the Cyndaquil say to the Weavile?
+	S: ...What?
+	G: ...You're pretty /cool/.
+	S: ...hm.
+	G: Closest to a laugh I've gotten out of you yet :D
+	
+	G: I think I need more Paralyz Heals when I get home.
+	S: How did you manage to run out...?
+	G: ...Because you're /stunning/.
+	S: T_T...?
+	G: In all seriousness, I usually just think it's fine since I have a few Full Restores, but those are way more expensive... I always forget to buy a lot of the more specific ones.
+	S: I generally consider Full Restores to be a poor investment...
+	G: Yeah, but I get them as gifts sometimes so no point in throwing them out.
+	
+	G: Hey %(username), what was the first Pokemon you caught?
+	G: Aparently, a lot of people release the first Pokemon they catch... Since it takes a lot of skill to raise a lot of the easier to catch Pokemon to a powerful level.
+	G: My first "catch" was Atticus, but he basically came to me, haha.
+	
 	*/
 /* Month dialogue
 

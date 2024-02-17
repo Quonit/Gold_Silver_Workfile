@@ -4,7 +4,7 @@ seriko.use_self_alpha,1
 charset,UTF-8
 type,shell
 name,Gold and Silver Version
-craftman,zarla
+craftman,quonit
 craftmanurl,http://www.ashido.com/ukagaka/walkthrough.html
 //Balloon
 sakura.balloon.offsetx,0

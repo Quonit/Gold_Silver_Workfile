@@ -286,9 +286,9 @@ Onparserinput
 	}
 	elseif reference0 == "farfetch'd"
 	{
-		//G: Can a farfetch'd lose its leek?
-		//S: ...
-		//G: Maybe it's like Slowbro, and the leek is an uncatalogued Pokemon and it'll devolve to "Normal Duck" if it loses it, hehe.
+		//G: Was giving away Pokemon Eggs... the one I got turned out to be a Farfetch'd.
+		//G: Turns out, they're pretty rare because they were hunted a few years back. So I found this Pokemon breeder couple... They raise the Farfetch'd and whenever it lays an egg, I help hatch it. Then we release them into a safe spot in the wild.
+		//G: Whatever I see a farfetched I wonder if it's related to mine! But who knows really.
 	}
 	elseif reference0 == "doduo" || reference0 == "dodrio"
 	{
@@ -424,9 +424,9 @@ Onparserinput
 	}
 	elseif reference0 == "goldeen" || reference0 == "seaking"
 	{
-		//In the big League Tornement, if there's a water Pokemon they'll change the stage to a biiiig pool for it. Usually only half the stage though, since they can't just ban land pokemon from fighting!
-		//It's really important for fish Pokemon to have a space to swim in.
-		//I really liked the atmousphere of the water gyms.
+		//In the big League Tornement, if there's a water Pokemon they'll change half the stage to a biiiig pool.
+		//It's really important for fish Pokemon to have a space to swim in. Most of them are fine on land, but some of them can only really flop around... and being "fine" doesn't mean they wouldn't still be disadvantaged.
+		//I did quite a lot of research after I got Hoanna. It's important to know what your Pokemon needs!
 	}
 	elseif reference0 == "staryu" || reference0 == "starmie"
 	{
@@ -442,6 +442,7 @@ Onparserinput
 	}
 	elseif reference0 == "mr. mime" || reference0 == "mr.mime" || reference0 == "mr mime" || reference0 == "mime jr" || reference0 == "mime jr."
 	{
+		
 	}
 	elseif reference0 == "scyther" || reference0 == "SCIZOR" || reference0 == "KLEAVOR"
 	{
@@ -536,11 +537,34 @@ Onparserinput
 	}
 	elseif reference0 == "zapdos"
 	{
-		//G: I saw a Zapdos once!
-		//S: Here we go...
-		//G: I saw it nesting in Mt.Silver. When it heared me it flew away.
+		//G: I heard a Zapdos one!
 		//G: It made this crackling sound- A riotous creak of sharp electric clicks...
 		//G: It was really loud, and strangely beautiful.
+		//S: How do you know it was a Zapdos if you hadn't seen it?
+		//G: I could tell I could see some of it, just not a really good look at it. Just a glance really.
+		//S: M-hm.
+		//G: You don't have to act so sarcastic! All that you're just jealous because you've never seen a legendary Pokemon.
+		//S: Oh please, /I've seen a Zapdos/,
+		//G: !
+		//S:I just know better than to talk about it.
+		//G: What do you MEAN You saw a Zapdos!? When did that happen! How did that happen!
+		//S: If I wanted to talk about it, I would have.
+		//G: Hmph! Well for as long as you refuse to talk about it, I don't believe you.
+		//S: Fine by me.
+		//G: [Sad face turn away] (Why won't he tell me about it...)
+	}
+	elseif reference0 == "articuno"
+	{
+		//G: I THINK I saw an Articuno once, but I'm not certain.
+		//G: I was in the Cinebarre Island ice cave, and I swear I saw some pokemon out of the corner of my eye. It looked like ice wings? At first I couldn't tell between it and the rest of the stalactites in the cave or the walls, but then I saw it moving and I could tell that there was some creature attached to it. But it disappeared before I could get a better look.
+		//S: Given your tendency to exaggerate, It really could have been anything and you just decided it was an Articuno.
+		//G: Could have been, though! I've heard people say similar stories.
+	}
+	elseif reference0 == "moltres"
+	{
+		//G: I saw a Moltres once!
+		//S: Here we go...
+		//G: I saw it nesting in Mt.Silver. When it heared me it flew away.
 		//S: How are we supposed to believe you with how much you lie about everything else?
 		//G: I Don't need you to believe me! I'll always know in my heart that it happened.
 		//S: Why didn't you try to catch it?
@@ -548,14 +572,12 @@ Onparserinput
 		//S: And you have no pictures or video...
 		//G: I didn't want to waste my time setting up a recording, I was... Transfixed. It was so brief anyways I would have just missed out on the moment and sometimes that's all that matters. Not everything has to be documented to be important.
 	}
-	elseif reference0 == "articuno"
-	{
-	}
-	elseif reference0 == "moltres"
-	{
-	}
 	elseif reference0 == "dratini" || reference0 == "dragonair" || reference0 == "dragonite"
 	{
+		//G: The only Pokemon from the Dratini line that I've ever seen are used by very powerful trainers... I've never seen one in the wild, or know where you could get one.
+		//S: They're highly sought after for their pseudo legendary status, but  One must have a careful hand to raise them. Only the most powerful trainers can control them.
+		//G: /And/ they run away if you're not nice to them. You can't be a powerful Pokemon trainer without compassion.
+		//S: Whatever.
 	}
 	elseif reference0 == "mew"
 	{
@@ -606,27 +628,58 @@ Onparserinput
 	}
 	elseif reference0 == "ledyba" || reference0 == "ledian"
 	{
+		//G: It must be hard being such a small Bug Type.
+		//G: I can't help but root for it whenever I see one. It's like a classic Underdog Story.
+		//S: I don't think trainers shouldn't force their pets into battles they know they can't win.
+		//G: There's no such thing as a weak Pokemon, just a weak trainer.
+		//S: The Ledyba line is not a line created for fighting. They're for gardening. If we're supposed to care about pokémon, shouldn't we prevent them from getting hurt? 
+		//G: Pokémon don't get hurt in battles if their trainer doesn't make it fight after faint. As long as the Pokemon isn't severely undermatched-
+		//S: It /is/ undermatched by most serious opponants. There's a reason that they separate boxing matches by weight.
+		//G: Boxing matches aren't an apt metaphor for Pokemon battles...
+		//G: If they're a good trainer, I think any pokemon can succeed.
+		//G: Strong Pokemon, weak Pokemon-
+		//S: Ledyba *is* weaker, though. It's not an applicable here.
+		//G: It is, though! The saying is about all Pokemon, even Ledyba- No, /especially/ Ledyba. You just have to learn that!
 	}
 	elseif reference0 == "spinarak" || reference0 == "ariados"
 	{
+		//G: I had an Ariados, briefly. I didn't train it, though.
+		//S: What happened to it?
+		//G: Oh, I traded it! The reason I caught it was to give to someone else, haha.
+		//G: I hear they're really feirce in battle, but MORE IMPORTANTLY I heard that some knitters keep them as pets for thread!
 	}
 	elseif reference0 == "chinchou" || reference0 == "lanturn"
 	{
+		
 	}
 	elseif reference0 == "togepi" || reference0 == "togetic" || reference0 == "togekiss"
 	{
+		//G: Well, I was SUPPOSED To get a Togepi, the professors were giving out eggs... But then this random person cut in front of me and got it instead! I really like Togakiss, I would have liked one of them!
+		//S: First come first serve...
+		//G: It's fine though, stuff happens. Farfetch'd isn't a bad Pokemon, and it was probably good I got it since I knew the right people to get in contact with about it.
 	}
 	elseif reference0 == "natu" || reference0 == "xatu"
 	{
 	}
 	elseif reference0 == "mareep" || reference0 == "flaffy" || reference0 == "ampharos"
 	{
+		//G: So /Silver/, how did it feel to breaking to a prestigious lab, steal a Pokemon belonging to it, making yourself a criminal in the process, and then summoning the creature you assume to be rare and powerful, and it turns out to be a mareep?
+		//S: ... [Edgy crossing arms]
+		//G: You were so obsessed with only having the strongest most powerful Pokemon, and you had this real tough guy attitude about you. And then your main Pokemon was this fluffy sheep!
+		//G: Flaaffy is adorable and all but that's not exactly your thing is it?
+		//S: You've gotten your point across, what do you want?
+		//G: I'm just saying... You having an Ampharos made you so much easier for me to sympathize with you. It clearly didn't match the style you were going for and you kept it anyways so I knew despite what your words said and may have truly believed, you did still care for Pokemon deep down.
+		//S: ...
 	}
 	elseif reference0 == "marill" || reference0 == "azumarill" || reference0 == "azurill"
 	{
+	//G: I don't have any idea why Kanto people call a Azumarill "Pikablue". It doesn't even look anything like a Pikachu!
 	}
 	elseif reference0 == "sudowoodo" || reference0 == "bonsly"
 	{
+		//G: I used to think that /everyone/ knew sudowoodo was a rock type. it's common knowledge here, it has the word pseudo in its name!
+		//G: But apparently, I only think this is common knowledge because I live in Johto where Sudowoodo and bonsley are common.
+		//G: Look, I TRIED to tell him that Sudowoodo was a Rock Type, but he didn't believe me! He thought Typhlosion's Flamethrower can get past aaaanything. That definitely didn't work out for him.
 	}
 	elseif reference0 == "hoppip" || reference0 == "skiploom" || reference0 == "jumpluff"
 	{
@@ -678,6 +731,7 @@ Onparserinput
 	}
 	elseif reference0 == "gligar" || reference0 == "gliscor"
 	{
+		//
 	}
 	elseif reference0 == "snubbul" || reference0 == "granbull"
 	{
@@ -754,6 +808,7 @@ Onparserinput
 	}
 	elseif reference0 == "smeargle"
 	{
+		//grafitti
 	}
 	elseif reference0 == "tyrogue" || reference0 == "hitmontop"
 	{
@@ -851,9 +906,28 @@ Onparserinput
 	}
 	elseif reference0 == "ralts" || reference0 == "kirlia" || reference0 == "gardevoir"
 	{
+		//G: Tips for new trainers: Don't make your only Pokemon or Ralts that only knows growl. Get something else as a starter, or get it when it's at a higher level. The only reason that me and Silklay made it out of that forest is because a random wild Pokemon took pity on us.
 	}
 	elseif reference0 == "surskit" || reference0 == "masquerain"
 	{
+		//S: Again, how did you get your hands on a Hoenn Pokemon in Johto? You can't find Masquerain here.
+		//G: I'll be honest-
+		//S: A first.
+		//G: I traded for one. She wanted an Ariados in return, so I found one.
+		//S: ...Why not just use the Ariados?
+		//G: I like Masquerain!
+		//S: You have so many Hoenn Pokémon for someone who's never been to Hoenn.
+		//G: Okay, when I was a little kid I used to watch the show a lot. It was kind of like a game show, where there were these kids were being given tasks by a cartoon Spinda... The kids would use their Pokemon to compete, being sent on tasks to go to specific areas or do whatever random thing. It was supposed to be educational to teach people about different careers, I think.
+		//G: The show was made in Hoenn, so it had a lot of Hoenn and Pokemon in it. So it made me more determined to get those ones when I saw them!
+		//G: Besides, Hoenn isn't the farthest place from here compared to a lot of the other regions.
+		//G: ...You've stopped paying attention, haven't you?
+		//S: I'm not interested in kids shows.
+		//G: You SAY you aren't, but you're just trying to look cool!!! EVERYONE has some media from their childhood they're still emotionally attached to.
+		//S: Not everyone is as immature as you.
+		//G: I could say the same thing! Being unable to like things doesn't make you cool.
+		//S: And liking stupid shows made for babies does?
+		//G: I ...Yes. Very.
+		//S: T_T
 	}
 	elseif reference0 == "shroomish" || reference0 == "breloom"
 	{
@@ -1328,16 +1402,10 @@ Onparserinput
 	elseif reference0 == "VICTINI"
 	{
 	}
-	elseif reference0 == "snivy" || reference0 == "SERVINE" || reference0 == "SERPERIOR"
+	elseif reference0 == "snivy" || reference0 == "SERVINE" || reference0 == "SERPERIOR" || reference0 == "tepig" || reference0 == "PIGNITE" || reference0 == "EMBOAR" || reference0 == "oshawott" || reference0 == "dewott" || reference0 == "samurott"
 	{
 		//G: losing your arms gotta be tough
-	}
-	elseif reference0 == "tepig" || reference0 == "PIGNITE" || reference0 == "EMBOAR"
-	{
 		//G: Emboar looks like a pot
-	}
-	elseif reference0 == "oshawott" || reference0 == "dewott" || reference0 == "samurott"
-	{
 	}
 	elseif reference0 == "patrat" || reference0 == "watchhog"
 	{
@@ -1353,6 +1421,9 @@ Onparserinput
 	}
 	elseif reference0 == "MUNNA" || reference0 == "MUSHARNA"
 	{
+		//G: They're used for aromatherapy or something, which you know it sounds cool. I don't really know a lot about perfume or whatever.
+		//G: What I do know is that aromatherapy isn't something for me. Really strong smells can give me headaches
+		//S: 
 	}
 	elseif reference0 == "PIDOVE" || reference0 == "TRANQUILL" || reference0 == "UNFEZANT"
 	{
@@ -1371,12 +1442,15 @@ Onparserinput
 	}
 	elseif reference0 == "AUDINO"
 	{
+		//G: Sound type!
 	}
 	elseif reference0 == "TIMBURR" || reference0 == "GURDURR" || reference0 == "CONKELDURR"
 	{
 	}
 	elseif reference0 == "TYMPOLE" || reference0 == "PALPITOAD" || reference0 == "SEISMITOAD"
 	{
+		//G: Seismitoad looks so sad! It's got sores all over its body, its frowning, its head is lowered down... And its big red dopey eyes!
+		//G: Really doesn't look like it wants to be alive.
 	}
 	elseif reference0 == "THROH" || reference0 == "SAWK"
 	{
@@ -1985,6 +2059,9 @@ Onparserinput
 	}
 	elseif reference0 == "SIRFETCH'D" || reference0 == "SIRFETCHD" || reference0 == "SIRFETCHED" || reference0 == "GALARIAN FARFETCH'D"
 	{
+		//G: Can a farfetch'd lose its leek?
+		//S: ...
+		//G: Maybe it's like Slowbro, and the leek is an uncatalogued Pokemon and it'll devolve to "Normal Duck" if it loses it, hehe.
 		//G: I think ALL farfetched should evolve into this thing.
 	}
 	elseif reference0 == "MR RIME" || reference0 == "MR. RIME"

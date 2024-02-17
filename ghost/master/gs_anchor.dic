@@ -1,3 +1,8 @@
+//I will also be using this balloon for coding oriented envelopes. I feel like it makes more sense and gives this file more things to do.
+//This is also because I might want to use the anchor dialogue somewhere else, so putting it in an envelope makes more sense but I still want it here because that's where people would expect it to be.
+
+
+
 OnTranslate
 {
 _talk = reference0
