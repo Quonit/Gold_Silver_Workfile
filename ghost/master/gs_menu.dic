@@ -94,7 +94,7 @@ Select.BACKTOMENU
 OnGoldmon
 {
 	"\i[55]\_qSilklay Atticus Norma\n/
-	\_b[img\_G_Silklay.png] \_b[img\_G_Atticus.png] \_b[img\_G_Norma.png]/
+	\_b[img\_G_Silklay.png,use_self_alpha] \_b[img\_G_Atticus.png,use_self_alpha] \_b[img\_G_Norma.png,use_self_alpha]/
 	"
 	//Ask how he got...
 	
