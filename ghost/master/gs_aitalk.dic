@@ -51,7 +51,9 @@ Grammar Rules:
 //Potential play mode. Gold and Silver's Pokemon can be out on screen, but to make it easier to code I only want one at a time. If you swap out for a different one they do %(the name of the Pokemon) return!"
 //Pokemon battles could also be a thing
 //Should be separated into their own DIC files to avoid clutter
-
+/*
+G: [Pokename] return! There's not enough room on %(username)'s screen for two of you at once.
+*/
 /*
 Cloud Pool
 
@@ -373,6 +375,15 @@ RandomTalk : nonoverlap
 	G: ...You're pretty /cool/.
 	S: ...hm.
 	G: Closest to a laugh I've gotten out of you yet :D
+	/
+	G: If you were a Pokemon, I think you'd be a Steel Type. 
+		/
+		G: Because you /steel/ Pokemon.
+		S: >:/
+		/
+		Because you /steel/ my heart :3
+		S: Past tense of steal is stole.
+		G: Pshh. I know you got it.
 	
 	G: I think I need more Paralyz Heals when I get home.
 	S: How did you manage to run out...?

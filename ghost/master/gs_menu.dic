@@ -25,7 +25,7 @@ MenuRun
 	--
  	"\![*]\q[Say something,OnAiTalk]\n"
 	--
-	"\![*]\q[Options,configmenu]\n/
+	"\![*]\q[Pokedex,OnMenuPokedex]\n/
 	\![*]\q[Options,configmenu]\n/
 	\![*]\q[Functions,dosomething]\n/
  	\![*]\q[Nevermind,CANCEL]\n\n\n[half]%(wd) %(nowhour):%(nowmin) %(ap), %(month)/%(day)/%(year)\e"

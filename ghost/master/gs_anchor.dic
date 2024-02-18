@@ -8,7 +8,11 @@ OnTranslate
 _talk = reference0
 	_talk = REPLACE(_talk, "Atticus", "\_a[Atticus]Atticus\_a")
 	_talk = REPLACE(_talk, "Silklay", "\_a[Silklay]Silklay\_a")
-	_talk = REPLACE(_talk, "Anchor 3", "\_a[anchor3]Anchor 3\_a")
+	_talk = REPLACE(_talk, "anNorma", "\_a[Norma]Norma\_a")
+	_talk = REPLACE(_talk, "anCreh", "\_a[Creh]Creh\_a")
+	_talk = REPLACE(_talk, "EevCandy", "\_a[Candy]Candy\_a")
+	_talk = REPLACE(_talk, "EevCitrus", "\_a[Citrus]Citrus\_a")
+	_talk = REPLACE(_talk, "anInterception", "\_a[Interception]Interception\_a")
 		if reference1 == "" && reference2 == "" {
             EVAL('"' + REPLACE(_talk,'"','" + CHR(0x22) + "') + '"')
         }
@@ -106,6 +110,24 @@ OnAnchorSelect
 				//S: [big blush embarrassed, releases Citrus.] Only because it was yours to begin with.
 				//Citrus: [cool looking]
 			}
+			when "Interception"
+			{
+				AskCitrus = "on"
+				//G: Silver, why did you capture a Zubat?
+				//S: It had an impressive Supersonic.
+				//G: Why did you name it Interception?
+				//S: If you were smart, you'd figure it out.
+				//G: [shrug]
+			}
 		}
 	}
+}
+
+
+
+
+MenuEnd
+{
+	"\![*]\q[Go Back,BACKTOMENU]\n/
+	\![*]\q[Exit,CANCEL]"
 }
