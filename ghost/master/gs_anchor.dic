@@ -6,8 +6,8 @@
 OnTranslate
 {
 _talk = reference0
-	_talk = REPLACE(_talk, "Atticus", "\_a[Atticus]Atticus\_a")
-	_talk = REPLACE(_talk, "Silklay", "\_a[Silklay]Silklay\_a")
+	_talk = REPLACE(_talk, "anAtticus", "\_a[Atticus]Atticus\_a")
+	_talk = REPLACE(_talk, "anSilklay", "\_a[Silklay]Silklay\_a")
 	_talk = REPLACE(_talk, "anNorma", "\_a[Norma]Norma\_a")
 	_talk = REPLACE(_talk, "anCreh", "\_a[Creh]Creh\_a")
 	_talk = REPLACE(_talk, "EevCandy", "\_a[Candy]Candy\_a")

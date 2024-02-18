@@ -1,14 +1,8 @@
 OnMenuPokedex //When you click the "Pokedex" option from the menu
 {
-	"\b2\![*]\q[KantoDex,OnKantoDex]\n/
-	\![*]\q[JohtoDex,OnJohtoDex]\n/	
-	\![*]\q[HoennDex,OnHoennDex]\n/	
-	\![*]\q[SinnohDex,OnSinnohDex]\n/	
-	\![*]\q[KalosDex,OnKalosDex]\n/	
-	\![*]\q[UnovaDex,OnUnovaDex]\n/	
-	\![*]\q[AlolaDex,OnAlolaDex]\n/	
-	\![*]\q[GalarDex,OnGalarDex]\n/	
-	\![*]\q[OaldeaoDex,OnPaldeaDex]/
+	"\b2\_q\![*]\q[KantoDex,OnKantoDex]         \![*]\q[JohtoDex,OnJohtoDex]         \![*]\q[HoennDex,OnHoennDex]\n/	
+	\![*]\q[SinnohDex,OnSinnohDex]        \![*]\q[KalosDex,OnKalosDex]          \![*]\q[UnovaDex,OnUnovaDex]\n/	
+	\![*]\q[AlolaDex,OnAlolaDex]          \![*]\q[GalarDex,OnGalarDex]         \![*]\q[PaldeaoDex,OnPaldeaDex]/
 	\n\n%(MenuEnd)\e"
 
 }

@@ -26,6 +26,7 @@ MenuRun
  	"\![*]\q[Say something,OnAiTalk]\n"
 	--
 	"\![*]\q[Pokedex,OnMenuPokedex]\n/
+	\![*]\q[Gold's Pokemon,OnGoldmon]\n/
 	\![*]\q[Options,configmenu]\n/
 	\![*]\q[Functions,dosomething]\n/
  	\![*]\q[Nevermind,CANCEL]\n\n\n[half]%(wd) %(nowhour):%(nowmin) %(ap), %(month)/%(day)/%(year)\e"
@@ -90,8 +91,11 @@ Select.BACKTOMENU
 	}
 	
 	
-OnGPokeAsk
+OnGoldmon
 {
+	"\i[55]\_qSilklay Atticus Norma\n/
+	\_b[img\_G_Silklay.png] \_b[img\_G_Atticus.png] \_b[img\_G_Norma.png]/
+	"
 	//Ask how he got...
 	
 	//Silklay
@@ -161,10 +165,7 @@ OnGPokeAsk
 	
 	//Konkurs
 	//Drugia deciding to live with my Mom was a bit of a hit to the team... I mean, he was a great battler and we all loved him! But it was the right decision letting him stay at home with my Mom.
-	//I was wandering around Victory Road, which isn't really a road it's a cave... And it doesn't feel real victorious either, it's a cave.
-	//There were a LOT of Trapinch in this cave. Their big mouths have this clacking sound, the cave was really weird to be in.
-	//I liked the idea of a Trapinch, but raising a dragon type is hard work... and I didn't feel a real connection with all them.
-	//Then: Fate happened.
+	//
 	
 	
 	//Other Pokemon
