@@ -83,8 +83,7 @@ RandomTalk : nonoverlap
 	
 	"\0\s[13]Have you ever been in a bug-catching contest, %(username)?\w8\1\s[206]\i[7]I don't think they have those outside of Jotoh\w2.\w2.\w2.\w8\0\s[11]\n\nReally?? \w8\s[5]\i[9]I think they're kinda fun!\w8\1\s[206]\i[8]\n\nI hear complaints about the judges are common\w2.\w2.\w2.\w8\0\s[14]\n\nI've never had any issues with them at least.\w8\s[3] I caught a Pinsir at one once!\w8\1\n\nI've never seen you with it.\w8\0\s[5]\n\nYeah,\w5 me and him aren't super friendly.\w8 But he's helpful for cutting and climbing things.\e"
 	
-	"\0\s[2]I don't think Lucario should be a Dark/Steel type.\w8\1\s[201]\f[italic,true]I\f[italic,false] don't think that's something you can decide.\w8\0\s[11]\n\nBut like!!\w8\n\n\s[1]It has AURAS and can sense other Pokemon and read minds!!\w8 That's totally psychic!\w8\1\n\n...?\w8\0\s[2]\n\nI think it should be a psychic fighting type,\w5\0\s[4]and that'd be super cool because fighting is usually weak to psychic!!\w8\1\s[202]\n\n(Lucario isn't even a dark type...)\e"
-	
+
 	"\0\s[4]Once I saw a-\w6\1\s[206]\i[8]Isn't it funny that whenever you \f[italic,true]claim\f[italic,false] to have seen a legendary, either nobody was there to confirm it or somebody was there to de-confirm it?\w8\0\s[2]\n\nhmph!\e"
 	
 	//temp dialogue
@@ -398,6 +397,12 @@ RandomTalk : nonoverlap
 	G: My first "catch" was Atticus, but he basically came to me, haha.
 	
 	G: Why is Psychic Type strong against Poison Type? It's not like you can reason your way out of an illness.
+	
+	G: yeah they do manual labor or electric Pokémon can provide power, but you’re not going to see a Pokémon doing paperwork you know?
+	G: I've known geodudes in construction, raichu electricians-
+	S: Persian lawyers
+	G: Yeah, persian lawye- wait what?
+	S:...
 	*/
 /* Month dialogue
 

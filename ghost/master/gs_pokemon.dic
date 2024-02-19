@@ -1316,6 +1316,8 @@ Onparserinput
 	}
 	elseif reference0 == "riolu" || reference0 == "lucario"
 	{
+		"\0\s[2]I don't think Lucario should be a Dark/Steel type.\w8\1\s[201]\f[italic,true]I\f[italic,false] don't think that's something you can decide.\w8\0\s[11]\n\nBut like!!\w8\n\n\s[1]It has AURAS and can sense other Pokemon and read minds!!\w8 That's totally psychic!\w8\1\n\n...?\w8\0\s[2]\n\nI think it should be a psychic fighting type,\w5\0\s[4]and that'd be super cool because fighting is usually weak to psychic!!\w8\1\s[202]\n\n(Lucario isn't even a dark type...)\e"
+
 	}
 	elseif reference0 == "hippowdon" || reference0 == "hippopotas"
 	{
