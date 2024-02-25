@@ -383,7 +383,8 @@ RandomTalk : nonoverlap
 		Because you /steel/ my heart :3
 		S: Past tense of steal is stole.
 		G: Pshh. I know you got it.
-	
+
+
 	G: I think I need more Paralyz Heals when I get home.
 	S: How did you manage to run out...?
 	G: ...Because you're /stunning/.
@@ -403,6 +404,20 @@ RandomTalk : nonoverlap
 	S: Persian lawyers
 	G: Yeah, persian lawye- wait what?
 	S:...
+	
+	G: I wonder if there's anywhere here I can fish...
+	S: I doubt you'll find a lot of Pokemon out here.
+	G: You never know! You pick up all sorts of weird things when fishing. Kingler, Sharpedo, Omastar, might've even seen Lugia down there once.
+	S: T_T
+	
+	//S: What are you doing?
+	//G: Listening to the radio! Pretty lucky I still get reception out here.
+	--
+	[random radio dialogue]
+	
+	G: do you sometimes get that thing where your vision gets blurry and you just start seeing weird random colors?
+	S: No???
+	G: just me then I guess.
 	*/
 /* Month dialogue
 
@@ -590,30 +605,6 @@ RandomTalk : nonoverlap
 	
 	//Additional Note - You can't test this kind of dialogue in Script Input. You'll have to wait until it comes up naturally in your ghost's random dialogue.
 	}
-	
-	//--Multiple Responses
-	/*
-	{ //Again, note the brackets around these unique bits of dialogue.
-	
-	"\0\s[0]I am asking you a generic question, Triangle. Generic question?\w8\1\s[10]"
-	--
-	"This is my first response."
-	"This is my second response."
-	"This is my third response."
-	"This is my fourth response."
-	"This is my fifth response."
-	"This is my sixth response."
-	--
-	"\w8\0\s[0]\n\n[half]"
-	-- 
-	"First response to your response."
-	"Second response to your response."
-	"Third response to your response."
-	"Fourth response to your response."
-	--
-	"\e"
-	}
-	*/
 }
 
 //--Chains

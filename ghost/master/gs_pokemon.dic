@@ -706,6 +706,11 @@ Onparserinput
 	}
 	elseif reference0 == "murkrow" || reference0 == "honchkrow"
 	{
+		//G: Hey silver, don't you have a Murkrow?
+		//S: No... There's one that follows me, but it doesn't seem interested in being caught.
+		//S: I have no idea how it managed to follow me to Kanto, but I can tell it's the same one.
+		//G: Aww, cute!
+		//S: I believe it leaves me items sometimes. They're known to do that.
 	}
 	elseif reference0 == "misdreavus" || reference0 == "mismagius"
 	{
@@ -842,7 +847,12 @@ Onparserinput
 	}
 	elseif reference0 == "celebi"
 	{
-		//q: maybe silver saw a celebi once?
+		//G: ME AND CRYSTAL SAW A CELEBI ONCE!
+		//S: Of course you did.
+		//G: I have someone to back me up this time, though! We were in Ilex forest. People put up shrines for Celebi there, and we both saw it near one!
+		//G: Unfortunately, it didn't take us it on an adventure through time.
+		//S: Shame, I would have preferred if you got stuck there.
+		//G: Aw, you don't mean that!
 	}
 	
 	//GEN 3
@@ -1755,6 +1765,7 @@ Onparserinput
 	}
 	elseif reference0 == "KLEFKI"
 	{
+		//Write about Clefkey having the key to your heart. And security risks with clefkey
 	}
 	elseif reference0 == "PHANTUMP" || reference0 == "TREVENANT"
 	{
