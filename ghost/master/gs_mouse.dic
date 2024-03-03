@@ -51,16 +51,7 @@ MouseMoveKero
 				"\1\s[10]This is a point touching dialogue since I don't really have a head, being a triangle.\e"
 				"\1\s[10]This is another point touching dialogue.\e"
 				"\1\s[10]This is yet another point touching dialogue.\e"
-			}
-			/*
-			//Banconanas
-			Tropius fruit facts! They SAY you can only grow two per year, but if you take care of them and feed them the right things they can do way more!
-
-			G: (takes one) the secret ingredient is love
-			G: Hey Silver. I’ll give you some of mine if you say you love me.
-			S: (blush) No…
-
-			*/
+			}	
  		}
 	}
  	else

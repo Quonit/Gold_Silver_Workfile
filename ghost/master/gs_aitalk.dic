@@ -61,24 +61,6 @@ Cloud Pool
 	//S: It's always been a little large for its species...
 	//G: Makes it EXTRA STRONG I bet. You could teach it body slam.
 	//S: T_T
-	
-Honoa Pool
-G: I’ll never go hungry with Honoa around! If we need to, he can change the colors of the light in front of his face, lower it, and the fish come to him!
-G: Then he electrocutes them
-S: Do you….. know how to prepare fish from being raw
-G: … give them to Atticus first?
-
-G: I don’t think that enough people consider the utility of having a water type. That’s also an electric type. Surfing become so much easier when the wild Pokémon in the water can easily be defeated by the Pokémon you’re surfing on.
-Plus, one of the main weaknesses of the electric type, ground type is notified because water is super effective against ground.
-
-G: Silver doesn’t have a water type on his team, so sometimes if we have to cross water Honoa transports both of us at the same time!
-S: Don’t tell username that!
-
-Banco Pool
-G: hey username, how about you point your screen towards the sun is so that she can get more sunlight!
-S: I don’t think that will work. 
-
-She can only fly during the daytime, during night it’s a lot harder to get the energy for it. If I really need to fly during the night, I can ask. Konkurs, but he’s a little more scary to fly on because he doesn’t have as much practice or is as easy to sit on.
 */
 
 RandomTalk : nonoverlap
@@ -436,11 +418,6 @@ RandomTalk : nonoverlap
 	G: do you sometimes get that thing where your vision gets blurry and you just start seeing weird random colors?
 	S: No???
 	G: just me then I guess.
-	
-	G: Golden rod city is so easy to get lost in
-	
-	G: Ice Types aren't exactly common! Even on Mt.Silver I only ran into a few, and that place is a big snowey mountain... The only one I can remember giving me trouble was your Regice.
-	S: It was a Beartic.
 	*/
 /* Month dialogue
 
