@@ -1096,6 +1096,13 @@ Onparserinput
 	}
 	elseif reference0 == "feebas" || reference0 == "milotic"
 	{
+		//G: Hey Silv, what do you think is better, a Feebass or Milotic?
+		//S: You're setting me up so you can criticize me for choosing one.
+		//G: What? Oh, no, I'm just looking for your honest opinion.
+		//S: Why?
+		//G: Apparently there's a group of people that think that Feebass is prettier than Milotic. They're very passionate about these opinions, I find it hilarious.
+		//S: ...In what universe would...
+		//G: maybe we should track one of these guys and ask them ourselves, lol
 	}
 	elseif reference0 == "castform"
 	{
