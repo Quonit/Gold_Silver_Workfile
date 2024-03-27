@@ -87,7 +87,11 @@ Onparserinput
 	}
 	elseif reference0 == "raichu" || reference0 == "pichu"
 	{
-		//G: Poor Pichu and Raichu... There are some people who doesn't even know Raichu EXISTS because of how popular Pikachu is! They're like... What do you mean it can evolve! Why would I do that!
+		//G: Surprise!
+		//S: ...?
+		//G: That's what Tala named her Raichu, heh. It's /always/ funny.
+		//S: For some reason I struggle to believe that.
+		//G: Poor Pichu and Raichu, though... There are some people who doesn't even know Raichu EXISTS because of how popular Pikachu is! They're like... What do you mean it can evolve! Why would I do that!
 		//G: So, Pokedex. How Pokemon are indexed is that you give the first Pokemon in an evolution line a number, so, like, number 25. Then the second number is how many times it's evolved. It'd be like, Pichu 25.0, Pikachu 25.1, and then Raichu 25.2. And 25 would be known as "The Pichu Line".
 		//EXCEPT, this is the ONLY LINE where it's NOT named after the first Pokemon in the evolution! It's just CALLED the Pikachu line! Because they only indexed Pichu later and didn't want to change it.
 		//S: I heard there's a rare evolution after Raichu.
@@ -245,7 +249,9 @@ Onparserinput
 	}
 	elseif reference0 == "bellsprout" || reference0 == "weepinbell" || reference0 == "victreebel"
 	{
-		"Victreebel look funny in pictures but wait till you actually encounter one... Not as funny anymore when it looks like it could eat you!"
+		//"Victreebel look funny in pictures but wait till you actually encounter one... Not as funny anymore when it looks like it could eat you!"
+		//S: It intimidation quickly disappears when it's... on fire.
+		
 	}
 	elseif reference0 == "tentacool" || reference0 == "tentacruel"
 	{
@@ -293,6 +299,7 @@ Onparserinput
 	elseif reference0 == "doduo" || reference0 == "dodrio"
 	{
 		//G: BABY DODUO HAS THREE HEADS.
+		//S: 
 	}
 	elseif reference0 == "seel" || reference0 == "dewgong"
 	{
@@ -511,7 +518,10 @@ Onparserinput
 	}
 	elseif reference0 == "porygon" || reference0 == "porygon 2" || reference0 == "porygon-z" || reference0 == "porygon z"
 	{
-		//is porygon real?
+		//G: Do you think there are any Porygon on %(username)'s computer?
+		//S: Porygon was created inside of a computer. It is not in every computer.
+		//G: but is it in /this/ one?
+		//S: uhg
 	}
 	elseif reference0 == "omanyte" || reference0 == "omastar" || reference0 == "kabuto" || reference0 == "kabutops"
 	{
@@ -673,7 +683,8 @@ Onparserinput
 	}
 	elseif reference0 == "marill" || reference0 == "azumarill" || reference0 == "azurill"
 	{
-	//G: I don't have any idea why Kanto people call a Azumarill "Pikablue". It doesn't even look anything like a Pikachu!
+		//G: I don't have any idea why Kanto people call a Azumarill "Pikablue". It doesn't even look anything like a Pikachu!
+		//G: But anyways, Tala has an Azumarill! He's got cute bunny ears... He was a Marill for so long though that that's how I usually imagine it, I forget he's evolved sometimes.
 	}
 	elseif reference0 == "sudowoodo" || reference0 == "bonsly"
 	{
@@ -683,9 +694,13 @@ Onparserinput
 	}
 	elseif reference0 == "hoppip" || reference0 == "skiploom" || reference0 == "jumpluff"
 	{
+		//Tala's got one of those! It was the first Pokemon she caught.
+		//I think she named it...
+		//Daniel.
 	}
 	elseif reference0 == "aipom" || reference0 == "ambipom"
 	{
+		
 	}
 	elseif reference0 == "sunkern" || reference0 == "sunflora"
 	{

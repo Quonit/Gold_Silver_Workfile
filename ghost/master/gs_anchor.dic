@@ -6,6 +6,7 @@
 OnTranslate
 {
 _talk = reference0
+	_talk = REPLACE(_talk, "anTala", "\_a[Tala]Tala\_a")
 	_talk = REPLACE(_talk, "anAtticus", "\_a[Atticus]Atticus\_a")
 	_talk = REPLACE(_talk, "anSilklay", "\_a[Silklay]Silklay\_a")
 	_talk = REPLACE(_talk, "anNorma", "\_a[Norma]Norma\_a")
@@ -32,6 +33,16 @@ OnAnchorSelect
 	case reference0
 		{
 			//Idea: When asking about the Pokemon he says something random about them, or pulls them out of their pokeball. You get their backstories in the menu.
+			when "Tala"
+			{
+				//[Include image here]
+				//G: Tala's my neighbor! We look alike because we're siblings...
+				//G: Well, we're not /actually/ siblings. Our parents are siblings, so we're like siblings once removed.
+				//S: You mean cousins. The word you're looking for is cousin. Your mom's sibling would be your aunt or uncle.
+				//G: Hey Silver, do you have any cousins?
+				//S: Think more carefully before you speak or else misunderstandings are bound to occur.
+				//G: Guess not...
+			}
 			when "Atticus"
 			{
 				"Atticus is my Houndoom!! He looks FEIRCE, sharp fangs and a mean growl, but he's a sweetheart! He's just trying to protect me."
