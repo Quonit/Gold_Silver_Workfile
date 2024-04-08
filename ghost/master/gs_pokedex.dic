@@ -107,6 +107,9 @@ OnDisplayDex
 		}
 		--
 		
+		_print += "\_l[@5,@-5]%(_dexno)\_l[@-35,@5]\_b[\img\dex\%(_mon).png,--option=use_self_alpha,--option=background]\_l[,]"
+
+		/*
 		if !Flag(_mon)
 		{
 			_print += "%(_dexno)\_l[@-45,@-5]\_b[\img\dex\unknown.png,inline,--option=use_self_alpha,--option=background]\_l[,@5]"
@@ -117,6 +120,7 @@ OnDisplayDex
 		{
 			_print += "%(_dexno)\_l[@-31,@-5]\_b[\img\dex\%(_mon).png,inline,--option=use_self_alpha,--option=background]\_l[,@5]"
 		}
+		*/
 	}
 	--
 	_print
