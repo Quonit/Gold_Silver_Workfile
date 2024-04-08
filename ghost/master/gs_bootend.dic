@@ -263,66 +263,10 @@ OnClose
 			}
 			else
 			{
-			if timeslot == "earlymorning"
-				{
-					"\1\s[10]This is an early morning close dialogue.\w8\0\s[0]From 5 to 8.\w8"
-					
-					"\0\s[0]This is another early morning close dialogue.\w8\1\s[10]Yup.\w8\w8"
-				}
-			elseif timeslot == "morning"
- 				{
- 					"\0\s[0]This is a morning close dialogue.\w8\w8"
- 				}
- 			elseif timeslot == "lunch"
- 				{
- 					"\0\s[0]This is a lunch close dialogue.\w8\1\s[10]Yup.\w8"
-					
- 					"\0\s[0]This is another lunch close dialogue.\w8\1\s[10]In the middle of the day.\w8"
- 				}
- 			elseif timeslot == "afternoon"
- 				{
- 					"\0\s[0]This is an afternoon close dialogue.\w8\1\s[10]Done.\w8"
-					
- 					"\1\s[10]This is another afternoon close dialogue.\w8\0\s[0]Yup.\w8"
- 				}
-  			elseif timeslot == "evening"
- 				{
- 						if weekday == 6
- 						{
- 							"\0\s[0]This is a Saturday evening close dialogue.\w8\1\s[10]Somewhat specific.\w8"
- 						}
- 						else //if it's not saturday, then it'll do this dialogue instead.
- 						{
- 							"\0\s[0]This is an evening close dialogue.\w8\1\s[10]Bye.\w8"
-							
- 							"\1\s[10]This is another evening close dialogue.\w8\0\s[0]Yup.\w8"
- 						}
- 				}
-			elseif timeslot == "latenight"
-			 	{
- 						if weekday == 6
- 						{
- 							"\0\s[0]This is a late Saturday night close dialogue.\w8"
-							
- 							"\1\s[10]This is another late Saturday night close dialogue.\w8\0\s[0]Yup.\w8"
- 						}
-						
- 						"\1\s[10]This is a late night close dialogue.\w8\0\s[0]That it is.\w8"
-						
-						"\0\s[0]This is another late night close dialogue.\w8\1\s[10]Done.\w8"
- 				}
-			else //like above, this is the midnight time slot since it's the last one left.
- 				{
- 						if weekday == 0 //checking if it's the middle of the night on Sunday
- 						{
- 							"\1\s[10]This is a middle of the night Sunday close dialogue.\w8\0\s[0]From midnight to five AM on Sunday.\w8"
- 						}
-						"\0\s[0]This is a middle of the night close dialogue.\w8\1\s[10]Very late at night.\w8"
-						
-						"\1\s[10]This is another middle of the night close dialogue.\w8"
-						
-						"\1\s[10]This is the third middle of the night close dialogue.\w8\0\s[0]So it is.\w8"
-				}
+				//Q: probably move this to boot instead of close
+				//G: Man imagine if we had anywhere near as much boot dialogue as that other ghost.
+				//S: What other ghost?
+				//G: Come on, don't make me break the fourth wall without you!
 			}
 				
  		}

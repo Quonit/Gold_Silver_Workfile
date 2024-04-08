@@ -6,6 +6,7 @@
 OnTranslate
 {
 _talk = reference0
+	_talk = REPLACE(_talk, "Quonit", "\_a[Quonit]Quonit\_a")
 	_talk = REPLACE(_talk, "anTala", "\_a[Tala]Tala\_a")
 	_talk = REPLACE(_talk, "anAtticus", "\_a[Atticus]Atticus\_a")
 	_talk = REPLACE(_talk, "anSilklay", "\_a[Silklay]Silklay\_a")
@@ -33,6 +34,10 @@ OnAnchorSelect
 	case reference0
 		{
 			//Idea: When asking about the Pokemon he says something random about them, or pulls them out of their pokeball. You get their backstories in the menu.
+			when "Quonit"
+			{
+				//G: Quonit's the one that developed the ghost! Like, did all the coding and drawings and stuff...
+			}
 			when "Tala"
 			{
 				//[Include image here]
