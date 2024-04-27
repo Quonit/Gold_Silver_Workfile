@@ -8,7 +8,9 @@ charset.extension, UTF-8
 include, system_config.txt		
 dic, gs_aitalk.dic			
 dic, gs_anchor.dic
-dic, gs_bootend.dic		
+dic, gs_battles.dic
+dic, gs_bootend.dic
+dic, gs_deskmon.dic
 dic, gs_commu.dic
 dic, gs_etc.dic			
 dic, gs_menu.dic

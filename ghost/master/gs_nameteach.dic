@@ -15,14 +15,29 @@ OnNameTeach
 	reference0 = REPLACE(reference0," ","")
 	reference0 = REPLACE(reference0,".","")
 	reference0 = REPLACE(reference0,"-","")
-	if reference0 == "girl"
+	if reference0 == "Sens"
 	{
-		"\0\s[0]That's my name.\w8\1\s[10]That might be confusing. You should try again.\![open,inputbox,OnNameTeach,-1]"
+		//G: Pfff, you can't be Sens, that's my name!
+		//S: I don't call you that, though. It's not like it would be confusing...
+		//G: Yeah but... it's myyy name I picked out for myself! And if there WAS another person I was talking to, they /would/ call me Sens. So it'd get confusing /then/.
+		//S: Whatever...
+		"\![open,inputbox,OnNameTeach,-1]"
 	}
-	elseif reference0 == "triangle" 
+	elseif reference0 == "Gold" 
 	{
-		"\1\s[10]That's my name. Try putting in another one.\![open,inputbox,OnNameTeach,-1]"
+		//G: If you're ACTUALLY called Gold, that's pretty cool. But also I'm called that, so it's best if you pick something else.
+		"\![open,inputbox,OnNameTeach,-1]"
 	}
+	//Silver
+	//Tala
+	//Names that you can use but they'll comment on:
+	//Ethan
+	//Crystal
+	//Kris
+	//Blue
+	//Dawn
+	//Radic / Bort = hi zar
+	//Quonit = hi me
 	elseif reference0 == ""
 	{
 		username = "USER"

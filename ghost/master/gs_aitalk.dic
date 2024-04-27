@@ -47,38 +47,6 @@ Grammar Rules:
  Pokèmon is always spelled with the accent. Words including the prefix pokè- also include the accent.
  Types are capitalized. Ground Type, Bug Type, Flying Type, etc. Both words are capitalized.
  The plural of any Pokemon is just their name. No s or anything at the end. Plural Pikachu is Pikachu. 
-*/ 
-//Potential play mode. Gold and Silver's Pokemon can be out on screen, but to make it easier to code I only want one at a time. If you swap out for a different one they do %(the name of the Pokemon) return!"
-//Pokemon battles could also be a thing
-//Should be separated into their own DIC files to avoid clutter
-/*
-G: [Pokename] return! There's not enough room on %(username)'s screen for two of you at once.
-*/
-/*
-Cloud Pool
-
-	//G: Isn't your Ampharos really big for members of its species? Usually they're like 4ft or so.
-	//S: It's always been a little large for its species...
-	//G: Makes it EXTRA STRONG I bet. You could teach it body slam.
-	//S: T_T
-	
-Honoa Pool
-G: I’ll never go hungry with Honoa around! If we need to, he can change the colors of the light in front of his face, lower it, and the fish come to him!
-G: Then he electrocutes them
-S: Do you….. know how to prepare fish from being raw
-G: … give them to Atticus first?
-
-G: I don’t think that enough people consider the utility of having a water type. That’s also an electric type. Surfing become so much easier when the wild Pokémon in the water can easily be defeated by the Pokémon you’re surfing on.
-Plus, one of the main weaknesses of the electric type, ground type is notified because water is super effective against ground.
-
-G: Silver doesn’t have a water type on his team, so sometimes if we have to cross water Honoa transports both of us at the same time!
-S: Don’t tell username that!
-
-Banco Pool
-G: hey username, how about you point your screen towards the sun is so that she can get more sunlight!
-S: I don’t think that will work. 
-
-She can only fly during the daytime, during night it’s a lot harder to get the energy for it. If I really need to fly during the night, I can ask. Konkurs, but he’s a little more scary to fly on because he doesn’t have as much practice or is as easy to sit on.
 */
 
 RandomTalk : nonoverlap
@@ -458,6 +426,113 @@ RandomTalk : nonoverlap
 	S: No. You should know this, since you have a Dragon Type!
 	G: Yeah, but Konkurs mostly knows Ground Type moves...
 	S: Many trainers struggle to raise dragons, since their knowledge ends at what's type effective without considering other strengths of the moves they use. STAB isn't everything...
+	
+	G: [ruffling through bag] I wonder if I still have those mints in here...
+	S: If you bothered to orginize your bag into /built in/ compartments maybe you could find it.
+	G: Hmm... Doesn't seem like its in here.
+	S: Especially considering you keep your Pokemon in there sometimes...
+	G: Eh, I'll fix it when it becomes a problem.
+	S: Best case scenario you'll fix it /before/ it becomes a problem.
+	
+	G: [ruffling through bag] Gah, I think I've got too many Apricorns on me right now... I really gotta get those processed into Pokeballs.
+	S: You don't catch very many Pokemon, why would you need them?
+	G: Well, the thing is that Apricorns go bad eventually but Pokeballs don't. Plus, Pokeballs are worth more money.
+	
+	G: Might need to stop by a laundramat soon... There should be one in %(city).
+	G: There's a whole bunch of them since traveling is so popular. Pretty convenient!
+	
+	G: You ever thought that Alolamola was an evolution of Luvdisk?
+	S: No.
+	G: They're both heart-shaped fish!
+	S: They aren't even found in the same region...
+	
+	G: Are there any Normal/Ghost Type Pokemon?
+	S: Not any that are known in modern day, no.
+	G: If it did exist, would it like, get BOTH Normal immunity AND Ghost immunity?
+	S: Most likely.
+	S: It would also be immune to Fighting Type moves...
+	G: SICK! I want one!
+	S: There aren't any.
+	G: Oh, right.
+	
+	G: Do you think Ice Type is the weakest Type?
+	S: It has a /lot/ of defensive weaknesses.
+	G: Well, I don't think it's that bad. I mean, Ice Type attacks are pretty powerful!
+	S: Which is why Pokemon that learn Ice Type attacks but aren't Ice Types themselves are desirable.
+	G: Well, I mean, it'd be a stronger attack if an Ice Pokemon used it!
+	S: If you could keep it in battle long enough to use.
+	G: Silver you have two Ice Types, shouldn't you be on my side?
+	[possibly spoilered behind unlocks]
+	S: They both have a 4x weakness to Fighting Type moves, and the Sandslash has a 4x weakness to Fire moves as well.
+	G: Okay, so %(FireFighting) kicks their ass, but they're not exactly common where we're at.
+	S: Smart trainers give their Pokemon a Type variety of moves so that they can cover more opponants, that, and Fire and Fighting Types aren't uncommon on their own. 
+	S: That's just 4x weaknesses as well. Weavile is also weak to Rock, Bug, Steel, Fire, and Fairy, and Sandslash is weak to Ground.
+	G: Kind of funny, given its normal form is a Ground Type.
+	G: Well... Okay, so Midnight might be weak to Bugs but it's also got Ice attacks which are effective against them, and there's not any Fairy Types around, so that's two problems solved.
+	G: Popcicle's got the same story with Ice being strong against Ground. Plus, Ice Grass Physhic and Flying resistances are pretty good.
+	S: You're missing the bigger picture.
+	G: I don't know what you're getting at Silv', I think you're a great trainer and you should have more faith in yourself and your Pokemon! You've just gotta keep training!
+	G: Plus, since they're less common picks, you can surprise people with them! They've still got advantages on Dragon Types.
+	S: Sigh...
+	G: I dunno what that's supposed to mean, but you quit that negative attitude.
+	S: Whatever.
+	
+	(If have Candy and Citrus)
+	G: So, like... Why's it common for Umbreon and Espeon to mate with each other as a *species wise* thing?
+	S: They evolve through the same uncontrolled method meaning their natures are already similar...
+	G: Riiight because they don't evolve by stone or location, they just kind of do or don't.
+	S: They have an inherent duality... It's a yin-yang of seeing oneself in the other.
+	G: It's really poetic, honestly!
+	
+	//G: Ohhh, because Fairy is a very, uh... "natural" type, and all the other ones are found in nature, like grass, rock, water, fire, electric is from lightning... but steel is, like, manufactured intentionally so it doesn't count.
+	//S: It's also weak to Poison.
+	//G: Also commonly made by humans and kills nature, yep. Cool, I'm following. I can remember those two...
+	
+	[Talking about Pokemon having jobs]
+	G: I've known geodudes in construction, raichu electricians-
+	S: Persian lawyers
+	G: Yeah, persian lawye- wait what?
+	S:...
+	
+	G:  "If a dodrio was on the moon and one head killed the other with a rock would that be fucked up or what"
+	
+	G: Are there any Pokemon that evolve three times?
+	S: Not unless you count Mega evolution...
+	G: Really??? Huh, weird. Just seems like something which should exist.
+	S: It would probably put a lot of stress on the creature.
+	G: Yeah, I guess...
+	
+	G: Have you ever seen a wild Eevee???
+	S: No.
+	G: I wonder what they'd be like, I've only ever met them domesticated.
+	G: They're like... Gift Pokemon given away by breeders, so like maybe we're missing out on another evolution that only wild Eevees which have different genes or whatever can turn into.
+	
+	G: Why are there so many mono-type trainers? Type diversity is really important when it comes to battling, so you've got enough coverage for anything thrown your way.
+	S: There are a few different benefits... For one, if you specialize, then all your Pokemon's needs are roughly the same so it's easier to meet them all. Consequently, you can spend more time creating one specific habitat for them to thrive in instead of only barely meeting it for very diverse teams.
+	G: What about for two?
+	S: A bit obviously, if you spend all your time training one or two types, you become better with it.
+	G: I don't think I could ever be a mono-type trainer... There are just too many different Pokemon I like!
+	
+	G: So there are a lot of moves which aren't attacks and just raise a Pokemon's power in some way, right?
+	S: Yes...?
+	G: And a lot of similar moves, which aren't attacks, that decrease the power of opposing Pokemon, right?
+	S: That's correct...
+	G: So, like...
+	G: How do we know what Type the move is?
+	S: What do you mean?
+	G: Example: Nasty Plot. It significantly increases the power of a Pokemon's Special Attacks. It's a Dark Type move, but how do we know that?
+	G: With moves, you could tell if it's a Dark Type if it does super-effective damage against Ghost and Phsychic types, but Nasty Plot doesn't do damage, just raises attack.
+	S: It's called "Nasty Plot".
+	G: Does it do extra for Dark Types?
+	S: No, any Pokemon can use it the same way.
+	G: Then it'd be no different if it were, like, a Dragon move called "Power Store" instead?
+	G: ow do we know it's ACTUALLY a Dark move? Have scientists studied this sort of thing to figure out it draws power from "dark energy" or something?
+	G: Are all these moves actually typeless, since their assumed Type doesn't matter?
+	S: Nasty Plot is a Dark Type move because Pokemon have to use the same kind of powers natural Dark Types use.
+	S: Confuse Ray is a Ghost move, Cosmic Power is a Psychic move, Dragon Dance is a Dragon move, because they pull from the same powers used to preform the attacks from their respective Types.
+	G: What about status moves that are Normal Type here, but Fairy Type somewhere else? There's effectively no difference.
+	S: That's a weird case...
+	G: Fairy just goin' around infecting all the "Mormal" energy, heh.
 	*/
 /* Month dialogue
 

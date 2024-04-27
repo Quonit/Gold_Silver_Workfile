@@ -8,13 +8,25 @@ OnTranslate
 _talk = reference0
 	_talk = REPLACE(_talk, "Quonit", "\_a[Quonit]Quonit\_a")
 	_talk = REPLACE(_talk, "anTala", "\_a[Tala]Tala\_a")
-	_talk = REPLACE(_talk, "anAtticus", "\_a[Atticus]Atticus\_a")
+	//Gold's 'mon
 	_talk = REPLACE(_talk, "anSilklay", "\_a[Silklay]Silklay\_a")
+	_talk = REPLACE(_talk, "anAtticus", "\_a[Atticus]Atticus\_a")
 	_talk = REPLACE(_talk, "anNorma", "\_a[Norma]Norma\_a")
-	_talk = REPLACE(_talk, "anCreh", "\_a[Creh]Creh\_a")
+	_talk = REPLACE(_talk, "anHonoa", "\_a[Norma]Norma\_a")
+	_talk = REPLACE(_talk, "anBanco", "\_a[Norma]Norma\_a")
+	_talk = REPLACE(_talk, "anKonkurs", "\_a[Norma]Norma\_a")
+	//Silver's Mon
+	_talk = REPLACE(_talk, "anCloud", "\_a[Cloud]Cloud\_a")
+	_talk = REPLACE(_talk, "anMidnight", "\_a[Midnight]Midnight\_a")
+	_talk = REPLACE(_talk, "anInterception", "\_a[Interception]Interception\_a")
+	_talk = REPLACE(_talk, "anPopcicle", "\_a[Popcicle]Popcicle\_a")
 	_talk = REPLACE(_talk, "EevCandy", "\_a[Candy]Candy\_a")
 	_talk = REPLACE(_talk, "EevCitrus", "\_a[Citrus]Citrus\_a")
-	_talk = REPLACE(_talk, "anInterception", "\_a[Interception]Interception\_a")
+	//Other 'mon
+	_talk = REPLACE(_talk, "anDrugia", "\_a[Drugia]Drugia\_a")
+	_talk = REPLACE(_talk, "anCreh", "\_a[Creh]Creh\_a")
+	_talk = REPLACE(_talk, "anBongo", "\_a[Bongo]Bongo\_a")
+	
 		if reference1 == "" && reference2 == "" {
             EVAL('"' + REPLACE(_talk,'"','" + CHR(0x22) + "') + '"')
         }
@@ -48,33 +60,162 @@ OnAnchorSelect
 				//S: Think more carefully before you speak or else misunderstandings are bound to occur.
 				//G: Guess not...
 			}
-			when "Atticus"
+			when "anSilklay"
 			{
+				if ExplainedSilklay == "no"
+				{
+					ExplainedSilklay = "yes"
+					//Use same as menu
+				}
+				else
+				{
+				//"I wonder what kinds of things Psychic types experience we don't..."
+				//"When Silklay was a Wralts she was so scared of everything! Which was probably my fault, since right after I got her we both got lost in the forest... But she's really come into her own! She's not scared of nothing. Or... If she is she doesn't show it. She's real brave, I think."
+				//"Hey Silver! You should apologize to Silklay for traumatizing her when she was just a Wralts.\1 I did not. \0Yeah you did! All she knew was growl and your Mareep fainted her! \1That's how Pokemon battles work! You come umprepared and get what's coming to you. \0You ambushed me with a stolen sheep!!!!! Then pushed me!!! \0uhhhggg"
+				}
+			}
+			when "anAtticus"
+			{
+				if ExplainedAtticus == "no"
+				{
+					ExplainedAtticus = "yes"
+					//Use same as menu
+				}
+				else
+				{
 				"Atticus is my Houndoom!! He looks FEIRCE, sharp fangs and a mean growl, but he's a sweetheart! He's just trying to protect me."
 				"My Houndoom... He has short fur, so his coat is very sleek and silky. It's fun to pet him! As long as you don't stroke the wrong way."
 				"My Houndoom isn't the most friendly to strangers, but once he knows it's not a battle he'll calm down easy. He's not the first pokemon I'll send to greet strangers, though."
+				}
 				
 			}
-			when "Silklay"
+			when "anNorma"
 			{
-				"Silklay is my Gardivour. She's kind of withdrawn. I don't really know what she's thinking about most of the time. I wonder what kinds of things Psychic types experience we don't..."
-				"When Silklay was a Wralts she was so scared of everything! Which was probably my fault, since right after I got her we both got lost in the forest... But she's really come into her own! She's not scared of nothing. Or... If she is she doesn't show it. She's real brave, I think."
-				"My Gardivour acts like... A guard! She seems really emotionless and serious, but she actually cares a lot. Some people just aren't that social and that's okay."
-				"Hey Silver! You should apologize to Silklay for traumatizing her when she was just a Wralts.\1 I did not. \0Yeah you did! All she knew was growl and your Mareep fainted her! \1That's how Pokemon battles work! You come umprepared and get what's coming to you. \0You ambushed me with a stolen sheep!!!!! Then pushed me!!! \0uhhhggg"
-			}
-			when "Norma"
-			{
+				if ExplainedNorma == "no"
+				{
+					ExplainedNorma = "yes"
+					//Use same as menu
+				}
+				else
+				{
 				"Norma's my Delcatty! When she was a Skitty I used to carry her in my arms all the time... She's a little too big to do that now, though."
 				"Norma the Delcatty. Even though she's all grown-up now, she still acts like a Skitty. She keeps trying to sleep on my feet!"
 				"I did consider leaving Norma as a Skitty. I wasn't really sure about evolving her, since she seemed really happy. Norma saw how strong the other members of our team were getting though, and wanted to be like them. So it was really her choice to evolve... I'm happy it worked out!"
+				}
 			}
-			when "Creh"
+			when "anHonoa"
 			{
+				if ExplainedHonoa == "no"
+				{
+					ExplainedHonoa = "yes"
+					//Use same as menu
+				}
+				else
+				{
+				}
+			}
+			when "anBanco"
+			{
+				if ExplainedBanco == "no"
+				{
+					ExplainedBanco = "yes"
+					//Use same as menu
+				}
+				else
+				{
+				}
+			}
+			when "anKonkurs"
+			{
+				if ExplainedKonkurs == "no"
+				{
+					ExplainedKonkurs = "yes"
+					//Use same as menu
+				}
+				else
+				{
+				}
+			}
+			when "anDrugia"
+			{
+				if ExplainedDrugia == "no"
+				{
+					ExplainedDrugia = "yes"
+					//Use same as menu
+				}
+				else
+				{
+				}
+			}
+			when "anCreh"
+			{
+				
+				if ExplainedCreh == "no"
+				{
+					ExplainedCreh = "yes"
+					//Use same as menu
+				}
+				else
+				{
 				"Or Crehhhh, as she's officially registered. She's a Pinsir. I got her when I won the Bug Catching Contest at the National Park! She looks real tough and scary, especially when she's pulling off incredible acts of strengths by destroying boulders- but she's not a battler. She just wants to pulverize rocks, not Pokemon! I think we've come to an understanding." //Snowpoff.
+				}
+			}
+	//SILVERS MON
+			when "anCloud"
+			{
+				if ExplainedCloud == "no"
+				{
+					ExplainedCloud = "yes"
+					//Use same as menu
+				}
+				else
+				{
+				}
+			}
+			when "anMidnight"
+			{
+				if ExplainedMidnight == "no"
+				{
+					ExplainedMidnight = "yes"
+					//Use same as menu
+				}
+				else
+				{
+				}
+			}
+			when "anInterception"
+			{
+				if ExplainedInterception == "no"
+				{
+					ExplainedInterception = "yes"
+					//Use same as menu
+				}
+				else
+				{
+				//G: Silver, why did you capture a Zubat?
+				//S: It had an impressive Supersonic.
+				//G: Why did you name it Interception?
+				//S: If you were smart, you'd figure it out.
+				//G: Can you believe he says this every time %(username)?
+				}
+			}
+			when "anPopcicle"
+			{
+				if ExplainedPopcicle == "no"
+				{
+					ExplainedPopcicle = "yes"
+					//Use same as menu
+				}
+				else
+				{
+				}
 			}
 			when "EevCandy"
 			{
-				//G: While I was on Mt.Silver, Silver found a very injured Eevee out in the wild.
+				if ExplainedCandy == "no"
+				{
+					ExplainedCandy = "yes"
+					//G: While I was on Mt.Silver, Silver found a very injured Eevee out in the wild.
 				//G: Eevee aren't normally found in the wild, so it was easy to deduct that...
 				//S: It was abandon by its previous trainer.
 				//G: Silver rushed it over to the Pokemon center.
@@ -114,10 +255,21 @@ OnAnchorSelect
 				//S: ...
 				//G: I know I know, my saccharine shtick both bores and displeases you.
 				//S: No... It's fine.
+				}
+				else
+				{
+				
+				}
 			}
 			when "EevCitrus"
 			{
-				AskCitrus = "on"
+				if ExplainedCitrus == "no"
+				{
+					ExplainedCitrus = "yes"
+					//Use same as menu
+				}
+				else
+				{
 				//G: I don't know, Silver, how is Citrus?
 				//S: Perfectly fine with no reason to discuss it further.
 				//G: I'd love to see him again! Let him out of the Pokeball for just a minute, pleeaaasse?
@@ -125,15 +277,7 @@ OnAnchorSelect
 				//G: [kisses cheek]
 				//S: [big blush embarrassed, releases Citrus.] Only because it was yours to begin with.
 				//Citrus: [cool looking]
-			}
-			when "Interception"
-			{
-				AskCitrus = "on"
-				//G: Silver, why did you capture a Zubat?
-				//S: It had an impressive Supersonic.
-				//G: Why did you name it Interception?
-				//S: If you were smart, you'd figure it out.
-				//G: [shrug]
+				}
 			}
 		}
 	}

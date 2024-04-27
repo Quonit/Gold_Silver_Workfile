@@ -1,5 +1,6 @@
 ﻿OnFirstBoot
 {
+	//Do Not Touch
  	lastTalk = ""
 	passhour = 0
 	passmin = 0 
@@ -14,6 +15,42 @@
 	deleteshitai = "OFF"
 	nowshell = "master"
 	firstboot = 1
+	//Variable List
+	//Explained Backstory
+		//Gold's Pokemon
+		ExplainedSilklay = "no" //If Silklay's backstory has been explained
+		ExplainedAtticus = "no" //If Atticus' backstory has been explained
+		ExplainedNorma = "no" //If Norma's backstory has been explained
+		ExplainedHonoa = "no" //If Honoa's backstory has been explained
+		ExplainedBanco = "no" //If Banco's backstory has been explained
+		ExplainedKonkurs = "no" //If Konkurs' backstory has been explained
+		ExplainedDrugia = "no" //If Drugia's backstory has been explained
+		ExplainedCreh = "no" //If Creh's backstory has been explained
+		//Silver's Pokemon
+		ExplainedCloud = "no" //If Cloud's backstory has been explained
+		ExplainedMidnight = "no" //If Midnight's backstory has been explained
+		ExplainedInterception = "no" //If Interception's backstory has been explained
+		ExplainedPopcicle = "no" //If Popcicle's backstory has been explained
+		ExplainedCandy = "no" //If Candy's backstory has been explained
+		ExplainedCitrus = "no" //If Citrus's backstory has been explained
+	//On Desktop
+	Deskmon = "no"
+		//Gold's Pokemon
+		DesktopSilklay = "no"
+		DesktopAtticus = "no"
+		DesktopNorma = "no"
+		DesktopHonoa = "no"
+		DesktopBanco = "no"
+		DesktopKonkurs = "no"
+		//Silver's Pokemon
+		DesktopCloud = "no"
+		DesktopMidnight = "no"
+		DesktopInterception = "no"
+		DesktopPopcicle = "no"
+		DesktopCandy = "no"
+		DesktopCitrus = "no"
+		
+	
 	if reference0 == 0 
  	{
 		//Snowpoff
@@ -68,56 +105,57 @@ Select.choicefirsttheythem
 }
 
 OnBootPronounTeach1
-	{
-		"\0\s[71]\1\s[1036]Can do! What pronoun do you want for him/her?\![open,inputbox,OnBoothimherTeach,-1]"
-	}
+{
+	"\0\s[71]\1\s[1036]Can do! What pronoun do you want for him/her?\![open,inputbox,OnBoothimherTeach,-1]"
+	//This is from HS
+}
 	
-	OnBoothimherTeach
+OnBoothimherTeach
+{
+	himher = reference0
+	if reference0 == "" || reference0 == " " || reference0 == "   "
 	{
-		himher = reference0
-		if reference0 == "" || reference0 == " " || reference0 == "   "
-		{
-			himher = "hir"
-		}
-		OnBootPronounTeach2
+		himher = "hir"
 	}
-
 	OnBootPronounTeach2
-	{
-		"\0\s[71]\1\s[1036]Kay! What pronoun do you want for he/she?\![open,inputbox,OnBoothesheTeach,-1]"
-	}
+}
+
+OnBootPronounTeach2
+{
+	"\0\s[71]\1\s[1036]Kay! What pronoun do you want for he/she?\![open,inputbox,OnBoothesheTeach,-1]"
+}
 		
-	OnBoothesheTeach
+OnBoothesheTeach
+{
+	heshe = reference0
+	if reference0 == "" || reference0 == " " || reference0 == "   "
 	{
-		heshe = reference0
-		if reference0 == "" || reference0 == " " || reference0 == "   "
-		{
-		heshe = "zie"
-		}
-		OnBootPronounTeach3
+	heshe = "zie"
 	}
-	
 	OnBootPronounTeach3
-	{
-		"\0\s[71]\1\s[1036]Kay! What pronoun do you want for his/her?\![open,inputbox,OnBoothisherTeach,-1]"
-	}
-		
-	OnBoothisherTeach
-	{
-	hisher = reference0
-		if reference0 == "" || reference0 == " " || reference0 == "   "
-		{
-		hisher = "hirs"
-		}
-	OnBootPronounDone
-	}
+}
 	
-	OnBootPronounDone
+OnBootPronounTeach3
+{
+	"\0\s[71]\1\s[1036]Kay! What pronoun do you want for his/her?\![open,inputbox,OnBoothisherTeach,-1]"
+}
+		
+OnBoothisherTeach
+{
+hisher = reference0
+	if reference0 == "" || reference0 == " " || reference0 == "   "
 	{
-		"\0\s[71]\1\s[1036]Kay! Done! \0\s[0]\1\s[10]It's %(heshe), %(himher), and %(hisher)! We'll remember!\e"
-		--
-		OnFirstBoot3
+	hisher = "hirs"
 	}
+OnBootPronounDone
+}
+	
+OnBootPronounDone
+{
+	"\0\s[71]\1\s[1036]Kay! Done! \0\s[0]\1\s[10]It's %(heshe), %(himher), and %(hisher)! We'll remember!\e"
+	--
+	OnFirstBoot3
+}
 
 OnFirstBoot3
 {
@@ -166,14 +204,6 @@ OnBoot
 	{
 	"\0\s[0]It's %(bornmonthprint) %(borndayprint).\w8\1\s[10]Happy birthday, %(username).\e" 
 	}
-	elseif dayslot == "6month 6day"	
-	{
-	"\0\s[0]Today is June 6th.\e"
-	}
-	elseif dayslot == "7month 4day"
-	{
-	"\1\s[10]It's the fourth of July.\e"
-	}
 	else
 	{
 		"%(normalboottalk)"
@@ -185,40 +215,22 @@ normalboottalk
 	//Booting ukagaka...
 	//[then dialogue]
 	if weekday == 6 && hour >= 19
-		{
-		"\0\s[0]It's Saturday night.\e"
-		}
-	elseif RAND(100) < 40 //What this does is choose a random number from 1-100, and then checks if that number is less than 40. If it's less than forty, then these dialogue pieces will occur.
-		{
-		"\0\s[0]This is one of the random boot conversations.\w8\1\s[10]The random number drawn was less than forty.\e"
-	
-		"\1\s[10]This is another one of the random boot conversations.\w8\0\s[0]The random number was again less than forty.\e"
-	
-		"\0\s[0]This is the third random boot conversation.\w8\1\s[10]The random number was less than forty.\e"
-		}
+	{
+	"\0\s[0]It's Saturday night.\e"
+	}
  	else
  	{
-		//The following if statements check the time of the day as defined above in the GetTimeSlot function.
-		
 		if timeslot == "earlymorning"
 		{
 		"\0\s[0]This is an early morning boot dialogue.\w8\1\s[10]Between the hours of five and eight.\e"
-		
-		"\1\s[10]This is another early morning boot dialogue.\w8\0\s[0]Again, between the hours of five and eight.\e"
-		
-		"\1\s[10]This is the third early morning boot dialogue.\w8\0\s[0]Between the hours of five and eight.\e"
 		}
 		elseif timeslot == "morning"
 		{
 		"\0\s[0]This is a morning boot dialogue.\e"
-		
-		"\1\s[10]This is another morning boot dialogue.\w8\0\s[0]Yup.\e"
 		}
 		elseif timeslot == "lunch"
 		{
 		"\0\s[0]This is a lunch boot dialogue.\1\s[10]Sure is.\e"
-		
-		"\1\s[10]This is another lunch boot dialogue.\e"
 		}
 		elseif timeslot == "afternoon"
 		{
@@ -231,96 +243,58 @@ normalboottalk
 		elseif timeslot == "latenight"
 		{
  		"\0\s[0]This is a late night boot dialogue.\1\w8\s[10]Between 21 and 24.\e"
-		
- 		"\0\s[0]This is another late night boot dialogue.\1\w8\s[10]That it is.\e"
-		
- 		"\1\s[10]This is the third late night boot dialogue.\w8\0\s[0]Between 21 and 24.\e"
 		}
-		else //the last timeslot we haven't done is midnight, which is what's under here.
+		else //Midnight
 		{
 		"\0\s[0]This is a middle of the night boot dialogue.\1\w8\s[10]From midnight to five.\e"
-		
- 		"\0\s[0]This is another middle of the night boot dialogue.\1\w8\s[10]That it is.\e"
-		
- 		"\1\s[10]This is the third middle of the night boot dialogue.\w8\0\s[0]Very late at night.\e"
 		}
 	}
 }
 
 
 //--OnClose
-
-//OnClose runs when you close your ghost. Like OnBoot, this can be customized for times and days if you like, as you saw above. It can also be easily simplified down to. Although do note, close dialogue must end with a \- instead of \e. \- will close the program.
-//Note though that each bit here ends with \w8 instead of \e. That's because the actual end statement to close the ghost is at the very end, one of the very very rare times you won't have to end a line with \e. Instead, end it with \w8 so there's a little bit of a pause for the user before your ghost closes so they can read the last message.
-
 OnClose
- {
+{
 	if passmin >= 5 || passhour > 0	//This checks to see if you've had them open for at least five minutes.
-		{
-			if RAND(100) < 40 //see above about the random number generator
-			{
-				"\0\s[0]This is a random close dialogue.\w8\1\s[10]The random number generator chose something below 40.\w8\w8"
-			}
-			else
-			{
-				//Q: probably move this to boot instead of close
-				//G: Man imagine if we had anywhere near as much boot dialogue as that other ghost.
-				//S: What other ghost?
-				//G: Come on, don't make me break the fourth wall without you!
-			}
-				
- 		}
- 		
- 		
+	{
+			//Q: probably move this to boot instead of close
+		//G: Man imagine if we had anywhere near as much boot dialogue as that other ghost.
+		//S: What other ghost?
+		//G: Come on, don't make me break the fourth wall without you!
+	}
  	else //This dialogue is for if they haven't been open for at least five minutes.
  	{
  		"\0\s[0]This dialogue is for closing us before five minutes have passed.\w8\w8"
-		
- 		"\1\s[10]This is another bit of dialogue for closing us before five minutes have passed.\w8\0\s[0]Quickly done.\w8\w8"
- 	}
+	}
  	--
-	"\-\e" //this bit of code actually closes and ends the ghost. Because \e is here, you don't have to end each line above with it.
- }
+	"\-\e"
+}
 
 
  //-------------------------State Changing--------------------
  //From here on, most of the dialogue will have to do with changing shells, ghosts, or states in some way.
  
-
-//--OnWindowStateRestore
-
-//This will run when you minimize them and then bring them back up.
-
 OnWindowStateRestore
- {
+{
 	"\0\s[0]This dialogue means we were minimized.\w8\1\s[10]Then brought back up.\e"
 }
 
-
-//--OnGhostChanging
-
 OnGhostChanging
- {
-	if reference0 == "Girl" //Replace this with the name of your Sakura character as you put in install.txt or descript.txt.
+{
+	if reference0 == "Gold and Silver" //Replace this with the name of your Sakura character as you put in install.txt or descript.txt.
 	{
 		"\0\s[0]This dialogue is for us reloading ourselves.\w8\w8\e"
 	}
+	//elseifs for specific others
  	else //If you're switching to another Ghost.
 	{
 		"\0\s[0]This dialogue means we are switching to %(reference0).\w8\1\s[10]Bye.\w8\w8\e"
-		
-		//In OnGhostChanging, %(reference0) stores the name of the ghost being swapped to, so if you want to display what you're switching to, you can use %(reference0) as in this example.
 	}
 }
 
-
-//--OnGhostChanged
-
-//A sister to the above, this runs after the ghost has either reloaded itself, or when you switch from another ghost to this ghost.
-
 OnGhostChanged
 {
-	"\0\s[0]\1\s[10]" //this sets up their default poses
+	"\0\s[0]\1\s[10]"
 	--
 	if reference0 == "Girl" //As above, this should be the name of your ghost as in install.txt or descript.txt.
 	{
@@ -329,15 +303,8 @@ OnGhostChanged
 	else
 	{
 		"\1\s[10]Goodbye, %(reference0).\w8\0\s[0]Someone switched from you to us.\e"
-
-		//Again, %(reference0) in this function is the name of the ghost in question.
 	}
 }
-
-
-//--OnShellChanging
-
-//This will run when you change your ghost's shell.
 
 OnShellChanging
  {
@@ -348,18 +315,11 @@ OnShellChanging
 	else //if you don't have any specific dialogue for a specific shell
 	{
 	"\0\s[0]This dialogue is for changing shells.\w8\1\s[10]Sure is.\w8\e"
-	
-	"\1\s[10]This is another bit of dialogue for changing shells.\w8\0\s[8]I wonder how many people will actually have multiple shells?\e"
 	}
  }
- 
- 
- //--OnShellChanged
- 
- //The sister to the above, this is the dialogue after you've changed the shell.
 
 OnShellChanged
- {
+{
  	if reference0 == "GT Default Shell" //Again, this is the name of your shell as you put in the descript.txt file for that shell.
  	{
  		nowshell = "master" //This is the folder name for your shell. Not the same as the above! 
@@ -388,11 +348,7 @@ OnShellChanged
 	}
  }
 
-
- //--OnDressupChanged
- 
- //This runs whenever you fiddle with their clothing via the dress-up option, if you've set any for your ghost.
-
+//This runs whenever you fiddle with their clothing via the dress-up option, if you've set any for your ghost.
 OnDressupChanged
 {
 if reference0 == 0 //in OnDressupChanged, reference0 refers to the character, therefore this is evaluating which character in question is getting dressed up. 0 is the main character.

@@ -32,7 +32,7 @@ MouseMoveSakura //stoking
 		stroke = 0
  	}
 }
-MouseMoveKero
+MouseMoveKero //Silver
 {
 	if reference4 != ""
  	{
@@ -46,16 +46,16 @@ MouseMoveKero
 				"\1\s[10]This is another face touching dialogue.\e"
 				"\1\s[10]This is yet another face touching dialogue.\e"
  			}
-			elseif reference4 == "Point"
+			elseif reference4 == "Point" //pet hair
 			{
-				"\1\s[10]This is a point touching dialogue since I don't really have a head, being a triangle.\e"
-				"\1\s[10]This is another point touching dialogue.\e"
-				"\1\s[10]This is yet another point touching dialogue.\e"
+				//G: Is your hair color natural? Or do you have, like, brown hair and dye it red?
+				//S: Where do you think I would've had the time to constantly dye my hair red in Johto?
+				//G: I dunno, it's just very unique!
+				//S: [Playing with hair, slight smile] I know that.
 			}
 			/*
 			//Banconanas
-			Tropius fruit facts! They SAY you can only grow two per year, but if you take care of them and feed them the right things they can do way more!
-
+			G: Tropius fruit facts! They SAY you can only grow two per year, but if you take care of them and feed them the right things they can do way more!
 			G: (takes one) the secret ingredient is love
 			G: Hey Silver. I’ll give you some of mine if you say you love me.
 			S: (blush) No…

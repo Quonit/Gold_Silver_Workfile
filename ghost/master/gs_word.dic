@@ -57,7 +57,6 @@ weakpokemon
 	"Sentret"
 	"Hoothoot"
 	"Ledyba"
-	"Qwillfish"
 	"Smeargle"
 	"Zigzagoon"
 	"Wurmple"
@@ -75,6 +74,36 @@ weakpokemon
 	"Wimpod"
 	"Sunkern"
 	"Cherubi"
+}
+
+FireFighting
+{
+	"Blaziken"
+	"Infernape"
+	"Emboar"
+	"Blaze Tauros"
+}
+
+city
+{
+	"Ectruteak"
+	"Azalea Town"
+	"Goldenrod"
+	"Cherrygrove"
+	"Violet"
+	"Olivine"
+	"Cianwood"
+	"Mahogany Town"
+	"Blackthorn"
+	//Kanto
+	"Viridian"
+	"Pewter"
+	"Cerulean"
+	"Vermilion"
+	"Lavender Town"
+	"Celadon"
+	"Fuchsia"
+	"Saffron"
 }
 internalenvelope
 {

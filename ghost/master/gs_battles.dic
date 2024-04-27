@@ -1,0 +1,99 @@
+/*
+Gold's Team
+-----------------------
+
+Silklay (Gardevior)
+Ability: Synchronize
+	- Silklay has Trace but that's useless here
+Psychic (Psychic / Special / 90 Power / 100% Accuracy) + STAB
+Shadow Ball (Ghost / Special / 80 Power / 100% Accuracy)
+	- Not super sure about this one, just wanted an alt attacking move
+Calm Mind (Raises Special Attack and Special Defense by one stage)
+Heal Pulse (Restores 50% HP)
+
+Atticus (Houndoom)
+Ability: Intimidate
+Nasty Plot
+Fire Blast + STAB
+Dark Pulse + STAB
+Snarl (Dark / 15 PP / Lowers foe's Sp. Atk by 1)
+
+Norma (Delcatty)
+Ability: Cute Charm
+	- I want to keep Silver's Pokemon's gender ambigious though so maybe it'll have a more similar effect to Charm rather than Attract
+Moonlight / Cosmic Power
+	- Moonlight heals + is thematically appropriate but Cosmic Power sets into Baton pass better
+Yawn / Encore
+Baton Pass
+	- Baton Pass is cool for teamwork though might be difficult for new users to understand if they don't play a lot of Pokemon, might need explanitory descriptions
+Return / Hyper Beam (but with more PP) + STAB
+	- I guess it depends on if we want her to do Physical or Special moves?
+	
+Honoa (Lanturn)
+Ability: Volt Absorb
+Surf  + STAB
+Thunder (Surf already covers the 100% accuracy) + STAB
+Thunder Wave (Paralysis)
+Volt Switch (Electric U-Turn) + STAB
+
+Banco (Tropius)
++ Physical Attack
+- Special Attack
+Fly (Flying / Physical / 90 Power / 95% Accuracy) + STAB
+Leaf Storm (Grass / Special / 140 Power / 90% Accuracy) + STAB
+Roost (Restores 50% HP)
+Body Slam (Normal / Physical / )
+*/
+
+/*
+Silver's Team
+-----------------------
+Cloud (Ampharos)
+Ability: Static
+
+Midnight (Weavile)
+
+Interception (Crobat)
+
+Popsicle
+- Icicle Crash (Ice / Physical / 85 Power / 90% accuracy) + STAB
+- Iron Head (Steel / Physical / 80 Power / 100% accuracy) + STAB
+- Brick Break (Fighting / Physical / 75 Power / 100% accuracy)
+- Hone Claws (Attack and Accuracy up by one stage)
+
+Candy (Espeon)
+
+Citrus (Umbreon)
+*/
+
+/*
+...Wait, what is Tala doing here?
+-----------------------
+
+Dylan
+- Giga Drain (Grass / Special / 60 Power / 100% Accuracy)
+- U-Turn (Bug / Physical / 70 Power / 100% Accuracy)
+- Leech Seed (Grass / -- / 90% Accuracy)
+- Sleep Power (Puts Pokemon to sleep for 3-5 turns)
+*/
+
+/*
+wh
+head smash, Accel Rock (for priority)
+
+Pidgeot
+- Extreme Speed (Normal / Psysical / 80 Power / 100% Accuracy / Priority) + STAB
+- Brave Bird (Flying / Physical / 120 Power / 100% Accuracy / 30% damage dealt recoil) + STAB
+- Tailwind (Doubles Speed to entire team for 5 turns)
+	- Might be too difficult for noobs to use, similar to Baton Pass
+- Feather Dance
+	- Pidgeot's signature move, also benefits whole team like Tailwind
+
+ghost type paras evolution
+spore
+night shade
+shadow claw
+nightmare
+x scissor
+dream eater
+*/
