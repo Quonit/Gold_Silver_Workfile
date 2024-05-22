@@ -29,6 +29,7 @@ MenuRun
 	\![*]\q[Gold's Pokemon,OnGoldmon]\n/
 	\![*]\q[Options,configmenu]\n/
 	\![*]\q[Functions,dosomething]\n/
+	\![*]\q[PokeeMan,OnTypeMon]\n/
  	\![*]\q[Nevermind,CANCEL]\n\n\n[half]%(wd) %(nowhour):%(nowmin) %(ap), %(month)/%(day)/%(year)\e"
 }
 

@@ -1,89 +1,547 @@
-﻿psychictype
+﻿On_\person
 {
-	"Abra"
-    "Kadabra"
-    "Alakazam"
-    "Drowzee"
-    "Exeggcute"
-    "Exeggutor"
-    "Hypno"
-    "Jynx"
-	"Mime Jr."
-    "Mr. Mime"
-    "Slowbro"
-    "Slowpoke"
-    "Starmie"
-	"Espeon"
-	"Girafarig"
-	"Natu"
-	"Xatu"
-	"Slowking"
-	"Smoochum"
-	"Unown"
-	"Wobbuffet"
-	"Baltoy"
-	"Beldum"
-	"Medicham"
-	"Meditite"
-	"Chimecho"
-	"Claydol"
-	"Gardevoir"
-	"Ralts"
-	"Kirlia"
-	"Spoink"
-	"Grumpig"
-	"Lunatone"
-	"Solrock"
-	"Metang"
-	"Metagross"
-	"Wynaut"
-	"Bronzong"
-	"Gallade"
-	"Bronzor"
-	"Chingling"
-	"Alolan Raichu"
+ 	person
 }
 
+//POKEMON ENVELOPES
+
+
+//Most of these Pokémon Type evelopes ONLY have fully/mostly evolved Pokemon
+	//	- because Silver is elitest and wouldn't consider BABIES in most of the conversations where these envelopes are used
+//Legendaries and Mythical Pokémon are also not included
+	//	- because Silver is thinking of practical battle scenarios that are likely to end up in, and normally people don't have access to Legendaries.
+
+//MonoTypes
+BugType
+{
+	//I wrote the Ice Type envelope just before this one- just look at the comment for that one lol
+	"a Pinsir"
+	"a Volbeat"
+	"an Illumise"
+	"a Kricketune"
+	"an Accelgor"
+	"a Spidops"
+	"a Rellor"
+}
+
+DragonType
+{
+	"a "
+	--
+	"Dratini" //A rare first stage, Silver respects it
+	"Dragonair"
+	"Shelgon"
+	"Fraxure"
+	"Haxorus"
+	"Druddigon"
+	"Sliggoo"
+	"Goodra"
+}
+
+DarkType
+{
+	"an Alolan Persian"
+	"an Umbreon"
+	"a Mightyena"
+	"an Absol"
+	"a Liepard"
+	"a Thievul"
+	"a Mabosstiff"
+}
+
+FairyType //ohhh boy thisll cause some conflicts
+{
+	"a Fairy Type Clefairy"
+	"a Fairy Type Clefable"
+	"a Fairy Type Granbull"
+	"a Floette"
+	"a Florges"
+	"an Aromatisse"
+	"a Slurpuff"
+	"a Sylveon"
+	"a Comfey"
+	"a Alcremie"
+	"a Dachsbun"
+}
+
+FightingType
+{
+	"a "
+	"Primeape"
+	"Machoke"
+	"Machamp"
+	"Galarian Farfetch'd"
+	"Hitmonlee"
+	"Hitmonchan"
+	"Combat Tauros"
+	"Hitmontop"
+	"Hariyama"
+	"Conkeldurr"
+	"Throh"
+	"Sawk"
+	"Mienshao"
+	"Crabrawler"
+	"Passimian"
+	"Grapploct"
+	"Sirfch'd"
+	"Falinks"
+}
+
+FireType
+{
+	"a Charmeleon"
+	"a Vulpix"
+	"a Ninetales"
+	"a Growlithe"
+	"an Arcanine"
+	"a Rapidash"
+	"a Magmar"
+	"a Flareon"
+	"a Typhlosion"
+	"a Torkoal"
+	"a Magmortar"
+	"a Simisear"
+	"a Standard Darmanitan"
+	"a Heatmor"
+	"a Cinderace"
+	"a Charcadet"
+}
+
+FlyingType
+{
+	 "a Corvisquire" //Creating this envelope gave me a crisis and I wrote about it in Rookidee's dialogue
+	 //Just for the sake of making my dialogue make sense I'm including a bunch of Normal/Flying Types
+	 "a Pidgeotto"
+	 "a Pidgeot"
+	 "a Spearow"
+	 "a Fearow"
+	 "a Farfetch'd"
+	 "a Doduo"
+	 "a Dodrio"
+	 //Not including Noctowl just because of the joke in its dex entree
+	 "a Taillow"
+	 "a Swellow"
+	 "a Swablu" //Gold gets one of these, eventually. It is worse than the average Swablu
+	 "a Staravia"
+	 "a Staraptor"
+	 "a Chatot"
+	 "a Tranquill"
+	 "an Unfezant"
+	 "a Braviary"
+	 "a Pikipek" //first stage idk why it just looks more sturdy than most first stages
+	 "a Trumbeak"
+	 "a Toucannon"
+	 "a Squawkabilly"
+}
+
+GhostType
+{
+	"a "
+	--
+	"Misdreavus"
+	"Galarian Corsola"
+	"Banette"
+	"Dusclops"
+	"Mismagius"
+	"Dusknior"
+	"Yamask"
+	"Cofagrigus"
+	"Polteageist"
+	"Cursola"
+	"Greavard"
+	"Houndstone"
+	"Gimmighoul"
+}
+
+GrassType
+{
+	"a "
+	--
+	"Whimsicott" //It could be pure Grass depending on where it's from
+	"Tangela" //Tangrowth has a weird evolution so you would see more strong Tangela
+	"Meganium"
+	"Bellossom"
+	"Sunflora"
+	"Grovyle"
+	"Sceptile"
+	"Cacnea"
+	"Grotle"
+	"Cherrim" //Reluctantly though lol Silver does not think highly of it
+	"Carnivine"
+	"Tangrowth"
+	"Leafeon"
+	"Serperior"
+	"Simisage"
+	"Liligant"
+	"Maractus"
+	"Quilladin"
+	"Gogoat"
+	"Lurantis"
+	"Steenee"
+	"Tsareena"
+	"Thwackey"
+	"Rillaboom"
+	"Eldegoss"
+	"Floragato"
+}
+
+GroundType
+{
+	"a "
+	--
+	"Sandslash"
+	"Dugtrio"
+	"Marowak"
+	"Donphan"
+	"Hippowdon"
+	"Mudsdale"
+	"Sandaconda"
+}
+
+IceType //Silver doesn't consider any ice type competatively viable lol I wonder what usage this envelope will have
+{
+	"an Alolan Vulpix"
+	"a Snorunt"
+	"a Glalie"
+	"a Glaceon"
+	"a Galarian Darmanitan"
+	"a Vanillish"
+	"a Vanilluxe"
+	"a Beartic"
+	"a Cryogonal"
+	"an Avalugg"
+	"an Eiscue"
+	"a Cetitan"
+}
+
+NormalType
+{
+	"a Clefairy"
+	"a Clefable"
+	"a Jigglypuff"
+	"a Wigglytuff"
+	"a Granbull"
+	//They're Normal Types HERE ok they're used to them being Normal Type
+	"a Raticate"
+	"a Persian"
+	"a Lickitung"
+	"a Chansey"
+	"a Kangaskhan"
+	"a Tauros"
+	"an Eevee"
+	"a Snorlax"
+	"a Furret"
+	"a Ursaring"
+	"a Stantler"
+	"a Miltank"
+	"a Blissey"
+	"a Linoone"
+	"a Vigoroth"
+	"a Slaking"
+	"a Loudred"
+	"an Exploud"
+	"a Delcatty"
+	"a Zangoose"
+	"an Ambipom"
+	"a Lopunny"
+	"a Purugly"
+	"a Munchlax"
+	"a Lickilicky"
+	"a Watchog"
+	"a Stoutland"
+	"an Audino"
+	"a Cinccino"
+	"a Bouffalant"
+	"a Bunnelby"
+	"a Furfrou"
+	"a Gumshoos"
+	"a Komala"
+	"a Greedent"
+	"a Dubwool"
+	"a Oinkologne"
+	"a Maushold"
+}
+
+PoisonType
+{
+	"an Arbok"
+	"a Nidorina"
+	"a Nidorino"
+	"a Muk"
+	"a Weezing"
+	"a Swalot"
+	"a Seviper"
+	"a Garbodor"
+}
+
+PsychicType
+{
+    "an Alakazam"
+    "a Drowzee"
+	"a Mr.Mime"
+    "an Espeon"
+	"a Hypno"
+    "a Grumpig"
+    "a Chimecho"
+	"a Gardevoir"
+    "a Musharna"
+    "a Gothitelle"
+    "a Reuniclus"
+    "a Beheeyem"
+    "a Meowstic"
+    "an Espathra"
+}
+
+RockType
+{
+	"a Sudowoodo" //lmao at the top of the list. I mean they are from Johto
+	"a Nosepass"
+	"a Rampardos" //Little do they know Gold will get one of these in the future
+	"a Boldore"
+	"a Gigalith"
+	"a Lycanroc"
+	"a Stonjourner"
+	"a Naclstack"
+	"a Garganacle"
+	"a Klawf"
+}
+
+SteelType
+{
+	"a Mawile" //Depends on where it's from/been
+	"a Galarian Meowth"
+	"a Klinklang"
+	"a Perrserker"
+	"a Copperajah"
+	"an Orthworm"
+}
+
+WaterType
+{
+	"an Azumarill" //Depends on where it's from/been, they're used to the Johto version
+	"a Blastoise"
+	"a Golduck"
+	"a Kingler"
+	"a Seadra"
+	"a Seaking"
+	"a Vaporeon"
+	"a Feraligatr"
+	"a Politoed"
+	"an Octillery"
+	"a Wailmer"
+	"a Wailord"
+	"a Corphish"
+	"a Milotic"
+	"a Gorebyss"
+	"a Huntail"
+	"a Floatzel"
+	"a Lumineon"
+	"a Samurott"
+	"a Simipour"
+	"a Basculine"
+	"an Alomomola"
+	"a Clawitzer"
+	"a Wishiwashi"
+	"a Inteleon"
+	"a Barraskewda"
+	"a Wugtrio"
+	"a Palafin"
+	"a Dondozo"
+}
+
+
+
+
+//OTHER POKEMON ENVELOPES
 weakpokemon
 {
 	"Caterpie"
 	"Weedle"
-	"Pidgy"
 	"Rattata"
-	"Ekans"
 	"Zubat"
-	"Abra"
-	"Magicarp"
-	"Sentret"
-	"Hoothoot"
+	"Magikarp"
 	"Ledyba"
-	"Smeargle"
-	"Zigzagoon"
 	"Wurmple"
 	"Seedot"
-	"Tailow"
-	"Starly"
-	"Bidoof"
 	"Kricketot"
 	"Cherubi"
-	"Lillipup"
-	"Stunfisk"
-	"Fletchling"
 	"Scatterbug"
 	"Baltoy"
 	"Wimpod"
 	"Sunkern"
-	"Cherubi"
 }
-
-FireFighting
+LegendaryMon
 {
-	"Blaziken"
-	"Infernape"
-	"Emboar"
-	"Blaze Tauros"
+	%(NormalLegends)
+	%(UltraBeasts)
+	%(TreasuresRuins)
+	%(SwordsJustice)
+	%(GodsIG)
+	"Raikou"
+	"Entei"
+	"Suicune"
+	"Ho-Oh"
+	"Latios"
+	"Latias"
+	"Kyogre"
+	"Groudon"
+	"Rayquaza"
+	"Uxie"
+	"Mesprit"
+	"Azelf"
+	"Cresselia"
+	"Tornadus"
+	"Thundurus"
+	"Landorus"
+	"Reshiram"
+	"Zekrom"
+	"Kyurem"
+	"Xerneas"
+	"Yveltal"
+	"Zygarde"
+	//Skipping Tapus bc ...?
+	"Cosmog"
+	"Cosmoem"
+	"Solgaleo"
+	"Lunala"
+	"Zacian"
+	"Zamazenta"
+	"Eternatus"
+	"Calyrex"
+	"Glastier"
+	"Spectrier"
+	"Enamorus"
+	"Koraidon"
+	"Miraidon"
+	"Okidogi"
+	"Munkidori"
+	"Fezandipiti"
+	"Ogerpon"
+	"Teraoagos"
+}
+NormalLegends
+{
+	"Articuno"
+	"Zapdos"
+	"Moltres"
+	"%(Regis)"
+	"Lugia"
+	"Heatran" //Whoa it gets to get included somewhere
+	"Galarian Articuno"
+	"Galarian Zapdos"
+	"Galarian Moltres"
+	"Kubfu"
+	"Urshifu"
+	"Cyclizar"
+}
+BizzareLegends
+{
+	%(UltraBeasts)
+	%(TreasuresRuins)
+	%(SwordsJustice)
+	%(GodsIG)
+}
+UltraBeasts
+{
+	"Necrozma" //close enough
+	"Nihilego"
+	"Buzzwole"
+	"Pheromosa"
+	"Xurkitree"
+	"Celesteela"
+	"Kartana"
+	"Guzzlord"
+	"Poipole"
+	"Naganadel"
+	"Stakataka"
+	"Blacephalon"
+}
+TreasuresRuins
+{
+	"Wo-Chen"
+	"Chien-Pao"
+	"Ting-Lu"
+	"Chin-Yu"
+}
+SwordsJustice
+{
+	"Cobalion"
+	"Terrakion"
+	"Verizion"
+	"Keldeo"
+}
+GodsIG
+{	
+	"Dialga"
+	"Palkia"
+	"Giratina"
+	"Arceus" //"That's a Mythical Pokemon" do you want them to talk about Arceus like it's as common as Celibi
+}
+Regis
+{	
+	"Regirock"
+	"Regice"
+	"Registeel"
+	"Regigigas"
+	"Regieleki"
+	"Regidrago"
+}
+MythMon
+{
+	"Mew"
+	"Celebi"
+	"Jirachi"
+	"Deoxys"
+	"Manaphy"
+	"Phione"
+	"Darkrai"
+	"Shaymin"
+	"Victini"
+	"Meloetta"
+	"Genesect" //might remove
+	"Diancie"
+	"Hoopa"
+	"Volcanion"
+	"Magearna"
+	"Marshadow"
+	"Zeraora"
+	"Meltan"
+	"Melmetal"
+	"Zaride"
+	"Percharunt"
+}
+LevitateMon
+{
+	"Gastly"
+	"Haunter"
+	"Koffing"
+	"Weezing"
+	"Galarian Weezing"
+	"Misdreavus"
+	//I'd list Unown but Unown is never viable competatively even to Gold lol
+	"Vibrava"
+	"Konkurs" //He'd always say this instead of Flygon lol
+	"Lunatone"
+	"Solrock"
+	//Baltoy sure don't LOOK like it's floating
+	"Claydol"
+	"Duskull"
+	"Chimecho"
+	"Mismagius"
+	"Chingling"
+	"Bronzor"
+	"Bronzong"
+	"Carnivine" //Accidentally wrote this as "Grass" what
+	"Rotom"
+	"Eelektrik"
+	"Eelektross"
+	"Cryogonal"
+	"Hydreigon"
+	"Vikavolt"
 }
 
+
+//OTHER ENVELOPES FOR MISC PURPOSES
 city
 {
 	"Ectruteak"
@@ -105,32 +563,996 @@ city
 	"Fuchsia"
 	"Saffron"
 }
-internalenvelope
+regionconvodialogue
 {
-	"Internal Envelope Dialogue 1 - %(exampleenvelope)"
-	"%(username)'s computer"
-	"Here is a blanklist object - %(blanklist)."
+	"Dark/Normal Type Alolan Raticate,Normal Type Raticate \&[quot]Kantoan Raticate\&[quot]?,Alola"
+	"Electric/Psychic Type Alolan Raichu,Electric Type Raichu \&[quot]Kantoan Raichu\&[quot],Alola?"
+	"Ice/Steel Type Alolan Sandslash,Ground Type Sandslash \&[quot]Kantoan Sandslash\&[quot],Alola?"
+	"Ice Type Alolan Vulpix,Fire Type Vulpix \&[quot]Kantoan Vulpix\&[quot]?,Alola"
+	"Ice/Fairy Type Alolan Ninetales,Fire Type Ninetales \&[quot]Kantoan Ninetales\&[quot]?,Alola"
+	"Ground/Steel Type Alolan Diglett,Ground Type Diglett \&[quot]Kantoan Diglett\&[quot]?,Alola"
+	"Dark Type Alolan Meowth,Normal Type Meowth \&[quot]Kantoan Meowth\&[quot]?,Alola"
+	"Steel Type Galarian Meowth,Normal Type Meowth \&[quot]Kantoan Meowth\&[quot]?,Galar"
+	"Dark Type Alolan Persian,Normal Type Persian \&[quot]Kantoan Persian\&[quot]?,Alola"
+	"Rock/Electric Type Alolan Geodude,Rock/Ground Type Geodude \&[quot]Kantoan Geodude\&[quot]?,Alola"
+	"Psychic Type Galarian Ponyta,Fire Type Ponyta \&[quot]Kantoan Ponyta\&[quot]?,Galar"
+	"Psychic/Fairy Type Galarian Rapidash,Fire Type Rapidash \&[quot]Kantoan Rapidash\&[quot]?,Galar"
+	"Poison/Psychic Type Galarian Slowbro,Water/Psychic Type Slowbro \&[quot]Kantoan Slowbro\&[quot]?,Galar"
+	"Poison/Psychic Type Galarian Slowking,Water/Psychic Type Slowking \&[quot]Johtoan Slowking\&[quot]?,Galar"
+	"Fighting Type Galarian Farfetch'd,Normal/Flying Type Farfetch'd \&[quot]Kantoan Farfetch'd\&[quot]?,Galar"
+	"Poison/Dark Type Alolan Muk,Poison Type Muk \&[quot]Kantoan Muk\&[quot]?,Alola"
+	"Grass/Dragon Type Alolan Exeggutor,Grass/Psychic Type Exeggutor \&[quot]Kantoan Exeggutor\&[quot]?,Alola"
+	"Fire/Ghost Type Alolan Marowak,Ground Type Marowak \&[quot]Kantoan Marowak\&[quot]?,Alola"
+	"Poison/Fairy Type Galarian Weezing,Poison Type Weezing \&[quot]Kantoan Weezing\&[quot]?,Galar"
+	"Fighting Type Paladean Tauros,Normal Type Tauros \&[quot]Kantoan Tauros\&[quot]?,Paldea"
+	"Poison/Ground Type Paladean Wooper,Water/Ground Type Wooper \&[quot]Johtoan Wooper\&[quot]?Paldea"
+	"Ghost Type Galarian Corsola,Water/Rock Type Corsola \&[quot]Johtoan Corsola\&[quot]?,Galar"
+	"Dark/Normal Type Galarian Zigzagoon,Normal Type Zigzagoon \&[quot]Hoennan Zigzagoon\&[quot]?,Galar"
+	"Ice Type Galarian Darmanitan,Fire Type Darmanitan \&[quot]Unovan Darmanitan\&[quot]?,Galar"
+	"Ground/Ghost Type Galarian Yamask,Ghost Type Yamask \&[quot]Unovan Yamask\&[quot]?,Galar"
+	"Ground/Steel Type Galarian Stunfisk,Ground/Electric Type Stunfisk \&[quot]Unovan Stunfisk\&[quot]?,Galar"
+}
+DIDTRdialogue
+{
+	"%(FireIce),Fire"
+	"%(GrassIce),Grass"
+	"%(ElectricIce),Electric"
+	"%(IceWater),Water"
 }
 
-usersfolder
+
+
+
+
+
+//--Dual Types
+//doin these in alphabetical order bby
+//Some of these literally only have 1 pokemon in them but I like them being envelopes anyways in case more pokemon of that type get added in the future
+//ALSO THERE IS NOT EVERY DUAL TYPE HERE. THAT'D BE LIKE 260 DIFFERENT ENVELOPES I'm only doing them if they show up in dialogue
+
+//--BUG TYPES 🐛
+BugDark
 {
-	"%(username)'s Recycle Bin"
-	"%(username)'s Document folder"
-	"%(username)'s secret folder"
+	"Lokix"
 }
-lessonkor
+BugGround
 {
-	"사과(sa-gua),apple"
-	"노동(no-dong),labor"
-	"손가락(son-ga-rak),finger"
-	"마르크스(ma-r-k-s),Marx"
-	"자본주의(ja-bon-ju-yi),capitalism"
+	"Nincada"
+	"Sandy Wormadam"
 }
-blanklistparagraph
+BugFairy
 {
-	"List paragraph 1"; "List paragraph 2"; "List paragraph 3"; "List paragraph 4"; "List paragraph 5";
+	"Cutiefly"
+	"Ribombee"
 }
- On_\person
+BugFighting
 {
- 	person
+	"Heracross"
+	//No Ultrabeasts or Paradox forms, Heracross all alone
 }
+BugFire
+{
+	"Larvesta"
+	"Volvarona"
+	"Sizzlipede"
+	"Centiskorch"
+}
+BugFlying //If Silver is using put \1 after this envelope to set the Pisnir
+{
+	"Butterfree"
+	"Scyther"
+	"Mega Pinsir- \0* shudder *" //snowpoff
+	"Ledyba"
+	"Ledian"
+	"Yanma"
+	"Beautifly"
+	"Masquerain"
+	"Ninjask"
+	"Mothim"
+	"Combee"
+	"Vespiquen"
+	"Yanmega"
+	"Vivillon"
+}
+BugGhost
+{
+	"Shedinja" //I debated including it or not because it's such a weird Pokemon, but I decided to........ just cuz
+	//Natalie trans rights
+}
+BugGrass
+{
+	"a "
+	--
+	"Paras"
+	"Parasect"
+	"Plant Cloak Wormadam"
+	"Sewaddle"
+	"Swadloom"
+	"Leavanny"
+}
+BugIce
+{
+	"a "
+	--
+	"Snom"
+	"Frosmoth"
+}
+BugSteel
+{
+	"a Forretress"
+	"a Scizor"
+	"a Trash Cloak Wormadam"
+	"an Escavalier"
+	"a Durant"
+}
+
+//--DARK TYPES 🕶
+DarkDual
+{
+	"%(BugDark)"
+	"%(DarkFairy)"
+	"%(DarkDragon)"
+	"%(DarkElectric)"
+	"%(DarkGround)"
+	"%(DarkFire)"
+	"%(DarkFlying)"
+	"%(DarkFighting)"
+	"%(DarkGhost)"
+	"%(DarkGrass)"
+	"%(DarkIce)"
+	"%(DarkNormal)"
+	"%(DarkPoison)"
+	"%(DarkPsychic)"
+	"%(DarkRock)"
+	"%(DarkSteel)"
+	"%(DarkWater)"
+
+}
+DarkDragon
+{
+	"a Deino"
+	"a Zwelous"
+	"a Hydreigon"
+}
+DarkElectric
+{
+	"Morpeko"
+}
+DarkFairy
+{
+	"Impidimp"
+	"Morgrem"
+	"Grimmsnarl"
+}
+DarkFighting
+{
+	"a Pangoro"
+	"a Scraggy"
+	"a Scrafty"
+	//Nooo Urshifu das a legendary
+	
+	//Made this on accident now I need to find a place to use it lmao
+	//Me a few hours later: me wanting to use this stupid envelop created like 60 pieces of fucking dialogue about pokemon with 4x weaknesses hours of my life have been wasted I NEED TO FINISH FOX COUNSEL MEETING WORK OR THE SACRED QUEST COULD BE RUINED BUT INSTEAD IM WRITING ABOUT POKEMON
+}
+DarkFire
+{
+	"Incineroar"
+	//Mentioning Atticus wouldn't work well for the dialogue I'm using it for
+	//Legendaries banned
+}
+DarkGhost
+{
+	"Sableye" //The OG Weakless Type
+	"Spiritomb"
+}
+DarkGrass
+{
+	"a "
+	--
+	"Nuzleaf"
+	"Shiftry"
+	"Cacturne"
+	"Meowscarada"
+}
+DarkFlying
+{
+	"Murkrow"
+	"Honchkrow"
+	"Mandibuzz"
+}
+DarkGround
+{
+	"Sandile"
+	"Krokorok"
+	"Krookodile"
+}
+DarkIce
+{
+	"Sneasel"
+	"Weavile"
+	//WEAVILE SUPREMACY Chien-Pao GONE
+}
+DarkNormal
+{
+	"Alolan Rattata"
+	"Alolan Raticate"
+	"Galarian Zigzagoon"
+	"Galarian Linoone"
+	"Obstagoon"
+}
+DarkPoison
+{
+	//What the hell is a hisui
+	"Alolan Grimer"
+	"Alolan Muk"
+	"Stunky"
+	"Skuntank"
+	"Drapion"
+}
+DarkPsychic
+{
+	"Inkay"
+	"Malamar"
+	"Unbound Hoopa"
+}
+DarkRock
+{
+	"Tyranitar" //Wait it's not a dragon? I mean I knew it was Rock/Dark but I just kind of. like. thought it was Dragon/Rock or Dragon/Dark idk. Not mega tyranitar either???
+}
+DarkSteel
+{
+	"Pawniard"
+	"Bisharp"
+	"Kingambit" //Oh hey I know you. from all the competative pokemon videos I've been forced to watch in order to write Silver accurately
+}
+DarkWater
+{
+	"Mega Gyarados"
+	"Carvanha"
+	"Sharpedo"
+	"Crawdaunt"
+	"Greninja"
+}
+
+
+
+//--DRAGON TYPES 🐲
+DragonFairy
+{
+	"Mega Altatia" //YES BESTIE LETS GOOOO
+}
+DragonFighting
+{
+	"a Hakamo-o"
+	"a Kommo-o"
+	//Koraidon not invited
+}
+DragonFlying
+{
+	"a Noivern"
+	"a Dragonite"
+	"an Altaria"
+	"a Salamence"
+}
+DragonGhost
+{
+	"Dreepy"
+	"Drakloak"
+	"Dragapult"
+}
+DragonGrass
+{
+	"an Alolan Exeggutor"
+	"Mega Sceptile" // oo our first mega bois
+	"Applin"
+	"Flapple"
+	"Appletun"
+	"Dipplin"
+	"Hydrapple"
+}
+DragonGround
+{
+	"Gible"
+	"Gabite"
+	"Garchomp"
+	"Vibrava"
+	"Flygon"
+}
+DragonIce
+{
+	"Frigibax"
+	"Arctibax"
+	"Baxcalibur"
+}
+
+
+
+
+//--ELECTRIC TYPES ⚡
+ElectricFairy
+{
+	"Dedenne"
+}
+ElectricFire
+{
+	"A Heat Rotom"
+	//There should be more of these that would be cool
+}
+ElectricFighting
+{
+	"Pawmo"
+	"Pawmot"
+}
+ElectricFlying
+{
+	"Fan Rotom"
+	"Emolga"
+	"Electric Oricorio"
+	"Wattrel"
+	"Kilowattrel"
+}
+ElectricGhost
+{
+	"Rotom"
+}
+ElectricGround
+{
+	"Stunfisk"
+	//No Paradox forms
+}
+ElectricIce
+{
+	"Frost Rotom"
+	"Arctozolt"
+}
+ElectricRock
+{
+	"Alolan Geodude"
+	"Alolan Graveler"
+	"Alolan Golem"
+}
+ElectricSteel
+{
+	"Magnemite"
+	"Magneton"
+	"Magnezone"
+	"Togedemaru"
+}
+ElectricPoison
+{
+	"Toxtricity"
+}
+
+
+//--FAIRY TYPES 🧚‍
+FairyDual
+{
+	"%(BugFairy)"
+	"%(DarkFairy)"
+	"%(DragonFairy)"
+	"%(ElectricFairy)"
+	//%(FairyGround) //NO SUCH THING
+	//"%(FairyFire)" //...Vulpix crossbreed?
+	"%(FairyFlying)"
+	"%(FairyFighting)"
+	"%(FairyGhost)"
+	"%(FairyGrass)"
+	"%(FairyIce)"
+	"%(FairyNormal)"
+	"%(FairyPoison)"
+	"%(FairyPsychic)"
+	"%(FairyRock)"
+	"%(FairySteel)"
+	"%(FairyWater)"
+}
+//FairyFire
+/*{
+}*/
+//FairyFighting
+/*{
+	//Iron Valiant banned
+}*/
+FairyFlying
+{
+	"Togetic"
+	"Togekiss"
+}
+FairyGhost
+{
+	"Mimikyu"
+	//Flutter Mane will kill your entire family
+}
+FairyGrass
+{
+	"a "
+	--
+	"foreign Cottonee"
+	"foreign Whimsicott"
+	"Morelull"
+	"Shiinotic"
+}
+//FairyGround
+/*{
+	NO SUCH THING
+}*/
+FairyIce
+{
+	//There should be more of these
+	"an Alolan Ninetales"
+}
+FairyNormal
+{
+	"foreign Jigglypuff"
+	"foreign Wigglytuff"
+	"foreign Azurill"
+	"Mega Audino"
+}
+FairyPoison
+{
+	"Galarian Weezing"
+	//Could've put Weezing next to Fezandipiti but noooooo it has to be a LEGENDARY that would've been so funny
+}
+FairyPsychic
+{
+	"Galarian Rapidash"
+	"foreign Mr.Mime"
+	"foreign Kirlia"
+	"foreign Gardevior"
+	"Hatterene"
+}
+FairyRock
+{
+	"a Carbink"
+}
+FairySteel //👑
+{
+	"Tinkatuff"
+	"Tikaton"
+	"foreign Mawile"
+	"Klefki"
+}
+FairyWater
+{
+	"foreign Marill"
+	"foreign Azumarill"
+	"Primarina"
+}
+
+
+//--FIRE TYPES 🔥
+FireFighting //No "a" just because of the dialogue it's used in
+{
+	"Blaziken"
+	"Infernape"
+	"Emboar"
+	"Blaze Tauros"
+}
+FireFlying
+{
+	"Charizard"
+	"Fletchinder"
+	"Talonflame"
+	"Baile Oricorio"
+}
+FireGhost
+{
+	"Litwick"
+	"Lampet"
+	"Chanelure"
+	"Alolan Marowak"
+	"Skeledirge"
+	"Ceruledge"
+	//STELLAR fucking dual type these pokemon are all great
+}
+FireGrass
+{
+	"a Scovillain"
+}
+FireGround
+{
+	"a "
+	--
+	"Numel"
+	"Camerupt"
+}
+FireIce
+{
+	"a Zen-Mode Galarian Darmanitan"
+}
+FirePoison
+{
+	"a "
+	--
+	"Salandit"
+	"Salazzle"
+}
+FireRock
+{
+	"a "
+	--
+	"Carkol"
+	"Coalossal"
+}
+/*FireSteel
+{
+	//Heatran is banned
+}*/
+
+//FLYING TYPES 🕊
+FlyingDual
+{
+	"%(BugFlying)"
+	"%(DarkFlying)"
+	"%(DragonFlying)"
+	"%(ElectricFlying)"
+	"%(FairyFlying)"
+	"%(FireFlying)"
+	"%(FlyingFighting)"
+	"%(FlyingGround)"
+	"%(FlyingGhost)"
+	"%(FlyingGrass)"
+	"%(FlyingIce)"
+	"%(FlyingNormal)"
+	"%(FlyingPoison)"
+	"%(FlyingPsychic)"
+	"%(FlyingRock)"
+	"%(FlyingSteel)"
+	"%(FlyingWater)"
+}
+FlyingFighting
+{
+	"Hawlucha"
+	"Flamigo"
+}
+FlyingGrass
+{
+	"a "
+	--
+	"Jumpluff"
+	"Tropius"
+	"Datrix"
+}
+FlyingGround
+{
+	"Gligar"
+	"Gliscor"
+	//I hate Landorus
+}
+FlyingGhost
+{
+	"Drifloon"
+	"Drifblim"
+	"Sensu Oricorio"
+}
+FlyingIce
+{
+	"Articuno" //Including out of respect for Radic and Red
+	"Delibird"
+	//lmao the dichotomy
+}
+FlyingNormal
+{
+	"a Pidgeotto"
+	 "a Pidgeot"
+	 "a Spearow"
+	 "a Fearow"
+	 "a Farfetch'd"
+	 "a Doduo"
+	 "a Dodrio"
+	 "Hoothoot" //It gets to be included in this one it doesn't ruin the joke lol
+	 "a Taillow"
+	 "a Swellow"
+	 "a Swablu"
+	 "a Staravia"
+	 "a Staraptor"
+	 "a Chatot"
+	 "a Tranquill"
+	 "an Unfezant"
+	 "a Braviary"
+	 "a Pikipek"
+	 "a Trumbeak"
+	 "a Toucannon"
+	 "a Squawkabilly"
+}
+FlyingPoison
+{
+	"Zubat"
+	"Golbat"
+	"Crobat" //Hello Interception
+}
+FlyingPsychic
+{
+	"Natu"
+	"Xatu"
+	"Woobat"
+	"Swoobat"
+	"Sigilyph"
+	"Pa'u Oricorio"
+}
+FlyingRock
+{
+	"Aerodactyl"
+	"Archen"
+	"Archeops"
+	"Minior"
+}
+FlyingSteel
+{
+	"Corviknight"
+	"Skarmory"
+}
+FlyingWater
+{
+	"a "
+	--
+	"Gyarados"
+	"Mantine"
+	"Wingull"
+	"Pelipper"
+	"Mantyke"
+	"Ducklett"
+	"Swanna"
+	"Cramorant"
+}
+
+//--FIGHTING TYPES 💪
+FightingDual
+{
+	"%(BugFighting)"
+	"%(DarkFighting)"
+	"%(DragonFighting)"
+	"%(ElectricFighting)"
+	//%(FairyFighting) //NO PARADOX FORMS
+	"%(FireFighting)"
+	"%(FlyingFighting)"
+	"%(FightingGhost)"
+	"%(FightingGrass)"
+	//"%(FightingGround)"
+	"%(FightingIce)"
+	"%(FightingNormal)"
+	"%(FightingPoison)"
+	"%(FightingPsychic)"
+	//"%(FightingRock)" //Nooooooo legendaries
+	"%(FightingSteel)" //EVERYONE GIVE IT UP FOR LUCARIO!!! 🎉💃🥳🎊🎊🥳🎈🎉🎉🎉
+	"%(FightingWater)"
+}
+FightingGhost
+{
+	"Annihilape"
+}
+FightingGrass
+{
+	"a "
+	--
+	"Breloom"
+	"Chesnaught"
+}
+//FightingGround
+/*{
+	//No Paradox forms allowed
+}*/
+FightingIce
+{
+	"a Crabominable"
+}
+FightingNormal
+{
+	"Mega Lopunny"
+	"Pirouette Meloetta"
+	"Stufful"
+	"Bewear"
+}
+FightingPoison
+{
+	"Croagunk"
+	"Toxicroak"
+	//Hisuian Sneasel......
+}
+FightingPsychic
+{
+	"Meditite"
+	"Medicham"
+	"Gallade"
+	//Mega's don't count unless they're a different type
+	//lmao if I never list normal Mewtwo I'm certainly not listing mega mewtwo
+}
+//FightingRock
+/*{
+	//Terrakion got a weird face
+}*/
+FightingSteel
+{
+	"Lucario" //Fighting Steel the show amIright
+	//The only other ones are legendaries so not included
+}
+FightingWater
+{
+	"a Poliwrath"
+	"a Quaquaval"
+	"an Aqua Tauros"
+}
+
+
+
+//--GHOST TYPES 👻
+GhostDual
+{
+	"%(BugGhost)"
+	"%(DarkGhost)"
+	"%(DragonGhost)"
+	"%(ElectricGhost)"
+	"%(FireGhost)"
+	"%(FlyingGhost)"
+	"%(FightingGhost)"
+	"%(FairyGhost)"
+	"%(GhostGrass)"
+	"%(GhostGround)"
+	"%(GhostIce)"
+	//"%(GhostNormal)" //So cool there's even a randomtalk on it
+	"%(GhostPoison)"
+	"%(GhostPsychic)"
+	//"%(GhostRock)" //NONE
+	"%(GhostSteel)"
+	"%(GhostWater)"
+
+}
+GhostGrass
+{
+	"Phantump"
+	"Trevenant"
+	"Pumpkaboo"
+	"Gourgeist"
+	"Dhelmise"
+	"Decidueye"
+	"Bramblin"
+	"Brambleghast"
+	"Poltchageist"
+	"Senistcha"
+	//Weirdly high amount of these. More than I expected
+}
+GhostGround
+{
+	"a "
+	--
+	"Galarian Yamask"
+	"Golett"
+	"Golurk"
+	"Runerigus"
+	"Sandygast"
+	"Palossand"
+}
+GhostIce
+{
+	"Froslass" //Lonely girrrrl you are my worlddd
+}
+//GhostNormal
+/*{
+	
+}*/
+GhostPoison
+{
+	"Gastly"
+	"Haunter"
+	"Gengar"
+	//And then the only other one of this type is a mythical Pokemon great job guys, this Kanto manages to stay unique XD It and Nidos
+}
+GhostPsychic
+{
+	"Hoopa" //I almost made this envelope sooner but the random dialogue flowed better if it wasn't random
+}
+GhostRock
+{
+	//Bruh They could have made a haunted tombstone or something
+}
+GhostSteel
+{
+	"Honedge"
+	"Doublade"
+	"Aegislash"
+	"Gholdengo" //The troll Pokemon
+}
+GhostWater
+{
+	"Frillish"
+	"Jellicent"
+	//I ain't putting if else statements in these fucking things it's complicated enough already please stop 
+}
+
+
+
+//--GRASS TYPES 🌸
+GrassGround
+{
+	"a Torterra"
+	"a Toedscruel"
+}
+GrassIce
+{
+	"Snover"
+	"Abomasnow"
+}
+CapsGrassPsychic
+{
+	"Celebi"
+	"An Exeggcute"
+	"An Exeggutor"
+}
+GrassRock
+{
+	"a Cradily"
+}
+GrassSteel
+{
+	"a Ferroseed"
+	"a Ferrothorn" //Gold gets one of these in the future!
+}
+GrassWater
+{
+	"a Ludicolo"
+}
+
+
+//--GROUND TYPES 🌎
+GroundDual
+{
+	"%(BugGround)"
+	"%(DarkGround)"
+	"%(DragonGround)"
+	"%(ElectricGround)"
+	//%(FairyGround) //NO SUCH THING
+	"%(FireGround)"
+	"%(FlyingGround)"
+	"%(FightingGround)"
+	"%(GhostGround)"
+	"%(GrassGround)"
+	"%(GroundIce)"
+	//%(GroundNormal) //NO URSALUNA
+	"%(GroundPoison)"
+	"%(GroundPsychic)"
+	"%(GroundRock)"
+	"%(GroundSteel)"
+	"%(GroundWater)"
+}
+GroundIce
+{
+	"Swinub"
+	"Piloswine"
+	"Mamoswine"
+}
+GroundPoison
+{
+	"Nidoqueen"
+	"Nidoking"
+	"Paldean Wooper"
+	"Clodsire"
+}
+GroundPsychic
+{
+	"Baltoy"
+	"Claydol"
+}
+GroundRock
+{
+	"a Rhyhorn"
+	"a Rhydon"
+	"a Rhyperior"
+	"a Graveler"
+	"a Golem"
+	"an Onix"
+	"a Larvitar"
+	"a Pupitar"
+}
+GroundSteel
+{
+	"an Alolan Diglett"
+	"an Alolan Dugtrio"
+	"an Excadrill"
+	"a Galarian Stunfisk"
+	"a Steelix"
+}
+GroundWater
+{
+	"a Wooper"
+	"a Quagsire"
+	"a Marshtomp"
+	"a Swampert"
+	"a Barboach"
+	"a Whiscash"
+	"a Gastrodon"
+	"a Palpitoad"
+	"a Seismitoad"
+}
+
+
+//--ICE TYPES ❄
+IceDual
+{
+	"%(FightingIce)"
+	"%(FairyIce)"
+	"%(DarkIce)"
+	"%(GhostIce)"
+	//"%(IceNormal)" //Not real
+	"%(DragonIce)"
+	"%(BugIce)"
+	"%(IceRock)"
+	"%(IcePsychic)"
+	"%(IceWater)"
+	"%(GroundIce)"
+	//"%(IcePoison)" //whoops none at all
+	"%(FlyingIce)"	
+	"%(FireIce)"
+	"%(GrassIce)"
+	"%(ElectricIce)"
+	"%(IceWater)"
+}
+IceDualNotResistedByDragon
+{
+	"%(FightingIce)"
+	//"%(FairyIce)" //Wouldn't be good for the conversation
+	"%(DarkIce)"
+	"%(GhostIce)"
+	//"%(IceNormal)" //Not real
+	"%(DragonIce)"
+	"%(BugIce)"
+	"%(IceRock)"
+	"%(IcePsychic)"
+	"%(IceWater)"
+	"%(GroundIce)"
+	//"%(IcePoison)" //whoops none at all
+	"%(FlyingIce)"	
+}
+//IceNormal
+/*{
+}*/
+IceRock
+{
+	"an Amaura"
+	"an Aurorus"
+	//No Hisuian Avalugg because Hisui is FORGOTTEN
+}
+//IcePoison
+/*{
+}*/
+IcePsychic
+{
+	"Galarian Mr.Mime"
+	"Jynx"
+	//Gold is more inclusive than Silver but even he's not bringing up baby Pokémon lol
+	"Mr.Rime"
+}
+IceWater
+{
+	"Spheal"
+	"Sealeo"
+	"Walrein"
+	"Dewgong"
+	"Cloyster"
+	"Lapras"
+	"Arctovish"
+}
+
+//--POISON TYPES ☢
+PoisonRock
+{
+	"Glimmet"
+	"Glimmora"
+}
+PoisonSteel
+{
+	"a "
+	--
+	"Varoom"
+	"Revavroom"
+}
+RockSteel
+{
+	"Shieldon"
+	"Bastiodon"
+	"Probopass"
+	"Aron"
+	"Lairon"
+	"Aggron"
+}
+
+
+

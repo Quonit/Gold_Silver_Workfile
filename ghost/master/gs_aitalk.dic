@@ -46,7 +46,10 @@
 Grammar Rules:
  Pokèmon is always spelled with the accent. Words including the prefix pokè- also include the accent.
  Types are capitalized. Ground Type, Bug Type, Flying Type, etc. Both words are capitalized.
- The plural of any Pokemon is just their name. No s or anything at the end. Plural Pikachu is Pikachu. 
+ Plural of any Type of Pokémon ends with Types. No Bugs, only Bug Types.
+ The plural of any Pokémon is just their name. No s or anything at the end. Plural Pikachu is Pikachu. 
+ Gold always refers to an individual Pokémon with their name and pronouns if applicable
+ Silver only refers to Pokémon by species and uses it/its pronouns for all
 */
 
 RandomTalk : nonoverlap
@@ -59,7 +62,7 @@ RandomTalk : nonoverlap
 	> Silver: You should know this! You have a Fairy Type on your team!
 	> Gold: I do?
 	*/
-	"\1\s[10]What Pokemon do you think could beat a %(psychictype)?\w8\0\s[4]Atticus!\w4 Obviously!\1\s[206]\i[8]\w8\n\nSigh\w2.\w2.\w2.\e"
+	//"\1\s[10]What Pokemon do you think could beat a %(psychictype)?\w8\0\s[4]Atticus!\w4 Obviously!\1\s[206]\i[8]\w8\n\nSigh\w2.\w2.\w2.\e" <- Outdated, but not deleting out of respect
 	
 	"\0\s[5]I heard that they're opening a contest circuit in Jotoh soon!\w8\1\s[10]Huh?\w8\0\s[5]\n\nIt's like\w2.\w2.\w2.\w8 Instead of battles, \w6\0\s[7]you try to make your Pokemon seem as interesting as possible to a bunch of judges-\w8\1\s[206]\i[7]\n\nI know what Pokemon Contests are.\w8\0\s[4]\n\nand THEN you battle other people!\w8\1\n\nSigh\w2.\w2.\w2.\w8\0\s[6]\n\nI think you'd have a good shot if you tried some of them!\w8 You keep your Pokemon \f[italic,true]VERY\f[italic,false] well groomed!\w8\1\s[203]\n\n!\w8\n\n\1\s[204]\i[6].\w2.\w2.\w2I don't want to have them be objectified like that.\w8\0\s[8]\n\nBut you didn't even aaaask them if they're interested.\w8\1\s[207]\n\nThere aren't any contest circuts in Jotoh or Kanto yet anyways!\w8\0\s[8]\n\n.\w2.\w2.\w2Yet.\e"
 	
@@ -128,65 +131,7 @@ RandomTalk : nonoverlap
 	S: What are you named after?
 	G: [contemplative] You know... I never asked...
 	
-	G: How does mega evolution work anyways? Do you get, like, a specific mega-stone or whatever for the Pokemon and it'll Mega-evolve for a little while then go back to normal?
-	S: The method is similar to that...
-	G: Cool!!! I want to see what my Shiny Flygon would look like mega evolved.
-	S: Currently there's no known way to Mega evolve a Flygon.
-	G: [Gets down on knees] NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!
-	[goes into chain]
-	S: You can Mega evolve Gardevoir, though.
-	G: Can you Mega evolve Ampharos?
-	S: Yes.
-	G: What about... Delcatty?
-	S: No.
-	G: Aw man.
-	S: [Thinking] ...You can Mega evolve a Pinsir.
-	G: Why would I do that?
-	[chain 3]
-	G: CAN you mega evolve a Tropius?
-	S: No.
-	G: Lanturn or Houndoom?
-	S: No on Lanturn, yes on Houndoom.
-	G: Sick...
-	G: What about your Pokemon? Which of them can mega evolve? Aside from Ampharos.
-	S: None of them. And none of your Pokemon can either because we don't live in Kalos and don't have any Mega stones.
-	G: Siiighhh. Yeah I guess not. Where can you get them anyways?
-	S: Drown on your way swimming to Kalos yourself >:|
-	G: Psh... If I died trying to get to Kalos, I'd at least be surfing on my Pokemon and then get lost at sea.
-	[Chain 4??]
-	G: Looking up Mega Houndoom. I don't really know if it's pulling off that bone collar or not...
-	G: It's difficult to judge without being in person.
-	S: ...
-	G: Mega Gardivior is slaying though! It's basically just a poofier dress, but it works! Looks like a big ol' wedding gown.
-	G: Mega Ampharos is DEFINITELY the best one though. It grows its sheep wool back and looks all magestic!
-	G: I'd love to see what yours would look like mega evolved, since Cloud is reeeaally big for an Ampharos you'd get WAY MORE sheep wool.
-	S: Its name isn't Cloud.
-	G: Sure it's not REGISTERED as Cloud, since technecally it's stolen and it's not registered with you at all, but you call it Cloud!
-	S: No I don't!
-	G: I've seen you do it! It's just a Pokemon name, you don't have to get defensive.
-	G: I think it's cute.
-	S: You thinking something I do is cute is a failure on my part.
-	G: So you ADMIT IT! Cloud the Ampharos IS REAL
-	S: I haven't admitted to anything! I just said that it /would/ be bad if it did happen-
-	G: Cloud cloud cloud cloud cloud-
-	S: -but it didn't.
-	G: ...
-	G: Softie
-	[CHAIN 5 OR SOMETHING]
-	G: So hows Cloud doing
-	S: [Summons Cloud out of Pokeball] Ampharos I order you to kill him
-	G: Hi Silver's Ampharos!
-	A: Ammmmmmph :)
-	G: Does Silver call you cloud sometimes
-	A: [nod] [amiable ampharos noises]
-	S: I don't! Ampharos do I call you Cloud
-	A: [Blinks then shakes head no]
-	S: See?
-	G: Awwww it knows how to lie when you tell it to!!! The Lab Assistants were right you've raised an evil Pokemon
-	A: [Laughing]
-	S: THIS ISN'T FUNNY STOP
-	[Ampharos Mode == On]
-	[Maybe once you unlock one of Silver's Pokemon it stays unlocked from the menu?]
+	
 	
 	G: If you were a Pokemon what Pokemon would you be?
 	S: That question doesn't make any sense.
@@ -301,76 +246,6 @@ RandomTalk : nonoverlap
 	G: They returned it to the Pokeball.
 	S: [T_T]
 	
-	G: Hey Silver.
-	G: What does Pichu evolve into?
-	S: [confused why he's asking] Pikachu...?
-	G: Gazuntite.
-	S: -! [annoyed]
-	G: [cracking up] Every 6 year old tells that joke to each other!!! I can't believe 	you've never heard it hahaha
-	[Chain1]
-	G: Hey Silver.
-	S: ...
-	G: How do you make a Meowth get into a bus?
-	S: ...
-	G: You Poke-'em-on.
-	S: ...
-	G: Tough crowd, hehe.
-	[Chain2]
-	G: Knock knock.
-	S: ...
-	G: Come on, Silv, work with me.
-	S: ...Who's there...?
-	G: ...
-	G: ...
-	G: ...
-	G: ...
-	G: ...
-	S: [Annoyed] Who's there?
-	G: Slowpoke!
-	[Gold laughs, Silver annoyed.]
-	[Chain3]
-	G: Hey Silver.
-	S: /What?/
-	G: What do you call it when a Pokemon uses the move Rain?
-	S: Strategic.
-	G: A Pokemonsoon.
-	S: Uhg >:/
-	G: Hey Silver- Hey Silver-	
-	S: I've learned that's the que you're going to start being annoying.
-	G: What's Onyx' favorite music genre?
-	S: Do not say rock.
-	G: It's rock! [Laughing]
-	//S: [Rolls eyes]
-	[Chain4]
-	S: ...
-	S: What did the Weavile say to the Cyndaquil?
-	G: What did it say?
-	S: ...
-	[He got too embarressed to finish.]
-	G:
-	G: Aww come on, you can do it!
-	S: No... I realized it's not actually that funny.
-	G: Whynauuuutt?
-	S: T_T
-	G: I've just told a way worse! You can do it!
-	S: ...I'll think of another one.
-	[Chain5]
-	G: What did the Cyndaquil say to the Weavile?
-	S: ...What?
-	G: ...You're pretty /cool/.
-	S: ...hm.
-	G: Closest to a laugh I've gotten out of you yet :D
-	/
-	G: If you were a Pokemon, I think you'd be a Steel Type. 
-		/
-		G: Because you /steel/ Pokemon.
-		S: >:/
-		/
-		Because you /steel/ my heart :3
-		S: Past tense of steal is stole.
-		G: Pshh. I know you got it.
-
-
 	G: I think I need more Paralyz Heals when I get home.
 	S: How did you manage to run out...?
 	G: ...Because you're /stunning/.
@@ -533,206 +408,939 @@ RandomTalk : nonoverlap
 	G: What about status moves that are Normal Type here, but Fairy Type somewhere else? There's effectively no difference.
 	S: That's a weird case...
 	G: Fairy just goin' around infecting all the "Mormal" energy, heh.
+	
+	G: Do you think the move "Attract" should be banned?
+	S: Why would it be banned?
+	G: Well, it's just that it feels a little bit unethical is all. I mean, the Pokemon are fighting for sport, but emotional manipulation just feels a step too far... I don't want to break any hearts.
+	S: You used it to help you win the Pokémon Master title two times.
+	G: So I know firsthand how devastating it can be!
+	
+	G: What if it turned out every Pokemon was actually a ditto?
+	S: That's definitely not true.
+	G: But how would we be able to tell? Maybe some of them are just really good at transforming and have committed to the bit.
+	S: Pokémon's data can be read whenever you put them into a pokecenter. It can read their DNA to tell you what species they are.
+	G: What if some Ditto are just better at tricking the machine? Their body literally changes!
+	S: The nurses would be able to tell you.
+	G: But what if the nurses are *in on it*?
+	S: [sigh]
+	
+	G: So you think that Ice/Dark and Ice/Steel are bad type combos, right?
+	S: They're mediocre if anything... They don't have the best synergy.
+	G: What do you think would be the best Ice duel type?
+	S: Hm... Ground? It has five weaknesses, and answers to three of them... Steel and Fire answered by Ground and Grass answered by Ice.
+	G: Oh, so that'd be the Swinub line.
+	S: Ground is better off without the Ice Type though. Its best pairing is with Water Type.
+	G: Psh, and for a second I thought you weren't going to talk down about an Ice Type.
+	
+	G: Hey Silver.
+	S: What?
+	G: Oohhh we made eye contact, that means we /have/ to battle.
+	S: Heh. Sounds like you had more trouble with those kinds of trainers than I did.
+	G: What? Did you actually manage to get them to go away?
+	S: I may have.
+	G: Silver!! Silver what did you do!! Did you attack THEM or something??? Silver noooo!
+	G: .......Kind of justified though.
+	
+	{
+		G: So Silver, do you say 
+		--
+		"Ar-see-us or Ar-key-us?\1 Both pronunciations are correct... \0 Yeah, but which way do /you/ normally pronounce it? \1 Arceus."
+		"Rai-koo or Rai-koe? \1Raikʉ is more popular but Raikɒ is more historically accurate. \0So you pronounce it Rai-koe then?\1 I pronounce it Raikou."
+		"Ray-quay-za or Ray-kwah-za?\1Rayquɒza is more popular but Rayquɛza is more historically accurate. \0So you pronounce it Ray-quay-za then? \1 I pronounce it Rayquaza."
+		--
+		"\0 Hey! Stop being self aware about speaking in text! That's not fair to %(username)."
+	}
+	
+	G: [Sigh], I wish there were more horse Pokémon... There's Rapidash, none of which I've connected with, Galarian Rapidash- which is inaccessible to me unless I want to do a lot of trading or "buy it" from a black market, which wouldn't be good, then there's Glastrier and Spectier which I /definitely/ can't have.
+	S: There's also Mudsdale, though that's from Alola... Zebstrika?
+	G: Zebstrika is interesting... I dunno if you can ride on them, though.
+	S: If you're counting legendaries there's also Keldeo.
+	G: Hm...
+	S: You can have that one far /less/ than Glastrier and Spectier.
+	G: Slim pickings out here!
+	
+	G: What would happen if someone brought a %(LegendaryMon) to the League? Would they be allowed to use it?
+	S: People have been doing Pokemon battles long before the league, and although it's rare, Legendary Pokémon /are documented/ to have been used multiple times.
+	S: I don't think any Pokemon is off the table as long as it still plays by the rules and /keeps the field in tact/-
+	G: Which is part of the rules, to be fair!
+	S: But it's highly likely that they could get investigated for how they got it. Sometimes, Legendary Pokemon are traded illegally, captured against their will, and maybe trapped with a trainer they dislike who only wants them for power or money.
+	S: However, it's important to keep in mind that there's a difference between Legendary Pokemon like %(NormalLegends), which there are known to be multiple of and we have even tracked the locations of some of them, and %(BizzareLegends).
+	
+	{
+	G: Hey %(username), have you ever seen a %(MythMon)?
+	--
+	S: Don't tell him you have, or else he'll /actually/ believe you.
+	G: Sometimes it's nice to have faith in people, believe it or not!
+	
+	G: I saw a Celibi once!
+	S: Or so you say.
+	G: And I'll keep saying until you believe me!
+	S: So you'll stop lying to people once you've gained my trust...? My, how lucky am I to be the subject of your attention.
+	G: You just play hard-to-get so it's more rewarding!
+	}
+	
+	
 	*/
-/* Month dialogue
+	
+	//FINALLY... THE LONG AWAITED TYPE MATCHUPS
+	//Definitely inspired by Radic and Farnsworth. I love them :cries:
+	//Putting these into a few different pools because otherwise the randomtalk would play these way too often, but I don't want just one pool because there are too many variations you'd never see
+	//WHAT WOULD BE EFFECTIVE AGAINST A (BLANK)
+	{ //Honoa Pool
+		
+	"S: What would be effective against "
+	--
+	//OP1:
+	"%(FlyingType)? \0Honoa! Obviously. \1But what if it was part Dragon Type like %(DragonFlying)?\0 In that case... I'd probably use Konkurs instead. His Ground attacks wouldn't work, but he mostly prefers to use Dragon Types moves anyways. He's especially competative with other Dragons, so it might work out.\0\n\nSo either that, or Norma.\1[Sigh].\e"
+	
+	//OP2:
+	"%(GroundType)?\0Honoa! Obviously. \1But what if it was part Grass Type like %(GrassGround)?"
+	"%(WaterType)?\0Honoa! Obviously. \1But what if it was part Grass Type like %(GrassWater)?"
+	"%(FlyingType)?\0Honoa! Obviously. \1But what if it was part Grass Type like %(FlyingGrass)?"
+	"%(FireType)?\0Honoa! Obviously. \1But what if it was part Grass Type like %(FireGrass)?"
+	"%(RockType)?\0Honoa! Obviously. \1But what if it was part Grass Type like %(GrassRock)?"
+	--
+	"\0Well, he'd still be able to hit for neutral, but... Grass is weak to Fire, so you could try to use the electricity to start a fire.\1 ...Don't do that. \0 Would that be tournament legal?\1 I suppose it would depend on what you set on fire. \0 So if someone were to start a fire with an Electric Type, which triggers the water sprinkling system, and the water sprinkling system knocks out the opponent, then do you win the battle or is it considered foul play?\1 Don't try to trigger the sprinkling system on purpose???\e"
+	}
+	
+	{ //Silklay Pool
+	"\1What would be effective against a %(FightingType)?\0Silklay. Phsychic both resists and is super effective against Fighting.\0If she were part Fairy Type, then /both/ her Types would resist it.\0To be fair, I'm not sure how useful that is... How many Fighting Types even are there?\1Lots of Pokémon that aren't Fighting Types still have Fighting moves. It's still a useful resistance.\e"
+	
+	"\1What would be effective against a %(PoisonType)?\0Silklay. Phsychic both resists and is super effective against Poison.\1I suppose it's one of the benefits of keeping a Gardevior pure Psychic Type instead of changing it to Psychic/Fairy.\0Well, I imagine it would be less useful in other regions. Poison is super common in Kanto, but not a lot of other places.\e"
+	
+	//And an unrelated one just because I didn't want this dialogue to be unreasonably rare
+		{ //Ground Immunity
+		"\1What would be effective against%(GroundType)?\w8\0"
+		--
+		"Well as long as it can fly, like %(FlyingDual), then it should be fine.\e"
+		"Well as long as it's not touching the ground it should be fine against most Ground Type attacks, like a %(LevitateMon).\e"
+		}
+	}
+	
+	{ //Konkurs Pool
+		"\1What would be effective against a %(GroundType)?\0Konkurs, Ground Types do nothing to him! /Totally immune/. And even if he wasn't, he's a Ground Type himself. \1Ground doesn't actually resist Ground... \0Really? Well, again, not a worry for Konkurs." //I did Ground Type for Honoa also but this is the more likely response lol
+	
+		"\1What would be effective against a %(ElectricType)?\0Konkurs, since he's a Ground Type. He usually prefers Dragon moves, but he definitely has Ground attacks.\1It would be strange if he didn't, not to mention foolish on your part. Ground is one of the most valuable Types there are offensively.\0It's true! I've gotta do some more training for him..."
+		
+		"\1What would be effective against a %(SteelType)?\0Atticus, since Fire is good against Steel. Though if he's not around I usually switch to Honoa, since he can hit for neutral...\1Why not your Flygon?\0What, Konkurs?\1Ground Types are super effective against Steel Types.\0Ahah- You know I'm bad with Steel!"
+	}
+	
+	{ //Atticus Pool
+		"\1What would be effective against a %(GrassType)?\0Atticus. Fire burn Grass, preschool stuff. ...Though, Banco would be a good second choice, since /both/ Grass and Flying resist Grass."
+	
+		"\1What would be effective against a %(PsychicType)?\0Atticus, since he's part Dark Type. Drugia would've been my second choice, being part Bug, but he's at home right now."
+	//two different Psychic responses woag. I just had two different ideas lol
+		"\1What would be effective against a %(PsychicType)?\0Atticus, since he's part Dark Type. Though, the rest of my Pokémon could hit it for neutral. I think my second choice would be Silklay, since Psychic resists Psychic."
+		
+		"\1What would be effective against a %(IceType)?\0Atticus would be my go-to for an Ice Type! If he's not an option though... Well, Norma's not weak to Ice! \1If the Ice Type were part"
+		--
+		"Fighting like %(FightingIce)"
+		"Rock like %(IceRock)"
+		"Steel like Alolan Sandslash your Delcatty would struggle.\0 Aww, you bein' defensive over your Pokémon? \1Shut up." //Rare dialogue on purpose. HOPEFULLY THIS WON'T MESS UP ANYTHING TO INCLUDE
+		--
+		"your Delcatty would struggle. \0Sure, but you just changed the Pokémon midway through, so it's not exactly a fair judgement of Norma."
+	}
+	
+	{ //Norma Pool
+		"\1What would be effective against a %(BugType)? \0Atticus, because Fire make Bug go burrrn. (think)If he's not around though... Banco is part Flying but weak to Bug because part Grass, so not her... In the past I would'a used Drugia, but I don't have him with me right now!\n\n\w8I'll go with Norma as a secondary. She's always a good secondary."
+	
+		"\1What would be effective against a %(DragonType)?\0Konkurs. He's basically my only answer to Dragon Types, but he's a pretty good answer, since he gets really determined to win against them.\1You should really have a secondary option...\0 I mean! A lot of My Pokemon hit it for neutral. But you're right, I should probably find a way to teach Norma Blizzard or something."
+		
+		"\1What would be effective against a %(GhostType)?\0I'd use Norma! She's immune to Ghost Type moves and knows different Types of moves that can hit Ghost Types, so she's usually the safest option there. If not her, then Atticus, since Dark is good against Ghost. \1I'd really pick Atticus first... \0Nope! I'm sticking with Norma. Delcatty aren't as weak as you think they are."
+	}
+	
+	{ //Banco Pool
+		"\1What would be effective against a %(WaterType)?\0My go-to would be Honoa, since I encounter Water Types while surfing a lot, but Banco would also be really good... both Grass and Flying do super effective damage against Water, /and/ she resists it. She's basically a wall for pure Water Types, heh!"
+		
+		"\1What would be effective against a %(RockType)?\0Konkurs is the best choice against Rock Types, since Ground resists /and/ is super effective against them. You could use a %(FightingWater), a %(GroundSteel), a %(GroundWater), maybe even a %(GrassSteel)!\w8 Rock isn't exactly a very good type is all I'm saying. \1Not defensively, that's for sure..."
+		
+		"\1What would be effective against a %(GroundRock)?\0Psh, /so many things/. There are so many Rock/Ground Types in Kanto, it's a little sad how bad they are defensively. My first thought was was Banco, though."
+	}
+	
+	{ //Nonspecific Pool
+		"\1What would be effective against %(DarkType)?\0A %(BugFighting), since both Bug and Fighting hit Dark Types hard. I used to have a Masquerain, but he lives with my Mom now...\1You also have a Pinsir.\0 Ack, don't remind me."
+		
+		"\1What would be effective against %(NormalType)?\0Only Fighting is effective against Normal, so a %(FightingDual), probably. Or maybe a %(GhostType) that knows non-Ghost Type moves? Depends on if the Normal Type could hit it back, I suppose. They usually learn a variety of moves."
+		
+		"\1What would be effective against %(FairyType)?\0Oh man, a Fiary Type? A %(PoisonSteel) if you have one, though a %(PoisonType) or a %(SteelType) would work."
+	}
+	
+	{ //Immunity pool
+		"\1What would be effective against"
+		--
+		"%(ElectricType)?\w8\0Hmmm... Maybe %(GroundDual)?\w8 Since all Ground Types have an immunity to Electric.\e"
+		
+		"%(PsychicType)?\w8\0Atticus!\w8 Though, if you don't have a Houndoom, %(DarkDual) also works.\1Houndoom /are/ pretty difficult to find..."
+		
+		"%(FightingType)?\w8\0Ooh, what about %(GhostDual)? I don't think that Fighting Types are immune to Ghost Types like Normal Types are. It just goes one way when it comes to Ghost and Fighting. \1That is indeed true. In order for a Fighting Type move to hit a Ghost Type, it would need a specific move like Foresight. \0Oh, is that what foresight does? I thought it was useless. Wild HootHoot kept using it on me and I couldn't understand why. \1Well, and that particular instance, it was a useless move. Unless they were trying to hit your Delcatty with a Ghost Type move...? Which I don't think Hoothoot learn... [Checking Dex], Huh, turns out a few of them can use Shadow Ball...\0\n\nYou're such a nerd, you know that?"
+	}
+	{ //Dragon pool
+		"\1What would be effective against %(DragonType)?\w8\0"
+		--
+		{ //Dragon
+		"Hm, what about %(IceDualNotResistedByDragon)?\w8 It does have an offensive advantage!\w8\1 If an Ice Type could stay on the field long enough to knock it out without getting knocked out itself... \0They /obviously/ can, they do it all the time! They're the best counter for Dragon Types!\1Aside from Fairy Types...\0Do you /see/ any Fairy Types in Kanto or Johto? No? Thought so. You want to be ''practical'', like you always say you are, you've got to recognize the tools you actually have!\0[Sigh].\e"
+		
+		"A %(FairyDual)! All Fairy Types are immune to Dragons.\1Indeed they are.\0 I love that they're like that... They're so cute, they deserve to destroy all the dragons.\e"
+		}
+		{ //Dragon but complicated
+			_DIDTRconvo = DIDTRdialogue
+			_IceWithATypeDragonResists = _DIDTRconvo[0]
+			_IceWithATypeDragonResistsType = _DIDTRconvo[1]
+			//QUO DOES A STRING AGAIN LETS GOOOOOO the dialogue will be soooo natural and flexible
+		"%(DragonType)?\w8\0Well, %(_IceWithATypeDragonResists)would have an offensive advantage!\w8\n\n\1Though, Dragons do resist %(_IceWithATypeDragonResistsType)\0Ice Type's an Ice Type!\e"
+		}
+	}
 
-	if month >= 12
-	{
-		"\0\s[0]This is dialogue for December.\w8\1\s[18]A cold month?\e"
-		
-		"\0\s[0]This is more dialogue for December.\w8\1\s[18]Still cold?\e"
+
+
+	//WHAT WOULD BE WEAK TO (BLANK)
+	{ //Fire, Fighting, Water
+		{ //Fire
+			"What would be weak to %(FireType)?\0 Like, /super/ weak? \n\nMaybe "
+			--
+			"%(BugIce)"
+			"%(GrassIce)"
+			"%(GrassSteel)"
+			"%(BugGrass)"
+			"%(BugSteel)"
+			--
+			"? Though, Types aren't the be-all-end-all. \1They are close to it... \0You never know what kinds of unique strategies people can pull during battle! Never underestimate your opponent."
+		}
+		{ //Fighting
+			"What would be weak to %(FightingType)?\0"
+			--
+			"Psh, any Rock/Ground Type like %(GroundRock), which are plentiful in Kanto. It's such a common type for how many weaknesses it has."
+			
+			"I'd say \&[quot]your Sandslash\&[quot], but you beat one with it once, didn't you?\n\n\w8No one should be relying on luck when it comes to that kind of thing. It's dangerous and irresponsible. \0Yeah, but I don't think it was \&[quot]luck\&[quot], was it? You had a real strategy there.\1Hm.\0I'm telling you, you're a great trainer! You just need to have a little more trust in yourself."
+		}
+		{ //Water
+			"What would be weak to %(WaterType)?\0I'd say \&[quot]any Rock/Ground Type\&[quot], but that feels too easy. Like, kicking someone while they're down, y'know?\n\n\w8Let me think... Oh, "
+			--
+			"%(FireRock)"
+			"%(FireGround)"
+			--
+			"! Right?\1Right.\0Yesssss!"
+		}
 	}
+	{ //Flying, Grass, Poison
+		{ //Flying
+		"\1What would be weak to %(FlyingType)?\0"
+		--
+		"%(BugGrass)"
+		"%(FightingGrass)"
+		"%(BugFighting)"
+		--
+		"? 'Least I hope so.\w8 As a Flying Type herself, Banco would benefit from me knowing this stuff.\1You got it right.\0Nice!\1Typically, you won't end up in a situation where you're fighting a Pokemon that's extremely vulnerable to yours, because the other Trainer is smart enough not to do that. However, this doesn't make the knowledge useless. The other trainer could make a mistake, you could find it handy when facing a wild Pokemon, or you can use the intimidation to your advantage.\0You're so smart when it comes to battling, it's a shame you don't do it more!\1Yes, well... Battling isn't everything. \0Yeah... s'pose you're right."
+		}
+		{ //Grass
+		"What would be weak to %(GrassType)?\0"
+		--
+			"%(GroundWater), Grass is one of the few things a Water/Ground Type is matched badly against!\1Usually they're one of the best Type combinations there is.\0Just goes to show strength can be variable and there's never one right solution to everything!"
+			
+			"%(RockWater), but the poor Rock/Ground Types also get a huge weakness to Grass as well. I've heard most trainers in Kanto go to the Rock Gym first, because both Squirtle and Bulbasaur are effective against all the Pokémon there. In fact, some kids even think Charmander is /worse/ just because it doesn't match up well against that gym you're expected to go to first!\1Oh no, what will Charizard ever do, how will anyone pick it now...\0Spoken like someone sick of Charizard being presented as the best all the time, heh."
+		}
+		{ //Poison
+			"What would be weak to %(PoisonType)?\0"
+			--
+			"You know, I heard in Kanto there used to be a lot of Bug Types that were weak to Poison, so %(BugGrass) would'a had /three different types/ it was incredibly vulnerable to! Poor things... I'm glad it's not that way anymore.\e"
+			
+			"Poison's a little weird... It's only effective against Grass Type, so nothing would be super vulnerable to it.\1Fairy Types are also weak to it.\0Oh! Right! So a Grass/Fairy Type like %(FairyGrass) would be super vulnerable to it!\1M-hm.\0Always feels good when I get one of these right."
+		}
+	}
+	{ //Electric, Ground, Psychic
+		{ //Electric. and Normal
+		"What would be weak to a %(NormalType)?\0Hah! I know that's a trick question, you can't fool me! Normal Types don't hit anything for super effective damage.\1You're sharp, aren't you?\0Heh... Thanks.\e"
+		
+		"What would be weak to %(ElectricType)?\0Well, I could respond with any ol' Water Type, but I'm thinkin' something /super/ weak. Like..."
+		--
+		"%(FlyingWater)!\1\w8\n\nFor as convenient as Flying/Water Types can be, they're certainly not good in this context.\0\n\nI still feel bad about the Mantyke I saw while I was with Honoa... We hit it with Spark, then did /not/ see it again."
+		}
+		{ //Ground
+		"What would be weak to %(GroundType)?\0Oh, a whole bunch of things... Isn't ground a really good type offensively?\1Supremely so.\0\n\nLet me think... Oh! What about "
+		--
+		"%(ElectricFire)"
+		"%(ElectricSteel)"
+		"%(ElectricRock)"
+		"%(ElectricPoison)"
+		//"%(FireSteel)" Canceled until there's another one that's not Heatran
+		"%(FireRock)"
+		"%(FirePoison)"
+		"%(RockSteel)"
+		"%(PoisonRock)"
+		"%(PoisonSteel)"
+		--
+		"?\w8\1\n\nThat works.\0\w8\n\n I like to theory-craft scenarios where Pokemon with type disadvantages managed to crawl their way to a victory anyways, even if I can't get any viable strategies from it that I can use for myself it's still entertaining."
+		}
+		{ //Psychic
+		"What would be weak to %(PsychicType)?\0A Fighting/Poison Type would be /super/ vulnerable to it. Let me think... Are there any Fighting/Poison Types?\1There's %(PoisonFighting)?\0 Yeah, exactly! You've got such a good memory.\1There's some evidence that in the past there was a Fighting/Poison Type Sneasel... \0Oh, really??? Of course you'd know that, though, being the Sneasel fan you are. Pretty cool that it went from being extremely weak to Psychic to resisting it.\1Well... It's a theorized past variant, not a direct ancestor."
+		}
+	}
+	{ //Rock, Ice
+		//Just these two because these both have a lot of variations
+		{ //Rock
+		"What would be weak to %(RockType)?\0Well as much as I rag on Rock Types, they /do/ hit quite a few types for super effective damage..."
+		--
+		"It'd hit %(FireFlying) and %(BugIce) really hard...\1Hitting a Frossmoth for super effective damage would /not/ be very hard. \0You be nice!\e"
+		
+		"%(BugFlying), %(FireBug), and Articuno for a ton...\1\w8\n\nAt what point do you think you'll be fighting a trainer with an /Articuno/?\0\w8\n\nYou never know! Sometimes really powerful trainers like the Champion have Legendaries. Better to come prepared.\w8\n\n...That, and the only other example I can think of is Delibird, which you would'a laughed off.\1At least you have a /possibility/ of fighting it.\e" //this is referencing no fic whatsoever no sir
+		
+		"Like %(BugFlying). There are a lot of Bug/Flying Types, hitting those would be useful all the time.\1 Bug/Flying Types are actually less common in some other regions.\0Woah, really? I'd assume they'd be a staple, kind of like Flying/Normal Types, heh.\e"
+		
+		"It'd probably knock out a Zen-Mode Galarian Darmanitan in one hit. \1That's a rather specific example... \0It's the only Ice/Fire Type! It's pretty memorable!"
+		}
+		{ //Ice
+		"What would be weak to %(IceType)?\0"
+		--
+		"So much! Ice Type is the most powerful offensive Typing, after all! \1As well as the worst defensively... \0Nah, you're thinking of Bug. \1If it is then it's close between the two...\0Come on, you've really got to think higher of your Pokémon, man! \1Being aware of ones limits is better than recklessly charging into situations you're unprepared for. \0Silv' I don't know if I've ever seen you recklessly charge into /anything/. You plan /everything/ out, you're so smart, even when you're tackling super scary dangerous stuff like that Gyarados at the Lake of Rage- You /knew/ what you were doing. You had a /plan/, and you only ever ''fail'' when your goals weren't good to begin with. \1... (somewhat emotional but hiding very intentionally) \0It's okay if you don't believe in yourself, because I'll believe in you for you.\e" //well that went off topic lol GOOD THING IT'S RARE
+		{
+			"Definitely"
+			--
+			"%(FlyingGrass)."
+			"%(DragonGround)."
+			--
+			"I used to think the dual types were always better since they could hit more types for super effective damage, but that's just because back then I didn't consider they would have more weaknesses.\w8 That's why my only mono-Type is Norma! I haven't caught any new Pokémon in a long while."
+		}
+		{
+			"What about "
+			--
+			"%(DragonGrass)"
+			"%(DragonFlying)"
+			"%(GrassGround)"
+			"%(FlyingGround)"
+			--
+			"?\1 That'd work. \0Yesss!"
+		}
+		}
+	}
+	{ //Dragon, Ghost, Dark, Fairy
+		{ //Dragon
+		"What would be weak to %(DragonType)?\0Well you're the Dragon Type expert, why don't you tell me? \1The answer is everything that's not a Steel or Fairy Type. \0Psh, because Dragons are so strong they don't need a Type Advantage, huh? \1Not only are Dragon Pokémon naturally strong, they're often difficult to control, so their trainer would be immensely skilled. \0If you ever got a Dragon Type, which one would it be? \1... \0Aww, don't be shy! It's just hypothetical. \1...Ampharos does /Mega Evolve/ into a Dragon Type, if I ever got the tools for that... ...Maybe Hydreigon, even if its Type isn't the best. Garchomp would be interesting in battle against your Flygon... I have some fondness for Kingdra.\0 Awww, Silver admitting he likes something. This is, like, a super rare moment %(username). You should screenshot it. \0Uhg, be quiet."
+		//In the original canon, Silver has a Kingdra! He doesn't evolve in this version, though, since they're based on my randomized game!
+		}
+		{ //Ghost AND Dark !?!?!?
+		//Believe it or not they're Super Effective against the same Types
+		"What would be weak to %(GhostType)?\0Hm... Something part Psychic Type, and Ghost is also weak to... Itself! So are there any Ghost/Psychic Types?"
+		"What would be weak to %(DarkType)?\0Well, Dark is good against Psychic and... Ghost Types? Right?\1\n\n\w8Right.\0\n\nSo in that case... The Types most vulnerable to it are Ghost/Psychic Types. Are there any of those?"
+		--
+		"\1 There's a form of Hoopa... The other Psychic/Ghost Types are Legendaries you're unlikely to encounter, though, like Lunala.\0Ooo, interesting!"
+		}
+		{ //Fairy
+		"What would be weak to %(FairyType)?\0A %(DragonType), but if you really wanted something /super/ weak to it, " //Trying to get proper capitalization for this fucking thing will kill me
+		--
+		"%(DarkDragon)"
+		"%(DragonFighting)"
+		"%(DarkFighting)"
+		--
+		".\w8 If I ever had to fight a Fairy Type, Konkurs would definitely be sitting that battle out."
+		}
+	}
+	{ //Steel, Bug
+		{ //Steel
+		"What would be weak to %(SteelType)?\0"
+		--
+		"I don't even remember what's /normally/ weak to Steel Types... Hmm... Maybe an... Alolan Ninetales?\n\n\w8\1That's true.\n\n\w8\0Nice!! A win for Sens!\e"
+		
+		"Maybe a... A... Uhg, I /know/ Steel is effective against more than one Type, I just don't remember what...! \1Do you want me to help you? \0pretty please (puppy eyes)? \1The Types that Steel is effective against are Ice, Rock, and Fairy. So, you'd want a Pokémon with a combination of two of those."
+		--
+		"Oh, like %(FairyRock)! See, I even remembered a rarer Pokémon.\1Good job.\0Thaaank youuuu :3"
+		
+		"What about %(IceRock)?\1\n\n\w8That works.\0\w8\nNice! I got it!\n\n\w8There is another Ice/Rock Type I've heard of once... A variant of Avalugg, an extinct variety that used to be in Sinnoh.\0Now let's hope it didn't go extict 'cause a' Steel Types, otherwise this conversation'd be in very poor taste."
+		}
+		{ //Bug
+			"What would be weak to %(BugType)?\0"
+			--
+			"%(CapsGrassPsychic)!\w8 Heh, I remembered that one /immedietely/."
+			
+			"Hm... Oh, %(DarkGrass). Grass/Dark isn't a super common Type, so I remember the ones that are!\n\n\w8Bug Types are resisted by so many things, so it's always cool when they win somewhere."
+			
+			"A Psychic/Dark Type'd be super weak to it... Like a, uh... Oh, %(DarkPsychic)! Yeah, that.\1Unfortunately not too many trainers who know that are carrying Bug Types with them. \0I know, right! Not even me. I don't have a single Bug Type move on my team...\1The only other Type that would hit a Psychic/Dark Type for super effective damage is a Fairy Type-\_swhich \_s\0 \1y\0I\1ou\_s don't have%(lps(4))\_s\w8\0Ahhhh we spoke at the same time :D!\1whatever..."
+		}
+		//I want to add a few extra here where Gold gets it wrong lol
+	}
+
+	/* 	TYPE RESISTANCE
+	Could do double envelopes, could do randomly picking from a wheel
+	Fire:
+	S: What do fire types resist?
+	G: Let me think... Definitely Grass Type, I think it's resistant to... Itself? I'm also thinking ice, but I think it's just super effective against it, not resistant.
+	S: It resists Grass, Fire, and Bug.
+	G: Oh man, those poor bugs. I was pretty close though!
 	
-	if month == 1
-	{
-		"\0\s[0]This is dialogue for January.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for January.\w8\1\s[10]That it is.\e"
-	}
-	if month == 2
-	{
-		"\0\s[0]This is dialogue for February.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for February.\w8\1\s[10]That it is.\e"
-	}
-	if month == 3
-	{
-		"\0\s[0]This is dialogue for March.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for March.\w8\1\s[10]That it is.\e"
-	}
-	if month == 4
-	{
-		"\0\s[0]This is dialogue for April.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for April.\w8\1\s[10]That it is.\e"
-	}
-	if month == 5
-	{
-		"\0\s[0]This is dialogue for May.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for May.\w8\1\s[10]That it is.\e"
-	}
-	if month == 6
-	{
-		"\0\s[0]This is dialogue for June.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for June.\w8\1\s[10]That it is.\e"
-	}
-	if month == 7
-	{
-		"\0\s[0]This is dialogue for July.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for July.\w8\1\s[10]That it is.\e"
-	}
-	if month == 8
-	{
-		"\0\s[0]This is dialogue for August.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for August.\w8\1\s[10]That it is.\e"
-	}
-	if month == 9
-	{
-		"\0\s[0]This is dialogue for September.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for September.\w8\1\s[10]That it is.\e"
-	}
-	if month == 10
-	{
-		"\0\s[0]This is dialogue for October.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for October.\w8\1\s[10]That it is.\e"
-	}
-	if month == 11
-	{
-		"\0\s[0]This is dialogue for November.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for November.\w8\1\s[10]That it is.\e"
-	}
+	Water:
+	S: What types is water resistant against?
+	G: Ice Type, Fire Type, Bug Type, and... Is that it?
+	S: It doesn't resist bug type, but it does resist itself.
+	G: What do you mean it doesn't resist bug types? Bugs drown in water!
+	S: It's super effective against bug types but it doesn't resist their attacks. If a bug can avoid getting drowned it could kill a water monster.
+	G: Lots and death and violence huh?
+	S: You brought up drowning things first...
 	
+	Grass:
+	S: What are grass types resistant to?
+	G: Oh man... I kind of struggle with grass types. They resist water, that's a definite. Do they resist... Ground?
+	S: That is correct.
+	G: I think they resist lightning, do they?
+	S: They also resist themselves.
+	G: Oh right, that makes sense. I remember once when tala told me about a time that she had her gloom fighting against another gloom... It was basically like if two wobbuffets were facing each other off! It was impossible to damage the other one, especially since they mostly only knew powder moves!
+	
+	Electric:
+	S: What types do electric types resist?
+	G: Let me think... They're super effective against water, but I don't think they resist it... I'm really struggling to come up with something here.
+	S: It resists flying and itself.
+	G: I almost had flying! I just wasn't quite sure.
+	
+	Flying:
+	S: What does flying type resist?
+	G: I know it resists fighting, cuz I remember an anecdote about how it's hard to punch a bird.
+	G: I think they also resist... Ground and water? Cuz it's got a hieght advantage.
+	G: I don't think it resists itself?
+	S: You're correct that it doesn't resist itself.
+	G: Right, because the first bird can knock the second bird off balance.
+	S: It doesn't resist water though.
+	G: All right, I guess that makes sense. If a bird gets wet then it definitely can't fly...
+	S: It doesn't resist ground, it's completely immune to it.
+	G: Oohhhhh Hell yeah! I guess an immunity is better.
+	S: It also resists grass and bug.
+	G: Oh yeah, because it eats those! I got it.
+	G: Okay, so it resists fighting, bug, grass, and is immune to ground.
+	S: You should really know this, you have a flying type.
+	G: Banco's a duel type, It makes it a little harder to keep track of what the normal resistances are...
+	S: The resistance chart is just the "Not Very Effective" chart organized differently
+	G: ...And that makes all the difference.
+	
+	Ground:
+	S: What are grounds resistances?
+	G: Electric for certain, itself because if anything was going to resist the ground it would probably be that, and rock?
+	S: It's immune to electric, and then resists rock and poison type.
+	G: Oh wow, really? I totally forgot about poison type for a minute there.
+	S: Weird given how much time you spend in Kanto.
+	G: I thought that ground resisted itself! I bet it's because my only ground type is Konkurs, who levitates so he's got an immunity... He's never been hit by a ground type move, so I wouldn't have noticed.
+	
+	Poison:
+	S: What are poisons resistances?
+	G: Uh... Itself, grass, and... maaaaybe Fairy? There aren't any fairies here so I wouldn't know. I remember it's super effective against fairy.
+	S: Poison resists itself, fighting, and grass.
+	G: Oh, so I just forgot fighting. ... Wait, why does it resist fighting?
+	S: ...Because it does.
+	G: Man you take all Pokemon type matchups just for granted.
+	S: You can't fight your way out of having a disease.
+	G: But if you believe in yourself enough you can, huh psychic types?
+	
+	Fighting:
+	S: What does fighting resist?
+	G: Oh man, I don't have any fighting types... let me think...
+	G: I can only think of stuff that it's got super effective against, rock, ice, steel, I don't know if any of those translate into resistances.
+	S: It resists rock and bug.
+	G: Psh, ok. I keep forgetting about bugs. Maybe if I used drugia more I would have gotten it...
+	
+	Bug:
+	S: What does bug type resist?
+	G: What does it resist... Well, I can tell you what it definitely /does not/ resist, those poor things.
+	S: Let me think... Grass? Dark type? I'm thinking of stuff that it's super effective against.
+	S: It resists fighting, ground, and grass.
+	G: Really? Fighting makes sense for the same reason that flying does, and I already guessed grass, but what's up with Ground type?
+	snowpoff
+	
+	Rock:
+	S: What do rock types resist?
+	G: Normal, Poison, Electric?
+	S: Normal, Poison, Flying, Fire.
+	G: wait... why doesn't it resist electric?
+	S: In Kanto, most rock types are part ground type, and ground type is immune to electric type.
+	G: I guess I must be thinking of that... Just seems weird to me, feels like a rock shouldn't be electrocuted.
+	
+	Dragon:
+	G: What is a dragon resistant against again? Grass, Water, Thunder And Fire?
+	S: That's correct.
+	G: Oh wow, really? I'm surprised I got it right.
+	G: I understand it being resistant to fire, because they do well in warmth, and I get Electric since they sometimes control weather... I wonder about grass and water though.
+	
+	Steel:
+	S: What types to does steel resist?
+	G: Like, all of them. Except for fighting, and fire. Those are both super effective against it.
+	G: ... Is electric type super effective against it too? Because metal can be electrocuted.
+	S: it resists every type except for fighting, fire, and ground, those being super effective against it.
+	G: ground? well... I guess I can see that, since the ground unsettling can make buildings fall over.
+	S: it also has an immunity to poison.
+	G: but what about electric type?
+	S: Electric type does neutral damage towards it. It doesn't resist it, but it's not super effective. It, along with water.
+	G: Well, that's definitely something when it comes to fighting off steel types.
+	
+	Psychic:
+	S: What attacks do psychic types resist?
+	G: I spend all day thinking about their weaknesses, let me think...
+	G: They're super effective against poison and fighting, but they don't resist them, even though it doesn't really matter if you can fight them off fast enough...
+	G: I think psychic types resist themselves... but they're a lot like normal and that they don't actually resist a lot.
+	S: Psychic resists fighting and itself.
+	G: See? I was really close.
+	S: You probably could have been closer given you have a pure psychic type on your team.
+	G: Genuinely, resistances are the least important when it comes to the type chart. As long as you remember what is effective against your opponent, then if you always hit them with that then you don't need to think about what they resist.
+	G: The exception is if you don't have something that's super effective against them, and just need to find something that hits for neutral damage. Even then you don't need to memorize it all that much.
+	S: [Kind of rolling his eyes] Apparently...
+	
+	Ghost:
+	S: What do ghost type resist?
+	G: They're immune to normal and fighting type , they... Might be resistant to psychic, but I'm not sure about that.
+	S: They are immune to normal and fighting, but they don't resist psychic. They resist poison and bug type.
+	G: Huh, okay. The poison resistance is a little hard to remember... The only ghost types native to johto or Kanto is the Misdreavus and gastly line, and ghastly is part poison.
+	G: Didn't you have a Haunter once?
+	S: No.
+	G: I swear you did... Must have not been that tough if I don't even remember the fight against it, heh.
+	S: ...
+	
+	Fairy:
+	S: What do fairy types resist?
+	G: I've never seen a real fairy type and neither have you!
+	S: What do they resist?
+	G: Ugh, fine... They're immune to dragon types, and resist dark types? Maybe also grass and bug?
+	S: Their immune to dragon types, resist dark and bug, but don't resist grass. They resist fighting.
+	G: Out of all the resistances I can't believe I remember that one so well... Definitely the least useful to me.
+		
+	Dark
+	What do dark types resist?
+	G: Psychic, itself I think, I'm not sure if there's anything else... It's mostly a psychic counter.
+	S: It resists itself and ghost type, and then it's immune to psychic.
+	G: Fully immune? I thought so, I just wasn't sure.
+	S: Dark types are more useful in places where psychic types are more prevalent.
+	G: There aren't a lot of psychic counters in Kanto! The only ghost type native to there is the ghastly line, and they're part poison so they're weak to it.
+	S: Most Pokemon from Kanto are poison type, so psychics beat most of the pokemon there.
+	G: Two of your Pokemon are dark type, aren't they?
+	S: They have their uses...
+	
+	Normal
+	S: What do Normal Types resist?
+	G: Immune to Ghost Types and have no resistances. Come on, that's an easy one.
+	S: One of the two mono-types you have.
+	G: I SAID it was a boring type! And that was mostly because of its lackluster resistances and attack.
+	G: But, a Pokémon isn't just their type! Pokemon can be strong or weak regardless!
+	
+	Fighting
+	S: What do Fighting Types resist?
+	G: They're also immune to Ghost Types like Normal Types are, they also might resist Dark but I don't think so.
+	S: They resist Rock Bug and Dark.
+	G: Bug Types can't catch a break out here! Wait, if they aren't immune, what's the interaction with Ghost Types?
+	S: Ghost Types are immune to them but not the other way around.
+	G: Why do they resist Rock but not Ice or Steel? Isn't Fighting supereffective against them for the same reasons?
+	S: Ice has more to do with temperature... Its breakability is only relavent when it's hit.
+	G: I just can't imagine bashing someone with a rock is less effective than hitting them with a metal beam.
+	*/
+	/* Type super effectiveness
+	Fire
+	S: What are Fire type moves effective against?
+	G: Ice, Grass, Steel, Bug.
+	S: Correct.
+	G: It's easier to remember moves! It sounds reductive but it's true that if you hit your opponent with a strong enough attack then you don't even need to think about resistance is at all. They won't have a chance to fight back!
+	
+	Water
+	S: What are water type moves effective against?
+	G: Fire, Ice, Rock, Ground, Bug.
+	S: Fire, Ground, Rock.
+	G: Really? I thought ice was weak to it because ice melts into water, and bugs drown in water.
+	S: Bug and water types have no interaction.
+	G: That's so weird to me! Definitely for the best though, they don't need more weaknesses. Same goes for Ice Type honestly.
+	
+	Grass
+	S: What are grass type moves effective against?
+	G: Water, I think ground, and... I feel like there's more than two, but I can't remember more. Oh, definitely rock.
+	S: It is water ground and rock.
+	G: Nice! It's good I got that one right, considering Banco is Grass Type. I wouldn't want to waste Leaf Storm on something that couldn't hit that good.
+	
+	Electric
+	S: What are electric types effective against?
+	G: Hm... Water, mostly, that's what they're most useful for since water types are the most common. Maaaaybe steel? Since steel conducts electricity? I'm not sure about that though, steel is really hard to remember. And definitely flying.
+	S: It's just Water and Flying Type, but Electric Types do resist Steel.
+	G: Does that mean that Honoa resists Steel Types, or does his Water Typing interact with that?
+	S: Your Lanturn resists Steel doubly so, since Water Type also resists it.
+	G: Huh! I didn't know that!
+	
+	Psychic
+	S: What are psychic types effective against?
+	G: Poison, fighting, and... I think that's it?
+	S: That is indeed it.
+	G: I definitely had to utilize that a lot more in Kanto than I did Johto. There aren't as many poison types over here. There is Ariados, Qwilfish, and Zubat, but Bug has a lot of other weaknesses and so does Water, plus it's avoidable. Zubat aren't usually strong enough for you need to worry about getting a super effective hit either.
+	G: Same goes for Fighting types. I guess there's... Heracross...?
+	S: Fairy attacks would be a more valuable to have when it comes to seeking Super Effective damage.
+	G: Well, STAB Psychic is pretty strong even if the opponent isn't weak to Psychic.
+	
+	Ice
+	S: What are ice types effective against?
+	G: Dragon, that's the big one- Grass, and Ground?
+	S: Dragon, Grass, Ground, and Flying.
+	G: I didn't know it was effective against Flying! That's interesting.
+	G: ...Oh, that means that two of your Pokemon have a four times advantage over Banco. Whoops.
+	S: That's why it's important to remember these things, so you don't go into battles unprepared.
+	G: Awww, you're trying to play fair! Well don't worry, I'm pretty forgetful so I'll definitely forget by the time we actually battle again. Your advantage is maintained.
+	
+	Dragon
+	S: What are dragon types effective against?
+	G: Dragon is only super effective against itself, but the moves are powerful enough that they don't really need the type advantage to be devastating.
+	S: It's definitely an easier one to remember.
+	G: Throwing one dragon against another dragon is definitely a risk, and it just becomes a test of which dragon is stronger. I don't have any ice types, so that's my only option- unless it's a dual type, which most dragons are.
+	
+	Dark
+	S: What are dark types effective against?
+	G: Hmm... Psychic, and Ghost...? I think Dark has some kind of interaction with Ghost.
+	S: It *is* effective against Psychic and Ghost.
+	G: There aren't a lot of Ghost Types, so it's a little hard to remember that one.
+	
+	Fairy
+	S: What are Fairy Types effective against?
+	G: We don't live near any Fairy Types!
+	S: So you don't know...
+	G: I know! Dragon and Dark Type.
+	S: And Fighting Type.
+	G: I don't have any Fighting Type Pokemon so it doesn't matter.
+	S: But your Gardevior could become part Fairy, and it would matter then.
+	G: Pshh, I'll think about that when it gets to that point!
+	
+	Fighting
+	S: What are fighting types effective against?
+	G: Normal, rock, ice, maybe ground?
+	S: Normal, rock, ice, steel, and dark.
+	G: Ooh I knew that! I just forgot. If you didn't stead asked me about steel or dark weaknesses, I definitely would have mentioned fighting. It's just a little hard to remember all of these off the top of my head.
+	S: Which is why it's important to practice.
+	G: How much practice did /you/ get when you were a kid? How can you just name all of this off the top of your head? What if it's some point you tested me, but you corrected me to something that was wrong?
+	S: That could happen...
+	G: What if you're lying to me right now, huh? What if it turned out ice wasn't weak to fighting?
+	S: I have two Ice Types.
+	G: Yeah... Bad example. Maybe I'll trust you, just this time.
+	
+	Flying
+	S: What are flying types effective against?
+	G: Grass, Ground, Water... Oh, and Bug.
+	S: They're effective against Grass, Bug, and Fighting.
+	G: Really? I can believe them not being weak to water, but I thought they had some sort of interaction with ground...
+	S: Flying types are immune to ground type attacks.
+	G: Oooh, that must be what I'm remembering.
+	
+	Normal
+	S: What are Normal Types effective against?
+	G: Nothing. BUT THAT DOESN'T MAKE THEM WEAK! They have a ton of Normal Moves to get STAB from, and can learn moves from basically any other type!
+	G: ...I'm just super quick to defend them, since I used to write them off, heh.
+	
+	Poison
+	S: What are poison type moves effective against?
+	G: Hmm... Grass, I think Fighting... Anything else?
+	S: It's Grass and Fairy, but Poison Types resist Fighting.
+	G: Well there aren't any Fairy Types around, so you could probably forgive me for that one.
+	
+	Ground
+	S: What are ground moves effective against?
+	G: Fire, I think steel... Rock maybe?
+	S: Fire, Steel, Rock, Poison, Electric.
+	G: That's a /ton/! I knew that it resisted poison and electric, but I didn't know that it was effective against them as well.
+	S: Well you should, since you have a ground type.
+	G: Konkurs is new!
+	S: You used him in the league?
+	G: He's new-er.
+	
+	Rock
+	S: What are rock type moves effective against?
+	G: Bug, and... Hell, I'm struggling to think of anything. I'm mostly thinking of stuff Rock Types resist, or thinks that they do ineffective damage to, like Flying.
+	S: Rock Type moves are actually super effective against Flying Types.
+	G: Wait- Ohhh ok, I remember now. Hm... Bug, Flying, Fire...
+	S: Bug Flying Fire and Ice.
+	G: And you had to give me Flying for free... I don't have any Rock Types, and they're really easy to knock out, so I never have to think about it.
+	
+	Bug
+	S: What are bug type moves effective against?
+	G: Dark, Psychic, and Grass? Is there anything else?
+	S: No, that's all of them.
+	G: Bug Types have it so hard, if you have one, you need to remember its strengths!
+	
+	Ghost
+	S: What are ghost type moves effective against?
+	G: I know their effective against psychic and itself, but are they effective against anything else?
+	S: No, just those two.
+	G: Alright! Not a hard Type to remember, then.
+	
+	Steel
+	S: What are steel type moves effective against?
+	G: I really struggle with Steel... They resist basically everything, and I can barely remember what few types get through them. I definitely don't remember what they're effective against, but let me guess...
+	G: I know Fairy, they resist Poison so maybe they're also effective against it, and... uhg, I know there's others, I just couldn't think of them for the life of me.
+	S: They're super effective against Fairy, Rock, and Ice.
+	G: That's pretty hard for me to remember. Let me think... Effective against Rock because... Steel is harder than rock so if they were flung at each other the steel would stay more intact than the rock? And same goes for Ice?
+	G: I think that makes some sense, let's go with that.
+	*/
+	/* TYPE WEAKNESSES
+	//Rainbow order lets go
+	
+	Fire
+	S: What are Fire Types weak to?
+	G: Oh, that's easy. Water, Ground, Rock, and Flying.
+	S: Why Flying?
+	G: ...Because you blow away Fire?
+	G: Given you asked I'm assuming that's not the case.
+	S: It's just Water Ground and Rock.
+	G: Better safe than sorry!
+	
+	Fighting
+	S: What are Fighting Types weak to?
+	G: Psychic, Poison, and... I dunno, I don't have any Fighting Types.
+	S: They are weak to Psychic, they're not very effective against Poison Types, and they're also weak to Flying and Fairy.
+	G: Oh yeah, I forgot Flying! ...Why are Fiary Types effective against it?
+	S: ...Well its theorized to perhaps be psychological.
+	G: Awwww they feel bad punching the cute tiny Fairy Types!!! Adorable...
+	
+	Electric
+	S: What are electric types weak to?
+	G: Just ground, if I remember correctly.
+	S: Indeed you do.
+	G: Electric is pretty good type because of that, only one weakness. There aren't a lot of downsides to tacking it on to anything!
+	S: You would think so, but its lack of useful resistances and commonality of Ground Type holds it back.
+	G: Well, /to be fair/, my only Electric Type is Honoa, who's PART WATER, thus super effective about Ground Type attacks and doesn't have to worry about them.
+	S: It's still weak to them...
+	G: Doesn't matter! He can usually knock them out first, and even if he didn't, most trainers wouldn't pit their Ground Type against him and would use another Pokémon instead.
+	S: Being walled by Grass Types isn't great...
+	G: It's a good thing that most Pokémon battles aren't 1v1s and are about the entire /team/, then.
+	
+	Bug
+	S: What are bug types weak to?
+	G: Most things.
+	S: /Types./
+	G: Flying, rock, fighting, water?
+	S: They /resist/ Fighting, have no interaction with water, and are weak to fire.
+	G: I had a Masquerain, but wasn't very good with it... that's probably why.
+	
+	Grass
+	S: What are grass types weak too?
+	G: Flying, Bug, Poison, Fire?
+	S: And Ice.
+	G: Hey, that's a win for you!
+	S: You would think...
+	G: What's /that/ supposed to mean? T.T
+	
+	Steel
+	S: What are steel types weak to?
+	G: I'm really bad with steel types... I know they're weak to fire, maybe ground...? Oh, they're also weak to fighting.
+	S: They /are/ weak to Fire, Ground, and Fighting.
+	G: See, the part I'm bad at is remembering what hits them for neutral when I don't have Atticus around. None of my other Pokémon know Fire, Ground, or Fighting moves!
+	S: They are neutrally damaged by ghost, water, electric, and dark. However, most Steel Types are duel Types, so you have to keep that in mind so you can target their other Type's weakness.
+	S: Also, your Flygon is a Ground Type.
+	G: OH RIGHT! I keep forgetting that, since he's newer...
+	S: He was in your Kanto League team.
+	G: Yeah, but I didn't even get to /use him/ because of the /potion incident/ (anchor), remember?
+	S: I remember...
+	//Literally made up the potion story yesterday lol
+	
+	Flying
+	S: What are Flying Types weak to?
+	G: Rock, Electric... Anything else?
+	S: It's also weak to Ice.
+	G: Heh, I keep forgetting about Ice! Must be because I don't have any Ice Type Pokémon...
+	Though, my Masquerain did know Ice Beam!
+	
+	Ice
+	
+	Water
+	
+	Dragon
+	
+	Ghost
+	
+	Poison
+	
+	Fairy
+	
+	Psychic
+	
+	Normal
+	
+	Rock
+	
+	Ground
+	
+	Dark
 	*/
 	
-	/*
-	//These ifs check what day of the week it is.
+	{ //Regional Variants
+		//QUO DOES ARRAY FOR THE FIRST TIME!!! 👑🦊 New achievement unlocked!
+	_regionconvo = regionconvodialogue
+	_Regionalvariant = _regionconvo[0]
+	_Originalwithspecifiedregion = _regionconvo[1] 
+	_DaRegionName = _regionconvo[2]
 	
-	if weekday == 1
-	{
-		"\0\s[0]This is dialogue for Monday.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for Monday.\w8\1\s[10]That it is.\e"
-	}
-	if weekday == 2
-	{
-		"\0\s[0]This is dialogue for Tuesday.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for Tuesday.\w8\1\s[10]That it is.\e"
-	}
-	if weekday == 3
-	{
-		"\0\s[0]This is dialogue for Wednesday.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for Wednesday.\w8\1\s[10]That it is.\e"
-	}
-	if weekday == 4
-	{
-		"\0\s[0]This is dialogue for Thursday.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for Thursday.\w8\1\s[10]That it is.\e"
-	}
-	if weekday == 5
-	{
-		"\0\s[0]This is dialogue for Friday.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for Friday.\w8\1\s[10]That it is.\e"
-	}
-	if weekday == 6
-	{
-		"\0\s[0]This is dialogue for Saturday.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for Saturday.\w8\1\s[10]That it is.\e"
-	}
-	if weekday == 7
-	{
-		"\0\s[0]This is dialogue for Sunday.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for Sunday.\w8\1\s[10]That it is.\e"
+	"\0So, like, with regional variants, do people from the other regions say the opposite region?\1...Rephrase that? \0People from %(_DaRegionName) are used to their %(_Regionalvariant). So would they call the %(_Originalwithspecifiedregion)? \1Probably. \0Weird!\e"
 	}
 	
-	//These ifs check for the time of day as defined in bootend.dic.
-	
-	if timeslot == "earlymorning"
-	{
-		"\0\s[0]This is dialogue for the early morning.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for early morning.\w8\1\s[10]That it is.\e"
-	}
-	if timeslot == "morning"
-	{
-		"\0\s[0]This is dialogue for the morning.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for the morning.\w8\1\s[10]That it is.\e"
-	}
-	if timeslot == "lunch"
-	{
-		"\0\s[0]This is dialogue for lunch time.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for lunch time.\w8\1\s[10]That it is.\e"
-	}
-	if timeslot == "afternoon"
-	{
-		"\0\s[0]This is dialogue for the afternoon.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for the afternoon.\w8\1\s[10]That it is.\e"
-	}
-	if timeslot == "evening"
-	{
-		"\0\s[0]This is dialogue for the evening.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for the evening.\w8\1\s[10]That it is.\e"
-	}
-	if timeslot == "latenight"
-	{
-		"\0\s[0]This is dialogue for the late night.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for the late night.\w8\1\s[10]That it is.\e"
-	}
-	if timeslot == "midnight"
-	{
-		"\0\s[0]This is dialogue for midnight.\w8\1\s[10]Yup.\e"
-		
-		"\0\s[0]This is more dialogue for midnight.\w8\1\s[10]That it is.\e"
-	}
+	//--Chains
+	/* Joke Chain
+	G: Hey Silver.
+	G: What does Pichu evolve into?
+	S: [confused why he's asking] Pikachu...?
+	G: Gazuntite.
+	S: -! [annoyed]
+	G: [cracking up] Every 6 year old tells that joke to each other!!! I can't believe 	you've never heard it hahaha
+	[Chain1]
+	G: Hey Silver.
+	S: ...
+	G: How do you make a Meowth get into a bus?
+	S: ...
+	G: You Poke-'em-on.
+	S: ...
+	G: Tough crowd, hehe. \e:chain=jokechain"
 	*/
-	
-	//--Double Envelopes
-	//note that this is enclosed in its own set of brackets
-	{
-	_korean = lessonkor //Here, the envelope "lessonkor" (which is in word.dic) is stored as a new temporary value called _korean. As a reminder, when coding, it goes "4 = 2 + 2" and not "2 + 2 = 4". The result always comes first!
-	//If you look at lessonkor in word.dic, you'll see it goes "Korean word, meaning". So "Korean word" is the first value in that array, and "meaning" is the second. Arrays always start at 0, as a note.
-	_korword = _korean[0] //Now we make a temporary value called "_korword", which is what will store the Korean word. Since the Korean word is the first value in the array _korean which we just defined, then we can pull that value from the array with _korean[0]. [0] is telling it which entry in the array to take - in this case, the first one (again, arrays start at 0).
-	_kormean = _korean[1] //Now we make a temporary value called "_kormean", which is what will store the meaning of the Korean word. This is the second value in the array, so we can pull it out of _korean by using _korean[1].
-	
-	//Now we put it all together!
-	"\1\s[10]Here is an example of a double envelope. The Korean word is %(_korword).\w8\0\s[0]The word means %(_kormean).\e"
-	
-	//As you can see here, we then use the values we set above for _korword and _kormean up there in the dialogue as our new envelopes.
-	//The underscores in front of korword and kormean mean that the value is temporary, and will disappear when the dialogue has finished.
-	
-	//Additional Note - You can't test this kind of dialogue in Script Input. You'll have to wait until it comes up naturally in your ghost's random dialogue.
-	}
+	/* Mega Chain
+	G: How does mega evolution work anyways? Do you get, like, a specific mega-stone or whatever for the Pokemon and it'll Mega-evolve for a little while then go back to normal?
+	S: The method is similar to that...
+	G: Cool!!! I want to see what my Shiny Flygon would look like mega evolved.
+	S: Currently there's no known way to Mega evolve a Flygon.
+	G: [Gets down on knees] NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!\e:chain=megachain
+	*/
+	/* FireGhost Chain
+	G: Ghost/Fire dual Types are so cool... There's Chandelure, a personal favorite of mine, Alolan Marowack- which is just OBJECTIVELY cool-
+	S: Is it? I'd figure Fire Types would be hot.
+	G: You know for a second there I thought you were going to be annoying about how it's technically not "subjective" because it's an opinion so it literally has no way to be objective.
+	S: Which you've just proven you're aware of.
+	G: I guess all I wanted to say is, thank you. For not being annoying for once.
+	S: Maybe one day I'll have the opportunity to do the same.
+	G: NOT TODAY AND NOT TOMORROW, I'LL MAKE SURE OF THAT!
+	\e:chain=fireghostchain*/
 }
 
 //--Chains
-achain
+jokechain
 {{CHAIN
-	//this will happen the first time the chain is called
-	"\0\s[0]Here is the second part of the chain.\w8\1\s[10]Will there be more?\e"
+	/*
+	G: Knock knock.
+	S: ...
+	G: Come on, Silv, work with me.
+	S: ...Who's there...?
+	G: ...
+	G: ...
+	G: ...
+	G: ...
+	G: ...
+	S: [Annoyed] Who's there?
+	G: Slowpoke!
+	[Gold laughs, Silver annoyed.]
+	*/
 	
-	//they will then go to this dialogue next
-	"\0\s[0]This is the third part of chained dialogue.\1\w8\s[10]This will lead to a fourth part.\e"
+	/*
+	G: Hey Silver.
+	S: /What?/
+	G: What do you call it when a Pokemon uses the move Rain?
+	S: Strategic.
+	G: A Pokemonsoon.
+	S: Uhg >:/
+	G: Hey Silver- Hey Silver-	
+	S: I've learned that's the que you're going to start being annoying.
+	G: What's Onyx' favorite music genre?
+	S: Do not say rock.
+	G: It's rock! [Laughing]
+	//S: [Rolls eyes]
+	*/
 	
-	//this will be the last piece of dialogue in the chain, then they will go back to their normal dialogue
-	"\0\s[0]This is the fourth piece of chained dialogue.\1\w8\s[10]This is the end.\e:chain=end"
+	/*
+	S: ...
+	S: What did the Weavile say to the Cyndaquil?
+	G: What did it say?
+	S: ...
+	[He got too embarressed to finish.]
+	G:
+	G: Aww come on, you can do it!
+	S: No... I realized it's not actually that funny.
+	G: Whynauuuutt?
+	S: T_T
+	G: I've just told a way worse! You can do it!
+	S: ...I'll think of another one.
+	*/
+	"\0"
+	--
+	"What did the Cyndaquil say to the Weavile? \1 ...What? \0 ...You're pretty /cool/. \1...hm. \0Closest to a laugh I've gotten out of you yet :D\e:chain=end"
+	"G: If you were a Pokemon, I think you'd be a Steel Type."
+	--
+	"G: Because you /steel/ Pokemon. S: >:/ \e:chain=end"
+	"Because you /steel/ my heart :3 S: Past tense of steal is stole. G: Pshh. I know you got it.\e:chain=end"
+
+}}CHAIN
+
+
+megachain
+{{CHAIN
+/*
+	[goes into chain]
+	S: You can Mega evolve Gardevoir, though.
+	G: Can you Mega evolve Ampharos?
+	S: Yes.
+	G: What about... Delcatty?
+	S: No.
+	G: Aw man.
+	S: [Thinking] ...You can Mega evolve a Pinsir.
+	G: Why would I do that?
+	[chain 3]
+	G: CAN you mega evolve a Tropius?
+	S: No.
+	G: Lanturn or Houndoom?
+	S: No on Lanturn, yes on Houndoom.
+	G: Sick...
+	G: What about your Pokemon? Which of them can mega evolve? Aside from Ampharos.
+	S: None of them. And none of your Pokemon can either because we don't live in Kalos and don't have any Mega stones.
+	G: Siiighhh. Yeah I guess not. Where can you get them anyways?
+	S: Drown on your way swimming to Kalos yourself >:|
+	G: Psh... If I died trying to get to Kalos, I'd at least be surfing on my Pokemon and then get lost at sea.
+	[Chain 4??]
+	G: Looking up Mega Houndoom. I don't really know if it's pulling off that bone collar or not...
+	G: It's difficult to judge without being in person.
+	S: ...
+	G: Mega Gardivior is slaying though! It's basically just a poofier dress, but it works! Looks like a big ol' wedding gown.
+	G: Mega Ampharos is DEFINITELY the best one though. It grows its sheep wool back and looks all magestic!
+	G: I'd love to see what yours would look like mega evolved, since Cloud is reeeaally big for an Ampharos you'd get WAY MORE sheep wool.
+	S: Its name isn't Cloud.
+	G: Sure it's not REGISTERED as Cloud, since technecally it's stolen and it's not registered with you at all, but you call it Cloud!
+	S: No I don't!
+	G: I've seen you do it! It's just a Pokemon name, you don't have to get defensive.
+	G: I think it's cute.
+	S: You thinking something I do is cute is a failure on my part.
+	G: So you ADMIT IT! Cloud the Ampharos IS REAL
+	S: I haven't admitted to anything! I just said that it /would/ be bad if it did happen-
+	G: Cloud cloud cloud cloud cloud-
+	S: -but it didn't.
+	G: ...
+	G: Softie
+	[CHAIN 5 OR SOMETHING]
+	G: So hows Cloud doing
+	S: [Summons Cloud out of Pokeball] Ampharos I order you to kill him
+	G: Hi Silver's Ampharos!
+	A: Ammmmmmph :)
+	G: Does Silver call you cloud sometimes
+	A: [nod] [amiable ampharos noises]
+	S: I don't! Ampharos do I call you Cloud
+	A: [Blinks then shakes head no]
+	S: See?
+	G: Awwww it knows how to lie when you tell it to!!! The Lab Assistants were right you've raised an evil Pokemon
+	A: [Laughing]
+	S: THIS ISN'T FUNNY STOP
+	[Ampharos Mode == On]
+	[Maybe once you unlock one of Silver's Pokemon it stays unlocked from the menu?] \e:chain=end
+*/
+}}CHAIN
+
+fireghostchain
+{{CHAIN
+	/*
+	G: I'm thinking of what other Fire/Ghost Types there are...
+	G: There's Skeledirge, that one's pretty cool- /Ceruledge./ Now that one is /epic/. It's got so many beautiful shades of purple that veer into pink and blue sometimes, that contrasts so cool with its obsidion body. /That's/ a Pokémon I'd like to see.
+	G: Honestly, if I were battling someone, and they sent one out, I might be too distracted by how cool it is to fight it.
+	S: Your Houndoom would be your best option but Lanturn is a good second choice...
+	G: Aww, helping me stategize?
+	S: It's just the first thing I think of.
+	G: Well, thanks.
+	
+	Chain2
+	G: Hey Silver, I've already thought of all the Fire/Ghost Types I can remember, but do you know any more?
+	S: Well... I believe two.
+	G: Oh really???
+	S: Blacephalon is a Fire/Ghost Type, though it definitely doesn't resemble any of the ones you brought up. A very different style.
+	G: Is it a Legendary?
+	S: Close. There's also one you might be more interested in, a Typhlosion.
+	G: Ooo?
+	S: There's an ancient relative of it that used to live in Sinnoh. It doesn't exist anymore, but it was a Fire/Ghost Type.
+	G: Ahg, that sounds perfect for me! If Cyndaquil were actually /there/ the day I got my first Pokémon, I /so/ would've chosen it. Then Fire/Ghost is my favorite Type... Would've been so perfect.
+	S: Alas, it is extinct as far as we know.
+	G: Pokémon come and go so quickly...
+	\e:chain=end
+	*/
 }}CHAIN
 
 HourCheck

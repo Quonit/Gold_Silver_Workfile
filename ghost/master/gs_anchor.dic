@@ -109,6 +109,7 @@ OnAnchorSelect
 				{
 					ExplainedHonoa = "yes"
 					//Use same as menu
+					//G: I found my Lanturn, Honoa, as a Chinchou at the Ruins of Alph. ...Definitely not super close to where they're supposed to live. He was on land, trying to run away from something, and had gotten lost!
 				}
 				else
 				{
@@ -290,4 +291,10 @@ MenuEnd
 {
 	"\![*]\q[Go Back,BACKTOMENU]\n/
 	\![*]\q[Exit,CANCEL]"
+}
+
+//ellipses of different wait times...
+lps
+{
+	".\w%(_argv[0]).\w%(_argv[0]).\w%(_argv[0])"
 }
