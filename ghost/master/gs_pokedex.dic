@@ -210,11 +210,11 @@ OnPaldeaDex
 }
 DexMenuEnd
 {
-	"\n\n\![*]\q[Region List,OnMenuPokedex]\n\![*]\q[Close,Cancel]"
+	"\n\n\f[default]\![*]\q[Region List,OnMenuPokedex]\n\![*]\q[Close,Cancel]"
 }
 DexMenuStart
 {
-	"\_q\b4\i[55]\![set,autoscroll,disable]"
+	"\_q\b4\i[55]\![set,autoscroll,disable]\f[name,Pknumbers]"
 }
 pokedex
 {

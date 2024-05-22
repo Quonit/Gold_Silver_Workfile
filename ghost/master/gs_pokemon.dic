@@ -2151,7 +2151,7 @@ Onparserinput
 	elseif reference0 == "EMOLGA"
 	{
 	}
-	elseif reference0let me ch == "KARRABLAST" || reference0 == "ESCAVALIER"
+	elseif reference0 == "KARRABLAST" || reference0 == "ESCAVALIER"
 	{/*
 		G: I don't think I recognize that one... Something's telling me it might be a bug type? Maybe a steel type? [Opens dex]
 		S: Karrablast is a pure bug type and Escavalier is a Bug/Steel Type.

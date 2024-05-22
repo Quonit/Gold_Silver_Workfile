@@ -372,11 +372,11 @@ weakpokemon
 }
 LegendaryMon
 {
-	%(NormalLegends)
-	%(UltraBeasts)
-	%(TreasuresRuins)
-	%(SwordsJustice)
-	%(GodsIG)
+	"%(NormalLegends)"
+	"%(UltraBeasts)"
+	"%(TreasuresRuins)"
+	"%(SwordsJustice)"
+	"%(GodsIG)"
 	"Raikou"
 	"Entei"
 	"Suicune"
@@ -436,10 +436,10 @@ NormalLegends
 }
 BizzareLegends
 {
-	%(UltraBeasts)
-	%(TreasuresRuins)
-	%(SwordsJustice)
-	%(GodsIG)
+	"%(UltraBeasts)"
+	"%(TreasuresRuins)"
+	"%(SwordsJustice)"
+	"%(GodsIG)"
 }
 UltraBeasts
 {
