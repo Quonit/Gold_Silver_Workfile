@@ -101,7 +101,8 @@ OnDisplayDex
 		}
 		--
 		
-		_print += "\_l[@5,@-5]%(_dexno)\_l[@-35,@5]\_b[\img\dex\%(_mon).png,--option=use_self_alpha,--option=background]\_l[,]"
+		//_print += "\_l[@5,@-5]%(_dexno)\_l[@-35,@5]\_b[\img\dex\%(_mon).png,--option=use_self_alpha,--option=background]\_l[,]"
+		_print += "\_l[@-10]%(_dexno)\_l[@-45,@-5]\_b[\img\dex\%(_mon).png,inline,--option=use_self_alpha,--option=background]\_l[,@5]"
 
 		/*
 		if !Flag(_mon)
@@ -214,7 +215,7 @@ DexMenuEnd
 }
 DexMenuStart
 {
-	"\_q\b4\i[55]\![set,autoscroll,disable]\f[name,Pknumbers]"
+	"\_q\b4\i[55]\![set,autoscroll,disable]\f[height,13]\f[name,Pknumbers]\![set,balloontimeout,0]" //No timeout because I'm sick of it closing when I'm trying to look at my Pokemon
 }
 pokedex
 {
