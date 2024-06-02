@@ -25,4 +25,16 @@ Contact Info (in case there are bugs and whatnot):
 Email - Quonitjax@gmail.com
 Tumblr - Quonit https://www.tumblr.com/quonit 
 
-This ghost takes a lot of inspiration from the Radic and Farnsworth ghost made by Zarla. That ghost can be downloaded here: http://www.ashido.com/nplu/
+
+CREDITS:
+Zarla - The Radic and Farnsworth ghost was VERY inspirational for this project. This ghost wouldn't have been made without them! http://www.ashido.com/nplu/ghost/index.html
+
+Worm - Directly helped with coding the Pokédex
+
+Bulbapedia - I cannot stress enough how useful this website was. If I was working on this ghost, chances are this website was open. There is no way I could've accurately written about every single Pokémon without it. https://bulbapedia.bulbagarden.net/wiki
+
+Smogon - The wiki and its community were very helpful in many aspects, in particular providing 200+ pixel sprites (individual credits are found the same place the sprites are) https://www.smogon.com/
+
+WolfeyVGC - His videos about competative Pokémon were beyond helpful, especially his video on every single dual type. https://www.youtube.com/@WolfeyVGC
+
+False Swipe Gaming - The many videos about the history of particular Pokémon competatively was incredibly informative and helpful https://www.youtube.com/@FalseSwipeGaming

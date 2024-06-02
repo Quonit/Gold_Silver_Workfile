@@ -1,4 +1,7 @@
-﻿AiTalk
+﻿//Hey there. it's me. quonit. thanks for looking at my code. there are comments all over it just for you
+//To answer your questions: yes Gold and Silver ARE gay
+
+AiTalk
 {
 	if RAND(100) < communicateratio
  	{
@@ -44,17 +47,49 @@
  // The envelope %(heshe)
 /*
 Grammar Rules:
- Pokèmon is always spelled with the accent. Words including the prefix pokè- also include the accent.
- Types are capitalized. Ground Type, Bug Type, Flying Type, etc. Both words are capitalized.
- Plural of any Type of Pokémon ends with Types. No Bugs, only Bug Types.
- The plural of any Pokémon is just their name. No s or anything at the end. Plural Pikachu is Pikachu. 
- Gold always refers to an individual Pokémon with their name and pronouns if applicable
- Silver only refers to Pokémon by species and uses it/its pronouns for all
+ - Pokèmon is always spelled with the accent. Words including the prefix pokè- also include the accent.
+ - Types are capitalized. Ground Type, Bug Type, Flying Type, etc. Both words are capitalized.
+ - Plural of any Type of Pokémon ends with Types. No Bugs, only Bug Types.
+ - The plural of any Pokémon is just their name. No s or anything at the end. Plural Pikachu is Pikachu. 
+ - Gold always refers to an individual Pokémon with their name and pronouns if applicable.
+ - Silver only ever refers to Pokémon by species and uses it/its pronouns, including his own.
+ - "Legendary" and "Mythical" are not proper nouns which they designate rare Pokémon to. All Pokémon are just Pokémon, and some of them just happen to have myths around them.
 */
 
 RandomTalk : nonoverlap
 {
-
+	if litwickdex == 2
+	{
+		litwikdex = 1 //So it only happens right after you ask about the Litwick line
+		/*
+		S: All the Pokemon with blue and or purple fire are the aforementioned Litwick line, Ceruledge, Alolan Marowak, Toxtricity, Mega Charizard X, the shiny Ponyta line, shiny Emboar, shiny Macargo, and Galarian Moltres. Though, Galarian Moltres is more magenta than it is purple.
+		G: You know I told you not to list them but I can't even be mad. I'm just impressed honestly.
+		//I feel like this piece of dialogue exemplifies the "Cut no corners, spare no expense" attitude I have towards this ghost.
+		//"What about shiny Chi-Yu" Does that even exist in universe. Aren't the Treasures of Ruin singular entities. Silver is lucky to know about Shiny Embore. Knowing about shiny legendaries might veer a little bit too much into ridiculous territory
+		*/
+	}
+	elseif Aron_Lairon_Aggron == 2
+	{
+		Aron_Lairon_Aggron = 1
+		/*
+		S: What would be good against a %(FlyingNormal)?
+		G: Oh I know a good answer to this one: An /Aaggron/.
+		S: >:|
+		*/
+		//Gold defending username with his life if they make the aaron typo
+	}
+	elseif Cosmog_Cosmoem_Solgaleo_Lunala == 2
+	{
+		Cosmog_Cosmoem_Solgaleo_Lunala = 1
+		/*
+		G: Actually, I change my mind. I think I'd actually go for Solgaleo instead. Seems fluffier. Also, it's gold, and /I'm/ Gold. I feel like you're better suited for Lunala. You already have a bat Pokemon, after all.
+		S: So now you're suggesting there would be /two/ Cosmogs...
+		G: Anything could happen!
+		*/
+		//I had the idea while I was sleeping and was like "Hey wait, I don't need to edit the Dex entry, because the more elseifs I add to randomtalk after Dex entries justifies them a little more"
+	}
+	else
+	{
 	/*
 	I can't find the joke but it was something like
 	> Silver: What's effective against Fairy Types?
@@ -66,7 +101,7 @@ RandomTalk : nonoverlap
 	
 	"\0\s[5]I heard that they're opening a contest circuit in Jotoh soon!\w8\1\s[10]Huh?\w8\0\s[5]\n\nIt's like\w2.\w2.\w2.\w8 Instead of battles, \w6\0\s[7]you try to make your Pokemon seem as interesting as possible to a bunch of judges-\w8\1\s[206]\i[7]\n\nI know what Pokemon Contests are.\w8\0\s[4]\n\nand THEN you battle other people!\w8\1\n\nSigh\w2.\w2.\w2.\w8\0\s[6]\n\nI think you'd have a good shot if you tried some of them!\w8 You keep your Pokemon \f[italic,true]VERY\f[italic,false] well groomed!\w8\1\s[203]\n\n!\w8\n\n\1\s[204]\i[6].\w2.\w2.\w2I don't want to have them be objectified like that.\w8\0\s[8]\n\nBut you didn't even aaaask them if they're interested.\w8\1\s[207]\n\nThere aren't any contest circuts in Jotoh or Kanto yet anyways!\w8\0\s[8]\n\n.\w2.\w2.\w2Yet.\e"
 	
-	"\0\s[4]Have you ever seen any legendaries before, %(username)??\w8 I have!\w8\1\s[206]\i[8]The Ho-Oh doesn't count.\w4\w8\0\s[2]\n\nYeah it does!\w8\n\nAnd that's not the one I'm talking about anyways.\w8\1\s[204]\n\n(sigh...)\w8\0\s[9]\n\n\f[italic,true]I\f[italic,false] saw a Moltres.\w8\n\n\0\s[7]I was walking around Mt.Silver,\w4\0\s[4] and deep inside I saw one standing in the center of the room!\w8\1\s[206]\i[7]\n\nDid you catch it?\w8\0\s[1]\n\nUh,\w3 no?\w8\1\s[202]\n\nCourse not\w2.\w2.\w2.\w8\0\s[2]\n\n\eWhen I went closer I tried to battle it, but it flew away\w2.\w2.\w2."
+	"\0\s[4]Have you ever seen any legendaries before, %(username)??\w8 I have!\w8\1\s[206]\i[8]The Ho_Oh doesn't count.\w4\w8\0\s[2]\n\nYeah it does!\w8\n\nAnd that's not the one I'm talking about anyways.\w8\1\s[204]\n\n(sigh...)\w8\0\s[9]\n\n\f[italic,true]I\f[italic,false] saw a Moltres.\w8\n\n\0\s[7]I was walking around Mt.Silver,\w4\0\s[4] and deep inside I saw one standing in the center of the room!\w8\1\s[206]\i[7]\n\nDid you catch it?\w8\0\s[1]\n\nUh,\w3 no?\w8\1\s[202]\n\nCourse not\w2.\w2.\w2.\w8\0\s[2]\n\n\eWhen I went closer I tried to battle it, but it flew away\w2.\w2.\w2."
 	
 	"\0\s[6]You've got a lot of Pokemon,\w3 right?\w8\1\s[206]\i[8]Yeah,\w3 so?\w8\0\s[5]\n\nWhich one is your favorite?\w8\1\s[206]\i[7]\n\nWhich one is \f[italic,true]your\f[italic,false] favorite?\w8\0\s[11]\n\n!\w8\w8\0\s[12]\n\n\w2.\w2.\w2.\w2Good point."
 	
@@ -444,9 +479,9 @@ RandomTalk : nonoverlap
 	{
 		G: So Silver, do you say 
 		--
-		"Ar-see-us or Ar-key-us?\1 Both pronunciations are correct... \0 Yeah, but which way do /you/ normally pronounce it? \1 Arceus."
-		"Rai-koo or Rai-koe? \1Raikʉ is more popular but Raikɒ is more historically accurate. \0So you pronounce it Rai-koe then?\1 I pronounce it Raikou."
-		"Ray-quay-za or Ray-kwah-za?\1Rayquɒza is more popular but Rayquɛza is more historically accurate. \0So you pronounce it Ray-quay-za then? \1 I pronounce it Rayquaza."
+		"Ar-see-us or Ar-key-us?\1 Both /ˈaɹ si əs/ and /ˈaɹ ki əs/ are correct... \0 Yeah, but which way do /you/ normally pronounce it? \1 Arceus."
+		"Rai-koo or Rai-koe? \1/ˈɹɑɪ̯ kuː/ is more popular but /ˈɹɑɪ̯ koː/ is more historically accurate. \0So you pronounce it Rai-koe then?\1 I pronounce it Raikou."
+		"Ray-quay-za or Ray-kwah-za?\1/ɹeɪ̯ ˈkwe zə/ is more popular but /ɹeɪ̯ ˈkwæ zə/ is more historically accurate. \0So you pronounce it Ray-quay-za then? \1 I pronounce it Rayquaza."
 		--
 		"\0 Hey! Stop being self aware about speaking in text! That's not fair to %(username)."
 	}
@@ -467,7 +502,7 @@ RandomTalk : nonoverlap
 	S: However, it's important to keep in mind that there's a difference between Legendary Pokemon like %(NormalLegends), which there are known to be multiple of and we have even tracked the locations of some of them, and %(BizzareLegends).
 	
 	{
-	G: Hey %(username), have you ever seen a %(MythMon)?
+	G: Hey %(username), have you ever seen a %(LegendaryMon)?
 	--
 	S: Don't tell him you have, or else he'll /actually/ believe you.
 	G: Sometimes it's nice to have faith in people, believe it or not!
@@ -479,12 +514,36 @@ RandomTalk : nonoverlap
 	G: You just play hard-to-get so it's more rewarding!
 	}
 	
+	G: Isn't it a little weird that Pokécenters say "Hope to see you again!" when they heal your Pokémon? Like, "Hope they get injured again!"?
+	S: Pokémon needing healing it is an inevitability, especially if you're traveling, and especially if you're a trainer. What it means is "We're inviting you to heal your Pokémon for free again". I don't think it's weird with that context in mind.
+	G: Maybe, but still! Imagine walking out of a doctor's office and they say that. That would definitely seem a little more off-putting.
 	
+	G: Why's %(MuchroomMon) a Grass Type? Aren't fungi a completely different genus than plants?
+	S: Because Grass Type is distinct from being a plant...? Most Grass Types don't grow grass on them, do they? They grow other things.
+	G: I guess so. Might be more of a "nature" Type. Maybe they should change the name.
+	S: Unfortunately I believe that's a little bit out of our scope.
+	G: Maybe I personally will just start calling it nature type and everyone else will just have to cope. I can be a leader, a visionary that will inspire millions!
+	S: I think there are better things to do with your time.
+	G: Yeah, probably.
+	
+	G: Electrike and Eelektrik are both Electric Types.
+	S: And?
+	G: Psh, I just don't get why we can't just call these 'mon something' else. Like, why is it called Elec-trike anyways? Is it because it's a bike?
+	S: It's "strike" or "tyke".
+	G: Maybe? Just weird to call a 'mon by something so close to its element.
+	S: At least it /is/ an Electric Type instead of being a Water Type called Electric, or something similar.
+	G: Pff, right.
+	//Almost as bad as Zapdos and Jolteon's Japanese names...... Thunder and Thundersu.
 	*/
-	
+
+
+
+
+
 	//FINALLY... THE LONG AWAITED TYPE MATCHUPS
 	//Definitely inspired by Radic and Farnsworth. I love them :cries:
-	//Putting these into a few different pools because otherwise the randomtalk would play these way too often, but I don't want just one pool because there are too many variations you'd never see
+	//Putting these into a few (definitely not a few anymore) different pools because otherwise the randomtalk would play these way too often (there's over 110 in here), but I don't want just one pool because there are too many variations you'd never see
+	
 	//WHAT WOULD BE EFFECTIVE AGAINST A (BLANK)
 	{ //Honoa Pool
 		
@@ -573,6 +632,14 @@ RandomTalk : nonoverlap
 		"%(PsychicType)?\w8\0Atticus!\w8 Though, if you don't have a Houndoom, %(DarkDual) also works.\1Houndoom /are/ pretty difficult to find..."
 		
 		"%(FightingType)?\w8\0Ooh, what about %(GhostDual)? I don't think that Fighting Types are immune to Ghost Types like Normal Types are. It just goes one way when it comes to Ghost and Fighting. \1That is indeed true. In order for a Fighting Type move to hit a Ghost Type, it would need a specific move like Foresight. \0Oh, is that what foresight does? I thought it was useless. Wild HootHoot kept using it on me and I couldn't understand why. \1Well, and that particular instance, it was a useless move. Unless they were trying to hit your Delcatty with a Ghost Type move...? Which I don't think Hoothoot learn... [Checking Dex], Huh, turns out a few of them can use Shadow Ball...\0\n\nYou're such a nerd, you know that?"
+		
+		{
+			//ARRAY 3 WOOOOOO
+			_poisonimmune = poisonimmunearray
+			_TypeSteelIsWeakTo = _poisonimmune[0]
+			_PoisonButSuperEffective = _poisonimmune[0]
+			"%(PoisonType)?\w8\0Oh, %(SteelDual) for sure. Steel Types are completely immune to poison. \0...Though, if it were part %(_TypeSteelIsWeakTo), like %(_PoisonButSuperEffective), it might be a different story..."
+		}
 	}
 	{ //Dragon pool
 		"\1What would be effective against %(DragonType)?\w8\0"
@@ -662,7 +729,7 @@ RandomTalk : nonoverlap
 		"%(ElectricSteel)"
 		"%(ElectricRock)"
 		"%(ElectricPoison)"
-		//"%(FireSteel)" Canceled until there's another one that's not Heatran
+		//**NPMO "%(FireSteel)" Canceled until there's another one that's not Heatran
 		"%(FireRock)"
 		"%(FirePoison)"
 		"%(RockSteel)"
@@ -715,7 +782,7 @@ RandomTalk : nonoverlap
 	{ //Dragon, Ghost, Dark, Fairy
 		{ //Dragon
 		"What would be weak to %(DragonType)?\0Well you're the Dragon Type expert, why don't you tell me? \1The answer is everything that's not a Steel or Fairy Type. \0Psh, because Dragons are so strong they don't need a Type Advantage, huh? \1Not only are Dragon Pokémon naturally strong, they're often difficult to control, so their trainer would be immensely skilled. \0If you ever got a Dragon Type, which one would it be? \1... \0Aww, don't be shy! It's just hypothetical. \1...Ampharos does /Mega Evolve/ into a Dragon Type, if I ever got the tools for that... ...Maybe Hydreigon, even if its Type isn't the best. Garchomp would be interesting in battle against your Flygon... I have some fondness for Kingdra.\0 Awww, Silver admitting he likes something. This is, like, a super rare moment %(username). You should screenshot it. \0Uhg, be quiet."
-		//In the original canon, Silver has a Kingdra! He doesn't evolve in this version, though, since they're based on my randomized game!
+		//In the original canon, Silver has a Kingdra! He doesn't in this version, though, since they're based on my randomized game!
 		}
 		{ //Ghost AND Dark !?!?!?
 		//Believe it or not they're Super Effective against the same Types
@@ -736,7 +803,7 @@ RandomTalk : nonoverlap
 	}
 	{ //Steel, Bug
 		{ //Steel
-		"What would be weak to %(SteelType)?\0"
+		"\1What would be weak to %(SteelType)?\0"
 		--
 		"I don't even remember what's /normally/ weak to Steel Types... Hmm... Maybe an... Alolan Ninetales?\n\n\w8\1That's true.\n\n\w8\0Nice!! A win for Sens!\e"
 		
@@ -747,7 +814,7 @@ RandomTalk : nonoverlap
 		"What about %(IceRock)?\1\n\n\w8That works.\0\w8\nNice! I got it!\n\n\w8There is another Ice/Rock Type I've heard of once... A variant of Avalugg, an extinct variety that used to be in Sinnoh.\0Now let's hope it didn't go extict 'cause a' Steel Types, otherwise this conversation'd be in very poor taste."
 		}
 		{ //Bug
-			"What would be weak to %(BugType)?\0"
+			"\1What would be weak to %(BugType)?\0"
 			--
 			"%(CapsGrassPsychic)!\w8 Heh, I remembered that one /immedietely/."
 			
@@ -755,9 +822,29 @@ RandomTalk : nonoverlap
 			
 			"A Psychic/Dark Type'd be super weak to it... Like a, uh... Oh, %(DarkPsychic)! Yeah, that.\1Unfortunately not too many trainers who know that are carrying Bug Types with them. \0I know, right! Not even me. I don't have a single Bug Type move on my team...\1The only other Type that would hit a Psychic/Dark Type for super effective damage is a Fairy Type-\_swhich \_s\0 \1y\0I\1ou\_s don't have%(lps(4))\_s\w8\0Ahhhh we spoke at the same time :D!\1whatever..."
 		}
-		//I want to add a few extra here where Gold gets it wrong lol
 	}
 
+	{ //WHO WOULD WIN
+		"\0Hey Silver! Who do you think would win, %(FireType) or %(ElectricType)?\0Well... Both of their Types are neutral against each other, so there are a lot of different factors that come into play. If one of them know a Ground move, they would have the advantage.\0Oh, like the Champion's Jolteon! It knows Dig!\1A broken clock is right twice a day...\0You be nice!\1Hmph."
+		//Zapdear my beloved
+	}
+	
+	{ //Based off of actual things that happened in the anime
+		"\1What could beat a %(GroundRock)?\0Hmm, maybe %(ElectricType)?\1Ground is completely immune to Electric...? Why would you think that?\0Nuh-uh, it's just the outside shell that's immune. If it got it to open its mouth, and THEN electricuted its INSIDES, THEN it'd faint.\1Not every Ground Type /has/ a mouth. \0How do they eat, then...?"
+		//Pokemon anime Orange League Episode 24 - Bound For Trouble
+
+		{ //Itsa string so needs bracets
+		_S2E28convo = S2E28dialogue
+		_TypeGoodAgainstPsychicGround = S2E28convo[0]
+		_PokemonThatIsTypeGoodAgainstPsychicGround = S2E28convo[1]
+		//Saving these two LOCALLY so they can be REPEATED hell yeah I get it
+		_PokemonThatIsElectricType = ElectricType
+		_PokemonThatIsFireFlying = FireFlying
+		//Never thought I'd see the day I said "It'd be easier if this were a double envelope"
+		"\1In a double battle, what would be best against %(PsychicType) and %(GroundType)?\0what about a team of %(_PokemonThatIsElectricType) and %(_PokemonThatIsFireFlying)?\1The Ground Type has an immunity to Electric and is super effective against Fire, though.\0Yes, BUT as a Flying Type, %(_PokemonThatIsFireFlying)'s immune.\1Still doesn't sound like the best matchup... They both only hit Psychic for neutral. If you had a %(_TypeGoodAgainstPsychicGround) like %(_PokemonThatIsTypeGoodAgainstPsychicGround), then you'd actually have an advantage.\0Sure, but if the %(_PokemonThatIsElectricType) rode on the %(_PokemonThatIsFireFlying)'s back, then they'd BOTH be immune to anything happening on the ground, AND since Fire and Electric are usually ranged attacks, they'd have the advantage then!\1If you actually chose better Pokemon, bizarre strategies wouldn't be required.\0Sometimes you just don't have better choices! If the only way you can think of winning battles is by having a type advantage, then the second that Pokemon isn't an option you'll lose every fight you're in. Being creative just means being strategic!\1Most of the ideas you come up with sound too bizarre to work.\0You never know! What it looks like you're out of options, might as well try what's unlikely!\1Hmm.\0I won two leagues! Clearly, my advice works!"
+		//Pokemon anime Orange League Episode 28 - Pokémon Double Trouble
+		}
+	}
 	/* 	TYPE RESISTANCE
 	Could do double envelopes, could do randomly picking from a wheel
 	Fire:
@@ -1131,12 +1218,38 @@ RandomTalk : nonoverlap
 	Though, my Masquerain did know Ice Beam!
 	
 	Ice
+	S: What are Ice Types weak to?
+	G: Fire, Steel, and Fighting?
+	S: Substitute Steel for Rock.
+	G: Oh hey, that's pretty good then! Means that Ice isn't weak to the same type that Fairy is! Makes it a better counter for Dragon/Steel Types like %(DragonSteel).
+	S: Not that you'll be running into many of those in Kanto or Johto.
+	G: Wait- Does Steel resist Ice?
+	S: No.
+	G: Nice! That makes it EXTRA useful then, since Steel resist most elements!
+	S: [Sigh] If you think so...
 	
 	Water
+	S: What are Water Types weak to?
+	G: Electric for sure- Grass also. And... Well, Dragon resists them, but Water's not weak to 'em...
+	S: You already got both. Electric and Grass.
+	G: Woo! And Honoa doesn't even /need/ to worry about Electric, since he absorbs it!
 	
 	Dragon
+	S: What are Dragon Types weak to?
+	G: Itself, Ice, and Fairy. Let me guess, your answer is "nothing because Dragon Types are so strong"?
+	S: That's the answer in practice, but imagine this as a paper quiz.
+	G: I never took any of those, pff. I figure you did?
+	S: [Embarrassed] Well if you /did/ go to a school setting, you would've barely been able to pass with how infrequently you get these right.
+	G: Actually, I visited one of the trainer schools once, and I got the teach the class!
+	S: Of course you did.
 	
 	Ghost
+	S: What are Ghost Types weak to?
+	G: Itself, Dark, and... I think that's it.
+	S: Mhm.
+	G: Honestly that one hasn't come into practice very much.  throughout my entire training career, I've only really battled a couple people with Misdreavus, and the Gastly line is part Poison, so I usually focus on that.
+	S: It's a little risky to be using your Psychic Type against a Ghost Type.
+	G: Yeah, well, it's worked out for me so far!
 	
 	Poison
 	
@@ -1196,6 +1309,7 @@ RandomTalk : nonoverlap
 	S: Maybe one day I'll have the opportunity to do the same.
 	G: NOT TODAY AND NOT TOMORROW, I'LL MAKE SURE OF THAT!
 	\e:chain=fireghostchain*/
+}
 }
 
 //--Chains

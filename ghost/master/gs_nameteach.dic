@@ -25,7 +25,6 @@ OnNameTeach
 	}
 	elseif reference0 == "Gold" 
 	{
-		//G: If you're ACTUALLY called Gold, that's pretty cool. But also I'm called that, so it's best if you pick something else.
 		"\![open,inputbox,OnNameTeach,-1]"
 	}
 	//Silver

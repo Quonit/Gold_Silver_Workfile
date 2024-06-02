@@ -218,6 +218,21 @@ normalboottalk
 	{
 	"\0\s[0]It's Saturday night.\e"
 	}
+	//If May 28th
+	/*
+	G: Guess what day it is, %(username)! It's Quonit's birthday today! Yaaaay!
+	S: Why even bother talking about it...
+	G: Come on, Silver, that's mean! We wouldn't be here without them!
+	S: Oh joy...
+	G: If you feel like it, maybe you could shoot them a nice message somewhere! I'm sure they'd appreciate it. Either way, though, I'm gonna have some cake.
+	[pokecake time]
+	//If you see this comment tell me happy birthday even if it's nowhere close to this date lol
+	*/
+	//If June 22nd
+	/*
+	G: Hey, guess what %(username)? It's my birthday! Quonit started the randomizer that became my save file this day in 2021...
+	[Party hat for he and his pokemon]
+	*/
  	else
  	{
 		if timeslot == "earlymorning"

@@ -10,6 +10,8 @@
 	//	- because Silver is elitest and wouldn't consider BABIES in most of the conversations where these envelopes are used
 //Legendaries and Mythical Pokémon are also not included
 	//	- because Silver is thinking of practical battle scenarios that are likely to end up in, and normally people don't have access to Legendaries.
+//**NPMO means "New Pokemon May Outdate".
+	//If a new gen comes out, the dex entry for this Pokémon could be
 
 //MonoTypes
 BugType
@@ -47,6 +49,33 @@ DarkType
 	"a Liepard"
 	"a Thievul"
 	"a Mabosstiff"
+}
+
+ElectricType
+{
+	"Pikachu"
+	"Raichu"
+	"Voltorb"
+	"Electrode"
+	"Electabuzz"
+	"Jolteon"
+	"Flaaffy" //Cloud my beloved
+	"Ampharos"
+	"Manectric"
+	"Plusle"
+	"Minun"
+	//Both of those are eh competatively but also if I don't put them here they'd never get mentioned lol
+	"Luxio"
+	"Luxray"
+	"Pachirisu"
+	"Electivire"
+	"Blitzle"
+	"Zebstrika"
+	"Eelektrik"
+	"Eelektross"
+	"Boltund"
+	"Pincurchin"
+	"Bellibolt"
 }
 
 FairyType //ohhh boy thisll cause some conflicts
@@ -370,6 +399,8 @@ weakpokemon
 	"Wimpod"
 	"Sunkern"
 }
+
+//I used to think that legendary Pokemon were stronger and had a lot of lore, While mythical Pokemon were weaker and more mysterious. Turns out, there is no in universe difference. So, they're all going in the same envelope.
 LegendaryMon
 {
 	"%(NormalLegends)"
@@ -377,40 +408,63 @@ LegendaryMon
 	"%(TreasuresRuins)"
 	"%(SwordsJustice)"
 	"%(GodsIG)"
+	"%(XY)"
+	"%(Regis)"
+	"Mew"
 	"Raikou"
 	"Entei"
 	"Suicune"
 	"Ho-Oh"
+	"Celebi"
 	"Latios"
 	"Latias"
 	"Kyogre"
 	"Groudon"
 	"Rayquaza"
+	"Jirachi"
+	"Deoxys"
 	"Uxie"
 	"Mesprit"
 	"Azelf"
 	"Cresselia"
+	"Manaphy"
+	"Phione"
+	"Darkrai"
+	"Shaymin"
 	"Tornadus"
 	"Thundurus"
-	"Landorus"
+	"Landorus" //My enemy
 	"Reshiram"
 	"Zekrom"
 	"Kyurem"
-	"Xerneas"
-	"Yveltal"
-	"Zygarde"
-	//Skipping Tapus bc ...?
+	"Victini"
+	"Meloetta" //WAIT THAT'S A MYTHICAL???? I HAD NO CLUE
+	"Genesect"
+	"Diancie"
+	"Hoopa"
+	"Volcanion"
+	"Tapu Koko"
+	"Tapu Lele"
+	"Tapu Bulu"
+	"Tapu Fini"
 	"Cosmog"
 	"Cosmoem"
 	"Solgaleo"
 	"Lunala"
 	"Zacian"
+	"Magearna"
+	"Marshadow"
+	"Zeraora"
+	"Meltan"
+	"Melmetal"
 	"Zamazenta"
+	"Zacian"
 	"Eternatus"
 	"Calyrex"
 	"Glastier"
 	"Spectrier"
 	"Enamorus"
+	"Zarude"
 	"Koraidon"
 	"Miraidon"
 	"Okidogi"
@@ -418,13 +472,13 @@ LegendaryMon
 	"Fezandipiti"
 	"Ogerpon"
 	"Teraoagos"
+	"Percharunt"
 }
 NormalLegends
 {
 	"Articuno"
 	"Zapdos"
 	"Moltres"
-	"%(Regis)"
 	"Lugia"
 	"Heatran" //Whoa it gets to get included somewhere
 	"Galarian Articuno"
@@ -433,13 +487,18 @@ NormalLegends
 	"Kubfu"
 	"Urshifu"
 	"Cyclizar"
+	"Zygarde" //Zygarde is all over the world so people might collect at least incomplete forms  sometimes
+	"Zarude" //Me reading its bulbapedia page: ...this is a mythical pokemon?
 }
 BizzareLegends
 {
+	
+	"Mew"
 	"%(UltraBeasts)"
 	"%(TreasuresRuins)"
 	"%(SwordsJustice)"
 	"%(GodsIG)"
+	"Regigigas"
 }
 UltraBeasts
 {
@@ -474,41 +533,22 @@ GodsIG
 {	
 	"Dialga"
 	"Palkia"
-	"Giratina"
-	"Arceus" //"That's a Mythical Pokemon" do you want them to talk about Arceus like it's as common as Celibi
+	"Giratina" //There could be more than one and we'd never know because they live in the distortion world but also they live in the distortion world and trainers wouldn't have them
+	"Arceus"
 }
 Regis
 {	
 	"Regirock"
 	"Regice"
 	"Registeel"
-	"Regigigas"
 	"Regieleki"
 	"Regidrago"
 }
-MythMon
+XY
 {
-	"Mew"
-	"Celebi"
-	"Jirachi"
-	"Deoxys"
-	"Manaphy"
-	"Phione"
-	"Darkrai"
-	"Shaymin"
-	"Victini"
-	"Meloetta"
-	"Genesect" //might remove
-	"Diancie"
-	"Hoopa"
-	"Volcanion"
-	"Magearna"
-	"Marshadow"
-	"Zeraora"
-	"Meltan"
-	"Melmetal"
-	"Zaride"
-	"Percharunt"
+	"Xerneas"
+	"Yveltal"
+	"Zygarde"
 }
 LevitateMon
 {
@@ -539,6 +579,19 @@ LevitateMon
 	"Hydreigon"
 	"Vikavolt"
 }
+MuchroomMon
+{
+	"Paras"
+	"Parasect"
+	"Shroomish"
+	"Breloom"
+	"Foongus"
+	"Amoonguss"
+	"Morelull"
+	"Shiinotic"
+	"Toedscool"
+	"Toedscruel"
+}
 
 
 //OTHER ENVELOPES FOR MISC PURPOSES
@@ -563,6 +616,10 @@ city
 	"Fuchsia"
 	"Saffron"
 }
+
+
+
+//Arrays because I'm so cool and detail oriented
 regionconvodialogue
 {
 	"Dark/Normal Type Alolan Raticate,Normal Type Raticate \&[quot]Kantoan Raticate\&[quot]?,Alola"
@@ -599,8 +656,58 @@ DIDTRdialogue
 	"%(ElectricIce),Electric"
 	"%(IceWater),Water"
 }
+poisonimmunearray
+{
+	"Fighting,%(FightingSteel)"
+	"Ground,%(GroundSteel)"
+	//**NPMO "Fire,%(FireSteel)"
+}
+S2E28dialogue
+{
+	"Dark Type,%(DarkType)"
+	"Dark Type,%(DarkFairy)"
+	"Dark Type,%(DarkDragon)"
+	"Dark Type,%(DarkGround)"
+	"Dark Type,%(DarkFlying)"
+	"Dark Type,%(DarkFighting)"
+	"Dark Type,%(DarkGrass)"
+	"Dark Type,%(DarkIce)"
+	"Dark Type,%(DarkNormal)"
+	"Dark Type,%(DarkPsychic)"
+	"Dark Type,%(DarkSteel)"
+	"Dark Type,%(DarkWater)"
+	
+	"Dark/Ghost Type,%(DarkGhost)"
+	
+	"Ghost Type,%(DragonGhost)"
+	"Ghost Type,%(FireGhost)"
+	"Ghost Type,%(FlyingGhost)"
+	"Ghost Type,%(FightingGhost)"
+	"Ghost Type,%(FairyGhost)"
+	"Ghost Type,%(GhostGrass)"
+	"Ghost Type,%(GhostGround)"
+	"Ghost Type,%(GhostIce)"
+	//"Ghost Type,%(GhostNormal)" //So cool there's even a randomtalk on it //**NPMO
+	"Ghost Type,%(GhostPsychic)"
+	"Ghost Type,%(GhostSteel)"
+	"Ghost Type,%(GhostWater)"
 
+	"Bug/Ghost Type,%(BugGhost)"
 
+	//**NPMO "Bug Type,%(BugDragon)"
+	"Bug Type,%(BugFairy)"
+	"Bug Type,%(BugFlying)"
+	"Bug Type,%(BugFighting)"
+	"Bug Type,%(BugGrass)"
+	"Bug Type,%(BugGround)"
+	"Bug Type,%(BugIce)"
+	//**NPMO"Bug Type,%(BugNormal)"
+	"Bug Type,%(BugPsychic)"
+	"Bug Type,%(BugSteel)"
+	"Bug Type,%(BugWater)"
+	
+	"Dark/Bug Type,%(BugDark)"
+}
 
 
 
@@ -611,14 +718,39 @@ DIDTRdialogue
 //ALSO THERE IS NOT EVERY DUAL TYPE HERE. THAT'D BE LIKE 260 DIFFERENT ENVELOPES I'm only doing them if they show up in dialogue
 
 //--BUG TYPES 🐛
+BugDual
+{
+	"%(BugDark)"
+	//**NPMO "%(BugDragon)"
+	"%(BugElectric)"
+	"%(BugFairy)"
+	"%(BugFire)"
+	"%(BugFlying)"
+	"%(BugFighting)"
+	"%(BugGhost)"
+	"%(BugGrass)"
+	"NPMO %(BugGround)"
+	"%(BugIce)"
+	//**NPMO"%(BugNormal)"
+	"%(BugPoison)"
+	"%(BugPsychic)"
+	"%(BugRock)"
+	"%(BugSteel)"
+	"%(BugWater)"
+}
 BugDark
 {
 	"Lokix"
 }
-BugGround
+/**NPMO BugDragon
 {
-	"Nincada"
-	"Sandy Wormadam"
+}*/
+BugElectric
+{
+	"Joltik"
+	"Galvantula"
+	"Charjabug"
+	"Vikavolt"
 }
 BugFairy
 {
@@ -670,12 +802,46 @@ BugGrass
 	"Swadloom"
 	"Leavanny"
 }
+BugGround
+{
+	"Nincada"
+	"Sandy Wormadam"
+}
 BugIce
 {
 	"a "
 	--
 	"Snom"
 	"Frosmoth"
+}
+/**NPMO BugNormal
+{
+}*/
+BugPoison
+{
+	"Skorupi"
+	"Whirlipede"
+	"Scolipede" //Just it without all 3 evos bc it'd make it so the others never show up lol
+	"Dustox"
+	"Ariados"
+	"Venonat"
+	"Venomoth"
+	"Beedrill"
+}
+BugPsychic
+{
+	"Dottler"
+	"Orbeetle"
+	"Rabsca"
+}
+BugRock
+{
+	"Shuckle" //Surpreme overlord
+	"Dwebble" //Dweeble
+	"Crustle"
+	"Kleavor"
+	"Anorith"
+	"Armaldo"
 }
 BugSteel
 {
@@ -684,6 +850,14 @@ BugSteel
 	"a Trash Cloak Wormadam"
 	"an Escavalier"
 	"a Durant"
+}
+BugWater
+{
+	"Surskit"
+	//Wimpod my beloved but not included bc Silver's a loser that doesn't believe in it
+	"Golisopod"
+	"Dewpider"
+	"Araquanid"
 }
 
 //--DARK TYPES 🕶
@@ -864,7 +1038,11 @@ DragonIce
 	"Arctibax"
 	"Baxcalibur"
 }
-
+DragonSteel
+{
+	"Duraludon"
+	"Archaludon"
+}
 
 
 
@@ -931,8 +1109,8 @@ FairyDual
 	"%(DarkFairy)"
 	"%(DragonFairy)"
 	"%(ElectricFairy)"
-	//%(FairyGround) //NO SUCH THING
-	//"%(FairyFire)" //...Vulpix crossbreed?
+	//**NPMO %(FairyGround) //NO SUCH THING
+	//**NPMO "%(FairyFire)" //...Vulpix crossbreed?
 	"%(FairyFlying)"
 	"%(FairyFighting)"
 	"%(FairyGhost)"
@@ -945,10 +1123,10 @@ FairyDual
 	"%(FairySteel)"
 	"%(FairyWater)"
 }
-//FairyFire
+//**NPMO FairyFire
 /*{
 }*/
-//FairyFighting
+//**NPMO FairyFighting
 /*{
 	//Iron Valiant banned
 }*/
@@ -971,7 +1149,7 @@ FairyGrass
 	"Morelull"
 	"Shiinotic"
 }
-//FairyGround
+//**NPMO FairyGround
 /*{
 	NO SUCH THING
 }*/
@@ -1073,7 +1251,7 @@ FireRock
 	"Carkol"
 	"Coalossal"
 }
-/*FireSteel
+/*FireSteel //**NPMO 
 {
 	//Heatran is banned
 }*/
@@ -1202,17 +1380,17 @@ FightingDual
 	"%(DarkFighting)"
 	"%(DragonFighting)"
 	"%(ElectricFighting)"
-	//%(FairyFighting) //NO PARADOX FORMS
+	//**NPMO %(FairyFighting) //NO PARADOX FORMS
 	"%(FireFighting)"
 	"%(FlyingFighting)"
 	"%(FightingGhost)"
 	"%(FightingGrass)"
-	//"%(FightingGround)"
+	//**NPMO "%(FightingGround)"
 	"%(FightingIce)"
 	"%(FightingNormal)"
 	"%(FightingPoison)"
 	"%(FightingPsychic)"
-	//"%(FightingRock)" //Nooooooo legendaries
+	//**NPMO "%(FightingRock)" //Nooooooo legendaries
 	"%(FightingSteel)" //EVERYONE GIVE IT UP FOR LUCARIO!!! 🎉💃🥳🎊🎊🥳🎈🎉🎉🎉
 	"%(FightingWater)"
 }
@@ -1227,7 +1405,7 @@ FightingGrass
 	"Breloom"
 	"Chesnaught"
 }
-//FightingGround
+//FightingGround //**NPMO
 /*{
 	//No Paradox forms allowed
 }*/
@@ -1256,7 +1434,7 @@ FightingPsychic
 	//Mega's don't count unless they're a different type
 	//lmao if I never list normal Mewtwo I'm certainly not listing mega mewtwo
 }
-//FightingRock
+//FightingRock //**NPMO
 /*{
 	//Terrakion got a weird face
 }*/
@@ -1288,10 +1466,10 @@ GhostDual
 	"%(GhostGrass)"
 	"%(GhostGround)"
 	"%(GhostIce)"
-	//"%(GhostNormal)" //So cool there's even a randomtalk on it
+	//"%(GhostNormal)" //So cool there's even a randomtalk on it //**NPMO
 	"%(GhostPoison)"
 	"%(GhostPsychic)"
-	//"%(GhostRock)" //NONE
+	//"%(GhostRock)" //NONE //**NPMO
 	"%(GhostSteel)"
 	"%(GhostWater)"
 
@@ -1325,7 +1503,7 @@ GhostIce
 {
 	"Froslass" //Lonely girrrrl you are my worlddd
 }
-//GhostNormal
+//GhostNormal //**NPMO
 /*{
 	
 }*/
@@ -1399,14 +1577,14 @@ GroundDual
 	"%(DarkGround)"
 	"%(DragonGround)"
 	"%(ElectricGround)"
-	//%(FairyGround) //NO SUCH THING
+	//%(FairyGround) //NO SUCH THING //**NPMO
 	"%(FireGround)"
 	"%(FlyingGround)"
 	"%(FightingGround)"
 	"%(GhostGround)"
 	"%(GrassGround)"
 	"%(GroundIce)"
-	//%(GroundNormal) //NO URSALUNA
+	//%(GroundNormal) //NO URSALUNA //**NPMO
 	"%(GroundPoison)"
 	"%(GroundPsychic)"
 	"%(GroundRock)"
@@ -1501,7 +1679,7 @@ IceDualNotResistedByDragon
 	//"%(IcePoison)" //whoops none at all
 	"%(FlyingIce)"	
 }
-//IceNormal
+//IceNormal //**NPMO
 /*{
 }*/
 IceRock
@@ -1510,7 +1688,7 @@ IceRock
 	"an Aurorus"
 	//No Hisuian Avalugg because Hisui is FORGOTTEN
 }
-//IcePoison
+//IcePoison //**NPMO
 /*{
 }*/
 IcePsychic
@@ -1519,6 +1697,12 @@ IcePsychic
 	"Jynx"
 	//Gold is more inclusive than Silver but even he's not bringing up baby Pokémon lol
 	"Mr.Rime"
+}
+IceSteel
+{
+	"Alolan Sandshrew"
+	"Alolan Sandslash" //Hi Popcicle
+	//All the dialogue I've written that could bring up an IceSteel Type I replace with just straight up bringing up Popcicle lol
 }
 IceWater
 {
@@ -1530,6 +1714,18 @@ IceWater
 	"Lapras"
 	"Arctovish"
 }
+
+
+
+//--NORMAL TYPES
+//NormalSteel //**NPMO
+/*{
+	//NOTHING
+}*/
+
+
+
+
 
 //--POISON TYPES ☢
 PoisonRock
@@ -1556,3 +1752,41 @@ RockSteel
 
 
 
+//--PSYCHIC TYPE 🥄
+PsychicSteel
+{
+	//"Beldum" //Not with Take Down as your only move you aren't lmaooooo
+	"Meltang"
+	"Metagross"
+	"Bronzor"
+	"Bronzong"
+}
+
+
+
+//--STEEL TYPES 🛠
+SteelDual
+{
+	"%(FightingSteel)"
+	"%(FairySteel)"
+	"%(DarkSteel)"
+	"%(GhostSteel)"
+	"%(NormalSteel)"
+	"%(IceSteel)"
+	"%(DragonSteel)"
+	"%(BugSteel)"
+	"%(RockSteel)"
+	"%(PsychicSteel)"
+	"%(GroundSteel)"
+	"%(PoisonSteel)"
+	"%(FlyingSteel)"	
+	//**NPMO "%(FireSteel)"
+	"%(GrassSteel)"
+	"%(ElectricSteel)"
+	"%(SteelWater)"
+}
+
+SteelWater
+{
+	"Empoleon"
+}
