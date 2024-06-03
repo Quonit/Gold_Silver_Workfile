@@ -20,9 +20,10 @@ Onparserinput
 	reference0 = REPLACE(reference0,".","")
 	reference0 = REPLACE(reference0,"-","")
 
-if reference0 == "bulbasaur" || reference0 == "ivysaur" || reference0 == "venusaur" || reference0 == "charmander" || reference0 == "charmeleon" || reference0 == "charizard" || reference0 == "squirtle" || reference0 == "wartortle" || reference0 == "blastoise"
+if reference0 == "Bulbasaur" || reference0 == "ivysaur" || reference0 == "venusaur" || reference0 == "charmander" || reference0 == "charmeleon" || reference0 == "charizard" || reference0 == "squirtle" || reference0 == "wartortle" || reference0 == "blastoise"
 {
-	"%(bulbasaur_ivysaur_venusaur_charmander_charmeleon_charizard_squirtle_wartortle_blastoise)"
+	Bulbasaur_ivysaur_venusaur_charmander_charmeleon_charizard_squirtle_wartortle_blastoise = 1
+	"%(Bulbasaur_ivysaur_venusaur_charmander_charmeleon_charizard_squirtle_wartortle_blastoise)"
 }
 elseif reference0 == "caterpie" || reference0 == "metapod" || reference0 == "butterfree"
 {
@@ -913,9 +914,9 @@ elseif reference0 == "gible" || reference0 == "gabite" || reference0 == "garchom
 {
 	"%(gible_gabite_garchomp)"
 }
-elseif reference0 == "riolu" || reference0 == "lucario"
+elseif reference0 == "riolu" || reference0 == "Lucario"
 {
-	"%(riolu_lucario)"
+	"%(riolu_Lucario)"
 }
 elseif reference0 == "hippowdon" || reference0 == "hippopotas"
 {

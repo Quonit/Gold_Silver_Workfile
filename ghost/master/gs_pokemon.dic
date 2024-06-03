@@ -15,7 +15,7 @@
 ⠀⠀⠀⠀⠀⠈⠉⠐⠒⢆⣡⣃⠉⠐⢖⣀⡼⠀⠀
 */
 //Gen 1
-bulbasaur_ivysaur_venusaur_charmander_charmeleon_charizard_squirtle_wartortle_blastoise
+Bulbasaur_ivysaur_venusaur_charmander_charmeleon_charizard_squirtle_wartortle_blastoise
 {
 //G: Silver you're very lizard-core to me. I think if you had to pick between the Kanto starters you'd fit Charizard best. It's red and got a dragon mouth.
 //G: And not that shineys are relavent, but the shiny IS black and red.
@@ -2051,7 +2051,7 @@ G: That's nonsense! How does that even work! Their fins are so small!
 S: At least I told you this before you went out and fought a Garchomp totally unprepared yourself.
 */
 }
-riolu_lucario
+riolu_Lucario
 {
 "\0\s[2]I don't think Lucario should be a Dark/Steel type.\w8\1\s[201]\f[italic,true]I\f[italic,false] don't think that's something you can decide.\w8\0\s[11]\n\nBut like!!\w8\n\n\s[1]It has AURAS and can sense other Pokemon and read minds!!\w8 That's totally psychic!\w8\1\n\n...?\w8\0\s[2]\n\nI think it should be a psychic fighting type,\w5\0\s[4]and that'd be super cool because fighting is usually weak to psychic!!\w8\1\s[202]\n\n(Lucario isn't even a dark type...)\e"
 //Praise be, the OLDEST thing I wrote in this file. It used to be randomtalk in aitalk! written in 2021
@@ -2745,6 +2745,7 @@ TORNADUS_THUNDURUS_LANDORUS_ENAMORUS
 }
 RESHIRAN_ZEKROM
 {
+	dex.RESHIRAN_ZEKROM = 1
 //G: Yeah you can tell I don't know a lot about Unova. Like, I know that's a thing FROM Unova, just don't recognize it at all.
 }
 KYUREM

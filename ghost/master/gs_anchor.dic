@@ -28,1064 +28,1039 @@ _talk = reference0
 	_talk = REPLACE(_talk, "anBongo", "\_a[Bongo]Bongo\_a")
 	
 	//EVERY SINGLE POKEMON sorry I do not know how to fold this up this is more annoying to me than you
-	_talk = REPLACE(_talk, "Bulbasaur", "\_a[Bulbasaur]Bulbasaur\_a")
-	_talk = REPLACE(_talk, "Ivysaur", "\_a[Ivysaur]Ivysaur\_a")
-	_talk = REPLACE(_talk, "Venusaur", "\_a[Venusaur]Venusaur\_a")
-	_talk = REPLACE(_talk, "Charmander", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "Charmeleon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "Charizard", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "squirtle", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "wartortle", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "blastoise", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "caterpie", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "metapod", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "butterfree", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "weedle", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "kakuna", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "beedrill", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "pidgey", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "pidgeotto", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "pidgeot", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "rattata", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "raticate", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "spearow", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "fearow", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ekans", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "arbok", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "pikachu", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "raichu", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "pichu", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "sandshrew", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "alolan sandshrew", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "sandslash", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "alolan sandslash", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "nidoran", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "nidorino", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "nidorina", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "nidoqueen", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "nidoking", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "clefairy", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "clefable", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "cleffa", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "vulpix", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ninetales", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "jigglypuff", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "wigglytuff", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "igglybuff", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "zubat", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "golbat", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "crobat", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "oddish", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "gloom", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "vileplume", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "bellossom", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "paras", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "parasect", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "venonat", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "venomoth", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "diglet", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "dugtrio", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "meowth", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "persian", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "psyduck", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "golduck", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mankey", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "primeape", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ANNIHILAPE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "growlithe", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "arcanine", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "poliwag", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "poliwhirl", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "poliwrath", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "politoed", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "abra", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "kadabra", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "alakazam", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "machop", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "machoke", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "machamp", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "bellsprout", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "weepinbell", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "victreebel", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "victreebell", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "tentacool", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "tentacruel", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "geodude", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "graveler", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "golem", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ponyta", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "rapidash", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "slowpoke", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "slowbro", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "slowking", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "magnemite", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "magneton", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "magneton", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "farfetch'd", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "doduo", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "dodrio", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "seel", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "dewgong", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "grimer", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "muk", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "shellder", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "cloyster", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "gastly", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "haunter", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "gengar", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ONIX", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "steelix", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "drowzee", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "hypno", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "krabby", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "kingler", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "voltorb", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "electrode", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "exeggcute", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "exeggutor", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "alolan exeggutor", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "cubone", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "marowak", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lickitung", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lickilicky", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "koffing", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "weezing", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "rhyhorn", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "rhydon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "rhyperior", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "chansey", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "blissey", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "happiny", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "tangela", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "tangrowth", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "kangaskhan", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "horsea", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "seadra", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "kingdra", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "goldeen", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "seaking", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "staryu", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "starmie", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mr. mime", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mr.mime", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mr mime", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mime jr", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mime jr.", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "scyther", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SCIZOR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KLEAVOR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "jynx", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "smoochum", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "electabuzz", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "elekid", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "Electivire", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "magmar", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "magby", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "magmortar", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "pinsir", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "tauros", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "magikarp", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "gyarados", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lapras", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ditto", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "eevee", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "vaporeon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "jolteon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "flareon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "porygon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "porygon 2", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "porygon-z", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "porygon z", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "omanyte", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "omastar", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "kabuto", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "kabutops", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "aerodactyl", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "snorlax", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "munchlax", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "zapdos", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "articuno", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "moltres", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "dratini", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "dragonair", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "dragonite", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mew", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mewtwo", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "cyndaquil", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "quilava", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "typhlosion", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "totodile", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "croconaw", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "feraligatr", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "chikorita", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "bayleef", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "meganium", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "sentret", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "furret", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "hoothoot", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "noctowl", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ledyba", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ledian", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "spinarak", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ariados", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "chinchou", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lanturn", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "togepi", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "togetic", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "togekiss", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "natu", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "xatu", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mareep", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "flaffy", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ampharos", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "marill", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "azumarill", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "azurill", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "sudowoodo", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "bonsly", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "hoppip", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "skiploom", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "jumpluff", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "aipom", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ambipom", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "sunkern", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "sunflora", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "yanma", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "yanmega", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "wooper", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "QUAGSIRE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "espeon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "umbreon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "murkrow", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "honchkrow", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "misdreavus", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mismagius", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "unown", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "unknown", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "girafarig", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FARIGIRAF", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "pineco", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "forretress", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "dunsparce", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "dudunsparce", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "gligar", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "gliscor", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "snubbul", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "granbull", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "qwilfish", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "OVERQWIL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "shuckle", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "heracross", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "sneasel", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "WEAVILE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SNEASLER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "teddiursa", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ursaring", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "URSALUNA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "slugma", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "magcargo", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "swinub", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "piloswine", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mamoswine", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "corsola", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "Galarian Corsola", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CURSOLA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "remoraid", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "octillery", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "delibird", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mantine", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mantyke", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "skarmory", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "houndour", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "houndoom", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "phanpy", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "donphan", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "stantler", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "WYRDEER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "smeargle", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "tyrogue", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "hitmontop", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "hitmonlee", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "hitmonchan", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "miltank", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "raikou", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "entei", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "suicune", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "larvitar", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "pupitar", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "tyranitar", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ho-oh", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lugia", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "celebi", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "torchic", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "combusken", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "blaziken", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "treecko", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "grovyle", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "sceptile", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mudkip", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "marshtomp", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "swampert", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "poochyena", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mightyena", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "zigzagoon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "linoone", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "wurmple", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "solcoon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "beautifly", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "cascoon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "dustox", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lotad", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lombre", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ludicolo", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "seedot", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "nuzleaf", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "shiftry", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "taillow", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "swellow", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "wingull", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "pelipper", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ralts", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "kirlia", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "gardevoir", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "surskit", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "masquerain", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "shroomish", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "breloom", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "slakoth", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "vigoroth", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "slaking", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "nincada", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ninjask", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "shedinja", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "whismur", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "loudred", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "exploud", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "makuhita", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "hariyama", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "nosepass", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "probopass", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "skitty", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "delcatty", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "sableye", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mawile", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "aron", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lairon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "aggron", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "aaron" , "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "meditite", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "medicham", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "electrike", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "manetric", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "plusle", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "minun", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "volbeat", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "illumise", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "roselia", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "budew", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "roserade", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "gulpin", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "swalot", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "carvanha", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "sharpedo", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "wailmer", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "wailord", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "numel", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "camerupt", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "tarkoal", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "spoink", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "grumpig", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "spinda", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "trapinch", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "vibrava", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "flygon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "cacnea", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "cacturne", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "swablu", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "altaria", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "zangoose", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "seviper", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lunatone", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "solrock", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "barboach", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "wishcash", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "corphish", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "crawdaunt", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "baltoy", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "claydol", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lileep", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "craydily", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "anorith", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "armaldo", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "feebas", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "milotic", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "castform", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "kecleon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "shuppet", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "banette", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "duskull", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "dusclops", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "dusknior", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "tropius", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "chimecho", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "chingling", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "absol", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "wynaunt", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "wobbuffet", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "snorunt", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "glalie", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "froslass", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "spheal", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "sealeo", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "walrein", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "clamperl", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "huntail", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "gorebyss", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "clampearl", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "relicanth", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "luvdisk", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "bagon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "shelgon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "salamence", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "beldum", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "metang", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "metagross", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "regirock", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "registeel", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "regigigas", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "REGIELEKI", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "REGIDRAGO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "REGICE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "latias", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "latios", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "kyogre", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "groudon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "rayquaza", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "jirachi", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "deoxys", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "turtwig", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "grotle", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "torterra", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "chimchar", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "monferno", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "infernape", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "piplup", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "prinplup", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "empoleon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "starly", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "staravia", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "staraptor", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "bidoof", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "bibarel", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "kricketot", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "kricketune", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "shinx", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "luxio", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "luxray", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "carnidos", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "rampardos", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "shieldon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "bastiodon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "burmy", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "wormadam", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mothim", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "combee", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "vespiquen", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "pachirisu", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "buizel", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "floatzel", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "cherubi", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "cherrim", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "shellos", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "gastrodon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "driftloon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "drifblim", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "buneary", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lopunny", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "glameow", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "purugly", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "stunky", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "skunktank", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "bronzor", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "bronzong", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "chatot", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "spiritomb", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "gible", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "gabite", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "garchomp", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "riolu", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lucario", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "hippowdon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "hippopotas", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "skorupi", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "drapion", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "croagunk", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "toxicroak", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "carnivine", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "finneon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lumineon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "snowver", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "abomasnow", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "leafeon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "glaceon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "gallade", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "rotom", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "uxie", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "mesprit", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "azelf", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "dialga", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "palkia", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "heatran", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "giratina", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "cresselia", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "phione", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "manaphy", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "darkrai", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "shaymin", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "arceus", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "VICTINI", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "snivy", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SERVINE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SERPERIOR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "tepig", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PIGNITE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "EMBOAR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "oshawott", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "dewott", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "samurott", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "patrat", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "watchog", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "watchhog", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "lilipup", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "herdier", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "stoutland", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "purrloin", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "liepard", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "pansage", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "simisage", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "pansear", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "simisear", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "panpour", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "simipour", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MUNNA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MUSHARNA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PIDOVE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TRANQUILL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "UNFEZANT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BLITZLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ZEBSTRIKA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ROGGENROLA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BOLDORE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GIGALITH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "WOOBAT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SWOOBAT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DRILBUR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "EXCADRILL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "AUDINO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TIMBURR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GURDURR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CONKELDURR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TYMPOLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PALPITOAD", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SEISMITOAD", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "THROH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SAWK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "swaddle", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SWADLOON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "LEAVANNY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "VENIPEDE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "WHIRLIPEDE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SCOLIPEDE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "COTTONEE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "WHIMSICOTT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PETILIL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "LILIGANT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BASCULINE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BASCULEGION", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SANDILE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KROKOROK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KROOKODILE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DARUMAKA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DARMANITAN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MARACTUS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "Dwebble", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "Crustle", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SCRAGGY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SCRAFTY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SIGILYPH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "YAMASK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "COFAGRIGUS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "Runerigus", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TIRTOUGA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CARRACOSTA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ARCHEN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ARCHEOPS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TRUBBISH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GARBODOR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ZORUA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ZOROARK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MINCCINO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CINCCINO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GOTHITA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GOTHORITA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GOTHITELLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SOLOSIS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DUOSION", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "REUNICLUS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DUCKLETT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SWANNA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "VANILLITE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "VANILLISH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "VANILLUXE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DEERLING", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SAWSBUCK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "EMOLGA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KARRABLAST", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ESCAVALIER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FOONGUS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "AMOONGUSS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FRILLISH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "JELLICENT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ALOMOMOLA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "alolamola", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "JOLTIK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GALVANTULA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FERROSEED", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FERROTHORN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KLINK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KLANG", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KLINKLANG", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TYNAMO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "EELEKTRIK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "EELEKTROSS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ELGYEM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BEHEEYEM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "LITWICK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "LAMPENT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CHANDELURE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "AXEW", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FRAXURE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HAXORUS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CUBCHOO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BEARTIC", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CRYOGONAL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SHELMET", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ACCELGOR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "STUNFISK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MIENFOO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MIENSHAO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DRUDDIGON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GOLETT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GOLURK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PAWNIARD", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BISHARP", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KINGAMBIT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BOUFFALANT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "RUFFLET", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BRAVIARY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "VULLABY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MANDIBUZZ", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HEATMOR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DURANT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DEINO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ZWEILOUS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HYDREIGON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "LARVESTA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "VOLCARONA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "COBALION", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TERRAKION", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "VIRIZION", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TORNADUS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "THUNDURUS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "LANDORUS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ENAMORUS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "RESHIRAN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ZEKROM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KYUREM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KELDEO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MELOETTA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GENESECT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CHESPIN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "QUILLADIN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CHESNAUGHT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FROAKIE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FROGADIER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GRENINJA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FENNEKIN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "Braixen", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "Delphox", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BUNNELBY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DIGGERSBY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FETCHLING", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FLETCHINDER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TALONFLAME", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SCATTERBUG", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SPEWPA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "VIVILLON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "LITLEO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PYROAR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FLABEBE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FLOETTE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FLORGES", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SKIDDO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GOGOAT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PANCHAM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PANGORO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FURFROU", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ESPURR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MEOWSTIC", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HONEDGE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DOUBLADE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "AEGISLASH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SPRITZEE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "AROMATISSE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SWIRLIX", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SLURPUFF", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "INKAY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MALAMAR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BINACLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BARBACLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SKRELP", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DRAGALGE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CLAUNCHER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CLAWITZER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HELIOPTILE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HELIOLISK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TYRUNT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TYRANTRUM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "AMAURA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "AURORUS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SYLVEON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HAWLUCHA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DEDENNE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CARBINK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DIANCIE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GOOMY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SLIGGOO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GOODRA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KLEFKI", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PHANTUMP", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TREVENANT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PUMPKABOO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GOURGEIST", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BERGMITE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "AVALUGG", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "NOIBAT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "NOIVERN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "XERNEAS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "YVELTAL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ZYGARDE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HOOPA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "VOLCANION", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ROWLET", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DRATRIX", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DECIDUEYE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "POPPLIO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BRIONNE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PRIMARINA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "LITTEN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TORRACAT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "INCINEROUR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PIKIPEK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TRUMBEAK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TOUCANNON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "YUNGOOS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GUMSHOOS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GRUBBIN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CHARJABUG", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "VIKAVOLT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CRABRAWLER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CRABOMINABLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ORICORNIO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CUTIEFLY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "RIBOMBEE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ROCKRUFF", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "LYCANROC", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "WISHIWASHI", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MAREANIE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TOXAPEX", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MUDBRAY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MUDSDALE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DEWPIDER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ARAQUANID", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FROMANTIS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "LURANTIS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MORELULL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SHIINOTIC", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SALANDIT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SALAZZLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "STUFFUL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BEWEAR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BOUNSWEET", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "STEENEE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TSAREENA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "COMFEY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ORANGURU", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PASSIMIAN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "WIMPPOD", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GOLISOPOD", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SANDYGAST", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PALOSSAND", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PYUKUMUKU", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TYPE NULL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TYPE: NULL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TYPE:NULL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SILVALLY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MINIOR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KOMALA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TURTONATOR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TOGEDEMARU", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MIMIKYU", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BRUXISH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DRAMPA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DHELMISE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "JANGMO-O", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "JANGMO O", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HAKAMO-O", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HAKAMO O", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KOMMO-O", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KOMMO O", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TAPU KOKO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TAPU LELE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TAPU BULU", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TAPU FINI", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "COSMOG", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "COSMOEM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SOLGELEO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "LUNALA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PHEROMOSA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "XURKITREE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CELESTEELA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KARTANA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GUZZLORD", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BUZZWOLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "Nihilego", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "POIPOLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "NAGANADEL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "STAKATAKA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BLACEPHALON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "NECROZMA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MEGEARNA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MARSHADOW", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ZERAORA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MELTAN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MELMETAL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GROOKEY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "THWACKEY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "RILLABOOM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SCORBUNNY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "RABOOT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CINDERACE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SOBBLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DRIZZILE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "INTELEON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SKWOVET", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GREEDENT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ROOKIDIEE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CORVISQUIRE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CORVIKNIGHT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BLIPBUG", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DOTTLER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ORBEETLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "NICKIT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "THIEVUL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GOSSIFLEUR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ELDEGOSS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "WOOLOO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DUBWOOL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CHEWTLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DREDNAW", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "YAMPER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BOLTUND", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ROLYCOLY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CARKOL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "COALOSSAL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "APPLIN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FLAPPLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "APPLETUN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DIPPLIN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HYDRAPPLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SILICOBRA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SANDACONDA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CRAMORANT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ARROKUDA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BARRASKEWDA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TOXEL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TOXTRICITY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SIZZLIPEDE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CENTISKORCH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SLOBBOPUS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GRAPPLOCT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SINISTEA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "POLTEAGEIST", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HATENNA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HATTREM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HATTERENE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "IMPIDIMP", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MORGREM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GRIMMSNARL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GALARIAN ZIGZAGOON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GALAR ZIGZAGOON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GALARIAN LINOONE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GALAR LINOONE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "OBSTAGOON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GALARIAN MEOWTH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GALAR MEOWTH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PERRSERKER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SIRFETCH'D", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SIRFETCHD", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SIRFETCHED", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GALARIAN FARFETCH'D", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MR RIME", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MR. RIME", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MILCERY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ALCREMIE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FALINKS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PINCHURCHIN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SNOM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FROSMOTH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "STONJOURNER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "EISCUE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "INDEEDEE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MORPEKO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CUFANT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "COPPERAJAH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DRACOZOLT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ARCTOZOLT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DRACOVISH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ARCTOVISH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DURALUDON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ARCHALUDON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DREEPY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DRAKLOAK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DRAGAPULT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ZACIAN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ZAMAZENTA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ETERNATUS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KUBFU", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "URSHIFU", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ZARUDE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GLASTRIER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SPECTRIER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CALREX", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SPRIGATITO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FLORAGATO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MEOWSCARADA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FUECOCO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CROCALOR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SKELEDIRGE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "QUAXLY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "QUAXWELL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "QUAQUAVAL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "LECHONK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "OINKOLOGNE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TAROUNTULA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SPIDOPS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "NYMBLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "LOKIX", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PAWMI", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PAWMO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PAWMOT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TANDEMAUSE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MAUSHOLD", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FIDOUGH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DACHSBUN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SMOLIV", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DOLLIV", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ARBOLIVA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SQUAWKABILLY", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "NACLI", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "NACLISTACK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GARGANACLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CHARCADET", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ARMAROUGE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CERULEDGE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TADBULB", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BELLIBOLT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "WATTREL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KILOWATTREL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MASCHIFF", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MABOSSTIFF", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SHROODLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GRAFAIAI", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BRAMBLIN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BRAMBLEGHAST", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TOEDSCOOL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TOEDSCRUEL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KLAWF", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CAPSAKID", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SCOVILLAIN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "RELLOR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "RABSCA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FLITTLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ESPATHRA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TINKATINK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TINKATUFF", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TINKATON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "WIGLETT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "WUGTRIO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BOMBIRDIER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FINIZEN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PALAFIN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "VAROOM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "REVAVROOM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CYCLIZAR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "KORAIDON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MIRAIDON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ORTHWORM", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GLIMMET", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GLIMMORA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GREAVARD", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "HOUNDSTONE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FLAMIGO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CETODDLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CETITAN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "VELUZA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "DONDOZO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TATSUGIRI", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PALDEAN WOOPER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CLODSIRE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PALDEAN WOOPER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CLODSIRE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GREAT TUSK", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SCREAM TAIL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BRUTE BONNET", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FLUTTER MANE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SLITHER WING", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SANDY SHOCKS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "IRON TREADS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "IRON BUNDLE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "IRON HANDS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "IRON JUGULIS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "IRON MOTH", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "IRON THORNS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "Roaring Moon", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "IRON VALIANT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "WALKING WAKE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "IRON LEAVES", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GOUGING FIRE", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "RAGING BOLT", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "IRON BOULDER", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "IRON CROWN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FRIGIBAX", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ARCTIBAX", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "BAXCALIBUR", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GIMMIGHOUL", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "GHOLDENGO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "WO-CHIEN", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TING-LU", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CHIEN-PAO", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "CHIN-YU", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "POLTCHAGEIST", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "SINISTCHA", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "OKIDOGI", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "MUNKIDORI", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "FEZANDIPITI", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "ORGERPON", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "TERAPAGOS", "\_a[Bongo]Bongo\_a")
-	_talk = REPLACE(_talk, "PERCHARUNT", "\_a[Bongo]Bongo\_a")
-	
-		if reference1 == "" && reference2 == "" {
+	//Thanks to Crash for fixing this code for me. Previously all of these were randomly capitalized (bad when it comes to things they will actually say in dialogue. you don't need to shout DEERLING) and the second and third repeating of the name was Bongo for all of them. Instead of manually replacing all of them there was some Fancy Regex Code
+	//Find what : "[a-z] 
+		//Found every alphabetic character after a "
+	//Replace with : \U\1
+		//Make it uppercase, I don't know what \1 does.
+	_talk = REPLACE(_talk, "Missingno", "\_a[Missingno]Missingno\_a")
+  _talk = REPLACE(_talk, "Bulbasaur", "\_a[Bulbasaur]Bulbasaur\_a")
+  _talk = REPLACE(_talk, "Ivysaur", "\_a[Ivysaur]Ivysaur\_a")
+  _talk = REPLACE(_talk, "Venusaur", "\_a[Venusaur]Venusaur\_a")
+  _talk = REPLACE(_talk, "Charmander", "\_a[Charmander]Charmander\_a")
+  _talk = REPLACE(_talk, "Charmeleon", "\_a[Charmeleon]Charmeleon\_a")
+  _talk = REPLACE(_talk, "Charizard", "\_a[Charizard]Charizard\_a")
+  _talk = REPLACE(_talk, "Squirtle", "\_a[Squirtle]Squirtle\_a")
+  _talk = REPLACE(_talk, "Wartortle", "\_a[Wartortle]Wartortle\_a")
+  _talk = REPLACE(_talk, "Blastoise", "\_a[Blastoise]Blastoise\_a")
+  _talk = REPLACE(_talk, "Caterpie", "\_a[Caterpie]Caterpie\_a")
+  _talk = REPLACE(_talk, "Metapod", "\_a[Metapod]Metapod\_a")
+  _talk = REPLACE(_talk, "Butterfree", "\_a[Butterfree]Butterfree\_a")
+  _talk = REPLACE(_talk, "Weedle", "\_a[Weedle]Weedle\_a")
+  _talk = REPLACE(_talk, "Kakuna", "\_a[Kakuna]Kakuna\_a")
+  _talk = REPLACE(_talk, "Beedrill", "\_a[Beedrill]Beedrill\_a")
+  _talk = REPLACE(_talk, "Pidgey", "\_a[Pidgey]Pidgey\_a")
+  _talk = REPLACE(_talk, "Pidgeotto", "\_a[Pidgeotto]Pidgeotto\_a")
+  _talk = REPLACE(_talk, "Pidgeot", "\_a[Pidgeot]Pidgeot\_a")
+  _talk = REPLACE(_talk, "Rattata", "\_a[Rattata]Rattata\_a")
+  _talk = REPLACE(_talk, "Raticate", "\_a[Raticate]Raticate\_a")
+  _talk = REPLACE(_talk, "Spearow", "\_a[Spearow]Spearow\_a")
+  _talk = REPLACE(_talk, "Fearow", "\_a[Fearow]Fearow\_a")
+  _talk = REPLACE(_talk, "Ekans", "\_a[Ekans]Ekans\_a")
+  _talk = REPLACE(_talk, "Arbok", "\_a[Arbok]Arbok\_a")
+  _talk = REPLACE(_talk, "Pikachu", "\_a[Pikachu]Pikachu\_a")
+  _talk = REPLACE(_talk, "Raichu", "\_a[Raichu]Raichu\_a")
+  _talk = REPLACE(_talk, "Sandshrew", "\_a[Sandshrew]Sandshrew\_a")
+  _talk = REPLACE(_talk, "Sandslash", "\_a[Sandslash]Sandslash\_a")
+  _talk = REPLACE(_talk, "Nidoran♀", "\_a[Nidoran♀]Nidoran♀\_a")
+  _talk = REPLACE(_talk, "Nidorina", "\_a[Nidorina]Nidorina\_a")
+  _talk = REPLACE(_talk, "Nidoqueen", "\_a[Nidoqueen]Nidoqueen\_a")
+  _talk = REPLACE(_talk, "Nidoran♂", "\_a[Nidoran♂]Nidoran♂\_a")
+  _talk = REPLACE(_talk, "Nidorino", "\_a[Nidorino]Nidorino\_a")
+  _talk = REPLACE(_talk, "Nidoking", "\_a[Nidoking]Nidoking\_a")
+  _talk = REPLACE(_talk, "Clefairy", "\_a[Clefairy]Clefairy\_a")
+  _talk = REPLACE(_talk, "Clefable", "\_a[Clefable]Clefable\_a")
+  _talk = REPLACE(_talk, "Vulpix", "\_a[Vulpix]Vulpix\_a")
+  _talk = REPLACE(_talk, "Ninetales", "\_a[Ninetales]Ninetales\_a")
+  _talk = REPLACE(_talk, "Jigglypuff", "\_a[Jigglypuff]Jigglypuff\_a")
+  _talk = REPLACE(_talk, "Wigglytuff", "\_a[Wigglytuff]Wigglytuff\_a")
+  _talk = REPLACE(_talk, "Zubat", "\_a[Zubat]Zubat\_a")
+  _talk = REPLACE(_talk, "Golbat", "\_a[Golbat]Golbat\_a")
+  _talk = REPLACE(_talk, "Oddish", "\_a[Oddish]Oddish\_a")
+  _talk = REPLACE(_talk, "Gloom", "\_a[Gloom]Gloom\_a")
+  _talk = REPLACE(_talk, "Vileplume", "\_a[Vileplume]Vileplume\_a")
+  _talk = REPLACE(_talk, "Paras", "\_a[Paras]Paras\_a")
+  _talk = REPLACE(_talk, "Parasect", "\_a[Parasect]Parasect\_a")
+  _talk = REPLACE(_talk, "Venonat", "\_a[Venonat]Venonat\_a")
+  _talk = REPLACE(_talk, "Venomoth", "\_a[Venomoth]Venomoth\_a")
+  _talk = REPLACE(_talk, "Diglett", "\_a[Diglett]Diglett\_a")
+  _talk = REPLACE(_talk, "Dugtrio", "\_a[Dugtrio]Dugtrio\_a")
+  _talk = REPLACE(_talk, "Meowth", "\_a[Meowth]Meowth\_a")
+  _talk = REPLACE(_talk, "Persian", "\_a[Persian]Persian\_a")
+  _talk = REPLACE(_talk, "Psyduck", "\_a[Psyduck]Psyduck\_a")
+  _talk = REPLACE(_talk, "Golduck", "\_a[Golduck]Golduck\_a")
+  _talk = REPLACE(_talk, "Mankey", "\_a[Mankey]Mankey\_a")
+  _talk = REPLACE(_talk, "Primeape", "\_a[Primeape]Primeape\_a")
+  _talk = REPLACE(_talk, "Growlithe", "\_a[Growlithe]Growlithe\_a")
+  _talk = REPLACE(_talk, "Arcanine", "\_a[Arcanine]Arcanine\_a")
+  _talk = REPLACE(_talk, "Poliwag", "\_a[Poliwag]Poliwag\_a")
+  _talk = REPLACE(_talk, "Poliwhirl", "\_a[Poliwhirl]Poliwhirl\_a")
+  _talk = REPLACE(_talk, "Poliwrath", "\_a[Poliwrath]Poliwrath\_a")
+  _talk = REPLACE(_talk, "Abra", "\_a[Abra]Abra\_a")
+  _talk = REPLACE(_talk, "Kadabra", "\_a[Kadabra]Kadabra\_a")
+  _talk = REPLACE(_talk, "Alakazam", "\_a[Alakazam]Alakazam\_a")
+  _talk = REPLACE(_talk, "Machop", "\_a[Machop]Machop\_a")
+  _talk = REPLACE(_talk, "Machoke", "\_a[Machoke]Machoke\_a")
+  _talk = REPLACE(_talk, "Machamp", "\_a[Machamp]Machamp\_a")
+  _talk = REPLACE(_talk, "Bellsprout", "\_a[Bellsprout]Bellsprout\_a")
+  _talk = REPLACE(_talk, "Weepinbell", "\_a[Weepinbell]Weepinbell\_a")
+  _talk = REPLACE(_talk, "Victreebel", "\_a[Victreebel]Victreebel\_a")
+  _talk = REPLACE(_talk, "Tentacool", "\_a[Tentacool]Tentacool\_a")
+  _talk = REPLACE(_talk, "Tentacruel", "\_a[Tentacruel]Tentacruel\_a")
+  _talk = REPLACE(_talk, "Geodude", "\_a[Geodude]Geodude\_a")
+  _talk = REPLACE(_talk, "Graveler", "\_a[Graveler]Graveler\_a")
+  _talk = REPLACE(_talk, "Golem", "\_a[Golem]Golem\_a")
+  _talk = REPLACE(_talk, "Ponyta", "\_a[Ponyta]Ponyta\_a")
+  _talk = REPLACE(_talk, "Rapidash", "\_a[Rapidash]Rapidash\_a")
+  _talk = REPLACE(_talk, "Slowpoke", "\_a[Slowpoke]Slowpoke\_a")
+  _talk = REPLACE(_talk, "Slowbro", "\_a[Slowbro]Slowbro\_a")
+  _talk = REPLACE(_talk, "Magnemite", "\_a[Magnemite]Magnemite\_a")
+  _talk = REPLACE(_talk, "Magneton", "\_a[Magneton]Magneton\_a")
+  _talk = REPLACE(_talk, "Farfetch\d", "\_a[Farfetch\d]Farfetch\d\_a")
+  _talk = REPLACE(_talk, "Doduo", "\_a[Doduo]Doduo\_a")
+  _talk = REPLACE(_talk, "Dodrio", "\_a[Dodrio]Dodrio\_a")
+  _talk = REPLACE(_talk, "Seel", "\_a[Seel]Seel\_a")
+  _talk = REPLACE(_talk, "Dewgong", "\_a[Dewgong]Dewgong\_a")
+  _talk = REPLACE(_talk, "Grimer", "\_a[Grimer]Grimer\_a")
+  _talk = REPLACE(_talk, "Muk", "\_a[Muk]Muk\_a")
+  _talk = REPLACE(_talk, "Shellder", "\_a[Shellder]Shellder\_a")
+  _talk = REPLACE(_talk, "Cloyster", "\_a[Cloyster]Cloyster\_a")
+  _talk = REPLACE(_talk, "Gastly", "\_a[Gastly]Gastly\_a")
+  _talk = REPLACE(_talk, "Haunter", "\_a[Haunter]Haunter\_a")
+  _talk = REPLACE(_talk, "Gengar", "\_a[Gengar]Gengar\_a")
+  _talk = REPLACE(_talk, "Onix", "\_a[Onix]Onix\_a")
+  _talk = REPLACE(_talk, "Drowzee", "\_a[Drowzee]Drowzee\_a")
+  _talk = REPLACE(_talk, "Hypno", "\_a[Hypno]Hypno\_a")
+  _talk = REPLACE(_talk, "Krabby", "\_a[Krabby]Krabby\_a")
+  _talk = REPLACE(_talk, "Kingler", "\_a[Kingler]Kingler\_a")
+  _talk = REPLACE(_talk, "Voltorb", "\_a[Voltorb]Voltorb\_a")
+  _talk = REPLACE(_talk, "Electrode", "\_a[Electrode]Electrode\_a")
+  _talk = REPLACE(_talk, "Exeggcute", "\_a[Exeggcute]Exeggcute\_a")
+  _talk = REPLACE(_talk, "Exeggutor", "\_a[Exeggutor]Exeggutor\_a")
+  _talk = REPLACE(_talk, "Cubone", "\_a[Cubone]Cubone\_a")
+  _talk = REPLACE(_talk, "Marowak", "\_a[Marowak]Marowak\_a")
+  _talk = REPLACE(_talk, "Hitmonlee", "\_a[Hitmonlee]Hitmonlee\_a")
+  _talk = REPLACE(_talk, "Hitmonchan", "\_a[Hitmonchan]Hitmonchan\_a")
+  _talk = REPLACE(_talk, "Lickitung", "\_a[Lickitung]Lickitung\_a")
+  _talk = REPLACE(_talk, "Koffing", "\_a[Koffing]Koffing\_a")
+  _talk = REPLACE(_talk, "Weezing", "\_a[Weezing]Weezing\_a")
+  _talk = REPLACE(_talk, "Rhyhorn", "\_a[Rhyhorn]Rhyhorn\_a")
+  _talk = REPLACE(_talk, "Rhydon", "\_a[Rhydon]Rhydon\_a")
+  _talk = REPLACE(_talk, "Chansey", "\_a[Chansey]Chansey\_a")
+  _talk = REPLACE(_talk, "Tangela", "\_a[Tangela]Tangela\_a")
+  _talk = REPLACE(_talk, "Kangaskhan", "\_a[Kangaskhan]Kangaskhan\_a")
+  _talk = REPLACE(_talk, "Horsea", "\_a[Horsea]Horsea\_a")
+  _talk = REPLACE(_talk, "Seadra", "\_a[Seadra]Seadra\_a")
+  _talk = REPLACE(_talk, "Goldeen", "\_a[Goldeen]Goldeen\_a")
+  _talk = REPLACE(_talk, "Seaking", "\_a[Seaking]Seaking\_a")
+  _talk = REPLACE(_talk, "Staryu", "\_a[Staryu]Staryu\_a")
+  _talk = REPLACE(_talk, "Starmie", "\_a[Starmie]Starmie\_a")
+  _talk = REPLACE(_talk, "Mr. Mime", "\_a[Mr. Mime]Mr. Mime\_a")
+  _talk = REPLACE(_talk, "Scyther", "\_a[Scyther]Scyther\_a")
+  _talk = REPLACE(_talk, "Jynx", "\_a[Jynx]Jynx\_a")
+  _talk = REPLACE(_talk, "Electabuzz", "\_a[Electabuzz]Electabuzz\_a")
+  _talk = REPLACE(_talk, "Magmar", "\_a[Magmar]Magmar\_a")
+  _talk = REPLACE(_talk, "Pinsir", "\_a[Pinsir]Pinsir\_a")
+  _talk = REPLACE(_talk, "Tauros", "\_a[Tauros]Tauros\_a")
+  _talk = REPLACE(_talk, "Magikarp", "\_a[Magikarp]Magikarp\_a")
+  _talk = REPLACE(_talk, "Gyarados", "\_a[Gyarados]Gyarados\_a")
+  _talk = REPLACE(_talk, "Lapras", "\_a[Lapras]Lapras\_a")
+  _talk = REPLACE(_talk, "Ditto", "\_a[Ditto]Ditto\_a")
+  _talk = REPLACE(_talk, "Eevee", "\_a[Eevee]Eevee\_a")
+  _talk = REPLACE(_talk, "Vaporeon", "\_a[Vaporeon]Vaporeon\_a")
+  _talk = REPLACE(_talk, "Jolteon", "\_a[Jolteon]Jolteon\_a")
+  _talk = REPLACE(_talk, "Flareon", "\_a[Flareon]Flareon\_a")
+  _talk = REPLACE(_talk, "Porygon", "\_a[Porygon]Porygon\_a")
+  _talk = REPLACE(_talk, "Omanyte", "\_a[Omanyte]Omanyte\_a")
+  _talk = REPLACE(_talk, "Omastar", "\_a[Omastar]Omastar\_a")
+  _talk = REPLACE(_talk, "Kabuto", "\_a[Kabuto]Kabuto\_a")
+  _talk = REPLACE(_talk, "Kabutops", "\_a[Kabutops]Kabutops\_a")
+  _talk = REPLACE(_talk, "Aerodactyl", "\_a[Aerodactyl]Aerodactyl\_a")
+  _talk = REPLACE(_talk, "Snorlax", "\_a[Snorlax]Snorlax\_a")
+  _talk = REPLACE(_talk, "Articuno", "\_a[Articuno]Articuno\_a")
+  _talk = REPLACE(_talk, "Zapdos", "\_a[Zapdos]Zapdos\_a")
+  _talk = REPLACE(_talk, "Moltres", "\_a[Moltres]Moltres\_a")
+  _talk = REPLACE(_talk, "Dratini", "\_a[Dratini]Dratini\_a")
+  _talk = REPLACE(_talk, "Dragonair", "\_a[Dragonair]Dragonair\_a")
+  _talk = REPLACE(_talk, "Dragonite", "\_a[Dragonite]Dragonite\_a")
+  _talk = REPLACE(_talk, "Mewtwo", "\_a[Mewtwo]Mewtwo\_a")
+  _talk = REPLACE(_talk, "Mew", "\_a[Mew]Mew\_a")
+  _talk = REPLACE(_talk, "Chikorita", "\_a[Chikorita]Chikorita\_a")
+  _talk = REPLACE(_talk, "Bayleef", "\_a[Bayleef]Bayleef\_a")
+  _talk = REPLACE(_talk, "Meganium", "\_a[Meganium]Meganium\_a")
+  _talk = REPLACE(_talk, "Cyndaquil", "\_a[Cyndaquil]Cyndaquil\_a")
+  _talk = REPLACE(_talk, "Quilava", "\_a[Quilava]Quilava\_a")
+  _talk = REPLACE(_talk, "Typhlosion", "\_a[Typhlosion]Typhlosion\_a")
+  _talk = REPLACE(_talk, "Totodile", "\_a[Totodile]Totodile\_a")
+  _talk = REPLACE(_talk, "Croconaw", "\_a[Croconaw]Croconaw\_a")
+  _talk = REPLACE(_talk, "Feraligatr", "\_a[Feraligatr]Feraligatr\_a")
+  _talk = REPLACE(_talk, "Sentret", "\_a[Sentret]Sentret\_a")
+  _talk = REPLACE(_talk, "Furret", "\_a[Furret]Furret\_a")
+  _talk = REPLACE(_talk, "Hoothoot", "\_a[Hoothoot]Hoothoot\_a")
+  _talk = REPLACE(_talk, "Noctowl", "\_a[Noctowl]Noctowl\_a")
+  _talk = REPLACE(_talk, "Ledyba", "\_a[Ledyba]Ledyba\_a")
+  _talk = REPLACE(_talk, "Ledian", "\_a[Ledian]Ledian\_a")
+  _talk = REPLACE(_talk, "Spinarak", "\_a[Spinarak]Spinarak\_a")
+  _talk = REPLACE(_talk, "Ariados", "\_a[Ariados]Ariados\_a")
+  _talk = REPLACE(_talk, "Crobat", "\_a[Crobat]Crobat\_a")
+  _talk = REPLACE(_talk, "Chinchou", "\_a[Chinchou]Chinchou\_a")
+  _talk = REPLACE(_talk, "Lanturn", "\_a[Lanturn]Lanturn\_a")
+  _talk = REPLACE(_talk, "Pichu", "\_a[Pichu]Pichu\_a")
+  _talk = REPLACE(_talk, "Cleffa", "\_a[Cleffa]Cleffa\_a")
+  _talk = REPLACE(_talk, "Igglybuff", "\_a[Igglybuff]Igglybuff\_a")
+  _talk = REPLACE(_talk, "Togepi", "\_a[Togepi]Togepi\_a")
+  _talk = REPLACE(_talk, "Togetic", "\_a[Togetic]Togetic\_a")
+  _talk = REPLACE(_talk, "Natu", "\_a[Natu]Natu\_a")
+  _talk = REPLACE(_talk, "Xatu", "\_a[Xatu]Xatu\_a")
+  _talk = REPLACE(_talk, "Mareep", "\_a[Mareep]Mareep\_a")
+  _talk = REPLACE(_talk, "Flaaffy", "\_a[Flaaffy]Flaaffy\_a")
+  _talk = REPLACE(_talk, "Ampharos", "\_a[Ampharos]Ampharos\_a")
+  _talk = REPLACE(_talk, "Bellossom", "\_a[Bellossom]Bellossom\_a")
+  _talk = REPLACE(_talk, "Marill", "\_a[Marill]Marill\_a")
+  _talk = REPLACE(_talk, "Azumarill", "\_a[Azumarill]Azumarill\_a")
+  _talk = REPLACE(_talk, "Sudowoodo", "\_a[Sudowoodo]Sudowoodo\_a")
+  _talk = REPLACE(_talk, "Politoed", "\_a[Politoed]Politoed\_a")
+  _talk = REPLACE(_talk, "Hoppip", "\_a[Hoppip]Hoppip\_a")
+  _talk = REPLACE(_talk, "Skiploom", "\_a[Skiploom]Skiploom\_a")
+  _talk = REPLACE(_talk, "Jumpluff", "\_a[Jumpluff]Jumpluff\_a")
+  _talk = REPLACE(_talk, "Aipom", "\_a[Aipom]Aipom\_a")
+  _talk = REPLACE(_talk, "Sunkern", "\_a[Sunkern]Sunkern\_a")
+  _talk = REPLACE(_talk, "Sunflora", "\_a[Sunflora]Sunflora\_a")
+  _talk = REPLACE(_talk, "Yanma", "\_a[Yanma]Yanma\_a")
+  _talk = REPLACE(_talk, "Wooper", "\_a[Wooper]Wooper\_a")
+  _talk = REPLACE(_talk, "Quagsire", "\_a[Quagsire]Quagsire\_a")
+  _talk = REPLACE(_talk, "Espeon", "\_a[Espeon]Espeon\_a")
+  _talk = REPLACE(_talk, "Umbreon", "\_a[Umbreon]Umbreon\_a")
+  _talk = REPLACE(_talk, "Murkrow", "\_a[Murkrow]Murkrow\_a")
+  _talk = REPLACE(_talk, "Slowking", "\_a[Slowking]Slowking\_a")
+  _talk = REPLACE(_talk, "Misdreavus", "\_a[Misdreavus]Misdreavus\_a")
+  _talk = REPLACE(_talk, "Unown", "\_a[Unown]Unown\_a")
+  _talk = REPLACE(_talk, "Wobbuffet", "\_a[Wobbuffet]Wobbuffet\_a")
+  _talk = REPLACE(_talk, "Girafarig", "\_a[Girafarig]Girafarig\_a")
+  _talk = REPLACE(_talk, "Pineco", "\_a[Pineco]Pineco\_a")
+  _talk = REPLACE(_talk, "Forretress", "\_a[Forretress]Forretress\_a")
+  _talk = REPLACE(_talk, "Dunsparce", "\_a[Dunsparce]Dunsparce\_a")
+  _talk = REPLACE(_talk, "Gligar", "\_a[Gligar]Gligar\_a")
+  _talk = REPLACE(_talk, "Steelix", "\_a[Steelix]Steelix\_a")
+  _talk = REPLACE(_talk, "Snubbull", "\_a[Snubbull]Snubbull\_a")
+  _talk = REPLACE(_talk, "Granbull", "\_a[Granbull]Granbull\_a")
+  _talk = REPLACE(_talk, "Qwilfish", "\_a[Qwilfish]Qwilfish\_a")
+  _talk = REPLACE(_talk, "Scizor", "\_a[Scizor]Scizor\_a")
+  _talk = REPLACE(_talk, "Shuckle", "\_a[Shuckle]Shuckle\_a")
+  _talk = REPLACE(_talk, "Heracross", "\_a[Heracross]Heracross\_a")
+  _talk = REPLACE(_talk, "Sneasel", "\_a[Sneasel]Sneasel\_a")
+  _talk = REPLACE(_talk, "Teddiursa", "\_a[Teddiursa]Teddiursa\_a")
+  _talk = REPLACE(_talk, "Ursaring", "\_a[Ursaring]Ursaring\_a")
+  _talk = REPLACE(_talk, "Slugma", "\_a[Slugma]Slugma\_a")
+  _talk = REPLACE(_talk, "Magcargo", "\_a[Magcargo]Magcargo\_a")
+  _talk = REPLACE(_talk, "Swinub", "\_a[Swinub]Swinub\_a")
+  _talk = REPLACE(_talk, "Piloswine", "\_a[Piloswine]Piloswine\_a")
+  _talk = REPLACE(_talk, "Corsola", "\_a[Corsola]Corsola\_a")
+  _talk = REPLACE(_talk, "Remoraid", "\_a[Remoraid]Remoraid\_a")
+  _talk = REPLACE(_talk, "Octillery", "\_a[Octillery]Octillery\_a")
+  _talk = REPLACE(_talk, "Delibird", "\_a[Delibird]Delibird\_a")
+  _talk = REPLACE(_talk, "Mantine", "\_a[Mantine]Mantine\_a")
+  _talk = REPLACE(_talk, "Skarmory", "\_a[Skarmory]Skarmory\_a")
+  _talk = REPLACE(_talk, "Houndour", "\_a[Houndour]Houndour\_a")
+  _talk = REPLACE(_talk, "Houndoom", "\_a[Houndoom]Houndoom\_a")
+  _talk = REPLACE(_talk, "Kingdra", "\_a[Kingdra]Kingdra\_a")
+  _talk = REPLACE(_talk, "Phanpy", "\_a[Phanpy]Phanpy\_a")
+  _talk = REPLACE(_talk, "Donphan", "\_a[Donphan]Donphan\_a")
+  _talk = REPLACE(_talk, "Porygon2", "\_a[Porygon2]Porygon2\_a")
+  _talk = REPLACE(_talk, "Stantler", "\_a[Stantler]Stantler\_a")
+  _talk = REPLACE(_talk, "Smeargle", "\_a[Smeargle]Smeargle\_a")
+  _talk = REPLACE(_talk, "Tyrogue", "\_a[Tyrogue]Tyrogue\_a")
+  _talk = REPLACE(_talk, "Hitmontop", "\_a[Hitmontop]Hitmontop\_a")
+  _talk = REPLACE(_talk, "Smoochum", "\_a[Smoochum]Smoochum\_a")
+  _talk = REPLACE(_talk, "Elekid", "\_a[Elekid]Elekid\_a")
+  _talk = REPLACE(_talk, "Magby", "\_a[Magby]Magby\_a")
+  _talk = REPLACE(_talk, "Miltank", "\_a[Miltank]Miltank\_a")
+  _talk = REPLACE(_talk, "Blissey", "\_a[Blissey]Blissey\_a")
+  _talk = REPLACE(_talk, "Raikou", "\_a[Raikou]Raikou\_a")
+  _talk = REPLACE(_talk, "Entei", "\_a[Entei]Entei\_a")
+  _talk = REPLACE(_talk, "Suicune", "\_a[Suicune]Suicune\_a")
+  _talk = REPLACE(_talk, "Larvitar", "\_a[Larvitar]Larvitar\_a")
+  _talk = REPLACE(_talk, "Pupitar", "\_a[Pupitar]Pupitar\_a")
+  _talk = REPLACE(_talk, "Tyranitar", "\_a[Tyranitar]Tyranitar\_a")
+  _talk = REPLACE(_talk, "Lugia", "\_a[Lugia]Lugia\_a")
+  _talk = REPLACE(_talk, "Ho-oh", "\_a[Ho-oh]Ho-oh\_a")
+  _talk = REPLACE(_talk, "Celebi", "\_a[Celebi]Celebi\_a")
+  _talk = REPLACE(_talk, "Treecko", "\_a[Treecko]Treecko\_a")
+  _talk = REPLACE(_talk, "Grovyle", "\_a[Grovyle]Grovyle\_a")
+  _talk = REPLACE(_talk, "Sceptile", "\_a[Sceptile]Sceptile\_a")
+  _talk = REPLACE(_talk, "Torchic", "\_a[Torchic]Torchic\_a")
+  _talk = REPLACE(_talk, "Combusken", "\_a[Combusken]Combusken\_a")
+  _talk = REPLACE(_talk, "Blaziken", "\_a[Blaziken]Blaziken\_a")
+  _talk = REPLACE(_talk, "Mudkip", "\_a[Mudkip]Mudkip\_a")
+  _talk = REPLACE(_talk, "Marshtomp", "\_a[Marshtomp]Marshtomp\_a")
+  _talk = REPLACE(_talk, "Swampert", "\_a[Swampert]Swampert\_a")
+  _talk = REPLACE(_talk, "Poochyena", "\_a[Poochyena]Poochyena\_a")
+  _talk = REPLACE(_talk, "Mightyena", "\_a[Mightyena]Mightyena\_a")
+  _talk = REPLACE(_talk, "Zigzagoon", "\_a[Zigzagoon]Zigzagoon\_a")
+  _talk = REPLACE(_talk, "Linoone", "\_a[Linoone]Linoone\_a")
+  _talk = REPLACE(_talk, "Wurmple", "\_a[Wurmple]Wurmple\_a")
+  _talk = REPLACE(_talk, "Silcoon", "\_a[Silcoon]Silcoon\_a")
+  _talk = REPLACE(_talk, "Beautifly", "\_a[Beautifly]Beautifly\_a")
+  _talk = REPLACE(_talk, "Cascoon", "\_a[Cascoon]Cascoon\_a")
+  _talk = REPLACE(_talk, "Dustox", "\_a[Dustox]Dustox\_a")
+  _talk = REPLACE(_talk, "Lotad", "\_a[Lotad]Lotad\_a")
+  _talk = REPLACE(_talk, "Lombre", "\_a[Lombre]Lombre\_a")
+  _talk = REPLACE(_talk, "Ludicolo", "\_a[Ludicolo]Ludicolo\_a")
+  _talk = REPLACE(_talk, "Seedot", "\_a[Seedot]Seedot\_a")
+  _talk = REPLACE(_talk, "Nuzleaf", "\_a[Nuzleaf]Nuzleaf\_a")
+  _talk = REPLACE(_talk, "Shiftry", "\_a[Shiftry]Shiftry\_a")
+  _talk = REPLACE(_talk, "Taillow", "\_a[Taillow]Taillow\_a")
+  _talk = REPLACE(_talk, "Swellow", "\_a[Swellow]Swellow\_a")
+  _talk = REPLACE(_talk, "Wingull", "\_a[Wingull]Wingull\_a")
+  _talk = REPLACE(_talk, "Pelipper", "\_a[Pelipper]Pelipper\_a")
+  _talk = REPLACE(_talk, "Ralts", "\_a[Ralts]Ralts\_a")
+  _talk = REPLACE(_talk, "Kirlia", "\_a[Kirlia]Kirlia\_a")
+  _talk = REPLACE(_talk, "Gardevoir", "\_a[Gardevoir]Gardevoir\_a")
+  _talk = REPLACE(_talk, "Surskit", "\_a[Surskit]Surskit\_a")
+  _talk = REPLACE(_talk, "Masquerain", "\_a[Masquerain]Masquerain\_a")
+  _talk = REPLACE(_talk, "Shroomish", "\_a[Shroomish]Shroomish\_a")
+  _talk = REPLACE(_talk, "Breloom", "\_a[Breloom]Breloom\_a")
+  _talk = REPLACE(_talk, "Slakoth", "\_a[Slakoth]Slakoth\_a")
+  _talk = REPLACE(_talk, "Vigoroth", "\_a[Vigoroth]Vigoroth\_a")
+  _talk = REPLACE(_talk, "Slaking", "\_a[Slaking]Slaking\_a")
+  _talk = REPLACE(_talk, "Nincada", "\_a[Nincada]Nincada\_a")
+  _talk = REPLACE(_talk, "Ninjask", "\_a[Ninjask]Ninjask\_a")
+  _talk = REPLACE(_talk, "Shedinja", "\_a[Shedinja]Shedinja\_a")
+  _talk = REPLACE(_talk, "Whismur", "\_a[Whismur]Whismur\_a")
+  _talk = REPLACE(_talk, "Loudred", "\_a[Loudred]Loudred\_a")
+  _talk = REPLACE(_talk, "Exploud", "\_a[Exploud]Exploud\_a")
+  _talk = REPLACE(_talk, "Makuhita", "\_a[Makuhita]Makuhita\_a")
+  _talk = REPLACE(_talk, "Hariyama", "\_a[Hariyama]Hariyama\_a")
+  _talk = REPLACE(_talk, "Azurill", "\_a[Azurill]Azurill\_a")
+  _talk = REPLACE(_talk, "Nosepass", "\_a[Nosepass]Nosepass\_a")
+  _talk = REPLACE(_talk, "Skitty", "\_a[Skitty]Skitty\_a")
+  _talk = REPLACE(_talk, "Delcatty", "\_a[Delcatty]Delcatty\_a")
+  _talk = REPLACE(_talk, "Sableye", "\_a[Sableye]Sableye\_a")
+  _talk = REPLACE(_talk, "Mawile", "\_a[Mawile]Mawile\_a")
+  _talk = REPLACE(_talk, "Aron", "\_a[Aron]Aron\_a")
+  _talk = REPLACE(_talk, "Lairon", "\_a[Lairon]Lairon\_a")
+  _talk = REPLACE(_talk, "Aggron", "\_a[Aggron]Aggron\_a")
+  _talk = REPLACE(_talk, "Meditite", "\_a[Meditite]Meditite\_a")
+  _talk = REPLACE(_talk, "Medicham", "\_a[Medicham]Medicham\_a")
+  _talk = REPLACE(_talk, "Electrike", "\_a[Electrike]Electrike\_a")
+  _talk = REPLACE(_talk, "Manectric", "\_a[Manectric]Manectric\_a")
+  _talk = REPLACE(_talk, "Plusle", "\_a[Plusle]Plusle\_a")
+  _talk = REPLACE(_talk, "Minun", "\_a[Minun]Minun\_a")
+  _talk = REPLACE(_talk, "Volbeat", "\_a[Volbeat]Volbeat\_a")
+  _talk = REPLACE(_talk, "Illumise", "\_a[Illumise]Illumise\_a")
+  _talk = REPLACE(_talk, "Roselia", "\_a[Roselia]Roselia\_a")
+  _talk = REPLACE(_talk, "Gulpin", "\_a[Gulpin]Gulpin\_a")
+  _talk = REPLACE(_talk, "Swalot", "\_a[Swalot]Swalot\_a")
+  _talk = REPLACE(_talk, "Carvanha", "\_a[Carvanha]Carvanha\_a")
+  _talk = REPLACE(_talk, "Sharpedo", "\_a[Sharpedo]Sharpedo\_a")
+  _talk = REPLACE(_talk, "Wailmer", "\_a[Wailmer]Wailmer\_a")
+  _talk = REPLACE(_talk, "Wailord", "\_a[Wailord]Wailord\_a")
+  _talk = REPLACE(_talk, "Numel", "\_a[Numel]Numel\_a")
+  _talk = REPLACE(_talk, "Camerupt", "\_a[Camerupt]Camerupt\_a")
+  _talk = REPLACE(_talk, "Torkoal", "\_a[Torkoal]Torkoal\_a")
+  _talk = REPLACE(_talk, "Spoink", "\_a[Spoink]Spoink\_a")
+  _talk = REPLACE(_talk, "Grumpig", "\_a[Grumpig]Grumpig\_a")
+  _talk = REPLACE(_talk, "Spinda", "\_a[Spinda]Spinda\_a")
+  _talk = REPLACE(_talk, "Trapinch", "\_a[Trapinch]Trapinch\_a")
+  _talk = REPLACE(_talk, "Vibrava", "\_a[Vibrava]Vibrava\_a")
+  _talk = REPLACE(_talk, "Flygon", "\_a[Flygon]Flygon\_a")
+  _talk = REPLACE(_talk, "Cacnea", "\_a[Cacnea]Cacnea\_a")
+  _talk = REPLACE(_talk, "Cacturne", "\_a[Cacturne]Cacturne\_a")
+  _talk = REPLACE(_talk, "Swablu", "\_a[Swablu]Swablu\_a")
+  _talk = REPLACE(_talk, "Altaria", "\_a[Altaria]Altaria\_a")
+  _talk = REPLACE(_talk, "Zangoose", "\_a[Zangoose]Zangoose\_a")
+  _talk = REPLACE(_talk, "Seviper", "\_a[Seviper]Seviper\_a")
+  _talk = REPLACE(_talk, "Lunatone", "\_a[Lunatone]Lunatone\_a")
+  _talk = REPLACE(_talk, "Solrock", "\_a[Solrock]Solrock\_a")
+  _talk = REPLACE(_talk, "Barboach", "\_a[Barboach]Barboach\_a")
+  _talk = REPLACE(_talk, "Whiscash", "\_a[Whiscash]Whiscash\_a")
+  _talk = REPLACE(_talk, "Corphish", "\_a[Corphish]Corphish\_a")
+  _talk = REPLACE(_talk, "Crawdaunt", "\_a[Crawdaunt]Crawdaunt\_a")
+  _talk = REPLACE(_talk, "Baltoy", "\_a[Baltoy]Baltoy\_a")
+  _talk = REPLACE(_talk, "Claydol", "\_a[Claydol]Claydol\_a")
+  _talk = REPLACE(_talk, "Lileep", "\_a[Lileep]Lileep\_a")
+  _talk = REPLACE(_talk, "Cradily", "\_a[Cradily]Cradily\_a")
+  _talk = REPLACE(_talk, "Anorith", "\_a[Anorith]Anorith\_a")
+  _talk = REPLACE(_talk, "Armaldo", "\_a[Armaldo]Armaldo\_a")
+  _talk = REPLACE(_talk, "Feebas", "\_a[Feebas]Feebas\_a")
+  _talk = REPLACE(_talk, "Milotic", "\_a[Milotic]Milotic\_a")
+  _talk = REPLACE(_talk, "Castform", "\_a[Castform]Castform\_a")
+  _talk = REPLACE(_talk, "Kecleon", "\_a[Kecleon]Kecleon\_a")
+  _talk = REPLACE(_talk, "Shuppet", "\_a[Shuppet]Shuppet\_a")
+  _talk = REPLACE(_talk, "Banette", "\_a[Banette]Banette\_a")
+  _talk = REPLACE(_talk, "Duskull", "\_a[Duskull]Duskull\_a")
+  _talk = REPLACE(_talk, "Dusclops", "\_a[Dusclops]Dusclops\_a")
+  _talk = REPLACE(_talk, "Tropius", "\_a[Tropius]Tropius\_a")
+  _talk = REPLACE(_talk, "Chimecho", "\_a[Chimecho]Chimecho\_a")
+  _talk = REPLACE(_talk, "Absol", "\_a[Absol]Absol\_a")
+  _talk = REPLACE(_talk, "Wynaut", "\_a[Wynaut]Wynaut\_a")
+  _talk = REPLACE(_talk, "Snorunt", "\_a[Snorunt]Snorunt\_a")
+  _talk = REPLACE(_talk, "Glalie", "\_a[Glalie]Glalie\_a")
+  _talk = REPLACE(_talk, "Spheal", "\_a[Spheal]Spheal\_a")
+  _talk = REPLACE(_talk, "Sealeo", "\_a[Sealeo]Sealeo\_a")
+  _talk = REPLACE(_talk, "Walrein", "\_a[Walrein]Walrein\_a")
+  _talk = REPLACE(_talk, "Clamperl", "\_a[Clamperl]Clamperl\_a")
+  _talk = REPLACE(_talk, "Huntail", "\_a[Huntail]Huntail\_a")
+  _talk = REPLACE(_talk, "Gorebyss", "\_a[Gorebyss]Gorebyss\_a")
+  _talk = REPLACE(_talk, "Relicanth", "\_a[Relicanth]Relicanth\_a")
+  _talk = REPLACE(_talk, "Luvdisc", "\_a[Luvdisc]Luvdisc\_a")
+  _talk = REPLACE(_talk, "Bagon", "\_a[Bagon]Bagon\_a")
+  _talk = REPLACE(_talk, "Shelgon", "\_a[Shelgon]Shelgon\_a")
+  _talk = REPLACE(_talk, "Salamence", "\_a[Salamence]Salamence\_a")
+  _talk = REPLACE(_talk, "Beldum", "\_a[Beldum]Beldum\_a")
+  _talk = REPLACE(_talk, "Metang", "\_a[Metang]Metang\_a")
+  _talk = REPLACE(_talk, "Metagross", "\_a[Metagross]Metagross\_a")
+  _talk = REPLACE(_talk, "Regirock", "\_a[Regirock]Regirock\_a")
+  _talk = REPLACE(_talk, "Regice", "\_a[Regice]Regice\_a")
+  _talk = REPLACE(_talk, "Registeel", "\_a[Registeel]Registeel\_a")
+  _talk = REPLACE(_talk, "Latias", "\_a[Latias]Latias\_a")
+  _talk = REPLACE(_talk, "Latios", "\_a[Latios]Latios\_a")
+  _talk = REPLACE(_talk, "Kyogre", "\_a[Kyogre]Kyogre\_a")
+  _talk = REPLACE(_talk, "Groudon", "\_a[Groudon]Groudon\_a")
+  _talk = REPLACE(_talk, "Rayquaza", "\_a[Rayquaza]Rayquaza\_a")
+  _talk = REPLACE(_talk, "Jirachi", "\_a[Jirachi]Jirachi\_a")
+  _talk = REPLACE(_talk, "Deoxys", "\_a[Deoxys]Deoxys\_a")
+  _talk = REPLACE(_talk, "Turtwig", "\_a[Turtwig]Turtwig\_a")
+  _talk = REPLACE(_talk, "Grotle", "\_a[Grotle]Grotle\_a")
+  _talk = REPLACE(_talk, "Torterra", "\_a[Torterra]Torterra\_a")
+  _talk = REPLACE(_talk, "Chimchar", "\_a[Chimchar]Chimchar\_a")
+  _talk = REPLACE(_talk, "Monferno", "\_a[Monferno]Monferno\_a")
+  _talk = REPLACE(_talk, "Infernape", "\_a[Infernape]Infernape\_a")
+  _talk = REPLACE(_talk, "Piplup", "\_a[Piplup]Piplup\_a")
+  _talk = REPLACE(_talk, "Prinplup", "\_a[Prinplup]Prinplup\_a")
+  _talk = REPLACE(_talk, "Empoleon", "\_a[Empoleon]Empoleon\_a")
+  _talk = REPLACE(_talk, "Starly", "\_a[Starly]Starly\_a")
+  _talk = REPLACE(_talk, "Staravia", "\_a[Staravia]Staravia\_a")
+  _talk = REPLACE(_talk, "Staraptor", "\_a[Staraptor]Staraptor\_a")
+  _talk = REPLACE(_talk, "Bidoof", "\_a[Bidoof]Bidoof\_a")
+  _talk = REPLACE(_talk, "Bibarel", "\_a[Bibarel]Bibarel\_a")
+  _talk = REPLACE(_talk, "Kricketot", "\_a[Kricketot]Kricketot\_a")
+  _talk = REPLACE(_talk, "Kricketune", "\_a[Kricketune]Kricketune\_a")
+  _talk = REPLACE(_talk, "Shinx", "\_a[Shinx]Shinx\_a")
+  _talk = REPLACE(_talk, "Luxio", "\_a[Luxio]Luxio\_a")
+  _talk = REPLACE(_talk, "Luxray", "\_a[Luxray]Luxray\_a")
+  _talk = REPLACE(_talk, "Budew", "\_a[Budew]Budew\_a")
+  _talk = REPLACE(_talk, "Roserade", "\_a[Roserade]Roserade\_a")
+  _talk = REPLACE(_talk, "Cranidos", "\_a[Cranidos]Cranidos\_a")
+  _talk = REPLACE(_talk, "Rampardos", "\_a[Rampardos]Rampardos\_a")
+  _talk = REPLACE(_talk, "Shieldon", "\_a[Shieldon]Shieldon\_a")
+  _talk = REPLACE(_talk, "Bastiodon", "\_a[Bastiodon]Bastiodon\_a")
+  _talk = REPLACE(_talk, "Burmy", "\_a[Burmy]Burmy\_a")
+  _talk = REPLACE(_talk, "Wormadam", "\_a[Wormadam]Wormadam\_a")
+  _talk = REPLACE(_talk, "Mothim", "\_a[Mothim]Mothim\_a")
+  _talk = REPLACE(_talk, "Combee", "\_a[Combee]Combee\_a")
+  _talk = REPLACE(_talk, "Vespiquen", "\_a[Vespiquen]Vespiquen\_a")
+  _talk = REPLACE(_talk, "Pachirisu", "\_a[Pachirisu]Pachirisu\_a")
+  _talk = REPLACE(_talk, "Buizel", "\_a[Buizel]Buizel\_a")
+  _talk = REPLACE(_talk, "Floatzel", "\_a[Floatzel]Floatzel\_a")
+  _talk = REPLACE(_talk, "Cherubi", "\_a[Cherubi]Cherubi\_a")
+  _talk = REPLACE(_talk, "Cherrim", "\_a[Cherrim]Cherrim\_a")
+  _talk = REPLACE(_talk, "Shellos", "\_a[Shellos]Shellos\_a")
+  _talk = REPLACE(_talk, "Gastrodon", "\_a[Gastrodon]Gastrodon\_a")
+  _talk = REPLACE(_talk, "Ambipom", "\_a[Ambipom]Ambipom\_a")
+  _talk = REPLACE(_talk, "Drifloon", "\_a[Drifloon]Drifloon\_a")
+  _talk = REPLACE(_talk, "Drifblim", "\_a[Drifblim]Drifblim\_a")
+  _talk = REPLACE(_talk, "Buneary", "\_a[Buneary]Buneary\_a")
+  _talk = REPLACE(_talk, "Lopunny", "\_a[Lopunny]Lopunny\_a")
+  _talk = REPLACE(_talk, "Mismagius", "\_a[Mismagius]Mismagius\_a")
+  _talk = REPLACE(_talk, "Honchkrow", "\_a[Honchkrow]Honchkrow\_a")
+  _talk = REPLACE(_talk, "Glameow", "\_a[Glameow]Glameow\_a")
+  _talk = REPLACE(_talk, "Purugly", "\_a[Purugly]Purugly\_a")
+  _talk = REPLACE(_talk, "Chingling", "\_a[Chingling]Chingling\_a")
+  _talk = REPLACE(_talk, "Stunky", "\_a[Stunky]Stunky\_a")
+  _talk = REPLACE(_talk, "Skuntank", "\_a[Skuntank]Skuntank\_a")
+  _talk = REPLACE(_talk, "Bronzor", "\_a[Bronzor]Bronzor\_a")
+  _talk = REPLACE(_talk, "Bronzong", "\_a[Bronzong]Bronzong\_a")
+  _talk = REPLACE(_talk, "Bonsly", "\_a[Bonsly]Bonsly\_a")
+  _talk = REPLACE(_talk, "Mime-Jr.", "\_a[Mime-Jr.]Mime-Jr.\_a")
+  _talk = REPLACE(_talk, "Happiny", "\_a[Happiny]Happiny\_a")
+  _talk = REPLACE(_talk, "Chatot", "\_a[Chatot]Chatot\_a")
+  _talk = REPLACE(_talk, "Spiritomb", "\_a[Spiritomb]Spiritomb\_a")
+  _talk = REPLACE(_talk, "Gible", "\_a[Gible]Gible\_a")
+  _talk = REPLACE(_talk, "Gabite", "\_a[Gabite]Gabite\_a")
+  _talk = REPLACE(_talk, "Garchomp", "\_a[Garchomp]Garchomp\_a")
+  _talk = REPLACE(_talk, "Munchlax", "\_a[Munchlax]Munchlax\_a")
+  _talk = REPLACE(_talk, "Riolu", "\_a[Riolu]Riolu\_a")
+  _talk = REPLACE(_talk, "Lucario", "\_a[Lucario]Lucario\_a")
+  _talk = REPLACE(_talk, "Hippopotas", "\_a[Hippopotas]Hippopotas\_a")
+  _talk = REPLACE(_talk, "Hippowdon", "\_a[Hippowdon]Hippowdon\_a")
+  _talk = REPLACE(_talk, "Skorupi", "\_a[Skorupi]Skorupi\_a")
+  _talk = REPLACE(_talk, "Drapion", "\_a[Drapion]Drapion\_a")
+  _talk = REPLACE(_talk, "Croagunk", "\_a[Croagunk]Croagunk\_a")
+  _talk = REPLACE(_talk, "Toxicroak", "\_a[Toxicroak]Toxicroak\_a")
+  _talk = REPLACE(_talk, "Carnivine", "\_a[Carnivine]Carnivine\_a")
+  _talk = REPLACE(_talk, "Finneon", "\_a[Finneon]Finneon\_a")
+  _talk = REPLACE(_talk, "Lumineon", "\_a[Lumineon]Lumineon\_a")
+  _talk = REPLACE(_talk, "Mantyke", "\_a[Mantyke]Mantyke\_a")
+  _talk = REPLACE(_talk, "Snover", "\_a[Snover]Snover\_a")
+  _talk = REPLACE(_talk, "Abomasnow", "\_a[Abomasnow]Abomasnow\_a")
+  _talk = REPLACE(_talk, "Weavile", "\_a[Weavile]Weavile\_a")
+  _talk = REPLACE(_talk, "Magnezone", "\_a[Magnezone]Magnezone\_a")
+  _talk = REPLACE(_talk, "Lickilicky", "\_a[Lickilicky]Lickilicky\_a")
+  _talk = REPLACE(_talk, "Rhyperior", "\_a[Rhyperior]Rhyperior\_a")
+  _talk = REPLACE(_talk, "Tangrowth", "\_a[Tangrowth]Tangrowth\_a")
+  _talk = REPLACE(_talk, "Electivire", "\_a[Electivire]Electivire\_a")
+  _talk = REPLACE(_talk, "Magmortar", "\_a[Magmortar]Magmortar\_a")
+  _talk = REPLACE(_talk, "Togekiss", "\_a[Togekiss]Togekiss\_a")
+  _talk = REPLACE(_talk, "Yanmega", "\_a[Yanmega]Yanmega\_a")
+  _talk = REPLACE(_talk, "Leafeon", "\_a[Leafeon]Leafeon\_a")
+  _talk = REPLACE(_talk, "Glaceon", "\_a[Glaceon]Glaceon\_a")
+  _talk = REPLACE(_talk, "Gliscor", "\_a[Gliscor]Gliscor\_a")
+  _talk = REPLACE(_talk, "Mamoswine", "\_a[Mamoswine]Mamoswine\_a")
+  _talk = REPLACE(_talk, "Porygon-Z", "\_a[Porygon-Z]Porygon-Z\_a")
+  _talk = REPLACE(_talk, "Gallade", "\_a[Gallade]Gallade\_a")
+  _talk = REPLACE(_talk, "Probopass", "\_a[Probopass]Probopass\_a")
+  _talk = REPLACE(_talk, "Dusknoir", "\_a[Dusknoir]Dusknoir\_a")
+  _talk = REPLACE(_talk, "Froslass", "\_a[Froslass]Froslass\_a")
+  _talk = REPLACE(_talk, "Rotom", "\_a[Rotom]Rotom\_a")
+  _talk = REPLACE(_talk, "Uxie", "\_a[Uxie]Uxie\_a")
+  _talk = REPLACE(_talk, "Mesprit", "\_a[Mesprit]Mesprit\_a")
+  _talk = REPLACE(_talk, "Azelf", "\_a[Azelf]Azelf\_a")
+  _talk = REPLACE(_talk, "Dialga", "\_a[Dialga]Dialga\_a")
+  _talk = REPLACE(_talk, "Palkia", "\_a[Palkia]Palkia\_a")
+  _talk = REPLACE(_talk, "Heatran", "\_a[Heatran]Heatran\_a")
+  _talk = REPLACE(_talk, "Regigigas", "\_a[Regigigas]Regigigas\_a")
+  _talk = REPLACE(_talk, "Giratina", "\_a[Giratina]Giratina\_a")
+  _talk = REPLACE(_talk, "Cresselia", "\_a[Cresselia]Cresselia\_a")
+  _talk = REPLACE(_talk, "Phione", "\_a[Phione]Phione\_a")
+  _talk = REPLACE(_talk, "Manaphy", "\_a[Manaphy]Manaphy\_a")
+  _talk = REPLACE(_talk, "Darkrai", "\_a[Darkrai]Darkrai\_a")
+  _talk = REPLACE(_talk, "Shaymin", "\_a[Shaymin]Shaymin\_a")
+  _talk = REPLACE(_talk, "Arceus", "\_a[Arceus]Arceus\_a")
+  _talk = REPLACE(_talk, "Victini", "\_a[Victini]Victini\_a")
+  _talk = REPLACE(_talk, "Snivy", "\_a[Snivy]Snivy\_a")
+  _talk = REPLACE(_talk, "Servine", "\_a[Servine]Servine\_a")
+  _talk = REPLACE(_talk, "Serperior", "\_a[Serperior]Serperior\_a")
+  _talk = REPLACE(_talk, "Tepig", "\_a[Tepig]Tepig\_a")
+  _talk = REPLACE(_talk, "Pignite", "\_a[Pignite]Pignite\_a")
+  _talk = REPLACE(_talk, "Emboar", "\_a[Emboar]Emboar\_a")
+  _talk = REPLACE(_talk, "Oshawott", "\_a[Oshawott]Oshawott\_a")
+  _talk = REPLACE(_talk, "Dewott", "\_a[Dewott]Dewott\_a")
+  _talk = REPLACE(_talk, "Samurott", "\_a[Samurott]Samurott\_a")
+  _talk = REPLACE(_talk, "Patrat", "\_a[Patrat]Patrat\_a")
+  _talk = REPLACE(_talk, "Watchog", "\_a[Watchog]Watchog\_a")
+  _talk = REPLACE(_talk, "Lillipup", "\_a[Lillipup]Lillipup\_a")
+  _talk = REPLACE(_talk, "Herdier", "\_a[Herdier]Herdier\_a")
+  _talk = REPLACE(_talk, "Stoutland", "\_a[Stoutland]Stoutland\_a")
+  _talk = REPLACE(_talk, "Purrloin", "\_a[Purrloin]Purrloin\_a")
+  _talk = REPLACE(_talk, "Liepard", "\_a[Liepard]Liepard\_a")
+  _talk = REPLACE(_talk, "Pansage", "\_a[Pansage]Pansage\_a")
+  _talk = REPLACE(_talk, "Simisage", "\_a[Simisage]Simisage\_a")
+  _talk = REPLACE(_talk, "Pansear", "\_a[Pansear]Pansear\_a")
+  _talk = REPLACE(_talk, "Simisear", "\_a[Simisear]Simisear\_a")
+  _talk = REPLACE(_talk, "Panpour", "\_a[Panpour]Panpour\_a")
+  _talk = REPLACE(_talk, "Simipour", "\_a[Simipour]Simipour\_a")
+  _talk = REPLACE(_talk, "Munna", "\_a[Munna]Munna\_a")
+  _talk = REPLACE(_talk, "Musharna", "\_a[Musharna]Musharna\_a")
+  _talk = REPLACE(_talk, "Pidove", "\_a[Pidove]Pidove\_a")
+  _talk = REPLACE(_talk, "Tranquill", "\_a[Tranquill]Tranquill\_a")
+  _talk = REPLACE(_talk, "Unfezant", "\_a[Unfezant]Unfezant\_a")
+  _talk = REPLACE(_talk, "Blitzle", "\_a[Blitzle]Blitzle\_a")
+  _talk = REPLACE(_talk, "Zebstrika", "\_a[Zebstrika]Zebstrika\_a")
+  _talk = REPLACE(_talk, "Roggenrola", "\_a[Roggenrola]Roggenrola\_a")
+  _talk = REPLACE(_talk, "Boldore", "\_a[Boldore]Boldore\_a")
+  _talk = REPLACE(_talk, "Gigalith", "\_a[Gigalith]Gigalith\_a")
+  _talk = REPLACE(_talk, "Woobat", "\_a[Woobat]Woobat\_a")
+  _talk = REPLACE(_talk, "Swoobat", "\_a[Swoobat]Swoobat\_a")
+  _talk = REPLACE(_talk, "Drilbur", "\_a[Drilbur]Drilbur\_a")
+  _talk = REPLACE(_talk, "Excadrill", "\_a[Excadrill]Excadrill\_a")
+  _talk = REPLACE(_talk, "Audino", "\_a[Audino]Audino\_a")
+  _talk = REPLACE(_talk, "Timburr", "\_a[Timburr]Timburr\_a")
+  _talk = REPLACE(_talk, "Gurdurr", "\_a[Gurdurr]Gurdurr\_a")
+  _talk = REPLACE(_talk, "Conkeldurr", "\_a[Conkeldurr]Conkeldurr\_a")
+  _talk = REPLACE(_talk, "Tympole", "\_a[Tympole]Tympole\_a")
+  _talk = REPLACE(_talk, "Palpitoad", "\_a[Palpitoad]Palpitoad\_a")
+  _talk = REPLACE(_talk, "Seismitoad", "\_a[Seismitoad]Seismitoad\_a")
+  _talk = REPLACE(_talk, "Throh", "\_a[Throh]Throh\_a")
+  _talk = REPLACE(_talk, "Sawk", "\_a[Sawk]Sawk\_a")
+  _talk = REPLACE(_talk, "Sewaddle", "\_a[Sewaddle]Sewaddle\_a")
+  _talk = REPLACE(_talk, "Swadloon", "\_a[Swadloon]Swadloon\_a")
+  _talk = REPLACE(_talk, "Leavanny", "\_a[Leavanny]Leavanny\_a")
+  _talk = REPLACE(_talk, "Venipede", "\_a[Venipede]Venipede\_a")
+  _talk = REPLACE(_talk, "Whirlipede", "\_a[Whirlipede]Whirlipede\_a")
+  _talk = REPLACE(_talk, "Scolipede", "\_a[Scolipede]Scolipede\_a")
+  _talk = REPLACE(_talk, "Cottonee", "\_a[Cottonee]Cottonee\_a")
+  _talk = REPLACE(_talk, "Whimsicott", "\_a[Whimsicott]Whimsicott\_a")
+  _talk = REPLACE(_talk, "Petilil", "\_a[Petilil]Petilil\_a")
+  _talk = REPLACE(_talk, "Lilligant", "\_a[Lilligant]Lilligant\_a")
+  _talk = REPLACE(_talk, "Basculin", "\_a[Basculin]Basculin\_a")
+  _talk = REPLACE(_talk, "Sandile", "\_a[Sandile]Sandile\_a")
+  _talk = REPLACE(_talk, "Krokorok", "\_a[Krokorok]Krokorok\_a")
+  _talk = REPLACE(_talk, "Krookodile", "\_a[Krookodile]Krookodile\_a")
+  _talk = REPLACE(_talk, "Darumaka", "\_a[Darumaka]Darumaka\_a")
+  _talk = REPLACE(_talk, "Darmanitan", "\_a[Darmanitan]Darmanitan\_a")
+  _talk = REPLACE(_talk, "Maractus", "\_a[Maractus]Maractus\_a")
+  _talk = REPLACE(_talk, "Dwebble", "\_a[Dwebble]Dwebble\_a")
+  _talk = REPLACE(_talk, "Crustle", "\_a[Crustle]Crustle\_a")
+  _talk = REPLACE(_talk, "Scraggy", "\_a[Scraggy]Scraggy\_a")
+  _talk = REPLACE(_talk, "Scrafty", "\_a[Scrafty]Scrafty\_a")
+  _talk = REPLACE(_talk, "Sigilyph", "\_a[Sigilyph]Sigilyph\_a")
+  _talk = REPLACE(_talk, "Yamask", "\_a[Yamask]Yamask\_a")
+  _talk = REPLACE(_talk, "Cofagrigus", "\_a[Cofagrigus]Cofagrigus\_a")
+  _talk = REPLACE(_talk, "Tirtouga", "\_a[Tirtouga]Tirtouga\_a")
+  _talk = REPLACE(_talk, "Carracosta", "\_a[Carracosta]Carracosta\_a")
+  _talk = REPLACE(_talk, "Archen", "\_a[Archen]Archen\_a")
+  _talk = REPLACE(_talk, "Archeops", "\_a[Archeops]Archeops\_a")
+  _talk = REPLACE(_talk, "Trubbish", "\_a[Trubbish]Trubbish\_a")
+  _talk = REPLACE(_talk, "Garbodor", "\_a[Garbodor]Garbodor\_a")
+  _talk = REPLACE(_talk, "Zorua", "\_a[Zorua]Zorua\_a")
+  _talk = REPLACE(_talk, "Zoroark", "\_a[Zoroark]Zoroark\_a")
+  _talk = REPLACE(_talk, "Minccino", "\_a[Minccino]Minccino\_a")
+  _talk = REPLACE(_talk, "Cinccino", "\_a[Cinccino]Cinccino\_a")
+  _talk = REPLACE(_talk, "Gothita", "\_a[Gothita]Gothita\_a")
+  _talk = REPLACE(_talk, "Gothorita", "\_a[Gothorita]Gothorita\_a")
+  _talk = REPLACE(_talk, "Gothitelle", "\_a[Gothitelle]Gothitelle\_a")
+  _talk = REPLACE(_talk, "Solosis", "\_a[Solosis]Solosis\_a")
+  _talk = REPLACE(_talk, "Duosion", "\_a[Duosion]Duosion\_a")
+  _talk = REPLACE(_talk, "Reuniclus", "\_a[Reuniclus]Reuniclus\_a")
+  _talk = REPLACE(_talk, "Ducklett", "\_a[Ducklett]Ducklett\_a")
+  _talk = REPLACE(_talk, "Swanna", "\_a[Swanna]Swanna\_a")
+  _talk = REPLACE(_talk, "Vanillite", "\_a[Vanillite]Vanillite\_a")
+  _talk = REPLACE(_talk, "Vanillish", "\_a[Vanillish]Vanillish\_a")
+  _talk = REPLACE(_talk, "Vanilluxe", "\_a[Vanilluxe]Vanilluxe\_a")
+  _talk = REPLACE(_talk, "Deerling", "\_a[Deerling]Deerling\_a")
+  _talk = REPLACE(_talk, "Sawsbuck", "\_a[Sawsbuck]Sawsbuck\_a")
+  _talk = REPLACE(_talk, "Emolga", "\_a[Emolga]Emolga\_a")
+  _talk = REPLACE(_talk, "Karrablast", "\_a[Karrablast]Karrablast\_a")
+  _talk = REPLACE(_talk, "Escavalier", "\_a[Escavalier]Escavalier\_a")
+  _talk = REPLACE(_talk, "Foongus", "\_a[Foongus]Foongus\_a")
+  _talk = REPLACE(_talk, "Amoonguss", "\_a[Amoonguss]Amoonguss\_a")
+  _talk = REPLACE(_talk, "Frillish", "\_a[Frillish]Frillish\_a")
+  _talk = REPLACE(_talk, "Jellicent", "\_a[Jellicent]Jellicent\_a")
+  _talk = REPLACE(_talk, "Alomomola", "\_a[Alomomola]Alomomola\_a")
+  _talk = REPLACE(_talk, "Joltik", "\_a[Joltik]Joltik\_a")
+  _talk = REPLACE(_talk, "Galvantula", "\_a[Galvantula]Galvantula\_a")
+  _talk = REPLACE(_talk, "Ferroseed", "\_a[Ferroseed]Ferroseed\_a")
+  _talk = REPLACE(_talk, "Ferrothorn", "\_a[Ferrothorn]Ferrothorn\_a")
+  _talk = REPLACE(_talk, "Klink", "\_a[Klink]Klink\_a")
+  _talk = REPLACE(_talk, "Klang", "\_a[Klang]Klang\_a")
+  _talk = REPLACE(_talk, "Klinklang", "\_a[Klinklang]Klinklang\_a")
+  _talk = REPLACE(_talk, "Tynamo", "\_a[Tynamo]Tynamo\_a")
+  _talk = REPLACE(_talk, "Eelektrik", "\_a[Eelektrik]Eelektrik\_a")
+  _talk = REPLACE(_talk, "Eelektross", "\_a[Eelektross]Eelektross\_a")
+  _talk = REPLACE(_talk, "Elgyem", "\_a[Elgyem]Elgyem\_a")
+  _talk = REPLACE(_talk, "Beheeyem", "\_a[Beheeyem]Beheeyem\_a")
+  _talk = REPLACE(_talk, "Litwick", "\_a[Litwick]Litwick\_a")
+  _talk = REPLACE(_talk, "Lampent", "\_a[Lampent]Lampent\_a")
+  _talk = REPLACE(_talk, "Chandelure", "\_a[Chandelure]Chandelure\_a")
+  _talk = REPLACE(_talk, "Axew", "\_a[Axew]Axew\_a")
+  _talk = REPLACE(_talk, "Fraxure", "\_a[Fraxure]Fraxure\_a")
+  _talk = REPLACE(_talk, "Haxorus", "\_a[Haxorus]Haxorus\_a")
+  _talk = REPLACE(_talk, "Cubchoo", "\_a[Cubchoo]Cubchoo\_a")
+  _talk = REPLACE(_talk, "Beartic", "\_a[Beartic]Beartic\_a")
+  _talk = REPLACE(_talk, "Cryogonal", "\_a[Cryogonal]Cryogonal\_a")
+  _talk = REPLACE(_talk, "Shelmet", "\_a[Shelmet]Shelmet\_a")
+  _talk = REPLACE(_talk, "Accelgor", "\_a[Accelgor]Accelgor\_a")
+  _talk = REPLACE(_talk, "Stunfisk", "\_a[Stunfisk]Stunfisk\_a")
+  _talk = REPLACE(_talk, "Mienfoo", "\_a[Mienfoo]Mienfoo\_a")
+  _talk = REPLACE(_talk, "Mienshao", "\_a[Mienshao]Mienshao\_a")
+  _talk = REPLACE(_talk, "Druddigon", "\_a[Druddigon]Druddigon\_a")
+  _talk = REPLACE(_talk, "Golett", "\_a[Golett]Golett\_a")
+  _talk = REPLACE(_talk, "Golurk", "\_a[Golurk]Golurk\_a")
+  _talk = REPLACE(_talk, "Pawniard", "\_a[Pawniard]Pawniard\_a")
+  _talk = REPLACE(_talk, "Bisharp", "\_a[Bisharp]Bisharp\_a")
+  _talk = REPLACE(_talk, "Bouffalant", "\_a[Bouffalant]Bouffalant\_a")
+  _talk = REPLACE(_talk, "Rufflet", "\_a[Rufflet]Rufflet\_a")
+  _talk = REPLACE(_talk, "Braviary", "\_a[Braviary]Braviary\_a")
+  _talk = REPLACE(_talk, "Vullaby", "\_a[Vullaby]Vullaby\_a")
+  _talk = REPLACE(_talk, "Mandibuzz", "\_a[Mandibuzz]Mandibuzz\_a")
+  _talk = REPLACE(_talk, "Heatmor", "\_a[Heatmor]Heatmor\_a")
+  _talk = REPLACE(_talk, "Durant", "\_a[Durant]Durant\_a")
+  _talk = REPLACE(_talk, "Deino", "\_a[Deino]Deino\_a")
+  _talk = REPLACE(_talk, "Zweilous", "\_a[Zweilous]Zweilous\_a")
+  _talk = REPLACE(_talk, "Hydreigon", "\_a[Hydreigon]Hydreigon\_a")
+  _talk = REPLACE(_talk, "Larvesta", "\_a[Larvesta]Larvesta\_a")
+  _talk = REPLACE(_talk, "Volcarona", "\_a[Volcarona]Volcarona\_a")
+  _talk = REPLACE(_talk, "Cobalion", "\_a[Cobalion]Cobalion\_a")
+  _talk = REPLACE(_talk, "Terrakion", "\_a[Terrakion]Terrakion\_a")
+  _talk = REPLACE(_talk, "Virizion", "\_a[Virizion]Virizion\_a")
+  _talk = REPLACE(_talk, "Tornadus", "\_a[Tornadus]Tornadus\_a")
+  _talk = REPLACE(_talk, "Thundurus", "\_a[Thundurus]Thundurus\_a")
+  _talk = REPLACE(_talk, "Reshiram", "\_a[Reshiram]Reshiram\_a")
+  _talk = REPLACE(_talk, "Zekrom", "\_a[Zekrom]Zekrom\_a")
+  _talk = REPLACE(_talk, "Landorus", "\_a[Landorus]Landorus\_a")
+  _talk = REPLACE(_talk, "Kyurem", "\_a[Kyurem]Kyurem\_a")
+  _talk = REPLACE(_talk, "Keldeo", "\_a[Keldeo]Keldeo\_a")
+  _talk = REPLACE(_talk, "Meloetta", "\_a[Meloetta]Meloetta\_a")
+  _talk = REPLACE(_talk, "Genesect", "\_a[Genesect]Genesect\_a")
+  _talk = REPLACE(_talk, "Chespin", "\_a[Chespin]Chespin\_a")
+  _talk = REPLACE(_talk, "Quilladin", "\_a[Quilladin]Quilladin\_a")
+  _talk = REPLACE(_talk, "Chesnaught", "\_a[Chesnaught]Chesnaught\_a")
+  _talk = REPLACE(_talk, "Fennekin", "\_a[Fennekin]Fennekin\_a")
+  _talk = REPLACE(_talk, "Braixen", "\_a[Braixen]Braixen\_a")
+  _talk = REPLACE(_talk, "Delphox", "\_a[Delphox]Delphox\_a")
+  _talk = REPLACE(_talk, "Froakie", "\_a[Froakie]Froakie\_a")
+  _talk = REPLACE(_talk, "Frogadier", "\_a[Frogadier]Frogadier\_a")
+  _talk = REPLACE(_talk, "Greninja", "\_a[Greninja]Greninja\_a")
+  _talk = REPLACE(_talk, "Bunnelby", "\_a[Bunnelby]Bunnelby\_a")
+  _talk = REPLACE(_talk, "Diggersby", "\_a[Diggersby]Diggersby\_a")
+  _talk = REPLACE(_talk, "Fletchling", "\_a[Fletchling]Fletchling\_a")
+  _talk = REPLACE(_talk, "Fletchinder", "\_a[Fletchinder]Fletchinder\_a")
+  _talk = REPLACE(_talk, "Talonflame", "\_a[Talonflame]Talonflame\_a")
+  _talk = REPLACE(_talk, "Scatterbug", "\_a[Scatterbug]Scatterbug\_a")
+  _talk = REPLACE(_talk, "Spewpa", "\_a[Spewpa]Spewpa\_a")
+  _talk = REPLACE(_talk, "Vivillon", "\_a[Vivillon]Vivillon\_a")
+  _talk = REPLACE(_talk, "Litleo", "\_a[Litleo]Litleo\_a")
+  _talk = REPLACE(_talk, "Pyroar", "\_a[Pyroar]Pyroar\_a")
+  _talk = REPLACE(_talk, "Flabébé", "\_a[Flabébé]Flabébé\_a")
+  _talk = REPLACE(_talk, "Floette", "\_a[Floette]Floette\_a")
+  _talk = REPLACE(_talk, "Florges", "\_a[Florges]Florges\_a")
+  _talk = REPLACE(_talk, "Skiddo", "\_a[Skiddo]Skiddo\_a")
+  _talk = REPLACE(_talk, "Gogoat", "\_a[Gogoat]Gogoat\_a")
+  _talk = REPLACE(_talk, "Pancham", "\_a[Pancham]Pancham\_a")
+  _talk = REPLACE(_talk, "Pangoro", "\_a[Pangoro]Pangoro\_a")
+  _talk = REPLACE(_talk, "Furfrou", "\_a[Furfrou]Furfrou\_a")
+  _talk = REPLACE(_talk, "Espurr", "\_a[Espurr]Espurr\_a")
+  _talk = REPLACE(_talk, "Meowstic", "\_a[Meowstic]Meowstic\_a")
+  _talk = REPLACE(_talk, "Honedge", "\_a[Honedge]Honedge\_a")
+  _talk = REPLACE(_talk, "Doublade", "\_a[Doublade]Doublade\_a")
+  _talk = REPLACE(_talk, "Aegislash", "\_a[Aegislash]Aegislash\_a")
+  _talk = REPLACE(_talk, "Spritzee", "\_a[Spritzee]Spritzee\_a")
+  _talk = REPLACE(_talk, "Aromatisse", "\_a[Aromatisse]Aromatisse\_a")
+  _talk = REPLACE(_talk, "Swirlix", "\_a[Swirlix]Swirlix\_a")
+  _talk = REPLACE(_talk, "Slurpuff", "\_a[Slurpuff]Slurpuff\_a")
+  _talk = REPLACE(_talk, "Inkay", "\_a[Inkay]Inkay\_a")
+  _talk = REPLACE(_talk, "Malamar", "\_a[Malamar]Malamar\_a")
+  _talk = REPLACE(_talk, "Binacle", "\_a[Binacle]Binacle\_a")
+  _talk = REPLACE(_talk, "Barbaracle", "\_a[Barbaracle]Barbaracle\_a")
+  _talk = REPLACE(_talk, "Skrelp", "\_a[Skrelp]Skrelp\_a")
+  _talk = REPLACE(_talk, "Dragalge", "\_a[Dragalge]Dragalge\_a")
+  _talk = REPLACE(_talk, "Clauncher", "\_a[Clauncher]Clauncher\_a")
+  _talk = REPLACE(_talk, "Clawitzer", "\_a[Clawitzer]Clawitzer\_a")
+  _talk = REPLACE(_talk, "Helioptile", "\_a[Helioptile]Helioptile\_a")
+  _talk = REPLACE(_talk, "Heliolisk", "\_a[Heliolisk]Heliolisk\_a")
+  _talk = REPLACE(_talk, "Tyrunt", "\_a[Tyrunt]Tyrunt\_a")
+  _talk = REPLACE(_talk, "Tyrantrum", "\_a[Tyrantrum]Tyrantrum\_a")
+  _talk = REPLACE(_talk, "Amaura", "\_a[Amaura]Amaura\_a")
+  _talk = REPLACE(_talk, "Aurorus", "\_a[Aurorus]Aurorus\_a")
+  _talk = REPLACE(_talk, "Sylveon", "\_a[Sylveon]Sylveon\_a")
+  _talk = REPLACE(_talk, "Hawlucha", "\_a[Hawlucha]Hawlucha\_a")
+  _talk = REPLACE(_talk, "Dedenne", "\_a[Dedenne]Dedenne\_a")
+  _talk = REPLACE(_talk, "Carbink", "\_a[Carbink]Carbink\_a")
+  _talk = REPLACE(_talk, "Goomy", "\_a[Goomy]Goomy\_a")
+  _talk = REPLACE(_talk, "Sliggoo", "\_a[Sliggoo]Sliggoo\_a")
+  _talk = REPLACE(_talk, "Goodra", "\_a[Goodra]Goodra\_a")
+  _talk = REPLACE(_talk, "Klefki", "\_a[Klefki]Klefki\_a")
+  _talk = REPLACE(_talk, "Phantump", "\_a[Phantump]Phantump\_a")
+  _talk = REPLACE(_talk, "Trevenant", "\_a[Trevenant]Trevenant\_a")
+  _talk = REPLACE(_talk, "Pumpkaboo", "\_a[Pumpkaboo]Pumpkaboo\_a")
+  _talk = REPLACE(_talk, "Gourgeist", "\_a[Gourgeist]Gourgeist\_a")
+  _talk = REPLACE(_talk, "Bergmite", "\_a[Bergmite]Bergmite\_a")
+  _talk = REPLACE(_talk, "Avalugg", "\_a[Avalugg]Avalugg\_a")
+  _talk = REPLACE(_talk, "Noibat", "\_a[Noibat]Noibat\_a")
+  _talk = REPLACE(_talk, "Noivern", "\_a[Noivern]Noivern\_a")
+  _talk = REPLACE(_talk, "Xerneas", "\_a[Xerneas]Xerneas\_a")
+  _talk = REPLACE(_talk, "Yveltal", "\_a[Yveltal]Yveltal\_a")
+  _talk = REPLACE(_talk, "Zygarde", "\_a[Zygarde]Zygarde\_a")
+  _talk = REPLACE(_talk, "Diancie", "\_a[Diancie]Diancie\_a")
+  _talk = REPLACE(_talk, "Hoopa", "\_a[Hoopa]Hoopa\_a")
+  _talk = REPLACE(_talk, "Volcanion", "\_a[Volcanion]Volcanion\_a")
+  _talk = REPLACE(_talk, "Rowlet", "\_a[Rowlet]Rowlet\_a")
+  _talk = REPLACE(_talk, "Dartrix", "\_a[Dartrix]Dartrix\_a")
+  _talk = REPLACE(_talk, "Decidueye", "\_a[Decidueye]Decidueye\_a")
+  _talk = REPLACE(_talk, "Litten", "\_a[Litten]Litten\_a")
+  _talk = REPLACE(_talk, "Torracat", "\_a[Torracat]Torracat\_a")
+  _talk = REPLACE(_talk, "Incineroar", "\_a[Incineroar]Incineroar\_a")
+  _talk = REPLACE(_talk, "Popplio", "\_a[Popplio]Popplio\_a")
+  _talk = REPLACE(_talk, "Brionne", "\_a[Brionne]Brionne\_a")
+  _talk = REPLACE(_talk, "Primarina", "\_a[Primarina]Primarina\_a")
+  _talk = REPLACE(_talk, "Pikipek", "\_a[Pikipek]Pikipek\_a")
+  _talk = REPLACE(_talk, "Trumbeak", "\_a[Trumbeak]Trumbeak\_a")
+  _talk = REPLACE(_talk, "Toucannon", "\_a[Toucannon]Toucannon\_a")
+  _talk = REPLACE(_talk, "Yungoos", "\_a[Yungoos]Yungoos\_a")
+  _talk = REPLACE(_talk, "Gumshoos", "\_a[Gumshoos]Gumshoos\_a")
+  _talk = REPLACE(_talk, "Grubbin", "\_a[Grubbin]Grubbin\_a")
+  _talk = REPLACE(_talk, "Charjabug", "\_a[Charjabug]Charjabug\_a")
+  _talk = REPLACE(_talk, "Vikavolt", "\_a[Vikavolt]Vikavolt\_a")
+  _talk = REPLACE(_talk, "Crabrawler", "\_a[Crabrawler]Crabrawler\_a")
+  _talk = REPLACE(_talk, "Crabominable", "\_a[Crabominable]Crabominable\_a")
+  _talk = REPLACE(_talk, "Oricorio", "\_a[Oricorio]Oricorio\_a")
+  _talk = REPLACE(_talk, "Cutiefly", "\_a[Cutiefly]Cutiefly\_a")
+  _talk = REPLACE(_talk, "Ribombee", "\_a[Ribombee]Ribombee\_a")
+  _talk = REPLACE(_talk, "Rockruff", "\_a[Rockruff]Rockruff\_a")
+  _talk = REPLACE(_talk, "Lycanroc", "\_a[Lycanroc]Lycanroc\_a")
+  _talk = REPLACE(_talk, "Wishiwashi", "\_a[Wishiwashi]Wishiwashi\_a")
+  _talk = REPLACE(_talk, "Mareanie", "\_a[Mareanie]Mareanie\_a")
+  _talk = REPLACE(_talk, "Toxapex", "\_a[Toxapex]Toxapex\_a")
+  _talk = REPLACE(_talk, "Mudbray", "\_a[Mudbray]Mudbray\_a")
+  _talk = REPLACE(_talk, "Mudsdale", "\_a[Mudsdale]Mudsdale\_a")
+  _talk = REPLACE(_talk, "Dewpider", "\_a[Dewpider]Dewpider\_a")
+  _talk = REPLACE(_talk, "Araquanid", "\_a[Araquanid]Araquanid\_a")
+  _talk = REPLACE(_talk, "Fomantis", "\_a[Fomantis]Fomantis\_a")
+  _talk = REPLACE(_talk, "Lurantis", "\_a[Lurantis]Lurantis\_a")
+  _talk = REPLACE(_talk, "Morelull", "\_a[Morelull]Morelull\_a")
+  _talk = REPLACE(_talk, "Shiinotic", "\_a[Shiinotic]Shiinotic\_a")
+  _talk = REPLACE(_talk, "Salandit", "\_a[Salandit]Salandit\_a")
+  _talk = REPLACE(_talk, "Salazzle", "\_a[Salazzle]Salazzle\_a")
+  _talk = REPLACE(_talk, "Stufful", "\_a[Stufful]Stufful\_a")
+  _talk = REPLACE(_talk, "Bewear", "\_a[Bewear]Bewear\_a")
+  _talk = REPLACE(_talk, "Bounsweet", "\_a[Bounsweet]Bounsweet\_a")
+  _talk = REPLACE(_talk, "Steenee", "\_a[Steenee]Steenee\_a")
+  _talk = REPLACE(_talk, "Tsareena", "\_a[Tsareena]Tsareena\_a")
+  _talk = REPLACE(_talk, "Comfey", "\_a[Comfey]Comfey\_a")
+  _talk = REPLACE(_talk, "Oranguru", "\_a[Oranguru]Oranguru\_a")
+  _talk = REPLACE(_talk, "Passimian", "\_a[Passimian]Passimian\_a")
+  _talk = REPLACE(_talk, "Wimpod", "\_a[Wimpod]Wimpod\_a")
+  _talk = REPLACE(_talk, "Golisopod", "\_a[Golisopod]Golisopod\_a")
+  _talk = REPLACE(_talk, "Sandygast", "\_a[Sandygast]Sandygast\_a")
+  _talk = REPLACE(_talk, "Palossand", "\_a[Palossand]Palossand\_a")
+  _talk = REPLACE(_talk, "Pyukumuku", "\_a[Pyukumuku]Pyukumuku\_a")
+  _talk = REPLACE(_talk, "Type: Null", "\_a[Type: Null]Type: Null\_a")
+  _talk = REPLACE(_talk, "Silvally", "\_a[Silvally]Silvally\_a")
+  _talk = REPLACE(_talk, "Minior", "\_a[Minior]Minior\_a")
+  _talk = REPLACE(_talk, "Komala", "\_a[Komala]Komala\_a")
+  _talk = REPLACE(_talk, "Turtonator", "\_a[Turtonator]Turtonator\_a")
+  _talk = REPLACE(_talk, "Togedemaru", "\_a[Togedemaru]Togedemaru\_a")
+  _talk = REPLACE(_talk, "Mimikyu", "\_a[Mimikyu]Mimikyu\_a")
+  _talk = REPLACE(_talk, "Bruxish", "\_a[Bruxish]Bruxish\_a")
+  _talk = REPLACE(_talk, "Drampa", "\_a[Drampa]Drampa\_a")
+  _talk = REPLACE(_talk, "Dhelmise", "\_a[Dhelmise]Dhelmise\_a")
+  _talk = REPLACE(_talk, "Jangmo-o", "\_a[Jangmo-o]Jangmo-o\_a")
+  _talk = REPLACE(_talk, "Hakamo-o", "\_a[Hakamo-o]Hakamo-o\_a")
+  _talk = REPLACE(_talk, "Kommo-o", "\_a[Kommo-o]Kommo-o\_a")
+  _talk = REPLACE(_talk, "Tapu-Koko", "\_a[Tapu-Koko]Tapu-Koko\_a")
+  _talk = REPLACE(_talk, "Tapu-Lele", "\_a[Tapu-Lele]Tapu-Lele\_a")
+  _talk = REPLACE(_talk, "Tapu-Bulu", "\_a[Tapu-Bulu]Tapu-Bulu\_a")
+  _talk = REPLACE(_talk, "Tapu-Fini", "\_a[Tapu-Fini]Tapu-Fini\_a")
+  _talk = REPLACE(_talk, "Cosmog", "\_a[Cosmog]Cosmog\_a")
+  _talk = REPLACE(_talk, "Cosmoem", "\_a[Cosmoem]Cosmoem\_a")
+  _talk = REPLACE(_talk, "Solgaleo", "\_a[Solgaleo]Solgaleo\_a")
+  _talk = REPLACE(_talk, "Lunala", "\_a[Lunala]Lunala\_a")
+  _talk = REPLACE(_talk, "Nihilego", "\_a[Nihilego]Nihilego\_a")
+  _talk = REPLACE(_talk, "Buzzwole", "\_a[Buzzwole]Buzzwole\_a")
+  _talk = REPLACE(_talk, "Pheromosa", "\_a[Pheromosa]Pheromosa\_a")
+  _talk = REPLACE(_talk, "Xurkitree", "\_a[Xurkitree]Xurkitree\_a")
+  _talk = REPLACE(_talk, "Celesteela", "\_a[Celesteela]Celesteela\_a")
+  _talk = REPLACE(_talk, "Kartana", "\_a[Kartana]Kartana\_a")
+  _talk = REPLACE(_talk, "Guzzlord", "\_a[Guzzlord]Guzzlord\_a")
+  _talk = REPLACE(_talk, "Necrozma", "\_a[Necrozma]Necrozma\_a")
+  _talk = REPLACE(_talk, "Magearna", "\_a[Magearna]Magearna\_a")
+  _talk = REPLACE(_talk, "Marshadow", "\_a[Marshadow]Marshadow\_a")
+  _talk = REPLACE(_talk, "Poipole", "\_a[Poipole]Poipole\_a")
+  _talk = REPLACE(_talk, "Naganadel", "\_a[Naganadel]Naganadel\_a")
+  _talk = REPLACE(_talk, "Stakataka", "\_a[Stakataka]Stakataka\_a")
+  _talk = REPLACE(_talk, "Blacephalon", "\_a[Blacephalon]Blacephalon\_a")
+  _talk = REPLACE(_talk, "Zeraora", "\_a[Zeraora]Zeraora\_a")
+  _talk = REPLACE(_talk, "Meltan", "\_a[Meltan]Meltan\_a")
+  _talk = REPLACE(_talk, "Melmetal", "\_a[Melmetal]Melmetal\_a")
+  _talk = REPLACE(_talk, "Grookey", "\_a[Grookey]Grookey\_a")
+  _talk = REPLACE(_talk, "Thwackey", "\_a[Thwackey]Thwackey\_a")
+  _talk = REPLACE(_talk, "Rillaboom", "\_a[Rillaboom]Rillaboom\_a")
+  _talk = REPLACE(_talk, "Scorbunny", "\_a[Scorbunny]Scorbunny\_a")
+  _talk = REPLACE(_talk, "Raboot", "\_a[Raboot]Raboot\_a")
+  _talk = REPLACE(_talk, "Cinderace", "\_a[Cinderace]Cinderace\_a")
+  _talk = REPLACE(_talk, "Sobble", "\_a[Sobble]Sobble\_a")
+  _talk = REPLACE(_talk, "Drizzile", "\_a[Drizzile]Drizzile\_a")
+  _talk = REPLACE(_talk, "Inteleon", "\_a[Inteleon]Inteleon\_a")
+  _talk = REPLACE(_talk, "Skwovet", "\_a[Skwovet]Skwovet\_a")
+  _talk = REPLACE(_talk, "Greedent", "\_a[Greedent]Greedent\_a")
+  _talk = REPLACE(_talk, "Rookidee", "\_a[Rookidee]Rookidee\_a")
+  _talk = REPLACE(_talk, "Corvisquire", "\_a[Corvisquire]Corvisquire\_a")
+  _talk = REPLACE(_talk, "Corviknight", "\_a[Corviknight]Corviknight\_a")
+  _talk = REPLACE(_talk, "Blipbug", "\_a[Blipbug]Blipbug\_a")
+  _talk = REPLACE(_talk, "Dottler", "\_a[Dottler]Dottler\_a")
+  _talk = REPLACE(_talk, "Orbeetle", "\_a[Orbeetle]Orbeetle\_a")
+  _talk = REPLACE(_talk, "Nickit", "\_a[Nickit]Nickit\_a")
+  _talk = REPLACE(_talk, "Thievul", "\_a[Thievul]Thievul\_a")
+  _talk = REPLACE(_talk, "Gossifleur", "\_a[Gossifleur]Gossifleur\_a")
+  _talk = REPLACE(_talk, "Eldegoss", "\_a[Eldegoss]Eldegoss\_a")
+  _talk = REPLACE(_talk, "Wooloo", "\_a[Wooloo]Wooloo\_a")
+  _talk = REPLACE(_talk, "Dubwool", "\_a[Dubwool]Dubwool\_a")
+  _talk = REPLACE(_talk, "Chewtle", "\_a[Chewtle]Chewtle\_a")
+  _talk = REPLACE(_talk, "Drednaw", "\_a[Drednaw]Drednaw\_a")
+  _talk = REPLACE(_talk, "Yamper", "\_a[Yamper]Yamper\_a")
+  _talk = REPLACE(_talk, "Boltund", "\_a[Boltund]Boltund\_a")
+  _talk = REPLACE(_talk, "Rolycoly", "\_a[Rolycoly]Rolycoly\_a")
+  _talk = REPLACE(_talk, "Carkol", "\_a[Carkol]Carkol\_a")
+  _talk = REPLACE(_talk, "Coalossal", "\_a[Coalossal]Coalossal\_a")
+  _talk = REPLACE(_talk, "Applin", "\_a[Applin]Applin\_a")
+  _talk = REPLACE(_talk, "Flapple", "\_a[Flapple]Flapple\_a")
+  _talk = REPLACE(_talk, "Appletun", "\_a[Appletun]Appletun\_a")
+  _talk = REPLACE(_talk, "Silicobra", "\_a[Silicobra]Silicobra\_a")
+  _talk = REPLACE(_talk, "Sandaconda", "\_a[Sandaconda]Sandaconda\_a")
+  _talk = REPLACE(_talk, "Cramorant", "\_a[Cramorant]Cramorant\_a")
+  _talk = REPLACE(_talk, "Arrokuda", "\_a[Arrokuda]Arrokuda\_a")
+  _talk = REPLACE(_talk, "Barraskewda", "\_a[Barraskewda]Barraskewda\_a")
+  _talk = REPLACE(_talk, "Toxel", "\_a[Toxel]Toxel\_a")
+  _talk = REPLACE(_talk, "Toxtricity", "\_a[Toxtricity]Toxtricity\_a")
+  _talk = REPLACE(_talk, "Sizzlipede", "\_a[Sizzlipede]Sizzlipede\_a")
+  _talk = REPLACE(_talk, "Centiskorch", "\_a[Centiskorch]Centiskorch\_a")
+  _talk = REPLACE(_talk, "Clobbopus", "\_a[Clobbopus]Clobbopus\_a")
+  _talk = REPLACE(_talk, "Grapploct", "\_a[Grapploct]Grapploct\_a")
+  _talk = REPLACE(_talk, "Sinistea", "\_a[Sinistea]Sinistea\_a")
+  _talk = REPLACE(_talk, "Polteageist", "\_a[Polteageist]Polteageist\_a")
+  _talk = REPLACE(_talk, "Hatenna", "\_a[Hatenna]Hatenna\_a")
+  _talk = REPLACE(_talk, "Hattrem", "\_a[Hattrem]Hattrem\_a")
+  _talk = REPLACE(_talk, "Hatterene", "\_a[Hatterene]Hatterene\_a")
+  _talk = REPLACE(_talk, "Impidimp", "\_a[Impidimp]Impidimp\_a")
+  _talk = REPLACE(_talk, "Morgrem", "\_a[Morgrem]Morgrem\_a")
+  _talk = REPLACE(_talk, "Grimmsnarl", "\_a[Grimmsnarl]Grimmsnarl\_a")
+  _talk = REPLACE(_talk, "Obstagoon", "\_a[Obstagoon]Obstagoon\_a")
+  _talk = REPLACE(_talk, "Perrserker", "\_a[Perrserker]Perrserker\_a")
+  _talk = REPLACE(_talk, "Cursola", "\_a[Cursola]Cursola\_a")
+  _talk = REPLACE(_talk, "Sirfetch\d", "\_a[Sirfetch\d]Sirfetch\d\_a")
+  _talk = REPLACE(_talk, "Mr.-Rime", "\_a[Mr.-Rime]Mr.-Rime\_a")
+  _talk = REPLACE(_talk, "Runerigus", "\_a[Runerigus]Runerigus\_a")
+  _talk = REPLACE(_talk, "Milcery", "\_a[Milcery]Milcery\_a")
+  _talk = REPLACE(_talk, "Alcremie", "\_a[Alcremie]Alcremie\_a")
+  _talk = REPLACE(_talk, "Falinks", "\_a[Falinks]Falinks\_a")
+  _talk = REPLACE(_talk, "Pincurchin", "\_a[Pincurchin]Pincurchin\_a")
+  _talk = REPLACE(_talk, "Snom", "\_a[Snom]Snom\_a")
+  _talk = REPLACE(_talk, "Frosmoth", "\_a[Frosmoth]Frosmoth\_a")
+  _talk = REPLACE(_talk, "Stonjourner", "\_a[Stonjourner]Stonjourner\_a")
+  _talk = REPLACE(_talk, "Eiscue", "\_a[Eiscue]Eiscue\_a")
+  _talk = REPLACE(_talk, "Indeedee", "\_a[Indeedee]Indeedee\_a")
+  _talk = REPLACE(_talk, "Morpeko", "\_a[Morpeko]Morpeko\_a")
+  _talk = REPLACE(_talk, "Cufant", "\_a[Cufant]Cufant\_a")
+  _talk = REPLACE(_talk, "Copperajah", "\_a[Copperajah]Copperajah\_a")
+  _talk = REPLACE(_talk, "Dracozolt", "\_a[Dracozolt]Dracozolt\_a")
+  _talk = REPLACE(_talk, "Arctozolt", "\_a[Arctozolt]Arctozolt\_a")
+  _talk = REPLACE(_talk, "Dracovish", "\_a[Dracovish]Dracovish\_a")
+  _talk = REPLACE(_talk, "Arctovish", "\_a[Arctovish]Arctovish\_a")
+  _talk = REPLACE(_talk, "Duraludon", "\_a[Duraludon]Duraludon\_a")
+  _talk = REPLACE(_talk, "Dreepy", "\_a[Dreepy]Dreepy\_a")
+  _talk = REPLACE(_talk, "Drakloak", "\_a[Drakloak]Drakloak\_a")
+  _talk = REPLACE(_talk, "Dragapult", "\_a[Dragapult]Dragapult\_a")
+  _talk = REPLACE(_talk, "Zacian", "\_a[Zacian]Zacian\_a")
+  _talk = REPLACE(_talk, "Zamazenta", "\_a[Zamazenta]Zamazenta\_a")
+  _talk = REPLACE(_talk, "Eternatus", "\_a[Eternatus]Eternatus\_a")
+  _talk = REPLACE(_talk, "Kubfu", "\_a[Kubfu]Kubfu\_a")
+  _talk = REPLACE(_talk, "Urshifu", "\_a[Urshifu]Urshifu\_a")
+  _talk = REPLACE(_talk, "Zarude", "\_a[Zarude]Zarude\_a")
+  _talk = REPLACE(_talk, "Regieleki", "\_a[Regieleki]Regieleki\_a")
+  _talk = REPLACE(_talk, "Regidrago", "\_a[Regidrago]Regidrago\_a")
+  _talk = REPLACE(_talk, "Glastrier", "\_a[Glastrier]Glastrier\_a")
+  _talk = REPLACE(_talk, "Spectrier", "\_a[Spectrier]Spectrier\_a")
+  _talk = REPLACE(_talk, "Calyrex", "\_a[Calyrex]Calyrex\_a")
+  _talk = REPLACE(_talk, "Wyrdeer", "\_a[Wyrdeer]Wyrdeer\_a")
+  _talk = REPLACE(_talk, "Kleavor", "\_a[Kleavor]Kleavor\_a")
+  _talk = REPLACE(_talk, "Ursaluna", "\_a[Ursaluna]Ursaluna\_a")
+  _talk = REPLACE(_talk, "Basculegion", "\_a[Basculegion]Basculegion\_a")
+  _talk = REPLACE(_talk, "Sneasler", "\_a[Sneasler]Sneasler\_a")
+  _talk = REPLACE(_talk, "Overqwil", "\_a[Overqwil]Overqwil\_a")
+  _talk = REPLACE(_talk, "Enamorus", "\_a[Enamorus]Enamorus\_a")
+  _talk = REPLACE(_talk, "Sprigatito", "\_a[Sprigatito]Sprigatito\_a")
+  _talk = REPLACE(_talk, "Floragato", "\_a[Floragato]Floragato\_a")
+  _talk = REPLACE(_talk, "Meowscarada", "\_a[Meowscarada]Meowscarada\_a")
+  _talk = REPLACE(_talk, "Fuecoco", "\_a[Fuecoco]Fuecoco\_a")
+  _talk = REPLACE(_talk, "Crocalor", "\_a[Crocalor]Crocalor\_a")
+  _talk = REPLACE(_talk, "Skeledirge", "\_a[Skeledirge]Skeledirge\_a")
+  _talk = REPLACE(_talk, "Quaxly", "\_a[Quaxly]Quaxly\_a")
+  _talk = REPLACE(_talk, "Quaxwell", "\_a[Quaxwell]Quaxwell\_a")
+  _talk = REPLACE(_talk, "Quaquaval", "\_a[Quaquaval]Quaquaval\_a")
+  _talk = REPLACE(_talk, "Lechonk", "\_a[Lechonk]Lechonk\_a")
+  _talk = REPLACE(_talk, "Oinkologne", "\_a[Oinkologne]Oinkologne\_a")
+  _talk = REPLACE(_talk, "Tarountula", "\_a[Tarountula]Tarountula\_a")
+  _talk = REPLACE(_talk, "Spidops", "\_a[Spidops]Spidops\_a")
+  _talk = REPLACE(_talk, "Nymble", "\_a[Nymble]Nymble\_a")
+  _talk = REPLACE(_talk, "Lokix", "\_a[Lokix]Lokix\_a")
+  _talk = REPLACE(_talk, "Pawmi", "\_a[Pawmi]Pawmi\_a")
+  _talk = REPLACE(_talk, "Pawmo", "\_a[Pawmo]Pawmo\_a")
+  _talk = REPLACE(_talk, "Pawmot", "\_a[Pawmot]Pawmot\_a")
+  _talk = REPLACE(_talk, "Tandemaus", "\_a[Tandemaus]Tandemaus\_a")
+  _talk = REPLACE(_talk, "Maushold", "\_a[Maushold]Maushold\_a")
+  _talk = REPLACE(_talk, "Fidough", "\_a[Fidough]Fidough\_a")
+  _talk = REPLACE(_talk, "Dachsbun", "\_a[Dachsbun]Dachsbun\_a")
+  _talk = REPLACE(_talk, "Smoliv", "\_a[Smoliv]Smoliv\_a")
+  _talk = REPLACE(_talk, "Dolliv", "\_a[Dolliv]Dolliv\_a")
+  _talk = REPLACE(_talk, "Arboliva", "\_a[Arboliva]Arboliva\_a")
+  _talk = REPLACE(_talk, "Squawkabilly", "\_a[Squawkabilly]Squawkabilly\_a")
+  _talk = REPLACE(_talk, "Nacli", "\_a[Nacli]Nacli\_a")
+  _talk = REPLACE(_talk, "Naclstack", "\_a[Naclstack]Naclstack\_a")
+  _talk = REPLACE(_talk, "Garganacl", "\_a[Garganacl]Garganacl\_a")
+  _talk = REPLACE(_talk, "Charcadet", "\_a[Charcadet]Charcadet\_a")
+  _talk = REPLACE(_talk, "Armarouge", "\_a[Armarouge]Armarouge\_a")
+  _talk = REPLACE(_talk, "Ceruledge", "\_a[Ceruledge]Ceruledge\_a")
+  _talk = REPLACE(_talk, "Tadbulb", "\_a[Tadbulb]Tadbulb\_a")
+  _talk = REPLACE(_talk, "Bellibolt", "\_a[Bellibolt]Bellibolt\_a")
+  _talk = REPLACE(_talk, "Wattrel", "\_a[Wattrel]Wattrel\_a")
+  _talk = REPLACE(_talk, "Kilowattrel", "\_a[Kilowattrel]Kilowattrel\_a")
+  _talk = REPLACE(_talk, "Maschiff", "\_a[Maschiff]Maschiff\_a")
+  _talk = REPLACE(_talk, "Mabosstiff", "\_a[Mabosstiff]Mabosstiff\_a")
+  _talk = REPLACE(_talk, "Shroodle", "\_a[Shroodle]Shroodle\_a")
+  _talk = REPLACE(_talk, "Grafaiai", "\_a[Grafaiai]Grafaiai\_a")
+  _talk = REPLACE(_talk, "Bramblin", "\_a[Bramblin]Bramblin\_a")
+  _talk = REPLACE(_talk, "Brambleghast", "\_a[Brambleghast]Brambleghast\_a")
+  _talk = REPLACE(_talk, "Toedscool", "\_a[Toedscool]Toedscool\_a")
+  _talk = REPLACE(_talk, "Toedscruel", "\_a[Toedscruel]Toedscruel\_a")
+  _talk = REPLACE(_talk, "Klawf", "\_a[Klawf]Klawf\_a")
+  _talk = REPLACE(_talk, "Capsakid", "\_a[Capsakid]Capsakid\_a")
+  _talk = REPLACE(_talk, "Scovillain", "\_a[Scovillain]Scovillain\_a")
+  _talk = REPLACE(_talk, "Rellor", "\_a[Rellor]Rellor\_a")
+  _talk = REPLACE(_talk, "Rabsca", "\_a[Rabsca]Rabsca\_a")
+  _talk = REPLACE(_talk, "Flittle", "\_a[Flittle]Flittle\_a")
+  _talk = REPLACE(_talk, "Espathra", "\_a[Espathra]Espathra\_a")
+  _talk = REPLACE(_talk, "Tinkatink", "\_a[Tinkatink]Tinkatink\_a")
+  _talk = REPLACE(_talk, "Tinkatuff", "\_a[Tinkatuff]Tinkatuff\_a")
+  _talk = REPLACE(_talk, "Tinkaton", "\_a[Tinkaton]Tinkaton\_a")
+  _talk = REPLACE(_talk, "Wiglett", "\_a[Wiglett]Wiglett\_a")
+  _talk = REPLACE(_talk, "Wugtrio", "\_a[Wugtrio]Wugtrio\_a")
+  _talk = REPLACE(_talk, "Bombirdier", "\_a[Bombirdier]Bombirdier\_a")
+  _talk = REPLACE(_talk, "Finizen", "\_a[Finizen]Finizen\_a")
+  _talk = REPLACE(_talk, "Palafin", "\_a[Palafin]Palafin\_a")
+  _talk = REPLACE(_talk, "Varoom", "\_a[Varoom]Varoom\_a")
+  _talk = REPLACE(_talk, "Revavroom", "\_a[Revavroom]Revavroom\_a")
+  _talk = REPLACE(_talk, "Cyclizar", "\_a[Cyclizar]Cyclizar\_a")
+  _talk = REPLACE(_talk, "Orthworm", "\_a[Orthworm]Orthworm\_a")
+  _talk = REPLACE(_talk, "Glimmet", "\_a[Glimmet]Glimmet\_a")
+  _talk = REPLACE(_talk, "Glimmora", "\_a[Glimmora]Glimmora\_a")
+  _talk = REPLACE(_talk, "Greavard", "\_a[Greavard]Greavard\_a")
+  _talk = REPLACE(_talk, "Houndstone", "\_a[Houndstone]Houndstone\_a")
+  _talk = REPLACE(_talk, "Flamigo", "\_a[Flamigo]Flamigo\_a")
+  _talk = REPLACE(_talk, "Cetoddle", "\_a[Cetoddle]Cetoddle\_a")
+  _talk = REPLACE(_talk, "Cetitan", "\_a[Cetitan]Cetitan\_a")
+  _talk = REPLACE(_talk, "Veluza", "\_a[Veluza]Veluza\_a")
+  _talk = REPLACE(_talk, "Dondozo", "\_a[Dondozo]Dondozo\_a")
+  _talk = REPLACE(_talk, "Tatsugiri", "\_a[Tatsugiri]Tatsugiri\_a")
+  _talk = REPLACE(_talk, "Annihilape", "\_a[Annihilape]Annihilape\_a")
+  _talk = REPLACE(_talk, "Clodsire", "\_a[Clodsire]Clodsire\_a")
+  _talk = REPLACE(_talk, "Farigiraf", "\_a[Farigiraf]Farigiraf\_a")
+  _talk = REPLACE(_talk, "Dudunsparce", "\_a[Dudunsparce]Dudunsparce\_a")
+  _talk = REPLACE(_talk, "Kingambit", "\_a[Kingambit]Kingambit\_a")
+  _talk = REPLACE(_talk, "Great-Tusk", "\_a[Great-Tusk]Great-Tusk\_a")
+  _talk = REPLACE(_talk, "Scream-Tail", "\_a[Scream-Tail]Scream-Tail\_a")
+  _talk = REPLACE(_talk, "Brute-Bonnet", "\_a[Brute-Bonnet]Brute-Bonnet\_a")
+  _talk = REPLACE(_talk, "Flutter-Mane", "\_a[Flutter-Mane]Flutter-Mane\_a")
+  _talk = REPLACE(_talk, "Slither-Wing", "\_a[Slither-Wing]Slither-Wing\_a")
+  _talk = REPLACE(_talk, "Sandy-Shocks", "\_a[Sandy-Shocks]Sandy-Shocks\_a")
+  _talk = REPLACE(_talk, "Iron-Treads", "\_a[Iron-Treads]Iron-Treads\_a")
+  _talk = REPLACE(_talk, "Iron-Bundle", "\_a[Iron-Bundle]Iron-Bundle\_a")
+  _talk = REPLACE(_talk, "Iron-Hands", "\_a[Iron-Hands]Iron-Hands\_a")
+  _talk = REPLACE(_talk, "Iron-Jugulis", "\_a[Iron-Jugulis]Iron-Jugulis\_a")
+  _talk = REPLACE(_talk, "Iron-Moth", "\_a[Iron-Moth]Iron-Moth\_a")
+  _talk = REPLACE(_talk, "Iron-Thorns", "\_a[Iron-Thorns]Iron-Thorns\_a")
+  _talk = REPLACE(_talk, "Frigibax", "\_a[Frigibax]Frigibax\_a")
+  _talk = REPLACE(_talk, "Arctibax", "\_a[Arctibax]Arctibax\_a")
+  _talk = REPLACE(_talk, "Baxcalibur", "\_a[Baxcalibur]Baxcalibur\_a")
+  _talk = REPLACE(_talk, "Gimmighoul", "\_a[Gimmighoul]Gimmighoul\_a")
+  _talk = REPLACE(_talk, "Gholdengo", "\_a[Gholdengo]Gholdengo\_a")
+  _talk = REPLACE(_talk, "Wo-Chien", "\_a[Wo-Chien]Wo-Chien\_a")
+  _talk = REPLACE(_talk, "Chien-Pao", "\_a[Chien-Pao]Chien-Pao\_a")
+  _talk = REPLACE(_talk, "Ting-Lu", "\_a[Ting-Lu]Ting-Lu\_a")
+  _talk = REPLACE(_talk, "Chi-Yu", "\_a[Chi-Yu]Chi-Yu\_a")
+  _talk = REPLACE(_talk, "Roaring-Moon", "\_a[Roaring-Moon]Roaring-Moon\_a")
+  _talk = REPLACE(_talk, "Iron-Valiant", "\_a[Iron-Valiant]Iron-Valiant\_a")
+  _talk = REPLACE(_talk, "Koraidon", "\_a[Koraidon]Koraidon\_a")
+  _talk = REPLACE(_talk, "Miraidon", "\_a[Miraidon]Miraidon\_a")
+  _talk = REPLACE(_talk, "Walking-Wake", "\_a[Walking-Wake]Walking-Wake\_a")
+  _talk = REPLACE(_talk, "Iron-Leaves", "\_a[Iron-Leaves]Iron-Leaves\_a")
+  _talk = REPLACE(_talk, "Dipplin", "\_a[Dipplin]Dipplin\_a")
+  _talk = REPLACE(_talk, "Poltchageist", "\_a[Poltchageist]Poltchageist\_a")
+  _talk = REPLACE(_talk, "Sinistcha", "\_a[Sinistcha]Sinistcha\_a")
+  _talk = REPLACE(_talk, "Okidogi", "\_a[Okidogi]Okidogi\_a")
+  _talk = REPLACE(_talk, "Munkidori", "\_a[Munkidori]Munkidori\_a")
+  _talk = REPLACE(_talk, "Fezandipiti", "\_a[Fezandipiti]Fezandipiti\_a")
+  _talk = REPLACE(_talk, "Ogerpon", "\_a[Ogerpon]Ogerpon\_a")
+  _talk = REPLACE(_talk, "Archaludon", "\_a[Archaludon]Archaludon\_a")
+  _talk = REPLACE(_talk, "Hydrapple", "\_a[Hydrapple]Hydrapple\_a")
+  _talk = REPLACE(_talk, "Gouging-Fire", "\_a[Gouging-Fire]Gouging-Fire\_a")
+  _talk = REPLACE(_talk, "Raging-Bolt", "\_a[Raging-Bolt]Raging-Bolt\_a")
+  _talk = REPLACE(_talk, "Iron-Boulder", "\_a[Iron-Boulder]Iron-Boulder\_a")
+  _talk = REPLACE(_talk, "Iron-Crown", "\_a[Iron-Crown]Iron-Crown\_a")
+  _talk = REPLACE(_talk, "Terapagos", "\_a[Terapagos]Terapagos\_a")
+  _talk = REPLACE(_talk, "Pecharunt", "\_a[Pecharunt]Pecharunt\_a") 
+
+	if reference1 == "" && reference2 == "" {
             EVAL('"' + REPLACE(_talk,'"','" + CHR(0x22) + "') + '"')
         }
         else {
@@ -1338,936 +1313,937 @@ OnAnchorSelect
 				//Citrus: [cool looking]
 				}
 			}
-		
-		
-		
-		
-			//THE POKEMON
-			when "bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise"
+
+
+
+
+		//THE POKEMON
+		//Also thanks to Crash for fixing this one. If the Pokemon capitalization doesn't match its capitalization above, then it won't work. Crash did some fancy work with the array found in gs_pokedex to fix it.
+			when "Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise"
 			{
-				"%(bulbasaur_ivysaur_venusaur_charmander_charmeleon_charizard_squirtle_wartortle_blastoise)"
+				"%(Bulbasaur_ivysaur_venusaur_charmander_charmeleon_charizard_squirtle_wartortle_blastoise)"
 			}
-			when "caterpie", "metapod", "butterfree"
+			when "Caterpie", "Metapod", "Butterfree"
 			{
 				"%(caterpie_metapod_butterfree)"
 			}
-			when "weedle", "kakuna", "beedrill"
+			when "Weedle", "Kakuna", "Beedrill"
 			{
 				"%(weedle_kakuna_beedrill)"
 			}
-			when "pidgey", "pidgeotto", "pidgeot"
+			when "Pidgey", "Pidgeotto", "Pidgeot"
 			{
 				"%(pidgey_pidgeotto_pidgeot)"
 			}
-			when "rattata", "raticate"
+			when "Rattata", "Raticate"
 			{
 			"%(rattata_raticate)"
 			}
-			when "spearow", "fearow"
+			when "Spearow", "Fearow"
 			{
 			"%(spearow_fearow)"
 			}
-			when "ekans", "arbok"
+			when "Ekans", "Arbok"
 			{
 			"%(ekans_arbok)"
 			}
-			when "pikachu"
+			when "Pikachu"
 			{
 			"%(pikachu)"
 			}
-			when "raichu", "pichu"
+			when "Raichu", "Pichu"
 			{
 			"%(raichu_pichu)"
 			}
-			when "sandshrew", "alolan sandshrew", "sandslash", "alolan sandslash"
+			when "Sandshrew", "Alolan sandshrew", "Sandslash", "Alolan sandslash"
 			{
 			"%(sandshrew_sandslash)"
 			}
-			when "nidoran", "nidorino", "nidorina", "nidoqueen", "nidoking"
+			when "Nidoran", "Nidorino", "Nidorina", "Nidoqueen", "Nidoking"
 			{
 			"%(nidoran_nidorino_nidorina_nidoqueen_nidoking)"
 			}
-			when "clefairy", "clefable", "cleffa"
+			when "Clefairy", "Clefable", "Cleffa"
 			{
 			"%(clefairy_clefable_cleffa)"
 			}
-			when "vulpix", "ninetales"
+			when "Vulpix", "Ninetales"
 			{
 			"%(vulpix_ninetales)"
 			}
-			when "jigglypuff", "wigglytuff", "igglybuff"
+			when "Jigglypuff", "Wigglytuff", "Igglybuff"
 			{
 			"%(jigglypuff_wigglytuff_igglybuff)"
 			}
-			when "zubat", "golbat", "crobat"
+			when "Zubat", "Golbat", "Crobat"
 			{
 			"%(zubat_golbat_crobat)"
 			}
-			when "oddish", "gloom", "vileplume", "bellossom"
+			when "Oddish", "Gloom", "Vileplume", "Bellossom"
 			{
 			"%(oddish_gloom_vileplume_bellossom)"
 			}
-			when "paras", "parasect"
+			when "Paras", "Parasect"
 			{
 			"%(paras_parasect)"
 			}
-			when "venonat", "venomoth"
+			when "Venonat", "Venomoth"
 			{
 			"%(venonat_venomoth)"
 			}
-			when "diglet", "dugtrio"
+			when "Diglet", "Dugtrio"
 			{
 			"%(diglet_dugtrio)"
 			}
-			when "meowth", "persian"
+			when "Meowth", "Persian"
 			{
 			"%(meowth_persian)"
 			}
-			when "psyduck", "golduck"
+			when "Psyduck", "Golduck"
 			{
 			"%(psyduck_golduck)"
 			}
-			when "mankey", "primeape", "ANNIHILAPE"
+			when "Mankey", "Primeape", "ANNIHILAPE"
 			{
 			"%(mankey_primeape_ANNIHILAPE)"
 			}
-			when "growlithe", "arcanine"
+			when "Growlithe", "Arcanine"
 			{
 			"%(growlithe_arcanine)"
 			}
-			when "poliwag", "poliwhirl", "poliwrath", "politoed"
+			when "Poliwag", "Poliwhirl", "Poliwrath", "Politoed"
 			{
 "%(poliwag_poliwhirl_poliwrath_politoed)"
 			}
-			when "abra", "kadabra", "alakazam"
+			when "Abra", "Kadabra", "Alakazam"
 			{
 			"%(abra_kadabra_alakazam)"
 			}
-			when "machop", "machoke", "machamp"
+			when "Machop", "Machoke", "Machamp"
 			{
 "%(machop_machoke_machamp)"
 			}
-			when "bellsprout", "weepinbell", "victreebel", "victreebell"
+			when "Bellsprout", "Weepinbell", "Victreebel", "Victreebell"
 			{
 			"%(bellsprout_weepinbell_victreebel_victreebell)"
 			}
-			when "tentacool", "tentacruel"
+			when "Tentacool", "Tentacruel"
 			{
 			"%(tentacool_tentacruel)"
 			}
-			when "geodude", "graveler", "golem"
+			when "Geodude", "Graveler", "Golem"
 			{
 			"%(geodude_graveler_golem)"
 			}
-			when "ponyta", "rapidash"
+			when "Ponyta", "Rapidash"
 			{
 			"%(ponyta_rapidash)"
 			}
-			when "slowpoke", "slowbro", "slowking"
+			when "Slowpoke", "Slowbro", "Slowking"
 			{
 			"%(slowpoke_slowbro_slowking)"
 			}
-			when "magnemite", "magneton", "magneton"
+			when "Magnemite", "Magneton", "Magneton"
 			{
 			"%(magnemite_magneton_magneton)"
 			}
-			when "farfetch'd"
+			when "Farfetch'd"
 			{
 			"%(farfetchd)"
 			}
-			when "doduo", "dodrio"
+			when "Doduo", "Dodrio"
 			{
 			"%(doduo_dodrio)"
 			}
-			when "seel", "dewgong"
+			when "Seel", "Dewgong"
 			{
 			"%(seel_dewgong)"
 			}
-			when "grimer", "muk"
+			when "Grimer", "Muk"
 			{
 			"%(grimer_muk)"
 			}
-			when "shellder", "cloyster"
+			when "Shellder", "Cloyster"
 			{
 			"%(shellder_cloyster)"
 			}
-			when "gastly", "haunter", "gengar"
+			when "Gastly", "Haunter", "Gengar"
 			{
 			"%(gastly_haunter_gengar)"
 			}
-			when "ONIX", "steelix"
+			when "ONIX", "Steelix"
 			{
 			"%(ONIX_steelix)"
 			}
-			when "drowzee", "hypno"
+			when "Drowzee", "Hypno"
 			{
 			"%(drowzee_hypno)"
 			}
-			when "krabby", "kingler"
+			when "Krabby", "Kingler"
 			{
 			"%(krabby_kingler)"
 			}
-			when "voltorb", "electrode"
+			when "Voltorb", "Electrode"
 			{
 			"%(voltorb_electrode)"
 			}
-			when "exeggcute", "exeggutor", "alolan exeggutor"
+			when "Exeggcute", "Exeggutor", "Alolan exeggutor"
 			{
 			"%(exeggcute_exeggutor)"
 			}
-			when "cubone", "marowak"
+			when "Cubone", "Marowak"
 			{
 			"%(cubone_marowak)"
 			}
-			when "lickitung", "lickilicky"
+			when "Lickitung", "Lickilicky"
 			{
 			"%(lickitung_lickilicky)"
 			}
-			when "koffing", "weezing"
+			when "Koffing", "Weezing"
 			{
 			"%(koffing_weezing)"
 			}
-			when "rhyhorn", "rhydon", "rhyperior"
+			when "Rhyhorn", "Rhydon", "Rhyperior"
 			{
 			"%(rhyhorn_rhydon_rhyperior)"
 			}
-			when "chansey", "blissey", "happiny"
+			when "Chansey", "Blissey", "Happiny"
 			{
 			"%(chansey_blissey_happiny)"
 			}
-			when "tangela", "tangrowth"
+			when "Tangela", "Tangrowth"
 			{
 			"%(tangela_tangrowth)"
 			}
-			when "kangaskhan"
+			when "Kangaskhan"
 			{
 			"%(kangaskhan)"
 			}
-			when "horsea", "seadra", "kingdra"
+			when "Horsea", "Seadra", "Kingdra"
 			{
 			"%(horsea_seadra_kingdra)"
 			}
-			when "goldeen", "seaking"
+			when "Goldeen", "Seaking"
 			{
 			"%(goldeen_seaking)"
 			}
-			when "staryu", "starmie"
+			when "Staryu", "Starmie"
 			{
 			"%(staryu_starmie)"
 			}
-			when "mr. mime", "mr.mime", "mr mime", "mime jr", "mime jr."
+			when "Mr. mime", "Mr.mime", "Mr mime", "Mime jr", "Mime jr."
 			{
 			"%(MrMime_MimeJr.)"
 			}
-			when "scyther", "SCIZOR", "KLEAVOR"
+			when "Scyther", "SCIZOR", "KLEAVOR"
 			{
 			"%(scyther_SCIZOR_KLEAVOR)"
 			}
-			when "jynx", "smoochum"
+			when "Jynx", "Smoochum"
 			{
 			"%(jynx_smoochum)"
 			}
-			when "electabuzz", "elekid", "Electivire"
+			when "Electabuzz", "Elekid", "Electivire"
 			{
 			"%(electabuzz_elekid_Electivire)"
 			}
-			when "magmar", "magby", "magmortar"
+			when "Magmar", "Magby", "Magmortar"
 			{
 			"%(magmar_magby_magmortar)"
 			}
-			when "pinsir"
+			when "Pinsir"
 			{
 			"%(pinsir)"
 			}
-			when "tauros"
+			when "Tauros"
 			{
 			"%(tauros)"
 			}
-			when "magikarp", "gyarados"
+			when "Magikarp", "Gyarados"
 			{
 			"%(magikarp_gyarados)"
 			}
-			when "lapras"
+			when "Lapras"
 			{
 			"%(lapras)"
 			}
-			when "ditto"
+			when "Ditto"
 			{
 			"%(ditto)"
 			}
-			when "eevee"
+			when "Eevee"
 			{
 			"%(eevee)"
 			}
-			when "vaporeon"
+			when "Vaporeon"
 			{
 			"%(vaporeon)"
 			}
-			when "jolteon"
+			when "Jolteon"
 			{
 			"%(jolteon)"
 			}
-			when "flareon"
+			when "Flareon"
 			{
 			"%(flareon)"
 			}
-			when "porygon", "porygon 2", "porygon-z", "porygon z"
+			when "Porygon", "Porygon 2", "Porygon-z", "Porygon z"
 			{
 			"%(Porygon_Porygon2_PorygonZ)"
 			}
-			when "omanyte", "omastar", "kabuto", "kabutops"
+			when "Omanyte", "Omastar", "Kabuto", "Kabutops"
 			{
 			"%(omanyte_omastar_kabuto_kabutops)"
 			}
-			when "aerodactyl"
+			when "Aerodactyl"
 			{
 			"%(aerodactyl)"
 			}
-			when "snorlax", "munchlax"
+			when "Snorlax", "Munchlax"
 			{
 			"%(snorlax_munchlax)"
 			}
-			when "zapdos"
+			when "Zapdos"
 			{
 			"%(zapdos)"
 			}
-			when "articuno"
+			when "Articuno"
 			{
 			"%(articuno)"
 			}
-			when "moltres"
+			when "Moltres"
 			{
 			"%(moltres)"
 			}
-			when "dratini", "dragonair", "dragonite"
+			when "Dratini", "Dragonair", "Dragonite"
 			{
 			"%(dratini_dragonair_dragonite)"
 			}
-			when "mew"
+			when "Mew"
 			{
 			"%(mew)"
 			}
-			when "mewtwo"
+			when "Mewtwo"
 			{
 			"%(mewtwo)"
 			}
-			when "cyndaquil", "quilava", "typhlosion", "totodile", "croconaw", "feraligatr", "chikorita", "bayleef", "meganium"
+			when "Cyndaquil", "Quilava", "Typhlosion", "Totodile", "Croconaw", "Feraligatr", "Chikorita", "Bayleef", "Meganium"
 			{
 			"%(cyndaquil_quilava_typhlosion_totodile_croconaw_feraligatr_chikorita_bayleef_meganium)"
 			}
-			when "sentret", "furret"
+			when "Sentret", "Furret"
 			{
 			"%(sentret_furret)"
 			}
-			when "hoothoot", "noctowl"
+			when "Hoothoot", "Noctowl"
 			{
 			"%(hoothoot_noctowl)"
 			}
-			when "ledyba", "ledian"
+			when "Ledyba", "Ledian"
 			{
 			"%(ledyba_ledian)"
 			}
-			when "spinarak", "ariados"
+			when "Spinarak", "Ariados"
 			{
 			"%(spinarak_ariados)"
 			}
-			when "chinchou", "lanturn"
+			when "Chinchou", "Lanturn"
 			{
 			"%(chinchou_lanturn)"
 			}
-			when "togepi", "togetic", "togekiss"
+			when "Togepi", "Togetic", "Togekiss"
 			{
 			"%(togepi_togetic_togekiss)"
 			}
-			when "natu", "xatu"
+			when "Natu", "Xatu"
 			{
 			"%(natu_xatu)"
 			}
-			when "mareep", "flaffy", "ampharos"
+			when "Mareep", "Flaffy", "Ampharos"
 			{
 			"%(mareep_flaffy_ampharos)"
 			}
-			when "marill", "azumarill", "azurill"
+			when "Marill", "Azumarill", "Azurill"
 			{
 			"%(marill_azumarill_azurill)"
 			}
-			when "sudowoodo", "bonsly"
+			when "Sudowoodo", "Bonsly"
 			{
 			"%(sudowoodo_bonsly)"
 			}
-			when "hoppip", "skiploom", "jumpluff"
+			when "Hoppip", "Skiploom", "Jumpluff"
 			{
 			"%(hoppip_skiploom_jumpluff)"
 			}
-			when "aipom", "ambipom"
+			when "Aipom", "Ambipom"
 			{
 			"%(aipom_ambipom)"
 			}
-			when "sunkern", "sunflora"
+			when "Sunkern", "Sunflora"
 			{
 			"%(sunkern_sunflora)"
 			}
-			when "yanma", "yanmega"
+			when "Yanma", "Yanmega"
 			{
 			"%(yanma_yanmega)"
 			}
-			when "wooper", "QUAGSIRE"
+			when "Wooper", "QUAGSIRE"
 			{
 			"%(wooper_QUAGSIRE)"
 			}
-			when "espeon", "umbreon"
+			when "Espeon", "Umbreon"
 			{
 			"%(espeon_umbreon)"
 			}
-			when "murkrow", "honchkrow"
+			when "Murkrow", "Honchkrow"
 			{
 			"%(murkrow_honchkrow)"
 			}
-			when "misdreavus", "mismagius"
+			when "Misdreavus", "Mismagius"
 			{
 			"%(misdreavus_mismagius)"
 			}
-			when "unown", "unknown"
+			when "Unown", "Unknown"
 			{
 			"%(unown_unknown)"
 			}
-			when "girafarig", "FARIGIRAF"
+			when "Girafarig", "FARIGIRAF"
 			{
 			"%(girafarig_FARIGIRAF)"
 			}
-			when "pineco", "forretress"
+			when "Pineco", "Forretress"
 			{
 			"%(pineco_forretress)"
 			}
-			when "dunsparce", "dudunsparce"
+			when "Dunsparce", "Dudunsparce"
 			{
 			"%(dunsparce_dudunsparce)"
 			}
-			when "gligar", "gliscor"
+			when "Gligar", "Gliscor"
 			{
 			"%(gligar_gliscor)"
 			}
-			when "snubbul", "granbull"
+			when "Snubbul", "Granbull"
 			{
 			"%(snubbul_granbull)"
 			}
-			when "qwilfish", "OVERQWIL"
+			when "Qwilfish", "OVERQWIL"
 			{
 			"%(qwilfish_OVERQWIL)"
 			}
-			when "shuckle"
+			when "Shuckle"
 			{
 			"%(shuckle)"
 			}
-			when "heracross"
+			when "Heracross"
 			{
 			"%(heracross)"
 			}
-			when "sneasel", "WEAVILE", "SNEASLER"
+			when "Sneasel", "WEAVILE", "SNEASLER"
 			{
 			"%(sneasel_WEAVILE_SNEASLER)"
 			}
-			when "teddiursa", "ursaring", "URSALUNA"
+			when "Teddiursa", "Ursaring", "URSALUNA"
 			{
 			"%(teddiursa_ursaring_URSALUNA)"
 			}
-			when "slugma", "magcargo"
+			when "Slugma", "Magcargo"
 			{
 			"%(slugma_magcargo)"
 			}
-			when "swinub", "piloswine", "mamoswine"
+			when "Swinub", "Piloswine", "Mamoswine"
 			{
 			"%(swinub_piloswine_mamoswine)"
 			}
-			when "corsola", "Galarian Corsola", "CURSOLA"
+			when "Corsola", "Galarian Corsola", "CURSOLA"
 			{
 			"%(Corsola_Cursola)"
 			}
-			when "remoraid", "octillery"
+			when "Remoraid", "Octillery"
 			{
 			"%(remoraid_octillery)"
 			}
-			when "delibird"
+			when "Delibird"
 			{
 			"%(delibird)"
 			}
-			when "mantine", "mantyke"
+			when "Mantine", "Mantyke"
 			{
 			"%(mantine_mantyke)"
 			}
-			when "skarmory"
+			when "Skarmory"
 			{
 			"%(skarmory)"
 			}
-			when "houndour", "houndoom"
+			when "Houndour", "Houndoom"
 			{
 			"%(houndour_houndoom)"
 			}
-			when "phanpy", "donphan"
+			when "Phanpy", "Donphan"
 			{
 			"%(phanpy_donphan)"
 			}
-			when "stantler", "WYRDEER"
+			when "Stantler", "WYRDEER"
 			{
 			"%(stantler_WYRDEER)"
 			}
-			when "smeargle"
+			when "Smeargle"
 			{
 			"%(smeargle)"
 			}
-			when "tyrogue", "hitmontop", "hitmonlee", "hitmonchan"
+			when "Tyrogue", "Hitmontop", "Hitmonlee", "Hitmonchan"
 			{
 			"%(tyrogue_hitmontop_hitmonlee_hitmonchan)"
 			}
-			when "miltank"
+			when "Miltank"
 			{
 			"%(miltank)"
 			}
-			when "raikou", "entei", "suicune"
+			when "Raikou", "Entei", "Suicune"
 			{
 			"%(raikou_entei_suicune)"
 			}
-			when "larvitar", "pupitar", "tyranitar"
+			when "Larvitar", "Pupitar", "Tyranitar"
 			{
 			"%(larvitar_pupitar_tyranitar)"
 			}
-			when "ho-oh"
+			when "Ho-oh"
 			{
 			"%(ho-oh)"
 			}
-			when "lugia"
+			when "Lugia"
 			{
 			"%(lugia)"
 			}
-			when "celebi"
+			when "Celebi"
 			{
 			"%(celebi)"
 			}
-			when "torchic", "combusken", "blaziken", "treecko", "grovyle", "sceptile", "mudkip", "marshtomp", "swampert"
+			when "Torchic", "Combusken", "Blaziken", "Treecko", "Grovyle", "Sceptile", "Mudkip", "Marshtomp", "Swampert"
 			{
 			"%(torchic_combusken_blaziken_treecko_grovyle_sceptile_mudkip_marshtomp_swampert)"
 			}
-			when "poochyena", "mightyena"
+			when "Poochyena", "Mightyena"
 			{
 			"%(poochyena_mightyena)"
 			}
-			when "zigzagoon", "linoone"
+			when "Zigzagoon", "Linoone"
 			{
 			"%(zigzagoon_linoone)"
 			}
-			when "wurmple", "solcoon", "beautifly", "cascoon", "dustox"
+			when "Wurmple", "Solcoon", "Beautifly", "Cascoon", "Dustox"
 			{
 			"%(wurmple_solcoon_beautifly_cascoon_dustox)"
 			}
-			when "lotad", "lombre", "ludicolo"
+			when "Lotad", "Lombre", "Ludicolo"
 			{
 			"%(lotad_lombre_ludicolo)"
 			}
-			when "seedot", "nuzleaf", "shiftry"
+			when "Seedot", "Nuzleaf", "Shiftry"
 			{
 			"%(seedot_nuzleaf_shiftry)"
 			}
-			when "taillow", "swellow"
+			when "Taillow", "Swellow"
 			{
 			"%(taillow_swellow)"
 			}
-			when "wingull", "pelipper"
+			when "Wingull", "Pelipper"
 			{
 			"%(wingull_pelipper)"
 			}
-			when "ralts", "kirlia", "gardevoir"
+			when "Ralts", "Kirlia", "Gardevoir"
 			{
 			"%(ralts_kirlia_gardevoir)"
 			}
-			when "surskit", "masquerain"
+			when "Surskit", "Masquerain"
 			{
 			"%(surskit_masquerain)"
 			}
-			when "shroomish", "breloom"
+			when "Shroomish", "Breloom"
 			{
 			"%(shroomish_breloom)"
 			}
-			when "slakoth", "vigoroth", "slaking"
+			when "Slakoth", "Vigoroth", "Slaking"
 			{
 			"%(slakoth_vigoroth_slaking)"
 			}
-			when "nincada", "ninjask"
+			when "Nincada", "Ninjask"
 			{
 			"%(nincada_ninjask)"
 			}
-			when "shedinja"
+			when "Shedinja"
 			{
 			"%(shedinja)"
 			}
-			when "whismur", "loudred", "exploud"
+			when "Whismur", "Loudred", "Exploud"
 			{
 			"%(whismur_loudred_exploud)"
 			}
-			when "makuhita", "hariyama"
+			when "Makuhita", "Hariyama"
 			{
 			"%(makuhita_hariyama)"
 			}
-			when "nosepass", "probopass"
+			when "Nosepass", "Probopass"
 			{
 			"%(nosepass_probopass)"
 			}
-			when "skitty", "delcatty"
+			when "Skitty", "Delcatty"
 			{
 			"%(skitty_delcatty)"
 			}
-			when "sableye"
+			when "Sableye"
 			{
 			"%(sableye)"
 			}
-			when "mawile"
+			when "Mawile"
 			{
 			"%(mawile)"
 			}
-			when "aron", "lairon", "aggron", "aaron" 
+			when "Aron", "Lairon", "Aggron", "Aaron" 
 {
 			"%(aron_lairon_aggron_aaron)" 
 }
-			when "meditite", "medicham"
+			when "Meditite", "Medicham"
 			{
 			"%(meditite_medicham)"
 			}
-			when "electrike", "manetric"
+			when "Electrike", "Manetric"
 			{
 			"%(electrike_manetric)"
 			}
-			when "plusle", "minun"
+			when "Plusle", "Minun"
 			{
 			"%(plusle_minun)"
 			}
-			when "volbeat", "illumise"
+			when "Volbeat", "Illumise"
 			{
 			"%(volbeat_illumise)"
 			}
-			when "roselia", "budew", "roserade"
+			when "Roselia", "Budew", "Roserade"
 			{
 			"%(roselia_budew_roserade)"
 			}
-			when "gulpin", "swalot"
+			when "Gulpin", "Swalot"
 			{
 			"%(gulpin_swalot)"
 			}
-			when "carvanha", "sharpedo"
+			when "Carvanha", "Sharpedo"
 			{
 			"%(carvanha_sharpedo)"
 			}
-			when "wailmer", "wailord"
+			when "Wailmer", "Wailord"
 			{
 			"%(wailmer_wailord)"
 			}
-			when "numel", "camerupt"
+			when "Numel", "Camerupt"
 			{
 			"%(numel_camerupt)"
 			}
-			when "tarkoal"
+			when "Tarkoal"
 			{
 			"%(tarkoal)"
 			}
-			when "spoink", "grumpig"
+			when "Spoink", "Grumpig"
 			{
 			"%(spoink_grumpig)"
 			}
-			when "spinda"
+			when "Spinda"
 			{
 			"%(spinda)"
 			}
-			when "trapinch", "vibrava", "flygon"
+			when "Trapinch", "Vibrava", "Flygon"
 			{
 			"%(trapinch_vibrava_flygon)"
 			}
-			when "cacnea", "cacturne"
+			when "Cacnea", "Cacturne"
 			{
 			"%(cacnea_cacturne)"
 			}
-			when "swablu", "altaria"
+			when "Swablu", "Altaria"
 			{
 			"%(swablu_altaria)"
 			}
-			when "zangoose"
+			when "Zangoose"
 			{
 			"%(zangoose)"
 			}
-			when "seviper"
+			when "Seviper"
 			{
 			"%(seviper)"
 			}
-			when "lunatone", "solrock"
+			when "Lunatone", "Solrock"
 			{
 			"%(lunatone_solrock)"
 			}
-			when "barboach", "wishcash"
+			when "Barboach", "Wishcash"
 			{
 			"%(barboach_wishcash)"
 			}
-			when "corphish", "crawdaunt"
+			when "Corphish", "Crawdaunt"
 			{
 			"%(corphish_crawdaunt)"
 			}
-			when "baltoy", "claydol"
+			when "Baltoy", "Claydol"
 			{
 			"%(baltoy_claydol)"
 			}
-			when "lileep", "craydily"
+			when "Lileep", "Craydily"
 			{
 			"%(lileep_craydily)"
 			}
-			when "anorith", "armaldo"
+			when "Anorith", "Armaldo"
 			{
 			"%(anorith_armaldo)"
 			}
-			when "feebas", "milotic"
+			when "Feebas", "Milotic"
 			{
 			"%(feebas_milotic)"
 			}
-			when "castform"
+			when "Castform"
 			{
 			"%(castform)"
 			}
-			when "kecleon"
+			when "Kecleon"
 			{
 			"%(kecleon)"
 			}
-			when "shuppet", "banette"
+			when "Shuppet", "Banette"
 			{
 			"%(shuppet_banette)"
 			}
-			when "duskull", "dusclops", "dusknior"
+			when "Duskull", "Dusclops", "Dusknior"
 			{
 			"%(duskull_dusclops_dusknior)"
 			}
-			when "tropius"
+			when "Tropius"
 			{
 			"%(tropius)"
 			}
-			when "chimecho", "chingling"
+			when "Chimecho", "Chingling"
 			{
 			"%(chimecho_chingling)"
 			}
-			when "absol"
+			when "Absol"
 			{
 			"%(absol)"
 			}
-			when "wynaunt", "wobbuffet"
+			when "Wynaunt", "Wobbuffet"
 			{
 			"%(wynaunt_wobbuffet)"
 			}
-			when "snorunt", "glalie", "froslass"
+			when "Snorunt", "Glalie", "Froslass"
 			{
 			"%(snorunt_glalie_froslass)"
 			}
-			when "spheal", "sealeo", "walrein"
+			when "Spheal", "Sealeo", "Walrein"
 			{
 			"%(spheal_sealeo_walrein)"
 			}
-			when "clamperl", "huntail", "gorebyss", "clampearl"
+			when "Clamperl", "Huntail", "Gorebyss", "Clampearl"
 			{
 			"%(clamperl_huntail_gorebyss_clampearl)"
 			}
-			when "relicanth"
+			when "Relicanth"
 			{
 			"%(relicanth)"
 			}
-			when "luvdisk"
+			when "Luvdisk"
 			{
 			"%(luvdisk)"
 			}
-			when "bagon", "shelgon", "salamence"
+			when "Bagon", "Shelgon", "Salamence"
 			{
 			"%(bagon_shelgon_salamence)"
 			}
-			when "beldum", "metang", "metagross"
+			when "Beldum", "Metang", "Metagross"
 			{
 			"%(beldum_metang_metagross)"
 			}
-			when "regirock", "registeel", "regigigas", "REGIELEKI", "REGIDRAGO", "REGICE"
+			when "Regirock", "Registeel", "Regigigas", "REGIELEKI", "REGIDRAGO", "REGICE"
 			{
 			"%(regirock_registeel_regigigas_REGIELEKI_REGIDRAGO_REGICE)"
 			}
-			when "latias", "latios"
+			when "Latias", "Latios"
 			{
 			"%(latias_latios)"
 			}
-			when "kyogre"
+			when "Kyogre"
 			{
 			"%(kyogre)"
 			}
-			when "groudon"
+			when "Groudon"
 			{
 			"%(groudon)"
 			}
-			when "rayquaza"
+			when "Rayquaza"
 			{
 			"%(rayquaza)"
 			}
-			when "jirachi"
+			when "Jirachi"
 			{
 			"%(jirachi)"
 			}
-			when "deoxys"
+			when "Deoxys"
 			{
 			"%(deoxys)"
 			}
-			when "turtwig", "grotle", "torterra", "chimchar", "monferno", "infernape", "piplup", "prinplup", "empoleon"
+			when "Turtwig", "Grotle", "Torterra", "Chimchar", "Monferno", "Infernape", "Piplup", "Prinplup", "Empoleon"
 			{
 			"%(turtwig_grotle_torterra_chimchar_monferno_infernape_piplup_prinplup_empoleon)"
 			}
-			when "starly", "staravia", "staraptor"
+			when "Starly", "Staravia", "Staraptor"
 			{
 			"%(starly_staravia_staraptor)"
 			}
-			when "bidoof", "bibarel"
+			when "Bidoof", "Bibarel"
 			{
 			"%(bidoof_bibarel)"
 			}
-			when "kricketot", "kricketune"
+			when "Kricketot", "Kricketune"
 			{
 			"%(kricketot_kricketune)"
 			}
-			when "shinx", "luxio", "luxray"
+			when "Shinx", "Luxio", "Luxray"
 			{
 			"%(shinx_luxio_luxray)"
 			}
-			when "carnidos", "rampardos"
+			when "Carnidos", "Rampardos"
 			{
 			"%(carnidos_rampardos)"
 			}
-			when "shieldon", "bastiodon"
+			when "Shieldon", "Bastiodon"
 			{
 			"%(shieldon_bastiodon)"
 			}
-			when "burmy", "wormadam", "mothim"
+			when "Burmy", "Wormadam", "Mothim"
 			{
 			"%(burmy_wormadam_mothim)"
 			}
-			when "combee", "vespiquen"
+			when "Combee", "Vespiquen"
 			{
 			"%(combee_vespiquen)"
 			}
-			when "pachirisu"
+			when "Pachirisu"
 			{
 			"%(pachirisu)"
 			}
-			when "buizel", "floatzel"
+			when "Buizel", "Floatzel"
 			{
 			"%(buizel_floatzel)"
 			}
-			when "cherubi", "cherrim"
+			when "Cherubi", "Cherrim"
 			{
 			"%(cherubi_cherrim)"
 			}
-			when "shellos", "gastrodon"
+			when "Shellos", "Gastrodon"
 			{
 			"%(shellos_gastrodon)"
 			}
-			when "driftloon", "drifblim"
+			when "Driftloon", "Drifblim"
 			{
 			"%(driftloon_drifblim)"
 			}
-			when "buneary", "lopunny"
+			when "Buneary", "Lopunny"
 			{
 			"%(buneary_lopunny)"
 			}
-			when "glameow", "purugly"
+			when "Glameow", "Purugly"
 			{
 			"%(glameow_purugly)"
 			}
-			when "stunky", "skunktank"
+			when "Stunky", "Skunktank"
 			{
 			"%(stunky_skunktank)"
 			}
-			when "bronzor", "bronzong"
+			when "Bronzor", "Bronzong"
 			{
 			"%(bronzor_bronzong)"
 			}
-			when "chatot"
+			when "Chatot"
 			{
 			"%(chatot)"
 			}
-			when "spiritomb"
+			when "Spiritomb"
 			{
 			"%(spiritomb)"
 			}
-			when "gible", "gabite", "garchomp"
+			when "Gible", "Gabite", "Garchomp"
 			{
 			"%(gible_gabite_garchomp)"
 			}
-			when "riolu", "lucario"
+			when "Riolu", "Lucario"
 			{
-			"%(riolu_lucario)"
+			"%(riolu_Lucario)"
 			}
-			when "hippowdon", "hippopotas"
+			when "Hippowdon", "Hippopotas"
 			{
 			"%(hippowdon_hippopotas)"
 			}
-			when "skorupi", "drapion"
+			when "Skorupi", "Drapion"
 			{
 			"%(skorupi_drapion)"
 			}
-			when "croagunk", "toxicroak"
+			when "Croagunk", "Toxicroak"
 			{
 			"%(croagunk_toxicroak)"
 			}
-			when "carnivine"
+			when "Carnivine"
 			{
 			"%(carnivine)"
 			}
-			when "finneon", "lumineon"
+			when "Finneon", "Lumineon"
 			{
 			"%(finneon_lumineon)"
 			}
-			when "snowver", "abomasnow"
+			when "Snowver", "Abomasnow"
 			{
 			"%(snowver_abomasnow)"
 			}
-			when "leafeon", "glaceon"
+			when "Leafeon", "Glaceon"
 			{
 			"%(leafeon_glaceon)"
 			}
-			when "gallade"
+			when "Gallade"
 			{
 			"%(gallade)"
 			}
-			when "rotom"
+			when "Rotom"
 			{
 			"%(rotom)"
 			}
-			when "uxie", "mesprit", "azelf"
+			when "Uxie", "Mesprit", "Azelf"
 			{
 			"%(uxie_mesprit_azelf)"
 			}
-			when "dialga", "palkia"
+			when "Dialga", "Palkia"
 			{
 			"%(dialga_palkia)"
 			}
-			when "heatran"
+			when "Heatran"
 			{
 			"%(heatran)"
 			}
-			when "giratina"
+			when "Giratina"
 			{
 			"%(giratina)"
 			}
-			when "cresselia"
+			when "Cresselia"
 			{
 			"%(cresselia)"
 			}
-			when "phione", "manaphy"
+			when "Phione", "Manaphy"
 			{
 			"%(phione_manaphy)"
 			}
-			when "darkrai"
+			when "Darkrai"
 			{
 			"%(darkrai)"
 			}
-			when "shaymin"
+			when "Shaymin"
 			{
 			"%(shaymin)"
 			}
-			when "arceus"
+			when "Arceus"
 			{
 			"%(arceus)"
 			}
@@ -2275,23 +2251,23 @@ OnAnchorSelect
 			{
 			"%(VICTINI)"
 			}
-			when "snivy", "SERVINE", "SERPERIOR", "tepig", "PIGNITE", "EMBOAR", "oshawott", "dewott", "samurott"
+			when "Snivy", "SERVINE", "SERPERIOR", "Tepig", "PIGNITE", "EMBOAR", "Oshawott", "Dewott", "Samurott"
 			{
 			"%(snivy_SERVINE_SERPERIOR_tepig_PIGNITE_EMBOAR_oshawott_dewott_samurott)"
 			}
-			when "patrat", "watchog", "watchhog"
+			when "Patrat", "Watchog", "Watchhog"
 			{
 			"%(patrat_watchog_watchhog)"
 			}
-			when "lilipup", "herdier", "stoutland"
+			when "Lilipup", "Herdier", "Stoutland"
 			{
 			"%(lilipup_herdier_stoutland)"
 			}
-			when "purrloin", "liepard"
+			when "Purrloin", "Liepard"
 			{
 			"%(purrloin_liepard)"
 			}
-			when "pansage", "simisage", "pansear", "simisear", "panpour", "simipour"
+			when "Pansage", "Simisage", "Pansear", "Simisear", "Panpour", "Simipour"
 			{
 			"%(pansage_simisage_pansear_simisear_panpour_simipour)"
 			}
@@ -2335,7 +2311,7 @@ OnAnchorSelect
 			{
 			"%(THROH_SAWK)"
 			}
-			when "swaddle", "SWADLOON", "LEAVANNY"
+			when "Swaddle", "SWADLOON", "LEAVANNY"
 			{
 			"%(swaddle_SWADLOON_LEAVANNY)"
 			}
@@ -2439,7 +2415,7 @@ OnAnchorSelect
 			{
 			"%(FRILLISH_JELLICENT)"
 			}
-			when "ALOMOMOLA", "alolamola"
+			when "ALOMOMOLA", "Alolamola"
 			{
 			"%(ALOMOMOLA)"
 			}

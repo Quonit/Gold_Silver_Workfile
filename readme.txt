@@ -31,9 +31,13 @@ Zarla - The Radic and Farnsworth ghost was VERY inspirational for this project. 
 
 Worm - Directly helped with coding the Pokédex
 
-Bulbapedia - I cannot stress enough how useful this website was. If I was working on this ghost, chances are this website was open. There is no way I could've accurately written about every single Pokémon without it. https://bulbapedia.bulbagarden.net/wiki
+Crash - For Rudimentary coding and googling knowledge (AKA helped code many aspects of the Pokéedex)
 
 Smogon - The wiki and its community were very helpful in many aspects, in particular providing 200+ pixel sprites (individual credits are found the same place the sprites are) https://www.smogon.com/
+
+Astro - Renamed and resized the 200+ pixel sprites for Gen 8 and 9
+
+Bulbapedia - I cannot stress enough how useful this website was. If I was working on this ghost, chances are this website was open. There is no way I could've accurately written about every single Pokémon without it. https://bulbapedia.bulbagarden.net/wiki
 
 WolfeyVGC - His videos about competative Pokémon were beyond helpful, especially his video on every single dual type. https://www.youtube.com/@WolfeyVGC
 
