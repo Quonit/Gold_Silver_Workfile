@@ -2212,7 +2212,7 @@ OnAnchorSelect
 			}
 			when "Patrat", "Watchog", "Watchhog"
 			{
-			"%(patrat_watchog_watchhog)"
+			"%(Patrat_Watchog)"
 			}
 			when "Lilipup", "Herdier", "Stoutland"
 			{

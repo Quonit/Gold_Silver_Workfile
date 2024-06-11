@@ -88,6 +88,19 @@ RandomTalk : nonoverlap
 		*/
 		//I had the idea while I was sleeping and was like "Hey wait, I don't need to edit the Dex entry, because the more elseifs I add to randomtalk after Dex entries justifies them a little more"
 	}
+	elseif notdun == 1
+	{
+		notdun == 0
+		/*
+		G: [Looking At dex] Ohhh Silver look!!! [Shoves dex in face] Shiny Dunsparce is pink!!!
+		S: Okay?
+		G: I want one now...
+		S: Don't find it yourself then.
+		G: No!!! Shiny hunting unethical.
+		S: You already have a shiny Pokémon anyways.
+		G: I think Konkurs would be happier with his friend just like him! He'd have someone to bond with.
+		*/
+	}
 	else
 	{
 	/*

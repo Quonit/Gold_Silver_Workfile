@@ -918,6 +918,9 @@ mareep_flaffy_ampharos
 }
 marill_azumarill_azurill
 {
+	addFlag(Marill)
+	addFlag(Azumarill)
+	addFlag(Azurill)
 //G: I don't have any idea why Kanto people call a Azumarill "Pikablue". It doesn't even look anything like a Pikachu!
 //G: But anyways, Tala has an Azumarill! He's got cute bunny ears... He was a Marill for so long though that that's how I usually imagine it, I forget he's evolved sometimes.
 //S: I assume it lacks its potential Fairy Type like your Gardevior?
@@ -941,9 +944,12 @@ G: He's tougher than he looks! Dylan and Kinzite were her most valuable Pokémon
 */
 }
 aipom_ambipom
-{
-
-}
+{/*
+	G: How can you tell which one of Ambipom's hands are it's writing hand?
+	S: I would assume they're ambidextrous.
+	
+	//my hand was injured for 5 months and all I got was ambidexterity
+*/}
 sunkern_sunflora
 {/*
 G: Have you ever heard of a \f[color,255,255,0]talking flower?\f[default]
@@ -998,8 +1004,8 @@ murkrow_honchkrow
 //G: Hey silver, don't you have a Murkrow?
 //S: No... There's one that follows me, but it doesn't seem interested in being caught.
 //S: I have no idea how it managed to follow me to Kanto, but I can tell it's the same one.
-//G: Aww, cute!
-//S: I believe it leaves me items sometimes. They're known to do that.
+//G: Aww, cute! I bet it likes youuu
+//S: I believe it leaves me items sometimes. They're known to do that...
 }
 misdreavus_mismagius
 {
@@ -1038,8 +1044,24 @@ pineco_forretress
 //G: I didn't even know... There are so many Pokemon, I can't always know all of them is all I thought.
 }
 dunsparce_dudunsparce
-{
-}
+{/*
+	addFlag(Dunsparce)
+	addFlag(Dudunsparce)
+	
+	G: I have a lot of /respect/ for Dunsparce.
+	S: Why? It's a useless Pokémon.
+	G: Exactly. People like you think everything has to have a "reason" to exist. But people don't have to justify being born! No one is born because they /deserve/ to have life, they just are.
+	S: Sure, but what does that have to do with Dunsparse?
+	G: /Everything./ If a species is pointless, that doesn't mean we should eradicate it. All life is beautiful and worth protecting, even if it doesn't directly benefit you. You don't really matter in the grand scheme of things.
+	S: ...I'm not sure if what you're trying to say is supposed to be motivational.
+	G: Maybe, if you work hard enough, one day you will understand.
+	S: It's not that I don't understand, I just think there are far more relevant things you could say. Like, saying you think Dudunsparce should be Ground/Flying instead of Normal Type, because you love dictating that sort of thing when it isn't your place.
+	G: Do you think Dudunsparce knows what the bottom of a Diglett looks like?
+	S: The bottom of a Diglett is fully documented, people just don't like looking at it.
+	G: I respect their privacy.
+	
+	notdun = 1
+*/}
 gligar_gliscor
 {/*
 	G: Silver had a Gliscor once! That thing was REALLY tough. I remember in the fight, it just kept healing itself so my Pokémon couldn't make any progress unless they did a really big hit.
@@ -1133,11 +1155,23 @@ swinub_piloswine_mamoswine
 {
 }
 Corsola_Cursola
-{
-	
-//I live in Jotoh! Corsola are all over the beaches there. They're friendly and pink and just, like, a nice water type I sometimes see people carry with them!!! I like Corsola!
-//have you SEEN what happened to them in Galar??? They're killing all the corsola!!! They killed them so much there's a ghost corsola now!!!!
-}
+{/*
+	G: So as you probably know, %(username), I'm from Johto, which is where Corsola are from!
+	G: They're friendly, pink, and a nice pleasant water type that's really popular. It's cute and I often see it with people, rocking back and forth cutely as a way of dancing.
+	G: Their bodies can have many different winding shapes, and it's really interesting to see what different ones look like! A lot of them have subtle color variations, different amounts of pink and blue, deeper or lighter shades of the colors, sometimes they're interlaced, it's always very interesting. It's a good Pokemon.
+	G: [Breathes in]
+	S: What?
+	G: [Falling to ground, devastated]
+	G: The Galarians killed it! They killed Corsola!
+	S: The ones here are still fine...
+	G: They polluted so much, the Corsola that lived there all became white and turned into Ghost Types! They killed them!!!! They killed them so much that it even evolves into /Cursola/, a Corsola that's body has decayed so much it's cracked open and its spirit floats sadly nearby!!!! Corsola doesn't even evolve normally here! They killed them so much they evolved!!!!!!!!!!!
+	G: It always breaks my heart just because of how many happy Corsola I see here! I can't stand what they've done to them!
+	S: It's not like this is a singular case... Muk /is/ native to Kanto.
+	G: Yeah, but Muk didn't /used/ to be a cute happy pokemon, it was always like that! Their pollution was contained!
+	G: I've made a vow to never go to Galar until they fix their Corsola.
+	S: I don't know... As a new variant of a Pokemon, it's likely to stay around for a long time even if they do fix the problem. It's not like they can just heal.
+	G: Just make the Cursola happy..... If that thing becomes content with its new existence, then I will too. But until then... Leave my cute pink monsters alone!
+*/}
 remoraid_octillery
 {/*
 	G: Did you know that artillery used to have shells??? They'd wear helmets and have armor around their body!
@@ -1162,8 +1196,14 @@ S: It's definitely far more of a hassle compared to other Pokemon... I've never 
 G: Poor thing! It's okay Delibird, I appreciate you.
 */}
 mantine_mantyke
-{
-}
+{/*
+	G: You ever touched a Mantine, %(username)?
+	G: They're so smooth!!! They come right up to your hand and its so pleasent and cuteee!
+	G: And they're so graceful when they jump out of the water to fly above you... They're so cool.
+	S: If you're such a big fan, why don't you have one? They're rather abundant in Johto.
+	G: Well... The first time I had the opportunity, I already had Honoa, and I didn't want to double up on Water Types. If I didn't catch a Chinchao, though, I probably would've had a Mantine,
+	//BW2 Gold from the future has one named Haté lol
+*/}
 skarmory
 {
 //G: Is Skarmory a normal Pokemon or a fossil Pokemon?
@@ -1424,6 +1464,7 @@ ralts_kirlia_gardevoir
 }
 surskit_masquerain
 {
+	addFlag(Masquerain)
 //S: Again, how did you get your hands on a Hoenn Pokemon in Johto? You can't find Masquerain here.
 //G: I'll be honest-
 //S: A first.
@@ -1847,12 +1888,15 @@ S: Whatever...
 }
 relicanth
 {
+	addFlag(Relicanth)
 //G: reli.. huh?
 //S: relicanth. It's a Rock/Water type Pokémon only found in the deep seas. It feeds on microscopic organisms. It's existed for millions of years without changing, and was once believed to be extinct.
 //Oh. What does it look like?
 //S: [shows pokedex]
 //G: ...It's a brown fish.
-//S: Since it lives deep undersea it has hard scales to protect it from the pressures of the ocean. And, since it's dark down there, no one is supposed to be looking at it for aesthetics.
+//S: Since it lives deep undersea it has hard scales to protect it from the pressures of the ocean. And, since it's dark down there, no one is supposed to be looking at it for aesthetics. Which seems to be all you care about.
+//G: You know what, the more I look at it, the more I'm changing my mind. This thing is epic. I like this old man fish now.
+//S: ??
 }
 luvdisk
 {
@@ -2349,6 +2393,15 @@ G: Thanks! I could always use your support.
 }
 snivy_SERVINE_SERPERIOR_tepig_PIGNITE_EMBOAR_oshawott_dewott_samurott
 {
+	addFlag(Snivy)
+	addFlag(Servine)
+	addFlag(Serperior)
+	addFlag(Tepig)
+	addFlag(Pignite)
+	addFlag(Emboar)
+	addFlag(Oshawott)
+	addFlag(Dewott)
+	addFlag(Samurott)
 //G: I feel bad for Snivy. Losing your arms gotta be tough.
 //S: To be fair, they look fairly flimsy anyways.
 //G: Have you ever thought that Emboar looks a lot like a pot?
@@ -2357,8 +2410,10 @@ snivy_SERVINE_SERPERIOR_tepig_PIGNITE_EMBOAR_oshawott_dewott_samurott
 //S: Don't try it.
 //G: I don't know any Samurott anyways.
 }
-patrat_watchog_watchhog
+Patrat_Watchog
 {/*
+	addFlag(Patrat)
+	addFlag(Watchog)
 G: I've heard some people say Patrat and Watchog aren't cute, and have weird eyes.
 G: As an EXPERT on all things cute... How dare you! /CLEARLY/ you've never seen them in action!
 G: They think that they're tough bodyguards, they do! They don't even realize how small they are! It's adorable how seriously they take themselves!
@@ -2398,6 +2453,8 @@ G: Hehehe.
 }
 MUNNA_MUSHARNA
 {
+	addFlag(Munna)
+	addFlag(Munsharna)
 //G: They're used for aromatherapy or something, which you know it sounds cool. I don't really know a lot about perfume or whatever.
 //G: What I do know is that aromatherapy isn't something for me. Really strong smells can give me headaches...
 //S: That's... not normal.
@@ -2439,6 +2496,8 @@ S: Uhhggg.
 }
 WOOBAT_SWOOBAT
 {/*
+	addFlag(Woobat)
+	addFlag(Swoobat)
 G: I know Woobat evolves into Swoobat... what does it look like again...? [Opens dex]
 G: Awww! Silver look, it has a heart nose!
 S: [Ignoring him]
@@ -2490,6 +2549,8 @@ G: You never care about anything, huh?
 }
 THROH_SAWK
 {/*
+	addFlag(Throh)
+	addFlag(Sawk)
 G: Throh and Sawk are pretty interesting when thought of as counterparts to Hitmonlee and Hitmonchan. I mean- they're very similar-
 S: Except they don't have a shared pre-evolution that can evolve into three different things.
 G: I think I like them more! They're fun. Brightly colored. It's more obvious where they eat instead of whatever Hitmonlee has goin' on.
@@ -2607,6 +2668,9 @@ SIGILYPH
 }
 YAMASK_COFAGRIGUS_Runerigus
 {/*
+	addFlag(Yamask)
+	addFlag(Cofagrigus)
+	addFlag(Runerigus)
 G: So Yamask and Cofagrigus are Ghost Types, right?
 S: Pure Ghost, yes.
 G: In that case, what kind of dead thing are they?
@@ -2628,6 +2692,9 @@ S: It wouldn't be impossible, just a lot of effort.
 }
 TIRTOUGA_CARRACOSTA
 {/*
+	addFlag(Tirtouga)
+	addFlag(Carracosta)
+	
 G: Oh, isn't that Pokémon an ancient relative of Squirtle?
 S: Its possible... It's harder to track Pokemon evolution compared to animal evolution just because of how much more they change... Traits a Pokémon aquires through their life can be passed down to the next generation...
 G: Like egg moves!
@@ -2694,6 +2761,9 @@ SOLOSIS_DUOSION_REUNICLUS
 }
 DUCKLETT_SWANNA
 {/*
+	addFlag(Ducklett)
+	addFlag(Swanna)
+	
 	G: How soft is Ducklett?
 	S: ...I suppose it would depend on how well they're groomed...?
 	G: I heard baby birds are always the /softest./
@@ -2877,10 +2947,11 @@ MIENFOO_MIENSHAO
 }
 DRUDDIGON
 {
+	addFlag(Druddigon)
 //G: What's that?
 //S: A dragon pokemon. [shows pokedex]
 //G: I've NEVER seen that in my life.
-//S: "The Cave Pokemon. It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.
+//Dex: "The Cave Pokemon. It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.
 //G: Why is it in CAVES if it needs SUNLIGHT? Caves don't have sunlight! Banco had to be dragged out of a cave for that VERY REASON!
 }
 GOLETT_GOLURK
@@ -2898,6 +2969,9 @@ BOUFFALANT
 //S: It's not.
 //G: THAT LOOKS SO MUCH LIKE TOUROS THOUGH
 //S: Not related as far as we know.
+//G: The scientists just need to try harder to find the connection, then.
+//S: You ever head of cognitive bias?
+//G: No, never. Going into a science experiment trying to get a specific result will never tilt the data points at all.
 }
 RUFFLET_BRAVIARY
 {
@@ -4174,6 +4248,7 @@ TINKATINK_TINKATUFF_TINKATON
 }
 WIGLETT_WUGTRIO
 {
+	//ad typo for wigglet
 }
 BOMBIRDIER
 {
