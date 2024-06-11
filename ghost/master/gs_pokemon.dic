@@ -278,13 +278,23 @@ bellsprout_weepinbell_victreebel_victreebell
 //G: I'm dead serious dude!
 }
 tentacool_tentacruel
-{
-//G: So Cinnibar blew up.
-//S: O_O
-//G: The gym leader moved to these nearby islands, but the easiest way there for me was by surfing with Hoana.
-//G: If I had a Pokedollar for every Tentacool and Tentacruel I saw, I would be able to buy my Mom and Drugia a vacation house.
-//G: I'm just glad that Hoana is part electric types! It keeps most of the common water types away.
-}
+{/*
+	G: Oh, Silver, didn't you used to have a Tentacruel?
+	S: I did.
+	G: That's right, I remember! It's the Pokémon you surfed on while we were at the Lake of Rage! Man, that thing was /scary/ looking.
+	S: It did try to kill me...
+	G: What!? Like, in retaliation?
+	S: No. I first found it out in the wild. I didn't notice it, and when it got too close it grabbed me and tried to drown me.
+	G: And you managed to catch it in a Pokéball??
+	S: It's not like my other Pokémon could fight it underwater. They'd likely just drown or kill me.
+	G: That's /lucky/. I had no idea you came so close to death!
+	S: Of the Pokémon I released, the Tentacruel was the one I was most reluctant to free because of how useful it had been to me... However it was only ever a tool or trophy, so I let it go.
+	G: So /that's/ why you don't have a Water Type, since you never needed anything other than the Tentacruel and never got anything else to replace it.
+	S: Mhm.
+	G: You're so cool.
+	S: Whatever.
+	//the part he didn't mention is that he didn't notice it because he was busy saving a drowning kitten (his sneasel)
+*/}
 geodude_graveler_golem
 {
 //G: For a long time I thought Geodude and Graveler were independent Pokemon. It must suck to lose the ability to FLOAT! I wish I could float.
@@ -295,7 +305,12 @@ ponyta_rapidash
 //G: Hey Silver, do people ride Rapidash?
 //S: *They're on fire.*
 //G: Well someone has to've.
-}
+/*
+G: [with dex] Ohh, see here, it says that its fire mane will burn anyone who touches... /Unless/, it's someone they trust.
+S: Psh.
+G: I know, Pokemon trusting humans? Unbelievable!
+S: [Shy look down] Whatever...
+*/}
 slowpoke_slowbro_slowking
 {
 //G: They %(username) did you know that Slowbro is the only Pokemon that can de-evolve?
@@ -429,10 +444,16 @@ lickitung_lickilicky
 //G: I've been to Kanto now. I know better. There's just some things they don't photograph...
 }
 koffing_weezing
-{
-//There aren't THAT many Poison Types native to Jotoh. Just... If you're traveling to somewhere else, like Kanto... bring a mask.
-//It's a good idea in general, but between the Powder the grass and bug types throw at you and the Weezing...
-}
+{/*
+	addFlag(Koffing)
+	addFlag(Weezing)
+	
+	G: Tip most people won't tell you for if you want to be a Pokémon Trainer:
+	G: Bring a mask.
+	G: It's useful for if you're sick, sure, but there are just... a lot of Pokémon attacks that are /not/ good to breath in. And especially if you're going somewhere like Kanto where you could run into Pokémon literally named /coughing/ and /wheezing/, it's imperitive to keep them on hand.
+	S: Breathing in the powder moves most Bug and Grass Type Pokémon learn can also lead to days long sickness...
+	G: /Right./ Especially if you're traveling alone, you don't want to end up suddenly sleeping in the middle of the forest for days! You'll wake up eventually, but that's not gonna be fun at /all/!
+*/}
 rhyhorn_rhydon_rhyperior
 {
 //G: I HEARD that rhydon is the first ever pokemon.
@@ -462,15 +483,22 @@ kangaskhan
 //G: Boooo Team Rocket!
 }
 horsea_seadra_kingdra
-{
-//G: First time I encountered a Kingdra, I was surprised! I didn't know Horsea had a third evolution. Especially one that was part Dragon.
-//G: It would've been really useful if Silklay knew any Fairy moves at the time. Atticus was at a disadvantage because he can't jump very high.
-//G: I still haven't beaten the guy with it!
-//S: You've battled them more than once?
-//G: Yeah, he's really powerful. I respect him a lot.
-//S: ...?
-//G: I'm not telling you who it is!
-}
+{/*
+	G: I had noooo /idea/ horsea evolved into a Dragon Type for the longest time. They're just so cute and common! Who knew they could turn into something so strong!
+	S: The first stages of Dragon Types are usually very weak. It's a common trait among them, that they take a long time to raise to full power.
+	G: Well, part of the reason I was so surprised when I first really connected the dots is because Horsea kind of kicks ass on its own sometimes. Like, it's a perfectly fine Water Type. Nothin' ta sneeze at.
+	S: It's /significantly/ better as Kingdra.
+	G: Maybe some of 'em are! I feel that a really well trained Horsea could easily match most Seadra.
+	S: But if that well-trained pokemon had more power...
+	G: Are you just mad that the champion had one?
+	S: Hmph.
+	G: Horsea doesn't even get its Dragon Type 'till it's fully evolved, it didn't need that to succeed!
+	S: Do you know that to evolve a Seadra into a Kingdra involves trading it?
+	G: CRUEL honestly.
+	S: That's most likely why you didn't know about its final evolution for so long. Most trainers wouldn't want to trade their Kingdra away.
+	G: I could never trade any of mine away, unless it was someone I really knewww... Like you!
+	S: Hm.
+*/}
 goldeen_seaking
 {
 //In the big League Tornement, if there's a water Pokemon they'll change half the stage to a biiiig pool.
@@ -525,9 +553,26 @@ S: I'll believe it when I see it.
 */
 }
 electabuzz_elekid_Electivire
-{
-
-}
+{/*
+	G: Electivire looks so big and huggable!!!
+	S: Huh?
+	G: It's so fluffy and has really big arms! It looks so friendly.
+	S: It's... I don't think most people see it that way...?
+	G: What? Do they disagree it has fur?
+	S: I believe most people see it as physically intimidating...?
+	G: Gasp... you're scared of the big furry poket monster?
+	S: I'm not.
+	G: It's okay, I won't let it hurt you~
+	S: Shut up. I'm not scared.
+	G: Think about it this way! The only Type supereffective against Electric Types is Ground Types, which I have and you don't.
+	S: I don't need help.
+	G: Really? If I just been paying for every single expense you've had in the last year, housing you, negotiating with the professor to let you keep your starter, getting you out of legal trouble, for no reason then?
+	S: Well-
+	G: Does that mean you're following me not because you need the money, but because you /like me/?
+	S: That's not the same thing as "being protected from dangerous Pokémon".
+	G: It's okay, you don't need to ask. I'll do it anyways. I know how you are.
+	S: Uhg.
+*/}
 magmar_magby_magmortar
 {/*
 S: I never had "a Groudon", I never had a Fire/Ground elemental, I had a mono Fire Magmortar.
@@ -996,9 +1041,25 @@ dunsparce_dudunsparce
 {
 }
 gligar_gliscor
-{
-//
-}
+{/*
+	G: Silver had a Gliscor once! That thing was REALLY tough. I remember in the fight, it just kept healing itself so my Pokémon couldn't make any progress unless they did a really big hit.
+	S: Its ability to heal from poison was something I took advantage of frequently to great success.
+	G: So why'd you get rid of it? If it was doing well.
+	S: ...In order to get it to heal from poison, it had to be poisoned first. You can't garuntee your opponant will have a Poison Type, let alone try to inflict Poison, so I... taught it Toxic and had it poison itself before every battle... by stinging itself with its own tail.
+	G: ...Ouch.
+	S: I traded it when I traded away most of my Pokémon. I wanted it to find a better home.
+	G: Poor you...
+	S: Poor /me/? I wasn't the one being forced to stab myself.
+	G: Of course poor you! You're sad! Just because someone else felt pain in the past doesn't mean you don't matter now.
+	G: I bet Gliscor is doing really well in its new home, happy to be with its new trainer, and feels a lot less negative emotions about its past that you do. There's no point in refusing to forgive yourself.
+	S: How else can someone learn from their mistakes?
+	G: Forgiving isn't the same as forgetting. You may have attacked my poor defensless baby Ralts, and I'm not happy that it happened, but I know you're a different person now that has grown and change and wouldn't do the same thing again! I'd get upset if you did it AGAIN, but I've forgiven you because I know you won't.
+	S: ...Hmph.
+	G: Trust the judgement of those around you! Me and your Pokemon all like you, and when it comes to worrying about "not treating others well", you should probably leave that up to the people you think you're hurting.
+	S: Maybe.
+	G: [Hug]
+	S: >:T
+*/}
 snubbul_granbull
 {
 //G: Ok, Silver. Snubbul: Cute or not?
@@ -1040,11 +1101,29 @@ heracross
 {
 }
 sneasel_WEAVILE_SNEASLER
-{
-
-}
+{/*
+	addFlag(Sneasel)
+	addFlag(Weavile)
+	addFlag(Sneasler)
+	
+	G: What was its name again? "Midnight"?
+	S: I don't name my Pokémon.
+	G: Then how did you know I was talking about /your/ Weavile?
+	S: Whatever.
+	G: Honestly, you having a Weavile is /so/ predictable. You basically look like one.
+	S: It's not like I actually used it all that often.
+	G: Yeah, instead of battling with it you carried it around like a /baby/.
+	S: Did not.
+	G: You still do! That thing climbs up your arms all the time to sit on your shoulders.
+	S: Babies don't do that.
+	G: One time %(username), I caught him sleeping with the Weavile sleeping on top of him. It curls up just like a Skitty! And it's just as soft as one! Midnight loves getting head scratches and pets.
+	S: Weavile aren't household pets.
+	G: But you sure do treat it like one!
+	S: >_<
+*/}
 teddiursa_ursaring_URSALUNA
 {
+	//silv had one of em
 }
 slugma_magcargo
 {
@@ -1055,12 +1134,18 @@ swinub_piloswine_mamoswine
 }
 Corsola_Cursola
 {
+	
 //I live in Jotoh! Corsola are all over the beaches there. They're friendly and pink and just, like, a nice water type I sometimes see people carry with them!!! I like Corsola!
 //have you SEEN what happened to them in Galar??? They're killing all the corsola!!! They killed them so much there's a ghost corsola now!!!!
 }
 remoraid_octillery
-{
-}
+{/*
+	G: Did you know that artillery used to have shells??? They'd wear helmets and have armor around their body!
+	G: I bet they're glad they don't have to carry those around everywhere anymore! Sure looks inconvenient. It must be nice to be able to stretch their limbs to their fullest without the heavy plating.
+	S: It probably provided a higher defense... It's not even like they gained a significant speed benefit from it either.
+	G: What about emotionally though? Surely they feel better that they don't have to wear it their entire lives. That's definitely way more important than if they're "useful", after all.
+	S: ...Sure.
+*/}
 delibird
 {/*
 G: Delibird is soooo cute! It's round and fluffy with so many feathers. It's got such a nice face too, cute big eyes and fluff fraying off it! It just looks so happy...
@@ -1274,8 +1359,13 @@ S: I can't imagine it's /too/ bad. At least they're only being used for somethin
 G: Maybe one day I'll go to Hoenn and get a Zigzagoon, And then actually train it. Then go meet Bonco's cousins, of course.
 */
 }
-wurmple_solcoon_beautifly_cascoon_dustox
+wurmple_silcoon_beautifly_cascoon_dustox
 {
+		addFlag(Wurmple)
+		addFlag(Silcoon)
+		addFlag(Beautifly)
+		addFlag(Cascoon)
+		addFlag(Dustox)
 //S: There's still no reliable way to find out if a wurmple will evolve into a dustox or beautifly... If you're wanting to get a specific one, it's easier to catch them in their cacoon states.
 //G: But isn't that part of the fun? Either way that wurmple is your friend, so it'll be a surprise for both of you. And you'll still love it either way.
 }
@@ -1511,8 +1601,26 @@ wailmer_wailord
 {
 }
 numel_camerupt
-{
-}
+{/*
+	addFlag(Numel)
+	addFlag(Camerupt)
+	
+	G: The /other/ Ground/Fire Type that isn't Groudon!
+	S: ...Groudon isn't a Ground/Fire Type.
+	G: What? Of course it is! It's red! And volcanoes are a big part of forming the geography.
+	S: Well... There is a /theorized/ sort of Mega Groudon that gains a Fire Typing...
+	G: Ohh, really?? Mega Groudon sounds TERRIFYING.
+	S: It's not quite the same thing as other Mega evolutions... And it's never been documented in modern history.
+	S: Despite that, if I had a Camerupt instead of a Magmortar, it would at /least/ make a /little/ more sense for you to pretend it was a Groudon instead. At least Camerupt is /part/ Ground Type. Magmortar is just a Fire Type.
+	G: Pretending it was a Fire/Ground Type makes it more devistating that Honoa was fainted at the time. Water attacks would've saved me there.
+	S: I doubt your young Chinchao could've made any substancial impact on a /real/ Groudon. It wouldn't even have a 4x weakness because it's not part Fire Type.
+	G: You never know! He /did/ just defeat a Ho-Oh at that point.
+	S: [Sigh]
+	G: Would you have even been interested in a Camerupt anyways? I feel like Pokémon with huge common weaknesses like /Water/ would've bothered you.
+	S: If it was avalible for what I would've seen as a low price I might've picked it up, but also probably would've tried to trade it once I saw another option later depending on how I rated its preformance...
+	G: All about the numbers, huh?
+	S: That's how I was.
+*/}
 tarkoal
 {
 }
@@ -1636,8 +1744,13 @@ castform
 //G: Oh, those are the people that tell weather. Well, that sounds useful.
 }
 kecleon
-{
-}
+{/*
+	G: Fighting a Kecleon would be soooooo easy for Honoa. Kecleon changes to the first Type you hit it with, SO, first a Water attack, then an Electric attack! Easy!
+	S: I'd hope the Kecleon's trainer would be smart enough to not let that happen...
+	G: Same goes for Banco! Grass attack, Flying attack!
+	S: Well, most of your Tropius is attacks are strength based not precision based. Keckley on our naturally good hiders, and I believe fast enough that most of them could get out of the way before you could hit it.
+	G: Then we'll have to bring back an old friend... The humble Gust attack. Have fun trying to dodge /air/!
+*/}
 shuppet_banette
 {
 //G: Hey Silver, don't you have a Banette?
@@ -1752,8 +1865,17 @@ luvdisk
 //G: Pfff, it's going to be like Magneton where it's just three of them glued together.
 }
 bagon_shelgon_salamence
-{
-}
+{/*
+	addFlag(Bagon)
+	addFlag(Shelgon)
+	addFlag(Salamence)
+	
+	G: I always found the story of Bagon wanting to fly so touching, knowing one day they'll be able to achieve their dreams!
+	S: It's cute until a Bagon hurts itself jumping off a cliff.
+	G: No, their bodies are super strong in order to survive that kind of tumblr! It's a natural part of growing up for them!
+	S: They might survive but they still fell off a clif they can't climb back up. Many trainers lose their Bagon this way.
+	G: Awww, that's so sad!!! A hardened body and a hardened soul are needed for this guy to get through childhood...
+*/}
 beldum_metang_metagross
 {
 //G: I remember when I actually pretty recently saw a picture of Beldum... I thought it was so weird, because I felt like I had never seen that Pokemon before!
@@ -2068,8 +2190,19 @@ croagunk_toxicroak
 {
 }
 carnivine
-{
-}
+{/*
+	addFlag(Carnivine)
+	
+	G: Bitey fish.
+	S: What? No. You're thinking of Carvana. Carnivine is a Grass Type.
+	G: Ohhhh riiiiight I remember now. They're terrifying!
+	S: Are they?
+	G: Have you ever seen one with its mouth wise open??? Its all planty on the outside but inside its MOUTH it's PINK AND FLESHY. It can turn the top of its head /upsidedown/ while its bottom jaw stays in the same place. It's awful!
+	S: It's not that much worse than most other living things.
+	G: Other living things can't open their mouths so wide. It makes it easier to ignore their horrific insides. Mouths in general are terrifying if you think about it. It's like... an opening to the gorey insides. It's really scary if you think about it...
+	S: ...No its not?
+	G: No one understands me.
+*/}
 finneon_lumineon
 {
 //G: finneon sounds like a name.
@@ -2170,11 +2303,27 @@ phione_manaphy
 //S: They could fill a library with the things that don't make sense to you.
 }
 darkrai
-{
+{/*
+	G: Let me guess.
+	G: Darkrai is a Dark Type, isn't it?
+	S: Have you never heard of Darkrai before?
+	G: Kind of? What is it.
+	S: It's a Pokémon that lives in dreams. Normally, humans never see it, but its presence is still felt when it spreads nightmares to those around it.
+	S: It's very difficult to capture, due to its imperceptability, but it is very strong.
+	G:  Ooo, are there any in Johto?
+	S: Again, they're hard to find. There haven't been any sightings in Johto or Kanto, but it's not impossible they exist here.
+	G: a REAL lurker in the shadows, heh.
+*/
+	addFlag(Darkrai)
 }
 shaymin
-{
-}
+{/*
+	G: Tala loves Shaymin!!!! She's a grass trainer- Well, more of a garden trainer. She mostly loves grass types, though. And she thinks Shaymin is the cutest! If only they lived around here.
+	S: It's /incredibly/ rare, even outside of Kanto and Johto. I don't think you'll be able to find it in the wild, or through conventional trading methods.
+	G: It's fur looks exactly like grass, it's /too good/ at hiding. But I'm going to keep my eyes open. /Wide/ open.
+	S: Good luck?
+	G: Thanks!
+*/}
 arceus
 {/*
 G: So how can Arceus have created the world if Mew is the oldest ancestor to all Pokémon? Does Arceus not count as a Pokémon, or is Mew older than the world?
@@ -2430,9 +2579,20 @@ MARACTUS
 //G: Could be!!!!
 }
 Dwebble_Crustle
-{
-//G: Dweeble
-}
+{/*
+	G: Dweeble.
+	S: It's /Dwɛbb/le.
+	G: And yet every time I see the word, I can only think Dweeble.
+	S: Whatever.
+	G: It reminds me a lot of Paras, actually. Just instead of mushrooms, it has rocks!
+	S: Well, unlike Parasect, Dwebble aren't physically attacked to ttheir rocks and often move between them.
+	G: When they find the perfect rock home they want to live in forever do they evolve into Crustle?
+	S: No, Crustle is still just carrying the rock. It's just stronger so it can carry bigger ones.
+	G: Psh, too bad mushrooms aren't as interchangable. A rock can't take over the mind of its host the same way!
+	G: ...Can it?
+	S: Not the ones Crustle carries.
+	G: Yaaaay!
+*/}
 SCRAGGY_SCRAFTY
 {/*
 G: What's the deal with Pokemon who have "clothes" that don't fit? Both Scraggy and Ralts!
@@ -2513,14 +2673,40 @@ G: THE DISTANCE BETWEEN US BREAKS MY HEART EVERY DAY...
 */
 }
 GOTHITA_GOTHORITA_GOTHITELLE
-{
-}
+{/*
+	G: I feel like Gothitelle could be a Dark Type. Maybe a Dark/Psychic Type, but maybe just a mono Dark!
+	S: It's powers are very based on the psychic element though, it has very little to do with darkness.
+	G: It's GOTH and MOSTLY DARK COLORED.
+	S: Appearances are never the most important thing about a pokémon.
+	G: But they're definitely not meaningless! Take Sudowoodo for example. If it didn't disguise itself as a tree, then it's basically just a rock! Same with Mimikyu.
+	S: there are some exceptions.
+	G: You said "never".
+	S: Just because you're so overly focused on looks. It's to compensate.
+	G: Well yeah, of course I'm focused on looks! I am /seeing them/ with my /eyes/. That is the way that I know most pokemon. I haven't seen the large majority of them battle, nor do I know their powers in intimate detail.
+	S: I don't know if I'd say that my knowledge is "intimate"...
+	G: Did you learn about most Pokemon in black and white encyclopedias? Where the image is just there to give you an idea, but most of what you're looking at is the text?
+	S:  Whatever.
+	G: Anyways, back on topic too the Gothita line's looks, I feel like I'd like them a lot more if they didn't have that fake lipstick. Those are aren't even their actual lips! They're just markings around their mouth. I think they look a little strange. Now, I'm all for it if that's what they want to look like, it's just not really my sort of thing. Everything else is good though.
+	//deleted line "You're lucky I'm so focused on looks because otherwise I wouldn't be letting you follow me around"
+*/}
 SOLOSIS_DUOSION_REUNICLUS
 {
 }
 DUCKLETT_SWANNA
-{
-}
+{/*
+	G: How soft is Ducklett?
+	S: ...I suppose it would depend on how well they're groomed...?
+	G: I heard baby birds are always the /softest./
+	S: I mean, a lot of the younger ones have down feathers, but they grow out of it...
+	G: [With dex] Ah Swanna... So elegant...
+	S: You know, they try to take the best pictures possible for the dex. They aren't actually representative of most of the species.
+	G: But, you see, if I ever caught one I would /make them/ stand out members. You have no idea how much time I spend making my Pokemon look their best.
+	S: I think I actually do, considering I travel with you... It honestly seems like such a waste of time. If you want to keep them pretty, why are they battling in the dirt?
+	G: They're happy when they're clean! It's like a bonding thing. And don't act like you don't do it too.
+	S: Sure, but I don't battle. And it's not as excessive...
+	G: That's what you /say/, but given how much time you spend on your own hair I can't buy for a minute that you don't care about appearance.
+	S: Uhg.
+*/}
 VANILLITE_VANILLISH_VANILLUXE
 {/*
 G: So, Silver, what do /you/ think of the /Ice Cream/ Pokémon?
@@ -2648,7 +2834,7 @@ S: To be /perfectly/ clear: Beartic is the Pokemon I used to have. To get it, I 
 S: I already had an Onix because I caught one while I was traveling through a cave, thinking it would be valuable for trading.
 S: Onix has the unfortunate Rock/Ground Type, one of the worst dual types there is with two four times weaknesses to Grass and water, two types that nearly every trainer has, then a weakness to fighting, ground, steel, and ice.
 S: Steelix however drops the rock type for a steel type, which makes it a ground/steel type. This is orders of magnitude better than what it used to be, and it only evolves into Steelix when traded with a metal coat, making it a valuable pokemon.
-S: I had to go out and find a metal coat. My at-the-time Sneasel knew the move Thief and we managed to find one on a wild Magnemite.
+S: I had to go out and find a metal coat. One of my Pokemon at the time knew the move Thief and we managed to find one on a wild Magnemite.
 S: I got the Metal Coat, Went back to the Pokécenter, found the same trade offer still up, then traded that low value Onix for the higher value Beartic.
 S: /I know it's wrong to rank Pokemon by being high value or low value, I'm just explaining my thought process at the time./
 S: The Beartic did well in training, so when I battled Gold again I used it. His Houndour defeated it so quickly that the next chance I got I went back to the Pokécenter I traded it away for a different Pokémon.
@@ -2666,8 +2852,18 @@ SHELMET_ACCELGOR
 {
 }
 STUNFISK
-{
-}
+{/*
+	addFlag(Stunfisk)
+	
+	G: Isn't Stunfisk the one that looks like a run over bird? A pancake sort of Pokémon?
+	S: I guess...??
+	G: None of that is meant as an insult, by the way. I love them. I just hope if I end up in a room with them one day I won't accidentally step on it.
+	S: You really wouldn't want to... They're very dangerous if provoked. They'd most likely try to eletricute you in self defence...
+	G: I almost FORGOT they were Electric Types! Man, how many other Ground/Electric Types are there?
+	S: None...?
+	G: SICK. Give this thing a crown.
+	//Sandy Shocks is not real it can't hurt you
+*/}
 MIENFOO_MIENSHAO
 {
 //G: Oh, that's the cute Fighting type!
@@ -2711,11 +2907,27 @@ VULLABY_MANDIBUZZ
 {
 }
 HEATMOR
-{
-}
+{/*
+	G: How would you describe the /texture/ of Heatmore? Scaley? Fuzzy? Smooth? 
+	S: Mostly smooth, it doesn't have fur... I definitely wouldn't touch a wild one, though.
+	G: Oh- Yeah, that's for sure. Wouldn't want to deal with the nasty burn it could give me if it decided to attack.
+	S: It is important to excersize an extra amount of care around Fire Types. While most Pokémon can be dangerous, Fire Types are especially so, since they can also damage the area around them.
+	G: Right, if you get hit with a high pressure Water attack, you might be dead and whatever behind you might need cleaning, but if you upset a Fire Type??? They could burn down buildings and forests if they wanted to!
+	G: I'm so glad Atticus has always been so well behaved... If a Fire Type likes you, then their flames don't even hurt!
+	S: Hm.
+	G:  Maybe one day you'll have a fire type of your own to heat up your hands for you when they're cold~
+	S: I don't think of myself needing that all too often.
+	G: Yeah, well, it was really useful when I was on the icy cool mountain all on my own. ALL OF ME was freezing.
+	//Can you believe Silver doesn't have a Water, Grass, or even a Fire Type?
+*/}
 DURANT
-{
-}
+{/*
+	G: I really love looking at Durants! I can't really stand looking at insects normally, especially under a microscope they really creep me out- So it's super cool to be able to study this thing's body plan without any of my normal associated squick.
+	S: I wouldn't exactly say their fully accurate to the body of an actual insect?
+	G: That may be exactly why I tolerate them! They have big giant cute eyes, and they're made entirely out of metal instead of suspicious scary fleshy stuff. It's really cool seeing it as like this perfected machine in a way? They're living things obviously, but their body moves as if it's all mechanical.
+	S: I wonder if "flesh" is an accurate word when it comes to describing ants...
+	G: I don't want to think about it more! I'm already grossed out just thinking about it...
+*/}
 DEINO_ZWEILOUS_HYDREIGON
 {
 //G: If you thought getting a Dodrio to not fight with itself was a problem, imagine trying to stop a Hydreigon!
@@ -2745,7 +2957,6 @@ TORNADUS_THUNDURUS_LANDORUS_ENAMORUS
 }
 RESHIRAN_ZEKROM
 {
-	dex.RESHIRAN_ZEKROM = 1
 //G: Yeah you can tell I don't know a lot about Unova. Like, I know that's a thing FROM Unova, just don't recognize it at all.
 }
 KYUREM
@@ -2784,8 +2995,19 @@ CHESPIN_QUILLADIN_CHESNAUGHT_FROAKIE_FROGADIER_GRENINJA_FENNEKIN_Braixen_Delphox
 //G: I am a boy! I just meant it in the... Metaphorical sense, y'know?
 }
 BUNNELBY_DIGGERSBY
-{
-}
+{/*
+	G: [With Dex] Hehehe, they're like really dirty Buneary!
+	S: Most likely why they're not as popular as pets.
+	G: Yeah, I wouldn't exactly want them digging a hole through my house. Though, I'm usually outside anyways, so it's not like it matters to me.
+	S: Well if they're properly trained they shouldn't dig anywhere you don't tell them to.
+	G: And rob them of their enrichment???
+	S: Well don't blame me when one of them ends up digging up a pipe and you have to pay for it.
+	G: Just tell them to put all the dirt back in the hole! Problem solved.
+	S: Definitely not in all cases, especially if it breaks one...
+	G: It's just part of its nature to do so! You can't get mad at it for  just following its instincts! Us humans are the one encroaching, after all! Putting our things in the floor when it belongs to the Pokémon...
+	S: If it were wild, that would be true. However, when you catch a Pokémon you become responsible for all the damage it causes.
+	G: Ah, if it isn't the consequences of my actions...
+*/}
 FETCHLING_FLETCHINDER_TALONFLAME
 {/*
 G: [Hands over mouth puppy eyes] Fetchling is sooooo small! I met a trainer with one once and they let me pet theirs... I'll never forget it.
@@ -2832,8 +3054,12 @@ FLABEBE_FLOETTE_FLORGES
 //S: It's *difficult* but not *impossible*.
 }
 SKIDDO_GOGOAT
-{
-}
+{/*
+	G: When I was a kid I remember being told "People in Kalos ride on Gogoat to get from place to place!" and I did not believe them. It looked too short! If you can't ride on other similarly-sized Pokemon, why should this be any different?
+	G: It wasn't until I caught someone riding one on TV that I finally understood. MAN THOSE THINGS ARE FAST! And they barely shake it all while running! It looks so smooth, somehow!
+	S: Adults would definitely have trouble trying to ride a Skiddo, but Gogoat are more than tall enough.
+	//lmao SST called "Skiddo" "Skittle". Yeah I definitely believe Silver about it being difficult to ride a skittle.
+*/}
 PANCHAM_PANGORO
 {
 }
@@ -2854,12 +3080,12 @@ ESPURR_MEOWSTIC
 //S: None of your business.
 }
 HONEDGE_DOUBLADE_AEGISLASH
-{
-	/*
+{/*
 	G: I'm a fan of Aegislash! I mean, a sword but it's a Pokemon? That's great.
 	S: It's basically the opposite of the normal kind of Pokemon you enjoy, that being things that are soft and fluffy, not sharp and made of steel.
 	G: I like things that are sharp and made of steel! For example, I really like Ceruledge. It's stuff that has a combination of those two traits that don't stick.
 	G: I might also just be influenced by the times I see it in video games. Knights with a Honedge that slowly evolves to am Aegislash throughout their journey... It's touching!
+	Error as Gold: "I like things that are sharp and made of steel! For example, my Hello Kitty scissors!
 */
 }
 SPRITZEE_AROMATISSE
@@ -3231,8 +3457,13 @@ ROCKRUFF_LYCANROC
 //S: Psh...
 }
 WISHIWASHI
-{
-}
+{/*
+	G: So how does catching Wishiwashi work? Since most of the time they battle as a swarm, but presumably you're only catching one of them. Do its friends just teleport in when it needs the help? Does it undergo mitosis?
+	S: There's supposed to be in bodies of water that have other Wishiwashi in them. Obviously they can't have a "School Form" if there are no others to form with.
+	G: Sounds a lot more localized than other Pokemon! Most of them you can take with you anywhere.
+	S:  It's at least a deterrent from making people take them out of their environment.
+	G: Yeah, invasive species and stuff. A lone Wishiwashi in the wild where it doesn't belong probably wouldn't last very long, but a whole bunch of them... Oh man, they'd eat /everything/.
+*/}
 MAREANIE_TOXAPEX
 {
 //G: The Alolan Poison/Water type is way more exciting than the Poison/Water types here... Kanto has the common Tentacruel and Jotoh has... like... It's so boring I can't even remember the name.
@@ -3294,8 +3525,12 @@ SALANDIT_SALAZZLE
 //G: Well it's still pretty unique!
 }
 STUFFUL_BEWEAR
-{
-}
+{/*
+	G: I hear that Bewear's hugs are /so/ powerful, that they kill people by breaking their spine.
+	G: I think I'm okay with dying that way. Hugged to death by a giant pink teddy bear... I would be at peace.
+	S: You're weird.
+	G: [Laughing] At least you just say it directly this time!
+*/}
 BOUNSWEET_STEENEE_TSAREENA
 {/*
 G: What a cute Pokémon! Bounsweet is just a smiling berry :3
@@ -3328,8 +3563,18 @@ WIMPPOD_GOLISOPOD
 {
 }
 SANDYGAST_PALOSSAND
-{
-}
+{/*
+	addFlag(Sandygast)
+	addFlag(Palossand)
+	
+	G: The sandcastle that kills you!
+	S: Something like that...
+	G: I hear it drowns people in its quicksand, burying them alive, then eats their souls.
+	S: Mostly small Pokémon.
+	G: /Sigh./ I once again lement that there's not more Ghost Type Pokémon here... We could have man eating sandcastles, jellyfish that drown you while mocking you with gender, tea that tricks you into drinking it so it can kill you, but no... Instead we have shapeshifting graveyard ghosts, and cute little ladies...
+	S: I don't understand you.
+	G: Some days, neither do I...
+*/}
 PYUKUMUKU
 {/*
 G: Ohh I like Pyukumuku! It's just a round little guy with a funny face! It's... Maybe Poison Type?
@@ -3405,8 +3650,26 @@ S: ...Maybe I don't want to...
 */
 }
 DRAMPA
-{
-}
+{/*
+	addFlag(Drampa)
+	
+	G: Drampa's a Dragon Type, right? What do you think of it?
+	S: It's a Normal/Dragon...
+	G: Most Dragon Types are dual types, aren't they? This one just gives it a Ghost immunity. It's not like the Normal Type drags it /down/, does it?
+	S:  No... The Normal Type doesn't make it worse. It just doesn't do as much as other combinations might.
+	G:	"Slightly better Dragon" and you already think Dragon is great.
+	S: It's not bad... It has good Dragon and Normal Type moves and has the good coverage that most Normal Types benefit from...
+	G: Buuut...?
+	S: But what?
+	G: You seem reluctant.
+	S: I think it's... /fine/. Just not a Dragon Type I'd really want to use personally.
+	G: Fluffy old man Dragon conflicts with your super edgy dark style?
+	S: I guess if you want to put it that way.
+	G: And you say you don't judge Pokémon based on looks.
+	S: It's not like I overestimate it because of its appearance, I just don't think it would look right next to me.
+	G: Says the guy who's primary Pokémon was a /pink sheep./ You never had that edgy team nailed down. Not even once.
+	S: >:T
+*/}
 DHELMISE
 {/*
 G: [Opens dex] Dhelmise is... The spooky ghost anchor!
@@ -3542,8 +3805,20 @@ G: ;~;
 */
 }
 BLIPBUG_DOTTLER_ORBEETLE
-{
-}
+{/*
+	G: [With dex] I like Orbeetle, it's like a cooler Ledyba to me- I just...
+	S: What?
+	G: /Why does Dlipbug look like that./
+	S: Do you mean any part of it in particular, or....?
+	G: Its head is just so /stretched/! Like it's a balloon someone pulled that!
+	S: It matches its body... Maybe you're just used to Caterpie and Weedle?
+	G: What do you mean it matches its body?? It's /bigger/ than its body! Longerrrrr. No wonder its only move is "Struggle Bug"!
+	S: I suppose, but it's really not all that strange to me, especially considering its evolutions. It has a lot in that head, and has those large eyes for a reason.
+	G: Well... At least it evolves pretty quickly. I do like Dottler.
+	S: I'm a little surprised by your reaction to Blipbug. Honestly I thought you'd see the weak tiny creature with a psudo-bowtie and call it a favorite or something.
+	G: IT HAS A FAKE BOWTIE??? Ohhhhh it does! Maybe if I cover its head I'll like it.
+	
+*/}
 NICKIT_THIEVUL
 {/*
 G: (Hands in front of face puppy eyes) I love Nickit and Thievul they're soooooo cuuuuute!!!! It looks so fluffy...!
@@ -3553,8 +3828,16 @@ G: OH RIGHT ATTICUS I forgot about Atticus! D: [Holding his pokeball] I'm so sor
 S: [Rolling eyes] Dramatic...
 */}
 GOSSIFLEUR_ELDEGOSS
-{
-}
+{/*
+	G: [With Dex] Eldegoss reminds me of Jumpluff, in a way... They both evolved from cute 'mon with yellow flowers on their head, to both have huge cotton puffs they're attached to!!! So cute...
+	S: Eldegoss definitely doesn't float as much... It's mono Grass while Jumpluff is Grass/Flying.
+	G: Man you should see Jumpluff really pick up speed in battle! It's so interesting how it moves through the air, definitely not like any other flying type I've seen.
+	S: Despite its looks Eldegoss is more of an attacker... It has many surface level similarities to Jumpluff, but defying expectations they're pretty different in battle.
+	G: So you think they're actually good??
+	S: Not very. I've seen them both done to some degree of success sometimes, though.
+	G: Silver taking seriously and analyzing pokemon battle strategies even when he thinks they're weak... I think that counts for something!
+	S: Psh.
+*/}
 WOOLOO_DUBWOOL
 {
 //G: My aunt likes to knit with Wooloo or Dubwool fur! There's not really any around, so it's gotta be imported...
@@ -3940,9 +4223,18 @@ FRIGIBAX_ARCTIBAX_BAXCALIBUR
 {
 }
 GIMMIGHOUL_GHOLDENGO
-{
-
-}
+{/*
+	G: So... How does one /find/ a Gimmighoul?
+	S: You'd need to trade someone from Paldea... However they're dangerous to catch and I don't imagine you'll see them that often for trading.
+	G: Shame. Gholdengo would be the perfect Pokémon to add to my team.
+	S: ...Why?
+	G: Well, for one, it's Steel/Ghost, and I don't have any Steel /or/ Ghost Types on my team.
+	S: I guess? I just don't understand what specifically would interest /you/ about this Pokemon.
+	G: Really? You don't  understand why your friend /Gold/ would want a /Ghold/engo?
+	S: We're- /uhg./
+	G: You're just jealous because you don't have a Pokémon named after you, Silver.
+	S: I'll have to settle for a major historical landmark mountain then.
+*/}
 WOCHIEN_TINGLU_CHIENPAO_CHINYU
 {/*
 G: I. /Love/ Chien Pao. It has beautiful white fur with a wonderful blue tint, diamonds embedded in its body- cute rounded ears, beautiful intricate tusks...
@@ -3973,7 +4265,8 @@ PERCHARUNT
 - redo Seel
 - Regional Variants
 - Paradox forms
-They don't know about them in universe, so instead the user would be handing them a piece of paper with a picture of them and ask them their opinion
+	They don't know about them in universe, so instead the user would be handing them a piece of paper with a picture of them and ask them their opinion
+- Move starters to Aitalk and have them actually comment on them individually
 - Mega Forms
 - Mazah region
 Could ask Project Untamed for help?

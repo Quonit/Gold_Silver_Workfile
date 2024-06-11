@@ -398,6 +398,9 @@ weakpokemon
 	"Baltoy"
 	"Wimpod"
 	"Sunkern"
+	"Blipbug"
+	"male Combee"
+	"solo Wishiwashi"
 }
 
 //I used to think that legendary Pokemon were stronger and had a lot of lore, While mythical Pokemon were weaker and more mysterious. Turns out, there is no in universe difference. So, they're all going in the same envelope.
@@ -1391,7 +1394,7 @@ FightingDual
 	"%(FightingPoison)"
 	"%(FightingPsychic)"
 	//**NPMO "%(FightingRock)" //Nooooooo legendaries
-	"%(FightingSteel)" //EVERYONE GIVE IT UP FOR Lucario!!! 🎉💃🥳🎊🎊🥳🎈🎉🎉🎉
+	"%(FightingSteel)" //EVERYONE GIVE IT UP FOR LUCARIO!!! 🎉💃🥳🎊🎊🥳🎈🎉🎉🎉
 	"%(FightingWater)"
 }
 FightingGhost

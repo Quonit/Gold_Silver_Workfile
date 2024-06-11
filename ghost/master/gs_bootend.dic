@@ -15,6 +15,7 @@
 	deleteshitai = "OFF"
 	nowshell = "master"
 	firstboot = 1
+	pokeFlags = IARRAY //For the Pokédex
 	//Variable List
 	//Explained Backstory
 		//Gold's Pokemon

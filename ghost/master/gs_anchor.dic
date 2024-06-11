@@ -1078,7 +1078,6 @@ OnAnchorSelect
 	{
 	case reference0
 		{
-			//Idea: When asking about the Pokemon he says something random about them, or pulls them out of their pokeball. You get their backstories in the menu.
 			when "Quonit"
 			{
 				//G: Quonit's the one that developed the ghost! Like, did all the coding and drawings and stuff...
@@ -1093,18 +1092,19 @@ OnAnchorSelect
 				//S: Think more carefully before you speak or else misunderstandings are bound to occur.
 				//G: Guess not...
 			}
+	//GOLD'S MON
+	//These used to contain dialogue but since I wanted to use it in more than once place, it's all just code now. Go to gs_backstories.dic if you want to read it
 			when "anSilklay"
 			{
 				if ExplainedSilklay == "no"
 				{
 					ExplainedSilklay = "yes"
 					//Use same as menu
+					"%(SilklayBackstory)"
 				}
 				else
 				{
-				//"I wonder what kinds of things Psychic types experience we don't..."
-				//"When Silklay was a Wralts she was so scared of everything! Which was probably my fault, since right after I got her we both got lost in the forest... But she's really come into her own! She's not scared of nothing. Or... If she is she doesn't show it. She's real brave, I think."
-				//"Hey Silver! You should apologize to Silklay for traumatizing her when she was just a Wralts.\1 I did not. \0Yeah you did! All she knew was growl and your Mareep fainted her! \1That's how Pokemon battles work! You come umprepared and get what's coming to you. \0You ambushed me with a stolen sheep!!!!! Then pushed me!!! \0uhhhggg"
+					"%(SilklayMisc)"
 				}
 			}
 			when "anAtticus"
@@ -1112,13 +1112,11 @@ OnAnchorSelect
 				if ExplainedAtticus == "no"
 				{
 					ExplainedAtticus = "yes"
-					//Use same as menu
+					"%(AtticusBackstory)"
 				}
 				else
 				{
-				"Atticus is my Houndoom!! He looks FEIRCE, sharp fangs and a mean growl, but he's a sweetheart! He's just trying to protect me."
-				"My Houndoom... He has short fur, so his coat is very sleek and silky. It's fun to pet him! As long as you don't stroke the wrong way."
-				"My Houndoom isn't the most friendly to strangers, but once he knows it's not a battle he'll calm down easy. He's not the first pokemon I'll send to greet strangers, though."
+					"%(AtticusMisc)"
 				}
 				
 			}
@@ -1127,13 +1125,11 @@ OnAnchorSelect
 				if ExplainedNorma == "no"
 				{
 					ExplainedNorma = "yes"
-					//Use same as menu
+					"%(NormaBackstory)"
 				}
 				else
 				{
-				"Norma's my Delcatty! When she was a Skitty I used to carry her in my arms all the time... She's a little too big to do that now, though."
-				"Norma the Delcatty. Even though she's all grown-up now, she still acts like a Skitty. She keeps trying to sleep on my feet!"
-				"I did consider leaving Norma as a Skitty. I wasn't really sure about evolving her, since she seemed really happy. Norma saw how strong the other members of our team were getting though, and wanted to be like them. So it was really her choice to evolve... I'm happy it worked out!"
+					"%(NormaMisc)"
 				}
 			}
 			when "anHonoa"
@@ -1141,11 +1137,11 @@ OnAnchorSelect
 				if ExplainedHonoa == "no"
 				{
 					ExplainedHonoa = "yes"
-					//Use same as menu
-					//G: I found my Lanturn, Honoa, as a Chinchou at the Ruins of Alph. ...Definitely not super close to where they're supposed to live. He was on land, trying to run away from something, and had gotten lost!
+					"%(HonoaBackstory)"
 				}
 				else
 				{
+					"%(HonoaMisc)"
 				}
 			}
 			when "anBanco"
@@ -1153,10 +1149,11 @@ OnAnchorSelect
 				if ExplainedBanco == "no"
 				{
 					ExplainedBanco = "yes"
-					//Use same as menu
+					"%(BancoBackstory)"
 				}
 				else
 				{
+					"%(BancoMisc)"
 				}
 			}
 			when "anKonkurs"
@@ -1164,10 +1161,11 @@ OnAnchorSelect
 				if ExplainedKonkurs == "no"
 				{
 					ExplainedKonkurs = "yes"
-					//Use same as menu
+					"%(KonkursBackstory)"
 				}
 				else
 				{
+					"%(KonkursMisc)"
 				}
 			}
 			when "anDrugia"
@@ -1175,35 +1173,36 @@ OnAnchorSelect
 				if ExplainedDrugia == "no"
 				{
 					ExplainedDrugia = "yes"
-					//Use same as menu
+					"%(DrugiaBackstory)"
 				}
 				else
 				{
+					"%(KonkursMisc)"
 				}
 			}
 			when "anCreh"
 			{
-				
 				if ExplainedCreh == "no"
 				{
 					ExplainedCreh = "yes"
-					//Use same as menu
+					"%(CrehhhBackstory)"
 				}
 				else
 				{
-				"Or Crehhhh, as she's officially registered. She's a Pinsir. I got her when I won the Bug Catching Contest at the National Park! She looks real tough and scary, especially when she's pulling off incredible acts of strengths by destroying boulders- but she's not a battler. She just wants to pulverize rocks, not Pokemon! I think we've come to an understanding." //Snowpoff.
+					"%(CrehhhMisc)"
 				}
 			}
-	//SILVERS MON
+	//SILVER'S MON
 			when "anCloud"
 			{
 				if ExplainedCloud == "no"
 				{
 					ExplainedCloud = "yes"
-					//Use same as menu
+					"%(CloudBackstory)"
 				}
 				else
 				{
+					"%(CloudMisc)"
 				}
 			}
 			when "anMidnight"
@@ -1211,10 +1210,11 @@ OnAnchorSelect
 				if ExplainedMidnight == "no"
 				{
 					ExplainedMidnight = "yes"
-					//Use same as menu
+					"%(MidnightBackstory)"
 				}
 				else
 				{
+					"%(MidnightMisc)"
 				}
 			}
 			when "anInterception"
@@ -1222,15 +1222,11 @@ OnAnchorSelect
 				if ExplainedInterception == "no"
 				{
 					ExplainedInterception = "yes"
-					//Use same as menu
+					"%(InterceptionBackstory)"
 				}
 				else
 				{
-				//G: Silver, why did you capture a Zubat?
-				//S: It had an impressive Supersonic.
-				//G: Why did you name it Interception?
-				//S: If you were smart, you'd figure it out.
-				//G: Can you believe he says this every time %(username)?
+					"%(InterceptionMisc)"
 				}
 			}
 			when "anPopcicle"
@@ -1238,10 +1234,11 @@ OnAnchorSelect
 				if ExplainedPopcicle == "no"
 				{
 					ExplainedPopcicle = "yes"
-					//Use same as menu
+					"%(PopcicleBackstory)"
 				}
 				else
 				{
+					"%(PopcicleMisc)"
 				}
 			}
 			when "EevCandy"
@@ -1249,50 +1246,11 @@ OnAnchorSelect
 				if ExplainedCandy == "no"
 				{
 					ExplainedCandy = "yes"
-					//G: While I was on Mt.Silver, Silver found a very injured Eevee out in the wild.
-				//G: Eevee aren't normally found in the wild, so it was easy to deduct that...
-				//S: It was abandon by its previous trainer.
-				//G: Silver rushed it over to the Pokemon center.
-				//S: It was in the dirt while it was raining. Its wounds could've easily become infected.
-				//S: I just wanted to drop it off at the Pokecenter and leave.
-				//G: He was going through his phase of not thinking he should raise any Pokemon. But, the nurse insisted he stay because it had gotten attached to him, and if he wasn't there for it, it'd be all alone.
-				//S: ...
-				//G: Thanks to him, it got the strength to recover!
-				//S: It lost an eye, and the vision in the other was weak, though.
-				///S: ...Even still, it was eager.
-				//G: That's about when I returned from Mt.Silver. The Eevee was really the sweetest thing... [cooing]
-				//G: Silver didn't want to keep Candy, what HE named it-
-				//S: You suggested it!
-				//G: And you accepted it! -in its Pokeball all the time, though. Since it was... um...
-				//S: Abandoned by its previous owner, it struggled with separation anxiety.
-				//G: Yeah. Sometimes Silver couldn't always be around him though, so I tried to be around him instead.
-				//G: Candy was pretty intimidated by my other Pokemon (fair enough) it always gravitated to Citrus, my Eevee.
-				//G: They became really good friends! Citrus managed to get Candy to play and run around while normally he'd curl up and ride on people's shoulders.
-				//S: I spent a lot of time trying to solve the question of how best to train it. I obviously wasn't going to battle with it-
-				//G: You weren't doing /any/ battles at the time.
-				//S: But I still wanted it to be able to defend itself.
-				//G: Is that when you started bringing up evolution?
-				//S: Yes... Eevees can evolve into different types of Pokemon if you know the right method.
-				//G: And you wanted to know what evolution could help aleviate some of Candy's disabilities.
-				//S: I heard from a trainer that had an Eevee with a missing leg. He evolved his into Vaporeon, because those rely more on their tail for balance.
-				//G: So you wanted to evolve Candy into an Espeon, since the Psychic Type could compensate for some of its vision problems.
-				//S: Hm. It was important to wake sure it was the right time, though, since evolved during night it turns into Umbreon instead.
-				//G: I remember you became such an early bird! You kept accidentally waking me up getting Citrus every morning, since Candy was easier to train with him around.
-				//S: I don't remember that part-
-				//G: I didn't mention it. But it WAS definitely a factor in me deciding to just trade Citrus to you.
-				//S: Hmph.
-				//G: But your hard work paid off! Candy turned into an Espeon!
-				//S: Citrus caught up after turning into an Umbreon.
-				//G: He didn't want to be the shortie of the family, hehe.
-				//S: Candy's improved significantly after evolution. Phychic allows it to tell more clearly where others are, and it has boosted confidence since now it can defend itself.
-				//G: I also like to think since Espeons need a strong bond to evolve, the hole in its heart from being abandoned has been filled, since now he'll always know he's loved!
-				//S: ...
-				//G: I know I know, my saccharine shtick both bores and displeases you.
-				//S: No... It's fine.
+					"%(CandyBackstory)"
 				}
 				else
 				{
-				
+					"%(CandyMisc)"
 				}
 			}
 			when "EevCitrus"
@@ -1300,25 +1258,22 @@ OnAnchorSelect
 				if ExplainedCitrus == "no"
 				{
 					ExplainedCitrus = "yes"
-					//Use same as menu
+					"%(CitrusBackstory)"
 				}
 				else
 				{
-				//G: I don't know, Silver, how is Citrus?
-				//S: Perfectly fine with no reason to discuss it further.
-				//G: I'd love to see him again! Let him out of the Pokeball for just a minute, pleeaaasse?
-				//S: [potentially caving]
-				//G: [kisses cheek]
-				//S: [big blush embarrassed, releases Citrus.] Only because it was yours to begin with.
-				//Citrus: [cool looking]
+					"%(CitrusMisc)"
 				}
 			}
-
-
-
-
-		//THE POKEMON
-		//Also thanks to Crash for fixing this one. If the Pokemon capitalization doesn't match its capitalization above, then it won't work. Crash did some fancy work with the array found in gs_pokedex to fix it.
+/* _______    ______    __   ___  _______  ___      ___     ______    _____  ___   
+  |   __ "\  /    " \  |/"| /  ")/"     "||"  \    /"  |   /    " \  (\"   \|"  \  
+  (. |__) :)// ____  \ (: |/   /(: ______) \   \  //   |  // ____  \ |.\\   \    | 
+  |:  ____//  /    ) :)|    __/  \/    |   /\\  \/.    | /  /    ) :)|: \.   \\  | 
+  (|  /   (: (____/ // (// _  \  // ___)_ |: \.        |(: (____/ // |.  \    \. | 
+ /|__/ \   \        /  |: | \  \(:      "||.  \    /:  | \        /  |    \    \ | 
+(_______)   \"_____/   (__|  \__)\_______)|___|\__/|___|  \"_____/    \___|\____\) 
+*/
+	//Also thanks to Crash for fixing this one. If the Pokemon capitalization doesn't match its capitalization above, then it won't work. Crash did some fancy work with the array found in gs_pokedex to fix it.
 			when "Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise"
 			{
 				"%(Bulbasaur_ivysaur_venusaur_charmander_charmeleon_charizard_squirtle_wartortle_blastoise)"

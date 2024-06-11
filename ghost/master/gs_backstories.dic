@@ -1,0 +1,285 @@
+//Made this DIC because word.dic is too full of other less important lists, anchor.dic is flooded, and I felt like pokemon.dic was too specific
+//Might find more uses for this document later
+
+//Idea: If adding the "summon" feature, have random chance for that in misc
+
+//Gold's Mon
+SilklayBackstory
+{
+	//So the Professors have this Starter program, where they pick three rare or endangered Pokemon to be their sort of mascots to start off the Pokedex for that region.
+	//They give them out to new trainers to ensure they have good homes, sort of propogate the species thing...
+	//For Johto, it's supposed to be Chikorita, Cyndaquil, and Totodile.
+	//but, when Professor Elm offered me and Tala starter Pokemon, he didn't /have/ the usual three avalible. The Cyndaquil they had was too attached to the lab tech that raised it, and the Totodile was already taken by another trainer.
+	//So they got backups! Different three stage evolutions that are still easy for new trainers to raise.
+	//There was the last Chikorita, a Mareep, and a Ralts!
+	//The Ralts waddling around in her cute little nightgown body touched my heart instantly... I thought it was the cutest thing ever.
+	//The professor said that raising a Ralts would be the hardest, but I was unintimidated by the idea. In fact I thought the challenge sounded fun.
+	//Turns out... I was just a LITTLE overconfident. All she knew was Growl! We would've been toast if Atticus hadn't saved us...
+	//I remember it like it was yesterday... Me, just barely having managed to run through the corest, cradling a baby Pokemon in my arms...
+	//Then, the second I get to town, I get called back, and THIS GUY [nudges Silver] beats up my poor defensless baby pokemon with HIS stolen one for no reason.
+	//I think Silklay's forgiven him by now XD She and Cloud have made amends.
+	//I think of all my Pokemon, she has the most out time. She likes walking around with me and will sometimes act as my interpreter.
+	//She acts a lot like ME, so obviously that means I like her.
+
+}
+	SilklayMisc
+	{
+	//"I wonder what kinds of things Psychic types experience we don't..."
+	//"When Silklay was a Wralts she was so scared of everything! Which was probably my fault, since right after I got her we both got lost in the forest... But she's really come into her own! She's not scared of nothing. Or... If she is she doesn't show it. She's real brave, I think."
+	//"Hey Silver! You should apologize to Silklay for traumatizing her when she was just a Wralts.\1 I did not. \0Yeah you did! All she knew was growl and your Mareep fainted her! \1That's how Pokemon battles work! You come umprepared and get what's coming to you. \0You ambushed me with a stolen sheep!!!!! Then pushed me!!! \0uhhhggg"
+	}
+AtticusBackstory
+{
+	//Atticus is my Houndoom!!! He was the fist Pokemon I ever caught. I'd just gotten Silklay, but she was just a baby Ralts and only knew Growl. We got lost in the forest and I had to run us away from every Pokemon! Atticus, who was just a Houndour back then- kept following us. I was worried he was going to attack us, because even though he was really small, he was really big to me and Silklay back then. We'd be toast if he attacked us with fire...
+	//S: T_T
+	//Ok that was dumb. He never did attack us though! He seemed to notice we were being cornered and followed us around protecting us from the other wild Pokemon! When we finally got out of the forest, I asked if he wanted to come with us.
+	//I named him "Atticus" because it sounds like "Attack" but a name. He WAS my only attacking Pokemon at that point, so I named him after it.
+	//He loves protecting people, that parts never changed. He ACTS like a big, scary, snarling wolf who's going to bite you- and he's got the power to back it up- but he just does it to scare off opponants before they try and fight us. He's never been badly behaved or hurt any people or seriously injured a Pokemon.
+
+}
+	AtticusMisc
+	{
+		"Atticus is my Houndoom!! He looks FEIRCE, sharp fangs and a mean growl, but he's a sweetheart! He's just trying to protect me."
+		"My Houndoom... He has short fur, so his coat is very sleek and silky. It's fun to pet him! As long as you don't stroke the wrong way."
+	}
+NormaBackstory
+{/*
+	G: Skitty was my third Pokemon! Her story intercts a bit with with my Lanturn's.
+	G: Picture this: I'm a new trainer. I have a Ralts and a Houndour. After traveling through a dark cave, I've just barely made it to Violet City. I'm there to earn my first gym badge. But, turns out, in order to challenge the gym leader, I need to win some battles in the Bell Tower.
+	G: The Bell Tower is really old. It doesn't have electricity, and it's pretty dark inside. While in there, this Skitty keeps following me around! Not just following me around, Jumping in front of me and running between my legs. She kept nearly tripping me over and over!
+	G: Someone suggested "It looks like she likes you! Maybe you should take her with you!" and I denied it because... Well, okay, I ACT like a total becon of morality- BUT I was still pretty vain back then. I didn't want her not because she kept trying to trip me... but I just didn't like Normal Types!
+	G: But I also didn't want to LOOK like a jerk in front of him, so I decided to catch her. Thought, "even if I'm going to release her later it'll get her out of the way for now,".
+	G: My Ralts knows Confusion now, but she's still really shy when it comes to battling. I don't want to push her too hard, and sort of on a whim, I decided to try and use the Skitty for battling.
+	G: She was real eager to prove herself in battle though, jumping in when I DIDN'T CALL FOR HER to beat the Pokemon I was going after.
+	She actually does way better than I expected, and we defeat a bunch of trainers together. Still... Even though I didn't have a lot of Pokemon back then, I still wasn't too keen on her.
+	G: Finally, I make it to the top of the bell tower. I need to beat the master up there before I can challenge the gym./x
+	G: I get beat by a Ho-Oh, I find a Chinchou and he defeats it thus becoming a legend, I progress onwards to get my first gym badge, that's all Honoa's thing.
+	G: It actually wasn't until Norma defeated Silver's Groudon that I started to respect her!
+	S: I don't have a Groudon, no one has a Groudon.
+	G: It's true! He wiped out the rest of my team! Silklay, Atticus, Honoa- They were wiped out. All I had left was... Norma! And she brought us to victory, earning my respect.*/
+}
+	NormaMisc
+	{
+	"Norma's my Delcatty! When she was a Skitty I used to carry her in my arms all the time... She's a little too big to do that now, though."
+	"Norma the Delcatty. Even though she's all grown-up now, she still acts like a Skitty. She keeps trying to sleep on my feet!"
+	"I did consider leaving Norma as a Skitty. I wasn't really sure about evolving her, since she seemed really happy. Norma saw how strong the other members of our team were getting though, and wanted to be like them. So it was really her choice to evolve... I'm happy it worked out!"
+	}
+HonoaBackstory
+{
+//G: Honah! My HO-OH KILLING LANTURN!
+	//S: Why did you ask why did you ask...
+	//G: Picture this: Me, new trainer, three Pokemon, a shy Kirlia, a determined Houndour, and some Normal type I didn't care about.
+	//G: There's this real hot shot at the top of this tower- and I'm with my friend or whatever here to beat him and get his items! All I want is the item! And I'm prepared for a fight.
+	//G: Guy picks up his Pokeball and-
+	//S: Uhhhggg
+	//G: Sends out a HO-OH.
+	//S: No he didn't. Ho-Ohs are incredibly rare, barely ever pictured, and the Person in This Well Visited Jotoh City doesn't just have a Ho-Oh.
+	//G: The Ho-Oh WIPES MY TEAM. It's got legendary stats! How am I supposed to match up to that!
+	//S: Or maybe it's a normal pokemon with normal stats and you just had unevolved young Pokemon...
+	//G: So I think: Ho-Ohs are Fire/Flying type-
+	//S: Theoretically.
+	//G: I need something that's either electric, or water type!
+	//G: I go searching for a new pokemon, but with my bad lure and back of ability to surf, finding let alone catching good water types is a pain. And electric types are just harder to come by in general. When I did find them, like Magnemite, they had downsides. Magnemite is part Steel, which is weak to fire, and would nullify some of my advantage.
+	//G: Then I found the PERFECT Pokemon. [Crawled on land] A Water/Electric type, Chinchou!
+	//G: I was never a real fan of Chinchou. It's not that I didn't like them, just that I never thought of them. But now, it was my solution to everything!
+	//G: I caught him, spent a few days training, and KICKED THAT HO-OHS BUTT!
+	//S: Except it wasn't a Ho-Oh because you made that up.
+	//G: Well it IS true, weather you believe it or not!
+}
+	HonoaMisc
+	{
+	}
+BancoBackstory
+{/*
+		G: Banco is my /super strong/ Tropius! I found her in a cave.
+		G: I know! Weird, right? A Tropius in Jotoh? A Tropius in a CAVE?
+		G: Now, I liked Tropius but I'd never actually seen one in-person. Because there aren't any that lived here.
+		G: She and her friend, a Whooper, protected the pokemon in the cave as a tag team. The Wooper had the speed, and the Tropius had the sheer raw strength. She had a whole family in the cave, a whole bunch of Pokemon that weren't just the Wooper.
+		G: She had been living there for quite a while. Which... If you know anything about grass types, you know they need sunlight, but you don't get a lot of in caves. Her grassy wings looked yellowed and were frayed, and she could barely even fly anymore.
+		G: She didn't want to leave her cave friends though, as she'd been nurturing them all this time. However, her Wooper friend insisted, and the cave Pokemon assured her they would be fine and wanted her to go her own way.
+		G: That's... What I got from it at least. They didn't talk.
+		G: So... Tropius followed me out! And I made her part of my team. She was really happy to stretch her wings finally.
+		G: The next time I was able to talk to a nurse at the Pokemon Center about it, they told me that since she'd been out of sunlight for so long, while her wings could grow back, it was unlikely that she'd ever be able to fly again.
+		G: It was sad to hear... But, I was okay with that! Even without use of flying moves, she's still a really valuable member of the team.
+		G: The thought of giving up on her never crossed my mind. When it was a sunny day, I would always release her out of her Pokeball to walk alongside her so that her leaves could enjoy the time in the sunlight. Whenever I stop to eat, I always try to find the sunniest place I could out of the shade to lounge-
+		G: It was pretty hot out, but I always bring sunscreen and Banco is so big I could use /her/ as shade.
+		G: All of my Pokemon's food is made by me from all the naturally grown food in the wild, so I did a lot of research on what diets would be best for her. I also used the money I got from battling to spend on getting the best ingredients if I couldn't just find them in the forest myself.
+		G: It was... Really rewarding, in a word, to see her leaves turn from yellow to green. I would have been fine if she couldn't fly again, I was just working so hard because I like taking care of my Pokemon, not because I was trying to get something out of it, but... She made a full recovery! She could move her wings and fly again!
+		G: And not only could she fly, she's a very /strong/ flyer! She's able to carry me everywhere.
+		G: It just makes me happy I was able to do that for her. She's very close to my heart.
+		
+/* Q: This is an old draft of Boncos story before I had it settled on!
+	//Banco is my Tropius! I found her in a cave.
+	//I know! Weird, right? A Tropius in Jotoh? A Tropius in a CAVE?
+	//Now, I liked Tropius, but I'd never actually seen one. Because there aren't any that lived here.
+	//Getting through this cave was difficult. I was tired and I went to sit down near a water pool, which I thought looked safe... and this GIANT, TOWERING Pokemon approached me!!! It leaned down, and I thought it was gonna eat me, but it turns out it was just offering a banana!
+	//After I recovered from my shock, I asked what she was doing here!
+	//I got the sense that she had been here a while. She got last traveling to... Somewhere, but must've lost track and landed in Jotoh. She had been taking care of the Pokemon native to that cave.
+	//Tropius are grass types and get power from sunlight! So I felt like the cave was no place for her to be. Her grassy wings looked yellowed and were frayed, and she could barely even fly anymore.
+	//I insisted that she leave that cave to go back to the outside world! She didn't want to leave her cave friends though, as she'd been nurturing them all this time. But the cave pokemon assured her they were fine and wanted her to go her own way.
+	//That's... What I got from it at least. They didn't talk.
+	//So... Tropius followed me out! And I made her part of my team. She was really happy to stretch her wings finally.
+	//I did a lot of training with her- but it was slow! She's a REAL powerhouse actually. She knows body slam and I do NOT envy the Pokemon she's SMASHED. I feel kind of guilty sometimes! But importantly- Her wings got back into shape, really beautiful too, and she's a VERY strong flier! She takes me EVERYWHERE. Even when I don't have my main team with me, I always take Banco so she can fly me from place to place!
+	
+	Q: A few of the key elements are still here, but not all of it. For example, there's nothing about the Agron or Wooper. There's less bloodshed in this one XD
+*/}
+	BancoMisc
+	{
+	}
+KonkursBackstory
+{
+	//Drugia deciding to live with my Mom was a bit of a hit to the team... I mean, he was a great battler and we all loved him! But it was the right decision letting him stay at home with my Mom.
+}
+	KonkursMisc
+	{
+	}
+DrugiaBackstory
+{
+}
+	DrugiaMisc
+	{
+	}
+CrehhhBackstory
+{/*
+	G: So, my Pinsir.
+	G: So do you know about the bug catching contests?
+	S: I'm aware. Did you catch it for one of those...?
+	G: Sort of. So, how the bug catching contest works is that the organizers have a bunch of bug type Pokemon. During the contest, they release them into the park for the participants to catch.
+	G: Now, I wasn't participating. In fact, I had no idea it was being held that day!
+	G: I needed to go to the park though, because it was the easiest route to where I wanted to go. But when I got there, for /some reason/, it had this temporary fence around it!
+	G: I thought to myself, "Why is this fence here? That's pretty weird," and then I climbed over it, not figuring out that they /might/ have put that up during the contest to prevent people /like me/ from jumping in midway through the contest. After all, they wouldn't want people to get /scared/ by giant bug types they didn't expect to see today.
+	G: So anyways, I was kind of hanging around the edges where the trees are more dense, kind of wondering what was going on. I was looking around at some of the people wondering what they were all up to.
+	G: Then, /you'll never guess,/ I got jumpscared by a giant Pinser. DIRECTLY in front of me.
+	G: I'm not exactly sure why- but instead of grabbing for one of my pokemon, like Atticus, who was a Houndour at the time, I grabbed one of my empty Pokéballs and threw it at it. It just seemed like the fastest way to nullify the threat, or something.
+	G: Then it clicks shut. The bug types here weren't supposed to be hard to catch, after all. They all know this is part of the game!
+	G: I was recovering from what felt like to /me/ a brush with death, and a little kid came up to me impressed with my catch.
+	G: Honestly, I don't know why I didn't just give him the Pokeball. But I didn't think of that.
+	S: If you're that terrified of it why didn't you just trade it away or something?
+	G: Well, the straightforward answer is she didn't want to go away! When I released her from her pokeball the first time, I tried to release her back to the park, but she wouldn't budge. Her face was both incredulous, and scary, so I didn't figure out why. Given Kirlia didn't react badly, I assume it might've been because Crehhh liked me?
+	G: For a while, it was my only bug type. But, importantly, it was the only one of my Pokemon that knew Fighting Type moves.
+	G: Sometimes I would be in a battle scenario where none of my Pokemon had a good matchup, and in those situations, she was like this secret backup weapon.
+	G: She was a really strong pokémon! Stronger than most of my team for a pretty long time.
+	G: It actually spent most of its time at Professor Elm's lab. Obviously I didn't want her just locked in a Pokeball forever. He gets along with her pretty well, and she stayed with my grandparents a few times as well.
+	G: She actually had two kids while she was there...
+	G: But, uh, Pinsir DO still freak me out- Maybe less than they used to, it's just definitely not a personal thing.
+*/}
+	CrehhhMisc
+	{
+		"Or Crehhhh, as she's officially registered. She's a Pinsir. I got her when I won the Bug Catching Contest at the National Park! She looks real tough and scary, especially when she's pulling off incredible acts of strengths by destroying boulders- but she's not a battler. She just wants to pulverize rocks, not Pokemon! I think we've come to an understanding." //Snowpoff.
+
+	}
+Bango
+{/*
+	G: Bongo is my Wooper! Or, /was/!
+	G: When I caught Banco, I actually caught both her and her Wooper friend, since they wanted to stay with each other. Going with me is actually how Bongo convinced Banco to go, heh.
+	G: When I was trying to think of names for them, I said "Banco Bongo" as a sort of joke since I was struggling, and they both thought it was really funny and I could call them that.
+	G: I was really close to Mahogany Town when I exited the cave. Turned out, there was a Red Gyarados causing a huge storm when I got there. There were a whole bunch of tourists there to see it. I had totally missed the news because I'd spent the last few days in the cave.
+	G: Tala was near the area when the news broke, and had gone to see it for herself. We ended up seeing each other in the crowd and Tala caught me up.
+	G: I decided to take Honoa and fight the Gyarados myself. /However.../ you're only allowed to have six Pokémon with you at once. What this actually translates to is you can only have six Pokémon /in Pokéballs/ with you at a time. I had five, then I got Tropius and Wooper. They were following behind me, so it was fine, but I needed them returned to their balls before I could run off to fight the Gyarados.
+	G: It was faster for me to just leave Bongo with Tala, rather than sort out where to keep the seventh.
+	G: Once I got back, bongo had decided to stay with tala! He got along really well with her and her Marrill, and knew that since Tala was my friend that he'd still get to see Banco sometimes.
+	G: Banco was a little sad about the separation... but, Bongo and her had a conversation I didn't understand and she was fine with it after.
+	G: Silklay approved so I do too.
+	G: Me and Tala've definitely met up a few times after that- and we always release Banco and Bango from their Pokéballs so they can see each other, presumably catching up like me and Tala always are.
+*/}
+	BangoMisc
+	{
+	}
+
+
+
+
+
+//Silver's mon
+CloudBackstory
+{
+}
+	CloudMisc
+	{
+	}
+MidnightBackstory
+{/*
+	G: How long've you had Midnight anyways? I know its one of your older Pokémon, but I don't remember any early battles we had where you used it...
+	S: I didn't get it /that/ early. I'd already cycled through some team members at that point.
+	S: It was still in Johto, though.
+	G: 
+*/}
+	MidnightMisc
+	{
+	}
+InterceptionBackstory
+{
+	//G: Silver, why did you capture a Zubat?
+	//S: It had an impressive Supersonic.
+	//G: Why did you name it Interception?
+	//S: If you were smart, you'd figure it out.
+	//G: Can you believe he says this every time %(username)?
+}
+	InterceptionMisc
+	{
+	}
+PopcicleBackstory
+{
+}
+	PopcicleMisc
+	{
+	}
+CandyBackstory
+{
+	//G: While I was on Mt.Silver, Silver found a very injured Eevee out in the wild.
+	//G: Eevee aren't normally found in the wild, so it was easy to deduct that...
+	//S: It was abandon by its previous trainer.
+	//G: Silver rushed it over to the Pokemon center.
+	//S: It was in the dirt while it was raining. Its wounds could've easily become infected.
+	//S: I just wanted to drop it off at the Pokecenter and leave.
+	//G: He was going through his phase of not thinking he should raise any Pokemon. But, the nurse insisted he stay because it had gotten attached to him, and if he wasn't there for it, it'd be all alone.
+				//S: ...
+				//G: Thanks to him, it got the strength to recover!
+				//S: It lost an eye, and the vision in the other was weak, though.
+				///S: ...Even still, it was eager.
+				//G: That's about when I returned from Mt.Silver. The Eevee was really the sweetest thing... [cooing]
+				//G: Silver didn't want to keep Candy, what HE named it-
+				//S: You suggested it!
+				//G: And you accepted it! -in its Pokeball all the time, though. Since it was... um...
+				//S: Abandoned by its previous owner, it struggled with separation anxiety.
+				//G: Yeah. Sometimes Silver couldn't always be around him though, so I tried to be around him instead.
+				//G: Candy was pretty intimidated by my other Pokemon (fair enough) it always gravitated to Citrus, my Eevee.
+				//G: They became really good friends! Citrus managed to get Candy to play and run around while normally he'd curl up and ride on people's shoulders.
+				//S: I spent a lot of time trying to solve the question of how best to train it. I obviously wasn't going to battle with it-
+				//G: You weren't doing /any/ battles at the time.
+				//S: But I still wanted it to be able to defend itself.
+				//G: Is that when you started bringing up evolution?
+				//S: Yes... Eevees can evolve into different types of Pokemon if you know the right method.
+				//G: And you wanted to know what evolution could help aleviate some of Candy's disabilities.
+				//S: I heard from a trainer that had an Eevee with a missing leg. He evolved his into Vaporeon, because those rely more on their tail for balance.
+				//G: So you wanted to evolve Candy into an Espeon, since the Psychic Type could compensate for some of its vision problems.
+				//S: Hm. It was important to wake sure it was the right time, though, since evolved during night it turns into Umbreon instead.
+				//G: I remember you became such an early bird! You kept accidentally waking me up getting Citrus every morning, since Candy was easier to train with him around.
+				//S: I don't remember that part-
+				//G: I didn't mention it. But it WAS definitely a factor in me deciding to just trade Citrus to you.
+				//S: Hmph.
+				//G: But your hard work paid off! Candy turned into an Espeon!
+				//S: Citrus caught up after turning into an Umbreon.
+				//G: He didn't want to be the shortie of the family, hehe.
+				//S: Candy's improved significantly after evolution. Phychic allows it to tell more clearly where others are, and it has boosted confidence since now it can defend itself.
+				//G: I also like to think since Espeons need a strong bond to evolve, the hole in its heart from being abandoned has been filled, since now he'll always know he's loved!
+				//S: ...
+				//G: I know I know, my saccharine shtick both bores and displeases you.
+				//S: No... It's fine.
+}
+	CandyMisc
+	{
+	}
+CitrusBackstory
+{
+	//G: I don't know, Silver, how is Citrus?
+	//S: Perfectly fine with no reason to discuss it further.
+	//G: I'd love to see him again! Let him out of the Pokeball for just a minute, pleeaaasse?
+	//S: [potentially caving]
+	//G: [kisses cheek]
+	//S: [big blush embarrassed, releases Citrus.] Only because it was yours to begin with.
+	//Citrus: [cool looking]
+}
+CitrusMisc
+{
+}

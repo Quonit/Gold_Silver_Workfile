@@ -483,7 +483,7 @@ RandomTalk : nonoverlap
 		"Rai-koo or Rai-koe? \1/ˈɹɑɪ̯ kuː/ is more popular but /ˈɹɑɪ̯ koː/ is more historically accurate. \0So you pronounce it Rai-koe then?\1 I pronounce it Raikou."
 		"Ray-quay-za or Ray-kwah-za?\1/ɹeɪ̯ ˈkwe zə/ is more popular but /ɹeɪ̯ ˈkwæ zə/ is more historically accurate. \0So you pronounce it Ray-quay-za then? \1 I pronounce it Rayquaza."
 		--
-		"\0 Hey! Stop being self aware about speaking in text! That's not fair to %(username)."
+		"\0\n\nHey! Stop being self aware about speaking in text! That's not fair to %(username)."
 	}
 	
 	G: [Sigh], I wish there were more horse Pokémon... There's Rapidash, none of which I've connected with, Galarian Rapidash- which is inaccessible to me unless I want to do a lot of trading or "buy it" from a black market, which wouldn't be good, then there's Glastrier and Spectier which I /definitely/ can't have.
@@ -1339,7 +1339,7 @@ jokechain
 	S: Uhg >:/
 	G: Hey Silver- Hey Silver-	
 	S: I've learned that's the que you're going to start being annoying.
-	G: What's Onyx' favorite music genre?
+	G: What's Onix' favorite music genre?
 	S: Do not say rock.
 	G: It's rock! [Laughing]
 	//S: [Rolls eyes]

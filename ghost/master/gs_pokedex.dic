@@ -4,14 +4,20 @@ Flag
     if ASEARCH(_argv[0],pokeFlags) != -1; 1
     else; 0
 }
+addFlag
+{
+  if ASEARCH(_argv[0],pokeFlags) != -1
+  {
+    pokeFlags ,= _argv[0]
+  }
+}
 OnMenuPokedex //When you click the "Pokedex" option from the menu
 {
 	if !pokeFlag
 	{
 		pokeFlag = IARRAY
 	}
-	
-	
+
 	KantoDex = pokedex[1,151]
 	JohtoDex = pokedex[152,251]
 	HoennDex = pokedex[252,386]
