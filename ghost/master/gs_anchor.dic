@@ -2932,19 +2932,19 @@ OnAnchorSelect
 			}
 			when "DREEPY", "DRAKLOAK", "DRAGAPULT"
 			{
-			"%(DREEPY_DRAKLOAK_DRAGAPULT)"
+			"%(Dreepy_Drakloak_Dragapult)"
 			}
 			when "ZACIAN", "ZAMAZENTA"
 			{
-			"%(ZACIAN_ZAMAZENTA)"
+			"%(Zacian_Zamazenta)"
 			}
-			when "ETERNATUS"
+			when "Eternatus"
 			{
-			"%(ETERNATUS)"
+			"%(Eternatus)"
 			}
 			when "KUBFU", "URSHIFU"
 			{
-			"%(KUBFU_URSHIFU)"
+			"%(Kubfu_Urshifu)"
 			}
 			when "ZARUDE"
 			{

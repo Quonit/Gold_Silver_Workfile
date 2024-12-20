@@ -6,7 +6,7 @@ charset.save, UTF-8
 charset.extension, UTF-8
 
 include, system_config.txt		
-dic, gs_aitalk.dic			
+//dic, gs_aitalk.dic			
 dic, gs_anchor.dic
 dic, gs_backstories.dic
 dic, gs_battles.dic

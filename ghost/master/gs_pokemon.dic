@@ -124,6 +124,17 @@ nidoran_nidorino_nidorina_nidoqueen_nidoking
 //G: Hey %(username), have you ever seen a shiny Nidoqueen?
 //S: [sigh]
 //G: The shinies are really cute! The boys are normally purple, the girls are normally blue, so their shinies swap colors! Boy Nidoran is blue, Nidorino is blue, Nidoking is blue, then girl Nidorina is purple, Nidorina is purple, and Nidoqueen is... Look it up for yourself!
+/*
+	G: Nidoking are such big and imposing Pokémon... It's a good thing they're so loudly colored. That way you can see 'em comin' from a mile away.
+	G: They're not quite purple and not quite pink... I guess it's fushia?
+	S: It's spelled "fuchsia".
+	G: Only someone from Kanto would know how to spell it by heart.
+	S: And they have more color variety than that.
+	G: Yeah yeah, some are more pink, some are more purple, but it's all shades of fuchia.
+	S: You're still spelling it wrong.
+	G: I can mispell fuchia in ways you can't even imagine.
+	S: Uhhggggggg...
+*/
 }
 clefairy_clefable_cleffa
 {
@@ -904,7 +915,13 @@ G: Of course I would have! It's a precious thing and I would never think of givi
 */
 }
 natu_xatu
-{
+{/*
+	G: You ever noticed the Xatu in the Pokedex has a cat on its chest?
+	S: They can have other animals, too.
+	G: Reaaaallllyyyyyy?
+	S: It depends on the location, their enviornment, and their trainer...
+	G: Ooo, like Arboc getting different patterns! It's so cool that some Pokémon get images on their body like that.
+*/
 }
 mareep_flaffy_ampharos
 {
@@ -947,6 +964,10 @@ aipom_ambipom
 {/*
 	G: How can you tell which one of Ambipom's hands are it's writing hand?
 	S: I would assume they're ambidextrous.
+	G: WOAH, Ambipom can WRITE? Awesome.
+	S: *Theoretically* if they *could* write they probably wouldn't prefer a specific hand.
+	G: Too chunky and bulbous... Thumbless and out of luck...
+	S: Stop that.
 	
 	//my hand was injured for 5 months and all I got was ambidexterity
 */}
@@ -974,6 +995,7 @@ S: Whatever.
 }
 yanma_yanmega
 {
+	
 }
 wooper_QUAGSIRE
 {/*
@@ -1146,6 +1168,10 @@ sneasel_WEAVILE_SNEASLER
 teddiursa_ursaring_URSALUNA
 {
 	//silv had one of em
+	
+	/*
+	G: Ursaring used to EVOLVE?
+	*/
 }
 slugma_magcargo
 {
@@ -1410,8 +1436,15 @@ wurmple_silcoon_beautifly_cascoon_dustox
 //G: But isn't that part of the fun? Either way that wurmple is your friend, so it'll be a surprise for both of you. And you'll still love it either way.
 }
 lotad_lombre_ludicolo
-{
-}
+{/*
+	G: Water/Grass is /such/ a cool Type combo... You don't get any Pokémon like that in Johto or Kanto.
+	S: It's also prohibitively rare. Hoenn is the only place a trainer could reasonably find a Grass/Water Type.
+	G: I have a feeling that Water/Grass is a really good combination. Grass' most famous counter is Fire, and the Water Type neutralizes that.
+	S: More importantly, it has a quadruple resistance to Water.
+	G: It's a lilypad, of course it does :>
+	S: It's a decent Type combiniation, at least as good as a Grass Type can be, it'd just be easier to analyze if there were more common Pokémon with it...
+	G: I just like Pokémon that have standard starter Type mixes, like... %(FireGrass)! Or Volcanion. They're surprisingly rare.
+*/}
 seedot_nuzleaf_shiftry
 {/*
 G: I always forget that Seedot, Nuzleaf, and Shiftry are part of the same evolution line. They all seem very independent to me.
@@ -1627,11 +1660,24 @@ volbeat_illumise
 {
 }
 roselia_budew_roserade
-{
-//G: Tala's got a Roserade!!! I gifted her the Dawn Stone for it on her birthday. Got to watch it evolve and everything!
-//S: You *could* just buy evolution stones for people, couldn't you...
-//G: Bought her the thunderstone for her Raichu, too.
-}
+{/*
+	addFlag(Budew)
+	addFlag(Roselia)
+	addFlag(Roserade)
+	
+	G: Tala has a Roserade! She got her from this guy in Cianwood city. It's actually kind of a weird story... See, the Roserade was a Budew at the time, and this guy wanted someone else to watch after it for a while. Apparently, one of his other pokemon was recently stolen, and he didn't want to risk that happening again with his Budew.
+	G: Tala and the Budew got really close, though. It evolved into Roselia during its time with her, which only happens if with really high friendship, so the man let her keep it.
+	G: It's still kind of sad though. He lost two Pokémon, poor guy! I wonder where the person who stole the first Pokemon from him is. He said it was a really intimidating kid with red hair, around me and Tala's age.
+	G: ...
+	G: Hey!
+	S: I gave it back...
+	G: YOU WERE THE ONE THAT STOLE IT???
+	S: I just said I gave it back...
+	G: They were right, it /is/ a small world after all...
+	
+	//Yep, it's the Shuckie plotline from HGSS. Need I remind you, this game was randomized.
+	//Except I don't really rememmmbbberrrr what Pokemon Shuckie was in Gold's playthrough. In Tala's playthrough though, the Shuckie was a Budew and that one became part of the plot lol.
+*/}
 gulpin_swalot
 {
 }
@@ -1639,8 +1685,20 @@ carvanha_sharpedo
 {
 }
 wailmer_wailord
-{
-}
+{/*
+	addFlag(Wailmer)
+	addFlag(Wailord)
+	
+	G: [Hands held to chest scared] Wailmer is so scary!
+	S: It's basically just a ball of air...
+	G: Its small eyes look like they're boaring into my soul...
+	S: It's a /beachball/.
+	G: At least Wailord isn't scary. It closed its mouth...
+	S: Its size doesn't intimidate you at all?
+	G: It's hard to get the scale in photos.
+
+//https://archives.bulbagarden.net/wiki/File:Menu_XD_320.png
+*/}
 numel_camerupt
 {/*
 	addFlag(Numel)
@@ -1666,8 +1724,12 @@ tarkoal
 {
 }
 spoink_grumpig
-{
-}
+{/*
+	Gold: why is it that when people talk about Spoink, they’re only ever talking about how if it stops, bouncing, it dies?
+	Gold: why don’t people talk about how cute it is, or how friendly it is, or its giant pink pearl?
+	Silver: The more sensational storylines always make it to the top.
+	Gold: If I die, I would rather people talk about how cool my hair is than whatever stupid fashion I managed to burn out in.
+*/}
 spinda
 {/*
 G: Spinda's the cute one with all the unique patterns, right?
@@ -1931,7 +1993,15 @@ beldum_metang_metagross
 //S: I did. Then I traded it to someone else.
 //G: I think Atticus was out when I fought it... So I had to figure out another strategy that didn't just involve using super effective moves! Steel types can be pretty tough.
 }
-regirock_registeel_regigigas_REGIELEKI_REGIDRAGO_REGICE
+regigigas
+{/*
+	G: Imagine how cool it'd be if instead of making Regirock, Registeel, and Regice, Regigigas just combined them all to make a Pokémon with /three types./
+	S: A Rock/Steel/Ice Type would only take one hit to defeat...
+	G: No, it's made of legendaries, so high defense.
+	S: All three of those types are weak to Fighting. It would be an 8x weakness.
+	G: It'd be fiiiiiiine.
+*/}
+regirock_registeel_REGIELEKI_REGIDRAGO_REGICE
 {/*
 G: SILVER TRIED TO KILL ME WITH A REGICE!
 S: *Beartic.*
@@ -2017,8 +2087,15 @@ G: So, thanks RIVAL, you got me to be a better trainer and learn how to kick you
 //It's the oldest story I ever told about this character! June 22nd 2021. You can read it as it was originally here: https://postimg.cc/GHN5YWvm
 }
 rayquaza
-{
-}
+{/*
+	G: I read a book about someone who saw a Rayquaza when he was out in the wild on his Sharpedo between some cliffs. It was so large in the sky and it was so colorful against the blue, but also blended in because of how high up it was. It sounds magical...
+	S: Rayquaza isn't /that/ big.
+	G: How would you know? Have you ever seen one yourself?
+	S: It just doesn't match up with other accounts.
+	G: I think it does- There are a few different stories about lots of people being able to watch it at once, and old legends too. Maybe its got a big form and a small form, who knows.
+	
+	//Inspired by this image: https://www.tumblr.com/drewxmay/739426335011782656
+*/}
 jirachi
 {
 //G: I was training my Pokemon in the wild, we were wandering through the forest and we ran into a wild Jirachi
@@ -2426,8 +2503,17 @@ G: Well, to be fair, they're too short for most actual jobs people would wear sa
 */
 }
 lilipup_herdier_stoutland
-{
-}
+{/*
+	addFlag(Lilipup)
+	addFlag(Herdier)
+	addFlag(Stoutland)
+	
+	G: The Lilipup Line is funny to me. Dog ages regardless of time, instead ages with evolution!
+	S: That's just the looks. You can have an old Lilipup and a young Stoutland.
+	G: I'm imagining a Stoutland acting like a newborn puppy with big wide open eyes, and a grumbly lethargic old man Lilipup. It's beautiful.
+	S: Even without training, most Lilipup evolve at least once in their life anyways... It'd be very rare.
+	G: /Pampered/ old man Lilipup, on a velvet pillow.
+*/}
 purrloin_liepard
 {/*
 G: Of all the cat Pokemon... I dunno, Purrloin and Liepard are kind of mid-tier for me.
@@ -2474,8 +2560,21 @@ S: [Sigh]
 */
 }
 BLITZLE_ZEBSTRIKA
-{
-}
+{/*
+	addFlag(Blitzel)
+	addFlag(Zebstrika)
+	
+	G: Blitzle and Zebstrika /look/ like horses, but can you ride them?
+	S: No... There's no way to sit comfortably on top of it, and even if you manage to balance on there, it's rough when they walk.
+	S: They're likely to kick people off of them.
+	G: Wild and free... I see how it is. My horsegirl dreams may be crushed, but I can forgive them because they look cool. I think more electric type should be blue.
+	S: "Should be" sounds wrong here.
+	G: Blue electric types... There's menectric, the Shinx line... Oh, Lanturn of course.
+	G: AND /Mareep/ is a blue Electric Type.
+	S: It evolves out of it...
+	G: Still counts! What a good Pokémon~
+	S: [Shy]
+*/}
 ROGGENROLA_BOLDORE_GIGALITH
 {/*
 G: Another rocky Rock Type!
@@ -2512,8 +2611,19 @@ S: [Sigh]
 */
 }
 DRILBUR_EXCADRILL
-{
-}
+{/*
+	addFlag(Drilbur)
+	addFlag(Excadrill)
+	
+	G: They've got a funny nose~
+	S: Ground/Steel isn't a bad Type... It's the same as Steelix.
+	G: Excadrill would be /way/ easier to keep though, I bet, They're a pretty managable size versus Steelix, who can't get into barely /any/ buildings.
+	S: Size /is/ a common downside for many powerful Pokémon.
+	G: You've just got to make sure that you have the right space for it! Without it, they get really sad! Steelix needs space to make tunnels, Wailord needs space to swim, and even the smaller Pokémon that can fit shouldn't be in /cages/!
+	S: Pokéballs /are/ a kind of cage, if you think about it.
+	G: Yeah, but they're specifically designed to be comfortable for them, so that makes it okay.
+	G: ...Probably. I've never heard mine complain, at least.
+*/}
 AUDINO
 {/*
 G: Sound type!
@@ -2664,8 +2774,19 @@ G: Well, it's working on /me/!
 */
 }
 SIGILYPH
-{
-}
+{/*
+	G: Sigilyph feels like the kind of Pokémon that would hang around the Ruins of Alph, like Unown and Xatu.
+	G: Actually... They're a lot like Xatu, aren't they? They're mysterious Psychic/Flying types with similar colors. Xatu's obviously much more of a bird, though, so I guess kind of like a cross betwen Xatu and Chimecho?
+	S: I could maybe see that, but I'm not sure if they're actually related in any way. They're from very different parts of the world.
+	G: Xatu and Chimecho's secret lovechild...
+	S: What?
+	G: I hatched a Natu egg once, I really liked that little guy. Playful baby bird...
+	S: What does that have to do with anything?
+	G: You never know when a random piece of knowledge is going to save you one day.
+	S: But this isn't useful knowledge, it's a random event.
+	G: That's what they all say.
+	S: ???
+*/}
 YAMASK_COFAGRIGUS_Runerigus
 {/*
 	addFlag(Yamask)
@@ -2798,8 +2919,20 @@ G: That's besides the point!
 */
 }
 EMOLGA
-{
-}
+{/*
+	addFlag(Emolga)
+	 
+	G: Emolga is soooo cute!!!!
+	S: You didn't need to say it out loud for us to know you think that.
+	G: It's hard to pinpoint what about it exactly it is I think it's cute. I mean, it's small, it's happy looking, it's round and features, it looks very soft, I like its tail...
+	G: And, I think that electric/flying is a cool type. Aside from super rare Pokemon like Zapdos, the other Electric/Flying Types are all birds.
+	S: Or Rotom.
+	G: Or Rotom.
+	G: I imagine it would have a similar amount of use that Honoa does. Though, I don't think wild birds attack you while you're flying as much as wild fish attack you while surfing.
+	S: How do you imagine you would fly on an Emolga?
+	G: I don't know, hold on to its tail or something? I didn't think that far ahead...
+	S: Evidently.
+*/}
 KARRABLAST_ESCAVALIER
 {/*
 G: I don't think I recognize that one... Something's telling me it might be a bug type? Maybe a steel type? [Opens dex]
@@ -2814,8 +2947,20 @@ S: It also depends on the individual, though. I don't doubt that there are fast 
 */
 }
 FOONGUS_AMOONGUSS
-{
-}
+{/*
+	addFlag(Foongus)
+	addFlag(Amoonguss)
+	
+	G: So... Amoonguss is a Pokémon, huh?
+	S: Believe it or not, it's actually an incredibly good Grass Type.
+	G: I dunno... Are you sure? Sounds suspicious.
+	S: It's not a very strong attacker, but it has good stamina and an array of status moves. Notably, Spore, which you'd be most familiar with on Parasect, but Parasect's Bug/Grass Type holds it back from being truly threatening like Amoonguss.
+	G: And... is this "Amoonguss" in the room with us right now?
+	S: Amoonguss is real, stop acting like it's not.
+	G: Just keeping my eyes peeled. You never know who to trust when it's around...
+	
+	//If I didn't put in among us reference in here I would've been booed off the stage I would never have a single comment other than "among us" for years. I'm trying to placate you all.
+*/}
 FRILLISH_JELLICENT
 {/*
 G: Of all the Pokemon I would like to kill me the least, Jellicent is definitely at the top of the list.
@@ -2848,14 +2993,33 @@ S: Whatever.
 //Silver correcting both Gold and the user if they mispell it lol
 }
 JOLTIK_GALVANTULA
-{
-}
+{/*
+	addFlag(Joltik)
+	addFlag(Galvantula)
+	
+	G: Joltik is so cute and fuzzy!!! Have you seen it jumping around when it's happy?? It's adorable!!
+	S: I'd assume you were scared of spider Pokédex.
+	G: Scared of Joltik?? Never!
+	S: Galvantula? Ariados? Araquanid?
+	G: I can't say they bother me! They're big enough and brightly colored in a way that makes me feel less like they're hiding nothing. No disturbing details...
+	G: And Spinarak have cute smiley faces on their back!
+	S: Remember that time a spider was in your head and you cried about it?
+	G: It was scary D:
+	S: ...
+*/}
 FERROSEED_FERROTHORN
 {
 }
 KLINK_KLANG_KLINKLANG
-{
-}
+{/*
+	G: Do people ever use Klings as cogs or do they just look like that?
+	S: The Pokemon does for itself. The energy they get from rotating is what keeps it alive.
+	G: So if it stops spinning, it dies?
+	S: If it dies it stops spinning.
+	G: What's what I said.
+	S: There's a slight difference in cause and effect. As long as it is alive, it will continue spinning, and nothing will make it stop spinning short of being killed.
+	G: Hmmm... I don't really want to think about dead Kinks anymore.
+*/}
 TYNAMO_EELEKTRIK_EELEKTROSS
 {/*
 G: Isn't that the Electric Type with no weaknesses? Since it can levitate?
@@ -2895,8 +3059,15 @@ G: EVERYONE HAS TO KNOW THIS.
 litwikdex = 2
 }
 AXEW_FRAXURE_HAXORUS
-{
-}
+{/*
+	addFlag(Axew)
+	addFlag(Fraxure)
+	addFlag(Haxorus)
+	
+	G: Ooooo Silver you like Dragon Types, what do you think of the Axew Line?
+	S: Haxorus are incredibly strong physical attackers. However, unlike most dragon types they are unable to fly, which can put them at a disadvantage in certain situations. They have the strength to make up for it, they are still dragon types, but it really	depends on what you're looking for...
+	G: Nice! Personally, I feel like having giant knives stick out of your face seems like it would be really inconvenient... But I guess if you were born with that, you're already used to it so it's not actually that big a deal.
+*/}
 CUBCHOO_BEARTIC
 {/*
 Redesign by Subjectively
@@ -3014,8 +3185,19 @@ DEINO_ZWEILOUS_HYDREIGON
 //G: Well... I guess three dragon heads working together instead of fighting each other is better.
 }
 LARVESTA_VOLCARONA
-{
-}
+{/*
+	G: I love Larvesta and Volcorona! They're so colorful! They honestly look like they could be Bug/Dragon types.
+	S: They're Bug/Fire Types, which, as far as Bug Type combinations go, isn't that bad.
+	G: It's such an interesting type too! I feel like watching a Volcarona fight adds to its beauty... A beautiful multicolored monster surrounded by scarlet flames that accentuate its beauty...
+	G: I also like the white fur they have on them. Imagine there was a variation that's fur was thicker, and grew on more of their body, and it was a Bug/Ice Type instead.
+	S: Bug/Ice is one of the worst Type combination you could possibly have.
+	G: It would be pretty though! And it's Volcorona, it'll probably still kick ass.
+	S: One of the most substantial reasons that Volcarona is as good as it is is because of its type. If you took that away, it would have none of the battling prowess that it normally possesses.
+	G: If a Pokemon is not good at battling, does that mean it doesn't deserve to live? Will you never give these furry little worms a chance?
+	S: Whatever, I'm just commenting on the battling part of it because that's what I'm knowledgeable about.
+	G: You need to look beyond that... The potential of Ice Type Volcorona is grand, you just need to allow yourself to see it.
+	S: Uhg.
+*/}
 COBALION_TERRAKION_VIRIZION
 {
 //G: Don't they have some legend associated with them?
@@ -3027,8 +3209,20 @@ COBALION_TERRAKION_VIRIZION
 //G: As far as YOU know
 }
 TORNADUS_THUNDURUS_LANDORUS_ENAMORUS
-{
-}
+{/*
+	addFlag(Tornadus)
+	addFlag(Thundurus)
+	addFlag(Landorus)
+	addFlag(Enamorus)
+	
+	G: That's one of, like, the weather gods of Unova, right? Like Entei Rikou and Suicune are the weather gods in Johto and Articuno Zapdos and Moltres are the weather gods in Kanto.
+	S: They're close... They're not strictly associated with the weather, though they are all flying types. They represent different things depending on who you ask. A popular idea is Landerous representing the land, Tornadus represents the heavens, and Thunderus represents the space between.
+	G: Isn't there a fourth one? Is that one hell or something?
+	S: Other ideas are that they represent the four seasons. Thundurus summer, Landorus autumn, Tornadus winter, and Enamorus spring.
+	G: I still prefer my "Hell" idea for Enamorus. Love is pain...
+	S: Says you.
+	G: ?
+*/}
 RESHIRAN_ZEKROM
 {
 //G: Yeah you can tell I don't know a lot about Unova. Like, I know that's a thing FROM Unova, just don't recognize it at all.
@@ -3163,8 +3357,14 @@ HONEDGE_DOUBLADE_AEGISLASH
 */
 }
 SPRITZEE_AROMATISSE
-{
-}
+{/*
+	G: Spritzee and Aromastee are sooooooooo cute!
+	S: It's pronounced "Aromatisse".
+	G: They're so fluffyyyyy and bird-like... It seems like some sort of mistake I wasn't born somewhere Fairy Types are native to.
+	S: Maybe you wouldn't like them as much if they were less of a novelty.
+	G: Hmmm... Do I only covet them in absence...? They say distance makes the heart grow fonder...
+	G: Nah. Sounds unlikely.
+*/}
 SWIRLIX_SLURPUFF
 {
 //G: But have you SEEN how CUTE Swirlix is??? I've never touched one but I bet they're so soft ;~; I just wanna give it a hug......
@@ -3450,7 +3650,6 @@ ROWLET_DRATRIX_DECIDUEYE_POPPLIO_BRIONNE_PRIMARINA_LITTEN_TORRACAT_INCINEROUR
 //S: Because...?
 //G: It's a mysterious owl thing! You USED to be into whatever looks scariest, but ACTUALLY you're just a shy boy. I think the hooded thing reminds me of you, personality wise.
 //S: ...ok.
-
 }
 PIKIPEK_TRUMBEAK_TOUCANNON
 {
@@ -3479,8 +3678,16 @@ G: Aww... I like those. WELL even if it is a scary predator that eats cute babie
 */
 }
 GRUBBIN_CHARJABUG_VIKAVOLT
-{
-}
+{/*
+	G: Charjabug look like they'd be better batteries than Voltorb. So space efficiant... And they can't accidentally roll over like a sphere does.
+	S: They're literally classified as "The Battery Pokemon".
+	G: See? It's common sense. Don't they evolve, though? They can't just stay batteries forever...?
+	S: They do, but it's via Thunder Stone or in some specific locations.
+	G: Oh hell yeah! Battery bug forever!
+	S: Aren't you a battler, not a camper?
+	G: I'm a TRAINER. I camp SO MUCH. You should know this!
+	S: ...
+*/}
 CRABRAWLER_CRABOMINABLE
 {/*
 G: That's the super goofy one with the weird face and big arms, right? It's Fighting/Ice Type, isn't it?
@@ -3545,8 +3752,15 @@ MAREANIE_TOXAPEX
 //G: I can I was just pretending I couldn't because it makes me so bored to even think of it.
 }
 MUDBRAY_MUDSDALE
-{
-}
+{/*
+	G: My Mom said if she ever bought a big place with a bunch of land, she'd get a Mudsdale to help her farm.
+	S: They're good for that.
+	G: The idea of moving seems weird to me, though. We've never moved! Not once! It's just been this one house.
+	S: You barely even live there.
+	G: The thought of never going back home just feels a little sad, y'know?
+	S: ...
+	G: I wonder what we'd name the Mudsdale. Maybe we'd even get it as a Mudbray, and train it to help ourselves?
+*/}
 DEWPIDER_ARAQUANID
 {/*
 G: Dewpider and Araquid- Araquid?
@@ -3683,11 +3897,25 @@ S: Uhg.
 */
 }
 MINIOR
-{
-}
+{/*
+	addFlag(Minior)
+	G: You know what I want? A miniminior.
+	S: I suppose that would make it harder to hit...
+	G: I mean like a cute keychain or something to put on my bag. Imagine how much more mini it could be...
+	G: Though, I wouldn't MIND having a Minior if I just /happened/ to catch one... They're so pretty! Most rock types aren't anywhere near as pretty!
+	S: It's just the core that's colorful.
+	G: Yeah, but even the defensive version has cool patterns on it.
+*/}
 KOMALA
-{
-}
+{/*
+	G: Do you think Komala ever has nightmares? With all the time it spends sleeping, it has to, right?
+	G: Maybe that's the only time they ever wake up, scared out of it from a nightmare.
+	G: Or maybe they're trapped there... Just waiting for the horror to pass back into a normal dream...
+	S: Psychic attacks can give Pokemon bad dreams.
+	G: Training a Komala must be so strange. To have a Pokemon that doesn't truly know you, because it's always sleeping, but still dreams of your voice.
+	S: They are certainly odd Pokemon to raise, from what I've heard...
+	G: I'd still want one if I had the chance though. They're cuties!
+*/}
 TURTONATOR
 {
 }
@@ -3828,8 +4056,19 @@ MEGEARNA
 {
 }
 MARSHADOW
-{
-}
+{/*
+	G: Sounds like "Marshmallow".
+	S: Marshadow has nothing to do with marshmallows.
+	G: What does it have to do with?
+	S: It's a Ghost/Fighting Type and there's scarce information about it.
+	G: Ooooo a myserious Pokemon.
+	S: :shows image:
+	G: Awwww it looks like a little marshmallow!!!!! Adding to my list of Fighting Types I like.
+	S: As if you'll be able to find one.
+	G: It's a Fighting Type because it's got lil' mitten hands like gloves.
+	S: When you die it will because you tried to approach a Pokemon you shouldn't have.
+	G: I would be okay with that.
+*/}
 ZERAORA
 {
 //G: Does it have a pre-evo?
@@ -3923,8 +4162,16 @@ WOOLOO_DUBWOOL
 //S: Quiet!
 }
 CHEWTLE_DREDNAW
-{
-}
+{/*
+	G: Big Drednaw and Blastoise look kinda similar. Do you think they're related?
+	S: Do you mean Gigantamax?
+	G: Yeah, it's got its arms stickin' out.
+	S: I don't know if there's any relation... They aren't found in the same parts of the world, and what they do have in common is only just barely.
+	G: Yeah... At least Water/Rock isn't the /worst/ kind of Rock Type. Extremely weak to Grass, but you have a counter to Ground and are neutral to Steel now.
+	G: It's weird to imagine a Rock Type being weak to Electric, though.
+	S: Only its shell is rock.
+	G: I kind of want to hug a rock now...
+*/}
 YAMPER_BOLTUND
 {/*
 G: I feel like Atticus and Boltund are the inverse of each other.
@@ -3990,14 +4237,32 @@ SLOBBOPUS_GRAPPLOCT
 {
 }
 SINISTEA_POLTEAGEIST
-{
-}
+{/*
+	G: Do you think Sinistea tastes good?
+	S: It would kill you.
+	G: Yeah, but does it taste good?
+	S: No.
+	G: How would you know? Did you drink it?
+	S: If you spit it out fast enough you live, and the people who did spat it out because it tastes bad.
+	G: Man... Sinistea need to step up their game.
+	S: [With dex] When they evolve into Polteageist, the tea becomes drinkable. However, drinking too much can be fatal.
+	G: Hmmm... Might be worth it for the novelty.
+*/}
 HATENNA_HATTREM_HATTERENE
 {
 }
 IMPIDIMP_MORGREM_GRIMMSNARL
-{
-}
+{/*
+	G: Do Grimmsnarl kill people?
+	S: I assume not usually...?
+	G: But they could.
+	S: Most Pokémon could, yes.
+	G: What about Impidimp?
+	S: Same thing I just said.
+	G: [With dex] They look like they're made out of bubblegum. If you pulled on their arms, do you think they'd stretch out really long?
+	S: ...I'll start answering your questions again when they're worth answering.
+	G: Awww, but I like how you answer my silly questions! You're always able to come up with something nuanced.
+*/}
 GALARIANZIGZAGOON_OBSTAGOON
 {
 //G: The Galarian zigzagoon are so much cooler than the ones I've seen...
@@ -4028,8 +4293,11 @@ MILCERY_ALCREMIE
 //G: Though... I'd have to forgive them for what they did to Corsola first. Tough choices!
 }
 FALINKS
-{
-}
+{/*
+	Gold: no matter how hard you try… No matter how long you train… You will never be a synchronized as a Falinks.
+	Silver: it helps they can psychically communicate with its other links.
+	Gold: Maybe dancers should become psychic.
+*/}
 PINCHURCHIN
 {
 }
@@ -4110,19 +4378,23 @@ DRACOZOLT_ARCTOZOLT_DRACOVISH_ARCTOVISH
 DURALUDON_ARCHALUDON
 {
 }
-DREEPY_DRAKLOAK_DRAGAPULT
+Dreepy_Drakloak_Dragapult
+{/*
+	G: I wish I was shot out of canons as a baby.
+	S: ...No you don't?
+	G: 
+*/}
+Zacian_Zamazenta
 {
 }
-ZACIAN_ZAMAZENTA
+Eternatus
+{/*
+	G: "Eternatus" is a pretty damn cool name.
+*/}
+Kubfu_Urshifu
 {
 }
-ETERNATUS
-{
-}
-KUBFU_URSHIFU
-{
-}
-ZARUDE
+Zarude
 {/*
 G: Zarude's a mythical monkey pokémon, right?
 S: It is, though we know more about it than we do many other Pokemon classified under "myth".
@@ -4229,8 +4501,19 @@ BRAMBLIN_BRAMBLEGHAST
 {
 }
 TOEDSCOOL_TOEDSCRUEL
-{
-}
+{/*
+	addFlag(Toedscool)
+	addFlag(Toedscruel)
+	
+	G: What do you think of Toedscruel? Since you used to have a Tentacruel.
+	S: They're very different.
+	G: Do you like Toedscruel?
+	S: It'd be a stretch to say I like Tentacruel. I liked it was useful, especially without other water types, but I obviously wasn't particularly attached to it.
+	G: Yeah, having a water type is a little bit more useful than having a Grass or Ground Type... Which you also have neither of. Would you want one?
+	S: I think if I were going to get a grass or ground type, it would be something different... Grass/Ground is not a very good pairing. It has its uses, but I prefer ones that are more versatile.
+	G: It has a major weakness to ice, so it wouldn't get along with your other teammates, huh?
+	S: I don't know why they would fight each other, but that is true that it could be a problem...
+*/}
 KLAWF
 {
 }
@@ -4247,9 +4530,21 @@ TINKATINK_TINKATUFF_TINKATON
 {
 }
 WIGLETT_WUGTRIO
-{
+{/*
+	addFlag(Wiglett)
+	addFlag(Wugtrio)
+	
+	G: So, what does the bottom of a /Wiglett/ look like?
+	S: Very different from a Diglett's.
+	G: Can you pull them out of the ground while they're still alive, or do you need to look for dead ones?
+	S: ...There's technology that lets us see underground without needing to pull anything out.
+	G: Oooo, so like X-Ray vision?
+	S: Do you have any idea what X-Ray's actually are?
+	G: Yeah, X-Rays from the moon created Grimer.
+	S: Uhhhgggg.
+	G: I can't believe that stayed in the Pokédex information for soooo long! Hahahaha
 	//ad typo for wigglet
-}
+*/}
 BOMBIRDIER
 {
 }

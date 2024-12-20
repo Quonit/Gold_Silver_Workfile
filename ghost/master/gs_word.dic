@@ -970,7 +970,7 @@ DarkPsychic
 {
 	"Inkay"
 	"Malamar"
-	"Unbound Hoopa"
+	//"Unbound Hoopa" //Canceled for being mythical
 }
 DarkRock
 {
@@ -1183,7 +1183,7 @@ FairyPsychic
 }
 FairyRock
 {
-	"a Carbink"
+	"Carbink"
 }
 FairySteel //👑
 {
@@ -1227,12 +1227,10 @@ FireGhost
 }
 FireGrass
 {
-	"a Scovillain"
+	"Scovillain"
 }
 FireGround
 {
-	"a "
-	--
 	"Numel"
 	"Camerupt"
 }
@@ -1257,6 +1255,10 @@ FireRock
 /*FireSteel //**NPMO 
 {
 	//Heatran is banned
+}*/
+/*FireWater //**NPMO 
+{
+	//Volcanion get a sibling
 }*/
 
 //FLYING TYPES 🕊

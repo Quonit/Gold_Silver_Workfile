@@ -547,6 +547,10 @@ RandomTalk : nonoverlap
 	S: At least it /is/ an Electric Type instead of being a Water Type called Electric, or something similar.
 	G: Pff, right.
 	//Almost as bad as Zapdos and Jolteon's Japanese names...... Thunder and Thundersu.
+	
+	shiny smeargle
+	
+	//metagross scare Gold
 	*/
 
 
@@ -689,7 +693,9 @@ RandomTalk : nonoverlap
 		{ //Fighting
 			"What would be weak to %(FightingType)?\0"
 			--
-			"Psh, any Rock/Ground Type like %(GroundRock), which are plentiful in Kanto. It's such a common type for how many weaknesses it has."
+			"A Rock/Steel type, like %(RockSteel). They'd be better leaving the Rock Type behind, honestly..."
+			
+			"%(IceRock)... That thing gon' shatter like a pane of glass dropped on concrete."
 			
 			"I'd say \&[quot]your Sandslash\&[quot], but you beat one with it once, didn't you?\n\n\w8No one should be relying on luck when it comes to that kind of thing. It's dangerous and irresponsible. \0Yeah, but I don't think it was \&[quot]luck\&[quot], was it? You had a real strategy there.\1Hm.\0I'm telling you, you're a great trainer! You just need to have a little more trust in yourself."
 		}
@@ -766,7 +772,7 @@ RandomTalk : nonoverlap
 		
 		"Like %(BugFlying). There are a lot of Bug/Flying Types, hitting those would be useful all the time.\1 Bug/Flying Types are actually less common in some other regions.\0Woah, really? I'd assume they'd be a staple, kind of like Flying/Normal Types, heh.\e"
 		
-		"It'd probably knock out a Zen-Mode Galarian Darmanitan in one hit. \1That's a rather specific example... \0It's the only Ice/Fire Type! It's pretty memorable!"
+		"It'd probably knock out a Zen-Mode Galarian Darmanitan in one hit. \1That's a rather specific example... \0It's the only Ice/Fire Type! It's pretty memorable!" //**NPMO
 		}
 		{ //Ice
 		"What would be weak to %(IceType)?\0"
@@ -818,7 +824,7 @@ RandomTalk : nonoverlap
 		{ //Steel
 		"\1What would be weak to %(SteelType)?\0"
 		--
-		"I don't even remember what's /normally/ weak to Steel Types... Hmm... Maybe an... Alolan Ninetales?\n\n\w8\1That's true.\n\n\w8\0Nice!! A win for Sens!\e"
+		"I don't even remember what's /normally/ weak to Steel Types... Hmm... Maybe an... Alolan Ninetales?\n\n\w8\1That's true.\n\n\w8\0Nice!! A win for Sens!\e" //**NPMO
 		
 		"Maybe a... A... Uhg, I /know/ Steel is effective against more than one Type, I just don't remember what...! \1Do you want me to help you? \0pretty please (puppy eyes)? \1The Types that Steel is effective against are Ice, Rock, and Fairy. So, you'd want a Pokémon with a combination of two of those."
 		--
@@ -1279,6 +1285,68 @@ RandomTalk : nonoverlap
 	Dark
 	*/
 	
+	{ //BEST TYPE COMBINATIONS Steel/Fairy Fire/Dark Grass/Steel
+	//This is less objective so I'm curious how the internet (Reddit threads + WolfeyVGC video I downloaded the transcript of)'s opinion differs from Silver.
+	//I've written 235 Pokedex entrees at this point and the entire "what would be weak to [BLANK]" section above, I think I know enough to do this maybe.
+	/* //Steel/Fairy
+	Gold: What's the BEST possible Type combination?
+	Silver: Fairy/Steel.
+	Gold: Psh yeah, course you'd think that. That would completely obliterate Dragons.
+	Silver: It's not just Dragons. It also has a Poison immunity, /one of Fairy Type's only two weaknesses/ and Steel resists itself so it's no longer weak to it and is only neutral. Steel is normally weak to Fighting Type, but Fairy resists that and does super-effective damage to it. They cancel out each other's weaknesses almost fully.
+	Silver: They're only weak to Fire and Ground moves.
+	Gold: Hmm.
+	Silver: Frankly, it's the best type combination there is.
+	Gold: Silver thinks Klefki is the best Pokemon ever /confirmed?/
+	Silver: Not really...
+	\e:chain=glitterychain
+	*/
+	
+	/* //Fire/Dark
+		G: What do you think the best Type combo with Fire is? My first thought is... urhg, maybe Steel? Pretty much every Type is better with that.
+		G: Well, except that it'd have a /huge/ weakness to Ground... and be bad against Water... which is super common... and Fighting, which is pretty powerful...
+		S: Dark Type.
+		G: Oh /really/?
+		S: Dark is an incredibly valuable type at our location, given the dominence of Phsychics within the region.
+		S: Their resistances don't overlap, so it is an incredibly strong defensive typing with seven resistances and one immunity.
+		S: Dark doesn't cancel out any of Fire's weaknesses, and Fire only cancels out Dark's Bug weakness...
+		S: ...however, /conveniently/ enough most Fire/Dark Types- in particular /your Houndoom/ have the ability to intimidate the opposing Pokemon out of using full power physical moves... which happen to be what most Fighting, Ground, and Rock moves are.
+		G: Atticus getting the respect he deserves, for once.
+		S: I still cannot believe you chose to use your Delcatty against that Jynx instead of Atticus during the tournament...
+		G: You can't say it didn't work, though!
+	*/
+	
+	/* //Grass/Steel
+	
+	G: What about... Hm... The best type combination for Grass? I'm gonna go out on a limb and say Steel.
+	S: (Sarcastic) How did you know?
+	G: Wouldn't they faint from like... any Fire attack though?
+	S: Just avoid Fire Types.
+	G: You're sounding like me.
+	S: It resists nine types and has an immunity to Poison. Its only weakness, other than Fire, is Fighting, and there are enough Water, Ground, and Rock Types around that its offenses are still valuable even if they're not as plentiful as some other combinations.
+	G: Now I want a Ferrothorn...
+	*/
+	}
+	{ //BEST TYPE COMBINATIONS 2
+		/* //Rock...?
+		G: You'd think being made of /rock/ would help a Pokemon. Rock is sturdy, hard, difficult to crack, hurts /you/ if you punch it instead of the other way around.
+		G: But when it comes to Pokemon battles... Rock Types are total pushovers!
+		G: Spray a hose on one or rip up some grass from the ground and it's like they'll totally crumble.
+		G: Doesn't help that most of the ones 'round here are part /Ground/, /doubling/ their weaknesses. I honestly feel a little bad for them.
+		S: Rock isn't /always/ bad.
+		G: But you'd always prefer a different Type instead.
+		S: Rock/Ghost would be pretty good... It nullifies Rock's Fighting weakness...
+		G: Are there any Rock/Ghost Types though? Like, a tombstone Pokemon or something? ...Houndstone?
+		S: No, that's just Ghost Type.
+		S: I suppose after that would be... Fighting? Nothing resists both Rock /and/ Fighting, and six... eight Types would be weak to it. But it's still weak defensively, so it would have to be fast...
+		G: Is that really the best Rock can do?
+		S: Rock and Fairy wouldn't be bad, depending on the region, though I don't know much about Carbink...
+		G: Man if you can't save this Type, no one can.
+		
+		[rockcombochain]
+		*/
+	}
+	
+	
 	{ //Regional Variants
 		//QUO DOES ARRAY FOR THE FIRST TIME!!! 👑🦊 New achievement unlocked!
 	_regionconvo = regionconvodialogue
@@ -1322,6 +1390,7 @@ RandomTalk : nonoverlap
 	S: Maybe one day I'll have the opportunity to do the same.
 	G: NOT TODAY AND NOT TOMORROW, I'LL MAKE SURE OF THAT!
 	\e:chain=fireghostchain*/
+
 }
 }
 
@@ -1468,6 +1537,31 @@ fireghostchain
 	G: Pokémon come and go so quickly...
 	\e:chain=end
 	*/
+}}CHAIN
+
+glitterychain
+{{CHAIN
+/*
+	Gold: You should put a kefki on your team. It's, like, got the strongest Type ever. It's a dragon slayer.
+	Silver: Good /type/ doesn't mean strong Pokemon. It just gives it more tools to succeed. Type alone does not a strong Pokemon make.
+	Gold: Ya you'd have to take really good care of it. Polishing its ring and giving it new keys to play with. Then its powers will grow so strong even looking at it could turn you to dust.
+	Silver: [sigh]
+	Gold: Would Mawile be better? It's got a giant scary mouth on it.
+	Silver: ;; I'd rather not take my chances with it (imagining it biting him). Tinkaton is better, anyhow.
+	Silver: I'm not really /looking/ for any more Pokemon, though.
+	Gold: Yeah yeah. Still seemed like you were pretty passionate about the Type, though.
+	Silver: Let's put it this way... %(fairyice) isn't very effective because its two types overlap in strengths without benefiting the other enough.
+	Gold: Awww! Ice/Steel it is, then.
+*/
+}}CHAIN
+
+rockcombochain
+{{CHAIN
+/*
+	Silver: Bug/Rock wouldn't be so bad, as long as they had good moves to utilize the Type...
+	Gold: A Bug Type would still prefer to be part Steel instead, though.
+	Silver: It's a little hard to do better than Bug/Steel.
+*/
 }}CHAIN
 
 HourCheck
