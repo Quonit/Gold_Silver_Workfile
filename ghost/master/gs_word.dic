@@ -17,19 +17,17 @@
 BugType
 {
 	//I wrote the Ice Type envelope just before this one- just look at the comment for that one lol
-	"a Pinsir"
-	"a Volbeat"
-	"an Illumise"
-	"a Kricketune"
-	"an Accelgor"
-	"a Spidops"
-	"a Rellor"
+	"Pinsir"
+	"Volbeat"
+	"Illumise"
+	"Kricketune"
+	"Accelgor"
+	"Spidops"
+	"Rellor"
 }
 
 DragonType
 {
-	"a "
-	--
 	"Dratini" //A rare first stage, Silver respects it
 	"Dragonair"
 	"Shelgon"
@@ -42,13 +40,13 @@ DragonType
 
 DarkType
 {
-	"an Alolan Persian"
-	"an Umbreon"
-	"a Mightyena"
-	"an Absol"
-	"a Liepard"
-	"a Thievul"
-	"a Mabosstiff"
+	"Alolan Persian"
+	"Umbreon"
+	"Mightyena"
+	"Absol"
+	"Liepard"
+	"Thievul"
+	"Mabosstiff"
 }
 
 ElectricType
@@ -80,22 +78,21 @@ ElectricType
 
 FairyType //ohhh boy thisll cause some conflicts
 {
-	"a Fairy Type Clefairy"
-	"a Fairy Type Clefable"
-	"a Fairy Type Granbull"
-	"a Floette"
-	"a Florges"
-	"an Aromatisse"
-	"a Slurpuff"
-	"a Sylveon"
-	"a Comfey"
-	"a Alcremie"
-	"a Dachsbun"
+	"Fairy Type Clefairy"
+	"Fairy Type Clefable"
+	"Fairy Type Granbull"
+	"Floette"
+	"Florges"
+	"Aromatisse"
+	"Slurpuff"
+	"Sylveon"
+	"Comfey"
+	"Alcremie"
+	"Dachsbun"
 }
 
 FightingType
 {
-	"a "
 	"Primeape"
 	"Machoke"
 	"Machamp"
@@ -118,55 +115,53 @@ FightingType
 
 FireType
 {
-	"a Charmeleon"
-	"a Vulpix"
-	"a Ninetales"
-	"a Growlithe"
-	"an Arcanine"
-	"a Rapidash"
-	"a Magmar"
-	"a Flareon"
-	"a Typhlosion"
-	"a Torkoal"
-	"a Magmortar"
-	"a Simisear"
-	"a Standard Darmanitan"
-	"a Heatmor"
-	"a Cinderace"
-	"a Charcadet"
+	"Charmeleon"
+	"Vulpix"
+	"Ninetales"
+	"Growlithe"
+	"Arcanine"
+	"Rapidash"
+	"Magmar"
+	"Flareon"
+	"Typhlosion"
+	"Torkoal"
+	"Magmortar"
+	"Simisear"
+	"Standard Darmanitan"
+	"Heatmor"
+	"Cinderace"
+	"Charcadet"
 }
 
 FlyingType
 {
-	 "a Corvisquire" //Creating this envelope gave me a crisis and I wrote about it in Rookidee's dialogue
+	 "Corvisquire" //Creating this envelope gave me a crisis and I wrote about it in Rookidee's dialogue
 	 //Just for the sake of making my dialogue make sense I'm including a bunch of Normal/Flying Types
-	 "a Pidgeotto"
-	 "a Pidgeot"
-	 "a Spearow"
-	 "a Fearow"
-	 "a Farfetch'd"
-	 "a Doduo"
-	 "a Dodrio"
+	 "Pidgeotto"
+	 "Pidgeot"
+	 "Spearow"
+	 "Fearow"
+	 "Farfetch'd"
+	 "Doduo"
+	 "Dodrio"
 	 //Not including Noctowl just because of the joke in its dex entree
-	 "a Taillow"
-	 "a Swellow"
-	 "a Swablu" //Gold gets one of these, eventually. It is worse than the average Swablu
-	 "a Staravia"
-	 "a Staraptor"
-	 "a Chatot"
-	 "a Tranquill"
-	 "an Unfezant"
-	 "a Braviary"
-	 "a Pikipek" //first stage idk why it just looks more sturdy than most first stages
-	 "a Trumbeak"
-	 "a Toucannon"
-	 "a Squawkabilly"
+	 "Taillow"
+	 "Swellow"
+	 "Swablu" //Gold gets one of these, eventually. It is worse than the average Swablu
+	 "Staravia"
+	 "Staraptor"
+	 "Chatot"
+	 "Tranquill"
+	 "Unfezant"
+	 "Braviary"
+	 "Pikipek" //first stage idk why it just looks more sturdy than most first stages
+	 "Trumbeak"
+	 "Toucannon"
+	 "Squawkabilly"
 }
 
 GhostType
 {
-	"a "
-	--
 	"Misdreavus"
 	"Galarian Corsola"
 	"Banette"
@@ -184,8 +179,6 @@ GhostType
 
 GrassType
 {
-	"a "
-	--
 	"Whimsicott" //It could be pure Grass depending on where it's from
 	"Tangela" //Tangrowth has a weird evolution so you would see more strong Tangela
 	"Meganium"
@@ -216,8 +209,6 @@ GrassType
 
 GroundType
 {
-	"a "
-	--
 	"Sandslash"
 	"Dugtrio"
 	"Marowak"
@@ -229,120 +220,120 @@ GroundType
 
 IceType //Silver doesn't consider any ice type competatively viable lol I wonder what usage this envelope will have
 {
-	"an Alolan Vulpix"
-	"a Snorunt"
-	"a Glalie"
-	"a Glaceon"
-	"a Galarian Darmanitan"
-	"a Vanillish"
-	"a Vanilluxe"
-	"a Beartic"
-	"a Cryogonal"
-	"an Avalugg"
-	"an Eiscue"
-	"a Cetitan"
+	"Alolan Vulpix"
+	"Snorunt"
+	"Glalie"
+	"Glaceon"
+	"Galarian Darmanitan"
+	"Vanillish"
+	"Vanilluxe"
+	"Beartic"
+	"Cryogonal"
+	"Avalugg"
+	"Eiscue"
+	"Cetitan"
 }
 
 NormalType
 {
-	"a Clefairy"
-	"a Clefable"
-	"a Jigglypuff"
-	"a Wigglytuff"
-	"a Granbull"
+	"Clefairy"
+	"Clefable"
+	"Jigglypuff"
+	"Wigglytuff"
+	"Granbull"
 	//They're Normal Types HERE ok they're used to them being Normal Type
-	"a Raticate"
-	"a Persian"
-	"a Lickitung"
-	"a Chansey"
-	"a Kangaskhan"
-	"a Tauros"
-	"an Eevee"
-	"a Snorlax"
-	"a Furret"
-	"a Ursaring"
-	"a Stantler"
-	"a Miltank"
-	"a Blissey"
-	"a Linoone"
-	"a Vigoroth"
-	"a Slaking"
-	"a Loudred"
-	"an Exploud"
-	"a Delcatty"
-	"a Zangoose"
-	"an Ambipom"
-	"a Lopunny"
-	"a Purugly"
-	"a Munchlax"
-	"a Lickilicky"
-	"a Watchog"
-	"a Stoutland"
-	"an Audino"
-	"a Cinccino"
-	"a Bouffalant"
-	"a Bunnelby"
-	"a Furfrou"
-	"a Gumshoos"
-	"a Komala"
-	"a Greedent"
-	"a Dubwool"
-	"a Oinkologne"
-	"a Maushold"
+	"Raticate"
+	"Persian"
+	"Lickitung"
+	"Chansey"
+	"Kangaskhan"
+	"Tauros"
+	"Eevee"
+	"Snorlax"
+	"Furret"
+	"Ursaring"
+	"Stantler"
+	"Miltank"
+	"Blissey"
+	"Linoone"
+	"Vigoroth"
+	"Slaking"
+	"Loudred"
+	"Exploud"
+	"Delcatty"
+	"Zangoose"
+	"Ambipom"
+	"Lopunny"
+	"Purugly"
+	"Munchlax"
+	"Lickilicky"
+	"Watchog"
+	"Stoutland"
+	"Audino"
+	"Cinccino"
+	"Bouffalant"
+	"Bunnelby"
+	"Furfrou"
+	"Gumshoos"
+	"Komala"
+	"Greedent"
+	"Dubwool"
+	"Oinkologne"
+	"Maushold"
 }
 
 PoisonType
 {
-	"an Arbok"
-	"a Nidorina"
-	"a Nidorino"
-	"a Muk"
-	"a Weezing"
-	"a Swalot"
-	"a Seviper"
-	"a Garbodor"
+	"Arbok"
+	"Nidorina"
+	"Nidorino"
+	"Muk"
+	"Weezing"
+	"Swalot"
+	"Seviper"
+	"Garbodor"
 }
 
 PsychicType
 {
-    "an Alakazam"
-    "a Drowzee"
-	"a Mr.Mime"
-    "an Espeon"
-	"a Hypno"
-    "a Grumpig"
-    "a Chimecho"
-	"a Gardevoir"
-    "a Musharna"
-    "a Gothitelle"
-    "a Reuniclus"
-    "a Beheeyem"
-    "a Meowstic"
-    "an Espathra"
+    "Alakazam"
+    "Drowzee"
+	"Mr.Mime"
+    "Espeon"
+	"Hypno"
+    "Grumpig"
+    "Chimecho"
+	"Gardevoir"
+    "Musharna"
+    "Gothitelle"
+    "Reuniclus"
+    "Beheeyem"
+    "Meowstic"
+    "Espathra"
 }
 
 RockType
 {
-	"a Sudowoodo" //lmao at the top of the list. I mean they are from Johto
-	"a Nosepass"
-	"a Rampardos" //Little do they know Gold will get one of these in the future
-	"a Boldore"
-	"a Gigalith"
-	"a Lycanroc"
-	"a Stonjourner"
-	"a Naclstack"
-	"a Garganacle"
-	"a Klawf"
+	"Sudowoodo" //lmao at the top of the list. I mean they are from Johto
+	"Nosepass"
+	"Rampardos" //Little do they know Gold will get one of these in the future
+	"Boldore"
+	"Gigalith"
+	"Lycanroc"
+	"Stonjourner"
+	"Naclstack"
+	"Garganacle"
+	"Klawf"
 }
 
 SteelType
 {
-	"a Mawile" //Depends on where it's from/been
-	"a Galarian Meowth"
-	"a Klinklang"
-	"a Perrserker"
-	"a Copperajah"
-	"an Orthworm"
+	"Mawile" //Depends on where it's from/been
+	"Galarian Meowth"
+	"Klinklang"
+	"Perrserker"
+	"Copperajah"
+	"Orthworm"
 }
 
 WaterType
@@ -796,8 +787,6 @@ BugGhost
 }
 BugGrass
 {
-	"a "
-	--
 	"Paras"
 	"Parasect"
 	"Plant Cloak Wormadam"
@@ -1041,6 +1030,18 @@ DragonIce
 	"Arctibax"
 	"Baxcalibur"
 }
+
+DragonRock
+{
+	"Tyrunt"
+	"Tyrantrum"
+}
+
+DragonPoison
+{
+	"Dragalge"
+}
+
 DragonSteel
 {
 	"Duraludon"
@@ -1145,8 +1146,6 @@ FairyGhost
 }
 FairyGrass
 {
-	"a "
-	--
 	"foreign Cottonee"
 	"foreign Whimsicott"
 	"Morelull"
@@ -1218,7 +1217,7 @@ FireFlying
 FireGhost
 {
 	"Litwick"
-	"Lampet"
+	"Lampent"
 	"Chanelure"
 	"Alolan Marowak"
 	"Skeledirge"
@@ -1236,19 +1235,21 @@ FireGround
 }
 FireIce
 {
-	"a Zen-Mode Galarian Darmanitan"
+	"Zen-Mode Galarian Darmanitan"
 }
 FirePoison
 {
-	"a "
-	--
 	"Salandit"
 	"Salazzle"
 }
+FirePsychic
+{
+	//Zen Mode Darmanatan too much of a mouthful and Victini is mythical
+	"Delphox"
+	"Armarouge"
+}
 FireRock
 {
-	"a "
-	--
 	"Carkol"
 	"Coalossal"
 }
@@ -1315,27 +1316,27 @@ FlyingIce
 }
 FlyingNormal
 {
-	"a Pidgeotto"
-	 "a Pidgeot"
-	 "a Spearow"
-	 "a Fearow"
-	 "a Farfetch'd"
-	 "a Doduo"
-	 "a Dodrio"
+	"Pidgeotto"
+	 "Pidgeot"
+	 "Spearow"
+	 "Fearow"
+	 "Farfetch'd"
+	 "Doduo"
+	 "Dodrio"
 	 "Hoothoot" //It gets to be included in this one it doesn't ruin the joke lol
-	 "a Taillow"
-	 "a Swellow"
-	 "a Swablu"
-	 "a Staravia"
-	 "a Staraptor"
-	 "a Chatot"
-	 "a Tranquill"
-	 "an Unfezant"
-	 "a Braviary"
-	 "a Pikipek"
-	 "a Trumbeak"
-	 "a Toucannon"
-	 "a Squawkabilly"
+	 "Taillow"
+	 "Swellow"
+	 "Swablu"
+	 "Staravia"
+	 "Staraptor"
+	 "Chatot"
+	 "Tranquill"
+	 "Unfezant"
+	 "Braviary"
+	 "Pikipek"
+	 "Trumbeak"
+	 "Toucannon"
+	 "Squawkabilly"
 }
 FlyingPoison
 {
@@ -1495,8 +1496,6 @@ GhostGrass
 }
 GhostGround
 {
-	"a "
-	--
 	"Galarian Yamask"
 	"Golett"
 	"Golurk"
@@ -1546,13 +1545,29 @@ GhostWater
 //--GRASS TYPES 🌸
 GrassGround
 {
-	"a Torterra"
-	"a Toedscruel"
+	"Torterra"
+	"Toedscruel"
 }
 GrassIce
 {
 	"Snover"
 	"Abomasnow"
+}
+GrassPoison
+{
+	"Bulbasaur"
+	"Ivysaur"
+	"Venusaur"
+	"Oddish"
+	"Gloom"
+	"Vileplume"
+	"Bellsprout" //Was typo'd as "Bullsprout" omfg...
+	"Weepinbell"
+	"Victreebel"
+	"Roselia"
+	"Roserade"
+	"Foongus"
+	"Amoonguss"
 }
 CapsGrassPsychic
 {
@@ -1562,16 +1577,16 @@ CapsGrassPsychic
 }
 GrassRock
 {
-	"a Cradily"
+	"Cradily"
 }
 GrassSteel
 {
-	"a Ferroseed"
-	"a Ferrothorn" //Gold gets one of these in the future!
+	"Ferroseed"
+	"Ferrothorn" //Gold gets one of these in the future!
 }
 GrassWater
 {
-	"a Ludicolo"
+	"Ludicolo"
 }
 
 
@@ -1740,8 +1755,6 @@ PoisonRock
 }
 PoisonSteel
 {
-	"a "
-	--
 	"Varoom"
 	"Revavroom"
 }
@@ -1765,6 +1778,7 @@ PsychicSteel
 	"Metagross"
 	"Bronzor"
 	"Bronzong"
+	"Mega Chimecho"
 }
 
 

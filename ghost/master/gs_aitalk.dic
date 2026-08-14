@@ -1326,7 +1326,7 @@ RandomTalk : nonoverlap
 	G: Now I want a Ferrothorn...
 	*/
 	}
-	{ //BEST TYPE COMBINATIONS 2
+	{ //BEST TYPE COMBINATIONS Rock/Ghost
 		/* //Rock...?
 		G: You'd think being made of /rock/ would help a Pokemon. Rock is sturdy, hard, difficult to crack, hurts /you/ if you punch it instead of the other way around.
 		G: But when it comes to Pokemon battles... Rock Types are total pushovers!
@@ -1343,6 +1343,57 @@ RandomTalk : nonoverlap
 		G: Man if you can't save this Type, no one can.
 		
 		[rockcombochain]
+		*/
+	}
+	
+	
+	{//WORST TYPE COMBINATIONS Dragon/Rock Ice/Bug Normal/Ice
+		/* //Dragon/Rock
+		G: Here's a question: What would be the /worst/ Type to combine with Dragon? My guess... Uhh... Well, Grass is also weak to Ice, so then it'd be quad...
+		S: That sounds about accurate. It can't damage Steel Types, either. It's either that or Dragon/Rock, since that has six weaknesses.
+		G: Six??? Geez, and you'd think giving a Rock Type a resistance to Grass and Water would be a good thing. Poor %(DragonRock)...
+		*/
+		/* Ice/Bug
+			G: Any Ice Type Pokemon could be good at fighting if you tried. You slander them too much.
+			S: Forgive me for not having that much faith in /Snom/...
+			G: I love Snom! You take that back!
+		*/
+		/* Normal/Ice
+			G: I don't think adding a Normal Type to a Pokemon is ever really a bad thing, is it?
+			S: It doesn't change very much, but making an Ice Type even weaker to Fighting isn't exactly good.
+			G: Can you at least slander a Type that isn't Ice?
+			S: Bug/Normal isn't good either.
+			G: Now you're just saying Types you don't like.
+			//NPMO**
+		*/
+	}
+	{//WORST TYPE COMBINATIONS Bug/Grass Electric/Rock Bug/Flying
+		/* Bug/Grass
+		G: Urhg, I remember the time Atticus got totally wiped by someone's %(BugGrass)...
+		S: ...That sounds like an issue on your part.
+		G: Or maybe that trainer was just really skilled and I could learn something from that encounter! Ever thought of that?
+		*/
+		/* Electric/Rock
+		G: Imagine how cool an Electric/Rock Pokémon would be. I bet it'd be great at the guitar.
+		S: Well, there's %(ElectricRock)...
+		G: ...I mean, I can see it.
+		S: I can't see it being much good at anything.
+		G: Well that was unessecarily cruel. Way to shoot down dreams!
+		*/
+		/* Bug/Flying
+		G: I love... %(BugFlying)!
+		S: For as abundant as the Bug/Flying combination is, you'd expect it to be stronger.
+		G: Hey, Butterfree's pretty good. It beat the Elite Four!
+		S: Don't remind me...
+		*/
+	}
+	{//WORST TYPE COMBINATIONS Fire/Rock
+		/*
+		G: I always forget that Torkoal isn't a Fire/Rock Type. It just looks like it should be, with its hard shell.
+		S: We should be thankful it isn't.
+		G: What, Fire/Rock bad or something?
+		S: It'd probably be first to get knocked out on a rainy mountain...
+		G: Aww, now I'm imagining it getting water in its furnace! Poor thing... I hope no %(FireRock) get caught up in a storm...
 		*/
 	}
 	
@@ -1639,3 +1690,114 @@ OnKeyPress
 	"\![open,readme]"
 	}
 }
+/*
+G: Who wins: Skiddo VS Dustox.
+S: Skiddo.
+G: ...Because Poison is strong against Grass in a Type matchup?
+S: Skiddo is sturdy and Dustox is a bug.
+G: That's its very strength here, though! Bug is strong against Grass Types! It's double effective!
+S: 
+G: But Dustox is fully evolved, and Skiddo is a first stage.
+*/
+
+/*
+{
+	\1What should you use against a %(WaterType)?
+	\0A %(FlyingType)?
+	\1...Why?
+	\0Bird eats fish?
+	\1There's no such thing as a bird type.
+	\0Psh, clearly you've never surfed around Cinnabar...
+}
+{
+"\1Type battle.\w5 No immunities.\w8\0Set!\1What should you use against a %(GrassType)?\0"
+--
+"%(FireType)"
+"%(FireGhost)"
+"%(FireSteel)"
+"%(FirePsychic)"
+--
+"?\1\n\n\w8Too easy.\w8\0\n\n"
+--
+"%(PoisonType)"
+"%(FirePoison)"
+"%(BugPoison)"
+"%(SteelPoison)"
+"%(DragonPoison)"
+"%(FightingPoison)"
+--
+"!"
+--
+"\w8\1\n\n"
+--
+"%(FightingType)"
+"%(FightingNormal)"
+--
+"?\w8\0\n\n"
+--
+"%(FlyingType)"
+"%(FlyingNormal)"
+"%(ElectricFlying)"
+"%(FlyingWater)"
+"%(FlyingGrass)"
+"%(FireFlying)"
+--
+"!\w8\1\n\n%(PsychicType).\w8\n\n\0[awkward shrug] ^_^;"
+--
+"%(BugType)"
+"%(BugFlying)"
+"%(BugFire)"
+"%(BugGrass)"
+"%(BugNormal)"
+--
+"?\w8\1\n\n%(SteelType)?\w8\0\n\n"
+--
+"%(GroundType)"
+"%(DarkGround)"
+"%(GhostGround)"
+--
+".\w8\1\n\n%(GroundType), then.\w8\0\n\n"
+--
+"%(GrassPoison).\w8\1\n\nThat's part Poison, which is weak to Ground.\w8 You lose the advantage.\w8\0\n\nAuuuhggg, and I had such a good streak going!\w8 Why do so many Grass Pokemon gotta be part Poison..."
+}
+*/
+
+/*
+[after unlocking popcicle]
+G: Is Steel even that good offensively? Like... It defends from a lot, but I can't remember what it's actually effective against. ...uh... ...Ground?
+G: What are Steel Type moves, anyways? Iron Tail...? Flash canon. That doesn't remind me much of steel, though.
+S: It's good against Rock, Ice... and Fairy.
+G: Ohhh that's why I didn't remember it. Fairy, pbth. Rock and Ice are weak to MOST types... Does Popcicle know any Steel moves?
+S: 
+*/
+
+/*
+Silver asleep hypnosis
+
+G: I usually go by the name Sens. Gold is my name, but, I only kind of use that with friends, heh.
+G: The name I registered for my trainer card is Sens. My friends and family call me that, that's how most of the world recognizes me!
+G: It was really funny, when I told Silver "Sens" wasn't my real name.
+G: He was like. "Ok, then what is?"
+G: And I told him it was Gold.
+G: He didn't believe me at all. Of course, who would? I lie about everything, and it's just... Too big of a coincidence.
+G: Just some stroke of luck. Hit gold, you could say.
+G: It really is my real name though! It's like destiny we met, or something. Yin to my yang, heheh.
+G: Yeah...
+G: ...
+G: ...Yknow...
+G: Gold isn't actually my birthname.
+G: Big surprise, right? Heh.
+G: It's actually Ethan.
+G: Then when I was three, I changed it.
+G: Then I changed it again.
+G: It was just a thing every few months, I'd change my name. "Sens" is just the name I had the time I entered the Pokemon Legue.
+G: I think the longest lasting one before "Sens" was "Kris", heh.
+G: That's why my cousin still calls me Kris. I tell Silver it's a nickname.
+G: I told Silver "Gold" was my name sort of on the spot, like one of those many, many stories I tell.
+G: But I really like the name. Being Gold. Being Silver's friend.
+G: ...Might be my favorite name I've had.
+G: It'll all be pretty funny when he finds out, heheh. I'm hoping that'll be a while, though.
+
+*/
+
+//If you try to click the pokemon they hit your mouse back. delcatty double slap

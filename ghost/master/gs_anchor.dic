@@ -1894,9 +1894,9 @@ OnAnchorSelect
 			{
 			"%(numel_camerupt)"
 			}
-			when "Tarkoal"
+			when "Torkoal"
 			{
-			"%(tarkoal)"
+			"%(torkoal)"
 			}
 			when "Spoink", "Grumpig"
 			{
@@ -2646,7 +2646,7 @@ OnAnchorSelect
 			{
 			"%(CRABRAWLER_CRABOMINABLE)"
 			}
-			when "ORICORNIO"
+			when "ORICORNIO", "ORICORIO"
 			{
 			"%(ORICORNIO)"
 			}

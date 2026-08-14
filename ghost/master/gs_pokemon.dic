@@ -1,5 +1,5 @@
 //THIS IS THE BIG ONE: Where every single piece of dialogue for every single Pokemon goes.
-//The story goes early February my hand was injured and I could no longer draw, meaning that most of my projects were canceled and I didn't have anything to do. So, I was looking for a time waster project, and started writing down dialogue for every single Pokemon. Then my hand didn't heal promptly within the next 2 months and I continued doing this.
+//The story goes early February 2025 my hand was injured and I could no longer draw, meaning that most of my projects were canceled and I didn't have anything to do. So, I was looking for a time waster project, and started writing down dialogue for every single Pokemon. Then my hand didn't heal promptly within the next 2 months and I continued doing this.
 //Of course there's all the Pokemon dialogue here, but I also try to keep any comments I have about it here as well! So now, people like you can read a little bit behind the scenes about it! Hopefully some of the commentaries a little interesting or funny.
 
 /*				
@@ -788,8 +788,7 @@ dratini_dragonair_dragonite
 //G: I still can't believe how many Lance has, he's obsessed with them!
 }
 mew
-{
-/*
+{/*
 G: Mews… The oldest pokemon we have fossil evidence for, right?
 S: Mhm.
 G: [Looking it up on pokedex] “very little is known of C this Pokémon. Using science, scientists have created images of what it theoretically could’ve looked like / ancient painting“
@@ -800,18 +799,15 @@ S: [freaked out]
 G: Silver? (Concerned)
 S: There are very few Mew fossils while ones like Omynite are common. It wouldn’t be wise to experiment with them too much…
 G: I… Guess.
-*/
-}
+*/}
 mewtwo
-{
-/*
+{/*
 G: Mew *two*? What, did they make a second one or something?
 Dex: There is no information on this Pokémon 
 S: …
 G: Sounds super cool though, if Mew’s so mysterious… I bet it’s super strong, too.
 S: …
-*/
-}
+*/}
 /*
 ░░░░░░░░░░░░░░██░░██
 ░░░░░░░░░██░░█▓█░█▓█
@@ -888,8 +884,7 @@ ledyba_ledian
 //G: It is, though! The saying is about all Pokemon, even Ledyba- No, /especially/ Ledyba. You just have to learn that!
 }
 spinarak_ariados
-{
-/*
+{/*
 G: I had a Spinarak! Briefly. I traded it for Drugia!
 S: Not exactly an upgrade...
 G: You be nice! Drugia beat the Johto league!
@@ -897,8 +892,7 @@ S: Whatever...
 G: The guy I traded it to was someone from Hoenn, and it's hard to find Spinarak there. He was so nice! He loved Spinarak and Ariados so much and was so happy to have one.
 G: I think that's sort of the best case scenario when it comes to trading.
 G: HEY %(username), did you know some knitters keep them for thread??? That's so cute! Imagine a knitter with a bunch of these guys!
-*/
-}
+*/}
 chinchou_lanturn
 {
 //G: There are supposedly a lot of chinchou and lanturn in Johto, but I've never seen all too many. They usually live at the seafloor, and don't come up to the surface all that often.
@@ -994,9 +988,18 @@ S: Whatever.
 */
 }
 yanma_yanmega
-{
-	
-}
+{/*
+	G: Yanma aren't the most common Johto Pokemon, but I've seen 'em around a little... How do you evolve them into Yanmega, anyways?
+	S: It usually evolves shortly learning how to use Ancient Power.
+	G: A Rock Type move?
+	S: Yes.
+	G: Now I'm imagining Yangma, but a Rock/Bug Type...
+	S: There are a few... Shuckle, Armaldo, Crustle, but none that fly.
+	G: Probably for the best. I don't want rocks raining down on me like comets...
+	S: Minior.
+	G: Psh.
+	2025/3/23
+*/}
 wooper_QUAGSIRE
 {/*
 G: I have a Wooper! Or, had. I gave it to Tala.
@@ -1030,8 +1033,14 @@ murkrow_honchkrow
 //S: I believe it leaves me items sometimes. They're known to do that...
 }
 misdreavus_mismagius
-{
-}
+{/*
+	G: I proudly present: Johto's one and ONLY native Ghost Type!
+	S: And it's Mono-Type, too. Kanto's only Ghost is part Poison.
+	G: I like they're pretty. I wouldn't mind turning into a Misdreavus when I die.
+	S: These are one of the few Ghost Types that people /don't/ think are born of dead souls, actually.
+	G: Dang. I've always thought about catching one, but honestly, wandering around at night in ghost filled areas is a little too scary for me most of the time...
+	2025/3/23
+*/}
 unown_unknown
 {/*
 unknown
@@ -1142,8 +1151,16 @@ shuckle
 //G: It's within league rules!
 }
 heracross
-{
-}
+{/*
+	G: It's like... Pinsir, if it didn't scare me.
+	S: It's part Fighting Type.
+	G: To be honest, I feel like Pinsir could be part Fighting. It knows enough Fighting Type moves.
+	G: Look, Heracross even has a Mega as well.
+	S: Their range is a bit alarming.
+	G: Are you scared of it?
+	S: It might look more docile than Pinsir but it's at least as threatening...
+	2025/3/23
+*/}
 sneasel_WEAVILE_SNEASLER
 {/*
 	addFlag(Sneasel)
@@ -1166,20 +1183,40 @@ sneasel_WEAVILE_SNEASLER
 	S: >_<
 */}
 teddiursa_ursaring_URSALUNA
-{
-	//silv had one of em
-	
-	/*
-	G: Ursaring used to EVOLVE?
+{/*
+	G: Ursaring are the reason people are told not to camp in certain forests or mountain ranges at night. They don't... usually attack people, but they might attack your camps, fight your pokemon, or eat your food.
+	S: Or you could just catch it.
+	G: "Just catch it" not everyone has that option Mr. Master.
+	S: It was terrorizing a lot of people. Better to have caught it before someone got seriously hurt.
+	G: Ursaring aren't even that uncommon. What was the real reason you caught it back then?
+	S: Hmm... I was wondering if I could evolve it.
+	G: Ursaring don't evolve, though?
+	S: They used to, into Ursaluna.
+	G: Noooo way.
+	S: I wasn't able to so I did eventually trade it away... But I do still hold some pride over being able to catch a beast that large.
+2025/3/23
 	*/
 }
 slugma_magcargo
-{
-//G: It looks like an old man with a soggy face.
+{/*
+//magcargo
+	G: I sure hope I don't run into one of those things... The dex says they're over 18,000 degrees F.	 
+	S: If they were that temperature, we would /all/ be dead.
+	G: Huh?
+	S: /That's hotter than the surface temperature of the sun./ They would sink through the Earth and end up at the core.
+	G: I wonder what kind of Pokemon must live in the Earth's core...
+2025/3/23
+	*/
 }
 swinub_piloswine_mamoswine
-{
-}
+{/*
+	G: I looooove Swinub! They're so cute, and surprisingly fast! Piloswine has cute hair too... So fluffy!
+	S: Ice/Ground is about as good as you can get when it comes to Ice Type. Good synergy there.
+	G: I dunno if I'd ever want to evolve mine to "full power" with Mamoswine though... Except... Wait, can you ride on Mamoswine back? Piloswine are too thin.
+	S: If it allows you to, yes.
+	G: HMMM... I may reconsider.
+2025/3/23
+*/}
 Corsola_Cursola
 {/*
 	G: So as you probably know, %(username), I'm from Johto, which is where Corsola are from!
@@ -1231,12 +1268,15 @@ mantine_mantyke
 	//BW2 Gold from the future has one named Haté lol
 */}
 skarmory
-{
-//G: Is Skarmory a normal Pokemon or a fossil Pokemon?
-//S: It's modern. Steel/Flying Type. Its wings can recover completely from injury.
-//G: Woah.. impressive
-//G: Sounds like it would be a real beast to battle. Steel Types have so many defenses!
-}
+{/*
+	G: Is Skarmory a normal Pokemon or a fossil Pokemon?
+	S: It's modern. Steel/Flying Type. Its wings can recover completely from any injury.
+	S: One of the few Pokemon I used to have I caught in the wild.
+	G: Aw, it's silver and red like you! Did you ever fly on it??
+	S: I really tried not to unless it was an emergency. Its smooth metal was... not exactly easy to grip onto, and I didn't trust it to... not try and shake me off. Desperate getaways only.
+	G: Aaah, scary!
+	//11-29-2025
+*/}
 houndour_houndoom
 {/*
 G: Atticus!
@@ -1265,11 +1305,23 @@ phanpy_donphan
 //G: Yeah, but if I used it for battling, then maybe it would /want/ to be a Donphan, and how could I say no then?
 }
 stantler_WYRDEER
-{
-//it has a silly butt :P
+{/*
+	G: It was always so weird as a kid whenever one would make its way into my backyard. I did always get a kick out of their funny pom-pom butts, though.
+	G: They don't really look like it, but I always imagined them evolving into an Ice Type... White coat and icicle antlers.
+	S: They did used to evolve, actually. Wyrdeer was an Ice/Psychic Type.
+	G: WOAH, REALLY? With ice antlers?
+	S: No ice antlers.
+	G: I can't believe I was right though...
+2025/3/23
+	*/
 }
 smeargle
-{
+{/*
+	G: THERE'S SO MUCH TO SAY ABOUT SMEARGLE. To me, it's like, Johto's mascot Pokemon. I know it's not true, most people don't even know the ones here have red tails, but I like to think it is.
+	S: They're definitely an oddity...
+	G: They can learn any move, just by watching another Pokemon do it! That's crazy!
+2025/3/23
+	*/
 //grafitti
 }
 tyrogue_hitmontop_hitmonlee_hitmonchan
@@ -1304,16 +1356,16 @@ G: Regardless, you shouldn't discount Skitty so fast! It defeated your Groudon s
 S: It did not, because I didn't have a Groundon!
 G: Hehehe.
 */
-//Is it really a Johto ghost if there's no long discussion about Whitney's Miltank
+//Is it really a Johto ghost if there's no long discussion about Whitney's Miltankhttps://www.youtube.com/watch?v=WwyqESZNK_A&pp=ugUEEgJlbg%3D%3D
 }
 raikou_entei_suicune
-{
-//S: So, any alleged encounters with the beasts?
-/*
-G: Saw Suicune on the news.
-S: /Everyone/ saw Suicune on the news.*/
-//G: Honestly... No. I DID hear a theory about them once, though. Like, were they originally some extinct pokemon of smaller normaler dogs? or were they corrupted eeveelutions?
-}
+{/*
+	S: So, any alleged encounters with the beasts?
+	G: Saw Suicune on the news.
+	S: /Everyone/ saw Suicune on the news.
+	G: 
+	11-30-2025
+*/}
 larvitar_pupitar_tyranitar
 {
 //G: Blue has a Tyranitar!!!
@@ -1492,7 +1544,11 @@ G: There's just something suspicious about it... I can sense it.
 */
 }
 ralts_kirlia_gardevoir
-{
+{/*
+	G: I loooove the Ralts line <3 (clasping hands together tilted head onto hands cute face ^o^
+	S: Shocking.
+	G: Your sarcasm will never be enough to stop love of my starter!
+	*/
 //G: Tips for new trainers: Don't make your only Pokemon or Ralts that only knows growl. Get something else as a starter, or get it when it's at a higher level. The only reason that me and Silklay made it out of that forest is because a random wild Pokemon took pity on us.
 }
 surskit_masquerain
@@ -1518,7 +1574,12 @@ surskit_masquerain
 //S: T_T
 }
 shroomish_breloom
-{
+{/*
+	//11-18-2025 So how I used to do these pokedex entries is that I'd have my friends name pokemon from memory, and whatever the "last remembered pokemon" would be interesting to learn. Well, it made my project a lot harder than just doing the pokemon entries in order, because I'd need other people to give me suggestions. It mostly just lead to Gen 9 pokemon being forgotten, since it's the newest generation and many aren't that familiar with it. So this is the first entry I'm doing just filling in the gaps, ooo
+	G: Evolving from a Shroomish to a Breloom has gotta be one of the best, from a personal viewpoint. You go from an easily trippable lump on the floor to be standing on your own feet, you got arms, you got a real mussle, you've got a practical hat to protect you from the sun, you've even got a TAIL! It's gotta be great. I would've assumed there was a middle stage with how big the difference between them is!
+	S: Researchers find newly evolved Breloom have perfect balance despite how drastic the change is.
+	G: Don't their heavy tails them them balance, or something? Man, I bet taking an Iron Tail from that thing would hurt...
+	*/
 }
 slakoth_vigoroth_slaking
 {/*
@@ -1552,11 +1613,32 @@ whismur_loudred_exploud
 //G: Just you wait!! In a few years, there's gonna be a Sound type and you'll be sorry!
 }
 makuhita_hariyama
-{
-}
+{/*
+	//11-28-2025 Bradly has one of these. He's a character from my Omega Ruby save, unrandomized booo. Got it in an early game trade. He's a pretty normal boy compared to Gold. No huge accomplishments, just a bit of a rough boy with a lot of hopes wanting to be cool that got roughed up by Team Magma haha. I like writing background characters from time to time.
+	
+	S: ...Hm.
+	G: What's the grumble for?
+	S: I had a Hariyama... Briefly.
+	G: Those things are so big, you didn't get hurt, did you?
+	S: It was... Well behaved, all things considered. It just refused to fight and would sit for any battle I tried to use it.
+	S: I never used it against you because of that. ...Even when it technecally could've been sent out...
+	G: Aw, embodying Makuhita's cute lil' bean bags spirit.
+	S: They don't look like bean bags.
+	G: Sand bags?
+	S: No...
+	G: Yeah, I guess if they were, they'd be Fighting/Ground Type... Is that a good combo?
+	S: Hmm... Well, they are both mostly strength based in terms of the kind of attacks they use.
+	G: Didja hear that, Makuhita? Better start investing!
+*/}
 nosepass_probopass
-{
-}
+{/*
+	G: The nose Pokemon!
+	S: The compass Pokemon.
+	G: Aw come on, you know no one ever remembers it for that, do you?
+	S: Sometimes travelers especially on the sea will utilize Nosepass to help them not stray off the path. They discuss them much more than you do, and so have more of a right to name them.
+	G: Gee, okay, it was just a joke...
+	2025/03/29
+*/}
 skitty_delcatty
 {
 //G: Sometimes I'll see a Skitty wandering around a Pokecenter, and I'll think it's Norma and try to put her back into her Pokeball... Before remembering, hey wait, Norma's not a Skitty!
@@ -1657,8 +1739,14 @@ plusle_minun
 //G: Yeah pr'y not much.
 }
 volbeat_illumise
-{
-}
+{/*
+	G: Will you be the Volbeat to my Illumise?
+	S: No.
+	G: Illuminate, me!
+	S: You'd stay Oblivious.
+	G: hehehehe.
+	2025/26/3
+*/}
 roselia_budew_roserade
 {/*
 	addFlag(Budew)
@@ -1679,11 +1767,24 @@ roselia_budew_roserade
 	//Except I don't really rememmmbbberrrr what Pokemon Shuckie was in Gold's playthrough. In Tala's playthrough though, the Shuckie was a Budew and that one became part of the plot lol.
 */}
 gulpin_swalot
-{
-}
+{/*
+	G: I've never met a real Swalot... They seem so strange looking in photos. Their little mustaches are cute, though.
+	S: Whiskers.
+	G: Aww, like a Meowth!
+	S: You keep acting like Swalot are cute.
+	G: And?
+	S: They don't seem like your... thing?
+	G: No need to be so close minded. It's purple! That's all I need.
+	S: K.
+	2025/3/22
+*/}
 carvanha_sharpedo
-{
-}
+{/*
+	S: For Hoenn, Carvanha isn't the worst catch you could make in terms of Waters... Though if it is one of the ones with rough skin it's worse to surf with. It's more useful once it evolves into a Sharpedo, but its defenses are rather low...
+	G: Carvanha evolves into Sharpedo!?
+	S: Did you just think there were two Hoenn native Water/Dark Type swimmers with stars on their fronts?
+	G: [Looking at dex] I don't even know if I registered the star before.
+*/}
 wailmer_wailord
 {/*
 	addFlag(Wailmer)
@@ -1705,7 +1806,7 @@ numel_camerupt
 	addFlag(Camerupt)
 	
 	G: The /other/ Ground/Fire Type that isn't Groudon!
-	S: ...Groudon isn't a Ground/Fire Type.
+	S: ...Groudon isn't a Fire Type.
 	G: What? Of course it is! It's red! And volcanoes are a big part of forming the geography.
 	S: Well... There is a /theorized/ sort of Mega Groudon that gains a Fire Typing...
 	G: Ohh, really?? Mega Groudon sounds TERRIFYING.
@@ -1720,9 +1821,15 @@ numel_camerupt
 	G: All about the numbers, huh?
 	S: That's how I was.
 */}
-tarkoal
-{
-}
+torkoal
+{/*
+	addFlag(Torkoal)
+	G: I remember when I was younger, I watched the League on TV. Someone brought a Torkoal, and it BLEW UP the ENTIRE BATTLEFEILD. The amount of power they can use is like if they used the move Explosion, without actually exploding!
+	S: Under the right weather conditions...
+	S: I would bet that trainer was using overheat. It gets weaker on subsequent uses, so if you manage to dodge it the first time...
+	G: And they're really slow. I guess it just takes a talented trainer to position it correctly.
+	//11-29-2025 Bradly also has a Torkoal named Billion! I loved doing insane damage with her, haha
+*/}
 spoink_grumpig
 {/*
 	Gold: why is it that when people talk about Spoink, they’re only ever talking about how if it stops, bouncing, it dies?
@@ -1757,8 +1864,14 @@ trapinch_vibrava_flygon
 //G: [Releases Konkurs From his pokeball] Konkurs!!! [Big hug] I love you ^_^
 }
 cacnea_cacturne
-{
-}
+{/*
+	addFlag(Cacnea)
+	addFlag(Cacturne)
+	
+	G: I remember a trainer I battled- he was really upset about losing, so he started cursing me out and told me to "go hug a Cacturne". ...I was mostly just surprised by the creativity of their insult.
+	S: If they don't know how to lose they shouldn't try to battle.
+	G: Sounds like someone's learning!
+*/}
 swablu_altaria
 {
 //G: If I ever got a Swablu, I'd name it Maily.
@@ -1791,11 +1904,34 @@ G: Especially when it comes to thinking they're smarter than kids, I guess.
 */
 }
 lunatone_solrock
-{
-}
+{/*
+	addFlag(Lunatone)
+	addFlag(Solrock)
+
+G: Ah, the sun and the moon! As far as rocks go, it's a pretty romantic idea... Though I think they could look a lot prettier. Solrock's got some weird squinty eyes, doesn't it? Makes sense though, since the sun /is/ rather bright.
+S: Solrock is a regular brightness level for a rock.
+G: Maybe Solrock is just especially light sensitive? [starts checking dex]
+S: I don't know how its eyes work.
+G: Oh hey! Says here that Solrock shines when spinning, so it /isn't/ just regular brightness for a rock!
+S: Ok.
+G: One day I'll impress you, moon to my sun...
+
+2026/8/13
+*/}
 barboach_wishcash
-{
-}
+{/*
+	addFlag(Barboach)
+	addFlag(Wishcash)
+
+	G: I like their whiskers! They're cute.
+	S: They're used to detect prey.
+	G: Well, anything can be used to detect prey, really. And a lot of eyes are still cute. And how do we know they're not also used for normal stuff, like detecting their surroundings?
+	S: Just saying, I don't think you take dangerous predators seriously enough. At some point you'll get yourself killed trying to give a wild Gyrados a hug.
+	G: Awww, you fear for my safety? That's so sweet!
+	
+	//I wish for a lot of cash
+	2026/8/13
+*/}
 corphish_crawdaunt
 {
 //G: You ever thought that Corphish looks a lot like a Kingler?
@@ -1809,12 +1945,27 @@ corphish_crawdaunt
 //G: I can tell them apart! You're just impossible sometimes.
 }
 baltoy_claydol
-{
-}
-lileep_craydily
-{
-//being rock/grass would help it with the major rock downsides.
-}
+{/*
+	G: Which ones are those again...? [Pokedex] 4'11?? I always thought Claydol were bigger than that!
+	S: Like... How tall?
+	G: At least taller than a person.
+	S: It'd be taller than you.
+	G: Ok but like, a big person. Like, at least 6'.
+	S: Claydol and Baltoy come in a variety of sizes and patterns depending on how they were formed. I'm sure there are some abnormally large ones somewhere...
+	G: I can't tell if they creep me out, if I love them, or both.
+*/}
+lileep_cradily
+{/*
+	addFlag(Lileep)
+	addFlag(Cradily)
+
+	G: Being part Grass would help with some downsides of being Rock... Less weak to Water, and I think Grass is also defensive against itself... Then, uh, Rock neutralizes the Fire weakness.
+	S: Doesn't resist all that much.
+	G: Do you think they were just Grass Type back in their time? Or- wait, Grass and Dark! They're spooky looking with those fake eyes and shadows.
+	S: No comment on it looking like a flower?
+	G: It's to lure unsuspecting prey like ME by tricking it with its beauty!
+	2026/8/13
+*/}
 anorith_armaldo
 {/*
 G: Armallldo... amaldo... Armaldo. That's really difficult to pronounce.
@@ -2022,13 +2173,32 @@ S: [Sigh.]
 */
 }
 latias_latios
-{
-//G: Are those the pokemon that look kind of like planes?
-//S: [lore]
-}
+{/*
+	addFlag(Latias)
+	addFlag(Latios)
+
+	G: Aren't those the Pokémon that look kinda like planes?
+	S: I believe they're the only verified Pokémon to have broken the sound barrier.
+	G: That's a lie. Any Pokémon with a whip move has broken the sound barrier.
+	S: How the...!? How do you know that?
+	G: How many Latias and Latios are there?
+	S: I don't know? I don't think they're very old... They're from Hoenn and they're classified as Legendary so...
+	G: Ok, idea. I get the Blue one... you get the red one... Except actually, wait- the blue one looks grumpier, maybe you should get it-
+	S: /sigh./
+	2026/8/13
+*/}
 kyogre
-{
-}
+{/*
+	addFlag(Kyogre)
+
+	G: The first time I went surfing out into the open ocean near Johto I kept worrying I was gonna run into Kyogre. I know it's unlikely, but... like... what if, y'know?
+	S: It's in a /cave/ in /Hoenn/ that requires ancient artifacts to unlock.
+	G: Johto is pretty close to Hoenn! What if I swam there by accident? I didn't know how far I went. I don't know how to chart stars or map to a compass!
+	S: You rode around on a Lanturn for less than a few hours at a time. You didn't cross regions by accident.
+	G: I mean, I crossed regions by surfing from Johto to Kanto all the time.
+	S: /sigh./
+	2026/8/13
+*/}
 groudon
 {/*
 G: Oooo you wanna hear about how Norma defeated Silver's Groudon, don't you?
@@ -2113,10 +2283,19 @@ jirachi
 //G: I don't know what the big deal is honestly
 }
 deoxys
-{
-//I saw a Deoxys at the top of the bell tower
-//[look up ho oh lead up]
-}
+{/*
+	addFlag(Deoxys)
+	G: I saw a Deoxys at the top of the Bell Tower!
+	S: No you didn't.
+	G: There was a beautiful sunset... A lovely ceremony in Ecruteak... A dance... and then later I went up and there was a Deoxys flying past!
+	S: The Bell Tower is known as Ho-Oh's perch. There's no reason that a Deoxys would be there.
+	G: It was pretty far away so I couldn't try to catch it or anything but I did see one shooting through the sky!
+	S: It could've been anything.
+	G: Do I detect jealousy?
+	S: What would I be jealous of?
+	G: He's jealous.
+	2026/8/13
+*/}
 
 
 //GEN 4
@@ -2150,8 +2329,18 @@ turtwig_grotle_torterra_chimchar_monferno_infernape_piplup_prinplup_empoleon
 //G: I don't know what you do when I'm not around!
 }
 starly_staravia_staraptor
-{
-}
+{/*
+	G: I love these ones!! I've seen less of them on TV than I have Swellow, but they're so pretty! Especially when they get the red in their fun emo hair streak.
+	G: Kind of like you!
+	S: It's far too flashy.
+	G: I mean, it's called a /star/, after all. Can you really blame it?
+	S: We do at least have one thing in common.
+	G: What would that be?
+	S: It's natural.
+	G: Liiiiaaaarrrrr, you're totally dyeing it behind my back.
+	S: [hairflick]
+	2025/26/3
+*/}
 bidoof_bibarel
 {
 //G: Bidoof.
@@ -2201,8 +2390,15 @@ carnidos_rampardos
 {
 }
 shieldon_bastiodon
-{
-}
+{/*
+	G: If Bastiodon's heads are SO BIG, how do they manage to eat?? They can't even look behind them for threats...
+	S: It might be why they went extinct.
+	G: Imagine Bastiodon, but back in its age, pure Steel Type. A shiny knight's sheild.
+	S: They may have always been part Rock, that's unproven.
+	G: It and Honedge would team up and be best friends.
+	S: I don't know what you're talking about...
+	2025/26/3
+*/}
 burmy_wormadam_mothim
 {
 }
@@ -2230,11 +2426,27 @@ buizel_floatzel
 {
 }
 cherubi_cherrim
-{
-}
+{/*
+	G: The cherries are part of their body, so I can't imagine they're edible like Banco's fruits...
+	S: They aren't even the best at helping grow food themselves. Many other Pokemon would be better suited.
+	G: If you just have a backyard it's not like you need mass production, a Cherrim would be fun!
+	S: Fun, if you're into that sort of thing.
+	G: You watch yourself! Cherrim and Cherubi are lovely creatures all deserving of respect.
+	S: Would be nice if they weren't pointless, though.
+	G: You're pointless!
+	S: ...
+	G: ...hmph.
+	2025/3/31
+*/}
 shellos_gastrodon
-{
-}
+{/*
+	S: It's excellent defensively. Water/Ground is vulnerable to few attacks, and most effects bounce off their squishy bodies.
+	S: I had a Sinnoh East Side one. I believe from the wetlands...?
+	G: I remember that! Auhg, it was so difficult to get through... I threw everything in the book at it, trying to chip it down, but it kept looking like it had no effect. I almost started believing it had no weaknesses.
+	S: If you don't have a Grass move on hand, you'll likely be unprepared.
+	S: As far as I know... my Gastrodon didn't... really... hate me, but I... could tell it was unhappy and wanted it to go elsewhere.
+	11-29-2025
+*/}
 driftloon_drifblim
 {
 //G: I love Driftloon and Drifblim! Every time aaaanyone brings it up though, *every single time* they bring up how it "kidnaps kids" and "flies them to the afterlife".
@@ -2260,8 +2472,13 @@ glameow_purugly
 {
 }
 stunky_skunktank
-{
-}
+{/*
+	G: I know why Stunky are never kept as pets. They look cute, they're fluffy, and that is by far the least famous thing about them. They smell, and that's important.
+	G: But, see, I've never smelled a Stunky. So my heart dreams against my better interest...
+	S: They have butt-faces.
+	G: Hehehehehe butt faces.
+	2025/3/22
+*/}
 bronzor_bronzong
 {
 }
@@ -2272,8 +2489,14 @@ chatot
 //G: Man, that sounds embarrassing. You take your Pokemon out to fight during a huge televised battle and it starts swearing out the opponant on TV...
 }
 spiritomb
-{
-}
+{/*
+	G: Ghost/Dark. So not only is it a Ghost, it's an /evil/ ghost.
+	S: Each Spiritomb is comprised of 108 spirits.
+	G: WHAT-
+	S: So /108/ evil ghosts.
+	G: Now I'm gonna be scared if I ever have to battle one of those...
+	2025/03/29
+*/}
 gible_gabite_garchomp
 {/*
 G: One of those super strong dragon Pokemon! I'm pretty sure the Sinnoh Champion uses one.
@@ -2304,12 +2527,25 @@ hippowdon_hippopotas
 {
 }
 skorupi_drapion
-{
-//G: drapion sounds like an eeveelution.
-}
+{/*
+	G: Drapion sounds like the name of an Eeveelution.
+	S: ...
+	G: ...
+	G: WAIT! You had a Drapion, right?
+	S: Briefly.
+	G: That one was so scary... Its claws were huge! I was worried it was going to escape the battlefeild and attack /me/ instead.
+2025/3/22
+*/}
 croagunk_toxicroak
-{
-}
+{/*
+	G: If I found myself in Sinnoh, I might be tempted to get one...
+	S: A... Croagunk?
+	G: They charm me! Poison/Fighting is such an uncommon type, I've never used either before. Uh... [checks bag] Yes. I'm correct. I don't have either. They're just so colorful!
+	S: The brighter they are the more potent the poison.
+	G: What about you?
+	S: Hmm, depends on how its raised...
+	2025/03/29
+*/}
 carnivine
 {/*
 	addFlag(Carnivine)
@@ -2407,8 +2643,9 @@ G: Eh, not a big deal. I'm interested in whatever you have to say, though! Since
 */
 }
 heatran
-{
-}
+{/*
+
+*/}
 giratina
 {
 }
@@ -2694,8 +2931,16 @@ S: [Sigh]
 */
 }
 COTTONEE_WHIMSICOTT
-{
-}
+{/*
+	G: I feel like I'd get allergies just looking at one of those...
+	S: I thought you didn't get allergies.
+	G: No, not really. But I know a lot of people who do, so I'm saying it on their behalf. If it weren't for that, I'm sure I'd take more of a shine to a floating ball of cotton!
+	S: As far as Grass Types go, it's one I did consider using for a while...
+	G: Wh- YOU? Why??
+	S: They're fast, and especially adept at spreading what you could call "allergens".
+	G: What an evil, whimsical 'mon...
+	2025/3/26
+*/}
 PETILIL_LILIGANT
 {/*
 G: So is Liligant pure Grass Type, or is it Grass/Fairy?
@@ -2878,8 +3123,12 @@ GOTHITA_GOTHORITA_GOTHITELLE
 	//deleted line "You're lucky I'm so focused on looks because otherwise I wouldn't be letting you follow me around"
 */}
 SOLOSIS_DUOSION_REUNICLUS
-{
-}
+{/*
+	G: I know. /I know./ The gel is part of their body. They're just fine, and leaving it would kill them. I /know/ this.
+	G: AUHG but they just look so TRAPPED in there! A mech suit you can't ever leave?? I just want it to, like, HATCH or something and evolve into a WAY BIGGER POKEMON!
+	S: They're rather unique as far as Pokemon go. Their evolution is facinating. Really they're lucky to exist at all, let alone be as strong as they are.
+	2025/3/31
+*/}
 DUCKLETT_SWANNA
 {/*
 	addFlag(Ducklett)
@@ -3041,8 +3290,10 @@ S: Uhg.
 */
 }
 ELGYEM_BEHEEYEM
-{
-}
+{/*
+	G: So are they Pokemon, or aliens like Deoxys?
+	S: Deoxys is a Pokemon.
+*/}
 LITWICK_LAMPENT_CHANDELURE
 {/*
 G: I LOVE the Litwick line. How many Pokemon have BLUE AND PURPLE FIRE???
@@ -3090,8 +3341,15 @@ CRYOGONAL
 //G: Oh hey now that I look at it I think it's beautiful :O
 }
 SHELMET_ACCELGOR
-{
-}
+{/*
+	G: Urhg... bug lookin.
+	S: They're not bad, as far as Bug Types go.
+	G: I guess not. They've got little nub arms they cross like edgy ninjas.
+	S: In battle, they're rather viable. They're almost motionless, but have good defenses and strong attacks.
+	G: Doesn't being Bug Type kind of chip its defenses, though?
+	S: It stands a better chance than most of them, at least.
+	2025/3/22
+*/}
 STUNFISK
 {/*
 	addFlag(Stunfisk)
@@ -3149,8 +3407,19 @@ RUFFLET_BRAVIARY
 //G: Pretty bird I've never seen before.
 }
 VULLABY_MANDIBUZZ
-{
-}
+{/*
+	G: You know what, if I were a Mono-Type trainer, maybe I'd pick Flying Type. There's never been one I dislike.
+	S: Is that so?
+	G: Lots of people think Vullaby and Mandibuzz are ugly... but I like them! They're nice looking to me!
+	S: Have you ever met one?
+	G: Well, the people who called them ugly to me haven't either.
+	S: You know, a lot of Bugs are Flying Type.
+	G: Only the pretty ones like Butterfree and Venomoth, though.
+	S: Yanma?
+	G: Yanma's fine.
+	S: You know, Pinsir has a Flying Type /Mega/...
+	G: It's a Mega so doesn't count!
+*/}
 HEATMOR
 {/*
 	G: How would you describe the /texture/ of Heatmore? Scaley? Fuzzy? Smooth? 
@@ -3329,8 +3598,12 @@ SKIDDO_GOGOAT
 	//lmao SST called "Skiddo" "Skittle". Yeah I definitely believe Silver about it being difficult to ride a skittle.
 */}
 PANCHAM_PANGORO
-{
-}
+{/*
+	G: Pangoro are, like, Unova's Ursaring, are they?
+	S: Unova doesn't have the same kind of mountains we do. Aside from shape they're rather different.
+	G: At least the babies don't look like they're pretending to be innocent like the Teddis here... All fiesty... Yeah, I don't mind this Fighting Type.
+	2025/03/29
+*/}
 FURFROU
 {
 //G: I was so used to seeing Furfrou with rediculous haircuts I didn't know they *could* look normal. Just kind of thought they came out of the wild with fur like that.
@@ -3701,7 +3974,7 @@ S: It's limited though because it has six different weaknesses and only three re
 G: That's ridiculous. Nine different types??? That can't be...
 */
 }
-ORICORNIO
+Oricorio
 {/*
 G: That's the pretty dancing bird from... Uh, Alola, right?
 G: [Opens Pokedex]
@@ -3917,8 +4190,14 @@ KOMALA
 	G: I'd still want one if I had the chance though. They're cuties!
 */}
 TURTONATOR
-{
-}
+{/*
+	G: Dragon/Fire sounds like the kind of thing every little kid who's not a trainer would think is the strongest Type.
+	S: And more common than it actually is.
+	G: I'm surprised I know what Turtonator even is... Isn't it all the way out in Alola?
+	S: There was a story about a few being found on Cinnabar Island's volcanic remains lately, but they were quickly caught.
+	G: Oh right, I must've read about that in the newspaper.
+	2025/30/3
+*/}
 TOGEDEMARU
 {
 }
@@ -4070,10 +4349,18 @@ MARSHADOW
 	G: I would be okay with that.
 */}
 ZERAORA
-{
-//G: Does it have a pre-evo?
-//S: Not that is known.
-//G: Looks like it should. Feels similar to, like, Lucario and Zorua you know?
+{/*
+	G: Hmm.. What's the name of Zerora's prevo?
+	S: There's none that are known.
+	G: Whaaat? It really looks like it does.
+	S: How so?
+	G: Looks like it should. Feels similar to, like, Lucario and Zorark you know?
+	S: It's significantly rarer than both of those...
+	G: Is it? How much rarer?
+	S: Like... One?
+	G: And here I was hoping I could catch one...
+	2025/3/30
+	*/
 }
 MELTAN_MELMETAL
 {
@@ -4217,8 +4504,9 @@ SILICOBRA_SANDACONDA
 {
 }
 CRAMORANT
-{
-}
+{/*
+	G: [With dex] hehehehe! What a funny looking bird!
+*/}
 ARROKUDA_BARRASKEWDA
 {
 }
@@ -4249,8 +4537,13 @@ SINISTEA_POLTEAGEIST
 	G: Hmmm... Might be worth it for the novelty.
 */}
 HATENNA_HATTREM_HATTERENE
-{
-}
+{/*
+	G: Ohhh the pastel witch Pokémon from Galar! Got any horrifying facts about them?
+	S: Some Hatterene are incredibly violent and dangerous if they sense hostility, even from miles away.
+	G: Oooh, good thing you don't live in Galar then, right Silver?
+	S: Uhg.
+	2025/03/22
+*/}
 IMPIDIMP_MORGREM_GRIMMSNARL
 {/*
 	G: Do Grimmsnarl kill people?
@@ -4524,8 +4817,10 @@ RELLOR_RABSCA
 {
 }
 FLITTLE_ESPATHRA
-{
-}
+{/*
+	G: They're so pretty!! They look like they're wearing beautiful flowing dresses! I wanna see a trainer dressing up to match it for a contest or something... If I ever go to Paldea, I'd keep my eyes open for wild ones.
+	S: 
+*/}
 TINKATINK_TINKATUFF_TINKATON
 {
 }
@@ -4563,8 +4858,10 @@ ORTHWORM
 {
 }
 GLIMMET_GLIMMORA
-{
-}
+{/*
+	G: THEY'RE SO WEIRD LOOKING!!! What is going on with them!!!
+	S: 
+*/}
 GREAVARD_HOUNDSTONE
 {
 }
