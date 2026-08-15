@@ -207,7 +207,7 @@ Select.choicemasc
 	hesshes = "he's"
 	doesdo = "does"
 	--
-	"\0\s[0]The pronouns are now he him and his.\e"
+	"%(SetPronouns)"
 }
 Select.choicefem
 {
@@ -218,7 +218,7 @@ Select.choicefem
 	hesshes = "she's"
 	doesdo = "does"
 	--
-	"\0\s[0]The pronouns are now she her and her.\e"
+	"%(SetPronouns)"
 }
 Select.choiceneither
 {
@@ -229,7 +229,12 @@ Select.choiceneither
 	hesshes = "they're"
 	doesdo = "do"
 	--
-	"\0\s[0]The pronouns are now they them and their.\e"
+	"%(SetPronouns)"
+	
+}
+SetPronouns //The more envelopes I make for repeat dialogue the less potential typos I have to fix
+{
+	"\0\i[55]Pronouns set to %(heshe)/%(himher).%(ConfigMenuEnd)\e"
 }
 //Option to enable or disable uninstall was here but. Like to be honest why do users need that? It's not even the actual uninstall button.
 Select.TEACHBDAY
@@ -310,7 +315,7 @@ birthchecked
 		}
 	else //if the birthday is not listed above.
 		{
-			"\0\i[55]User birthday set to %(bornmonthprint) %(borndayprint).\e"
+			"\0\i[55]User birthday set to %(bornmonthprint) %(borndayprint).%(ConfigMenuEnd)\e"
 		}
 }
 
@@ -358,13 +363,19 @@ Select.TEACHNAME
 {
 	OnTeachName	
 }
+
+ConfigMenuEnd //Made it a damn envelope for efficiancy boi
+{
+	"\n\n[half]\![*]\q[Other Settings,configmenu]\n%(MenuEnd)"
+}
+
 Select.CANCEL
 {
-	"\0\s[0]This is a cancel message.\e"
+	//I don't want no damn cancel message they're so annoying lol
 }
 Select.keroCANCEL
 {
-	"\1\s[10]This is menu cancel dialogue.\e"
+	//NOTHIN
 }
 Select.bugreport
 {

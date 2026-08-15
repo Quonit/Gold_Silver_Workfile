@@ -3148,11 +3148,6 @@ MenuEnd
 	\![*]\q[Exit,CANCEL]"
 }
 
-ConfigMenuEnd
-{
-	"\n\n[half]\![*]\q[Other Settings,configmenu]\n%(MenuEnd)"
-}
-
 //ellipses of different wait times...
 lps
 {
