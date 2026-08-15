@@ -27,10 +27,10 @@ MenuRun
 	--
 	if lastTalk != ""
 	{
-	  "\![*]\q[Repeat Last Dialogue,OnLastTalk]\n\n[half]"
+	  "\![*]\q[Repeat,OnLastTalk]\n\n[half]"
 	}
 	--
- 	"\![*]\q[Say something,OnAiTalk]\n"
+ 	"\![*]\q[Random Talk,OnAiTalk]\n"
 	--
 	"\![*]\q[Pokedex,OnMenuPokedex]\n/
 	\![*]\q[Golds Pokemon,OnGoldmon]\n/

@@ -4,20 +4,28 @@ version,1
 option,DisableNoDefineSurfaces
 0,Default
 1,Argue
-2,hmph
-3,Up
+2,Crossed
+3,Victorious
 4,Pumped
-5,Think
-6,Friendly
+5,Contemplating
+6,Relaxed at user
 7,Sparkle
-8,Leaning Side Eye Smirk
-9,Smug finger on chest
-10,SemiQuestion
+8,Pokedex
+9,Share Pokedex
+10,Silver Default
+11,Pixel
+12,Hearts
+13,Big Eyes
+14,Defeated
+15,Yell at the sky
+
 201,Anger
 202,Pokeball
-203,Surprise
+203,Taken Aback
 204,Cross
-205,Pixel
+205,NA
 206,Judge
-207,Questioning
 207,Fluster Argue
+208,Back
+209,Dexlook
+210,Share Dex

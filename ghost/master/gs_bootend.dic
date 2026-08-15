@@ -55,7 +55,7 @@
 	if reference0 == 0 
  	{
 		//Snowpoff
-		"\![enter,passivemode]Welcome to the Gold and Silver Ukaghost! Before we can get started, are you a boy, or girl?\n\n\w8\w8...Just kidding.\w8 This isn't a cisgender homogony.\w8 Enter your pronouns./
+		"\![enter,passivemode]\0\s[11]\1\s[211]Welcome to the Gold and Silver Ukaghost! Before we can get started, are you a boy, or girl?\n\n\w8\w8...Just kidding.\w8 This isn't a cisgender homogony.\w8 Enter your pronouns./
 		\n\n\w5\_q\![*]\q[He/Him/His,choicefirsthehim]\n/
 		\![*]\q[She/Her/Hers,choicefirstsheher]\n/
 		\![*]\q[They/Them/Their,choicefirsttheythem]\n/

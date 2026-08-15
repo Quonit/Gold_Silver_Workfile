@@ -27,6 +27,7 @@ Bulbasaur_ivysaur_venusaur_charmander_charmeleon_charizard_squirtle_wartortle_bl
 }
 caterpie_metapod_butterfree
 {
+	"\0\s[7]\i[1]\i[11]I think Butterfree are so pretty%(lps(4)) \w8They get so many beautiful designs on their wings!\w8\n\n\s[12]In Kanto you can find Caterpie,\w4 Metapod,\w4 and Butterfree *everywhere*.\w8 If you went into the forest and said you didn't see any, I wouldn't believe you!"
 //G: I think Butterfree are so pretty... They get so many beautiful designs on their wings!
 //G: In Kanto you can find Caterpie, Metapod, and Butterfree *everywhere*. If you went into the forest and said you didn't see any, I wouldn't believe you!
 //G: There are a bunch of young trainers with them too, since they're so easy to capture.

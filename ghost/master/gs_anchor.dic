@@ -3151,4 +3151,4 @@ MenuEnd
 lps
 {
 	".\w%(_argv[0]).\w%(_argv[0]).\w%(_argv[0])"
-			}
+}

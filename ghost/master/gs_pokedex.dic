@@ -105,22 +105,18 @@ OnDisplayDex
 		}
 		--
 		
-		
-		_print += "\_l[@-10]%(_dexno)\_l[@-45,@-5]\_b[\img\dex\%(_mon).png,inline,--option=use_self_alpha,--option=background]\_l[,@5]"
+_print += "\_l[@-10]%(_dexno)\_l[@-45,@-5]\_b[\img\dex\%(_mon).png,inline,--option=use_self_alpha,--option=background]\_l[,@5]"
+		//_print += "\_l[@-10]%(_dexno)\_l[@-45,@-5]\_b[\img\dex\%(_mon).png,inline,--option=use_self_alpha,--option=background]\_l[,@5]"
 
+		//This one doesn't even display images _print += "\_l[@-10]%(_dexno)\_l[@-45,@-5]\_b[\img\dex\%(_mon).png,inline]\_l[,@5]"
 		
-		/*
-		//This one doesn't even display images
-		_print += "\_l[@-10]%(_dexno)\_l[@-45,@-5]\_b[\img\dex\%(_mon).png,inline]\_l[,@5]"
-		*/
 		/*
 		//This one makes them all clumped
 		if !Flag(_mon)
 		{
 			_print += "%(_dexno)\_l[@-45,@-5]\_b[\img\dex\unknown.png,inline,--option=use_self_alpha,--option=background]\_l[,@5]"
 
-		}
-		*/
+		}		*/
 		
 		/*
 		//Displays nothing
