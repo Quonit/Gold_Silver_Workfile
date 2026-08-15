@@ -17,6 +17,7 @@
 //Gen 1
 Bulbasaur_ivysaur_venusaur_charmander_charmeleon_charizard_squirtle_wartortle_blastoise
 {
+	"TEST"
 //G: Silver you're very lizard-core to me. I think if you had to pick between the Kanto starters you'd fit Charizard best. It's red and got a dragon mouth.
 //G: And not that shineys are relavent, but the shiny IS black and red.
 //S: Aren't they all lizards...?
@@ -58,6 +59,7 @@ weedle_kakuna_beedrill
 }
 pidgey_pidgeotto_pidgeot
 {
+	"TEST"
 //G: For YEARS I thought the line was Pidgy, Pidgeot, then Pidgeotto. It just makes intuitive sense for the name to keep getting longer each time it evolves! I feel like someone must've typed it down wrong.
 //S: ...So what, are you going to charge up to the office of Mr.Pokemon-Namer and ask him to change the names?
 //G: Maybe I will! You don't know I won't.
@@ -269,6 +271,7 @@ poliwag_poliwhirl_poliwrath_politoed
 }
 abra_kadabra_alakazam
 {
+	"TEST"
 //G: I teleported with an Abra once! It was ONE OF THE SCARIEST THINGS I'VE EVER WENT THROUGH.
 //S: Haven't been through a lot of scary things, then.
 //G: Do you know what it's like to have your body EVAPORATED? I mean it doesn't hurt at all- It just feels weird, and it's not a GOOD weird. It's like if you saw yourself bleeding but didn't actually feel any pain. Like, yeah something's WRONG, and it's worrying it doesn't FEEL worse.
@@ -789,7 +792,9 @@ dratini_dragonair_dragonite
 //G: I still can't believe how many Lance has, he's obsessed with them!
 }
 mew
-{/*
+{
+	"TEST"
+	/*
 G: Mews… The oldest pokemon we have fossil evidence for, right?
 S: Mhm.
 G: [Looking it up on pokedex] “very little is known of C this Pokémon. Using science, scientists have created images of what it theoretically could’ve looked like / ancient painting“

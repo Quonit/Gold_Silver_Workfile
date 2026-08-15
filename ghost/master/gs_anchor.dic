@@ -33,6 +33,7 @@ _talk = reference0
 		//Found every alphabetic character after a "
 	//Replace with : \U\1
 		//Make it uppercase, I don't know what \1 does.
+
 	_talk = REPLACE(_talk, "Missingno", "\_a[Missingno]Missingno\_a")
   _talk = REPLACE(_talk, "Bulbasaur", "\_a[Bulbasaur]Bulbasaur\_a")
   _talk = REPLACE(_talk, "Ivysaur", "\_a[Ivysaur]Ivysaur\_a")

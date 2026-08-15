@@ -112,56 +112,7 @@ OpenKeroMenu
 
 Select.testvariable
 {
-"\1Type battle.\w5 No immunities.\w8\0Set!\w8\1\n\nWhat should you use against a %(GrassType)?\w8\0\n\n"
---
-"%(FireType)"
-"%(FireGhost)"
-//"%(FireSteel)" //**NPMO 
-"%(FirePsychic)"
---
-"?\1\n\n\w8Too easy.\w8\0\n\n"
---
-"%(PoisonType)"
-"%(FirePoison)"
-"%(BugPoison)"
-"%(PoisonSteel)"
-"%(DragonPoison)"
-"%(FightingPoison)"
---
-"!"
---
-"\w8\1\n\n"
---
-"%(FightingType)"
-"%(FightingNormal)"
---
-"?\w8\0\n\n"
---
-"%(FlyingType)"
-"%(FlyingNormal)"
-"%(ElectricFlying)"
-"%(FlyingWater)"
-"%(FlyingGrass)"
-"%(FireFlying)"
---
-"!\w8\1\n\n%(PsychicType).\w8\0\n\n(awkward shrug) ^_^; "
---
-"%(BugType)"
-"%(BugFlying)"
-"%(BugFire)"
-"%(BugGrass)"
-//"%(BugNormal)" **NPMO
---
-"?\w8\1\n\n%(SteelType)?\w8\0\n\n"
---
-"%(GroundType)"
-"%(DarkGround)"
-"%(GhostGround)"
---
-".\w8\1\n\n%(GroundType), then.\w8\0\n\n"
---
-"%(GrassPoison).\w8\1\n\nThat's part Poison, which is weak to Ground.\w8 You lose the advantage.\w8\0\n\nAuuuhggg, and I had such a good streak going!\w8 Why do so many Grass Pokemon gotta be part Poison..."
-
+	"\b[2]\_q\f[bold,1]Items\f[bold,0]\n\n\_a[Abra](\_b[img\dex\abra.png,inline,--option=use_self_alpha])\_a "
 }
 /*
  ____    ___   ____   ____  ____    ____         __   ___   ___      ___ 
