@@ -1,4 +1,4 @@
-//This DIC file was written in part by Wormspawn!!!!! Thanks Wormmmm
+//This DIC file was written by Wormspawn!!!!! Thanks Wormmmm
 Flag
 {
     if ASEARCH(_argv[0],pokeFlags) != -1; 1
@@ -105,8 +105,43 @@ OnDisplayDex
 		}
 		
 		
+			/*
+	"\b[2]\_q\f[bold,1]Items\f[bold,0]\n\n\_a[Abra](\_b[img\dex\abra.png,inline,--option=use_self_alpha])\_a "
+
+		_print += "\_l[@-10]" //don't know wtf this is
+		--
+		"%(_dexno)" //Dexno = Dex number, recalls what numbers in the array we want?
+		--
+		"\_l[@-45,@-5]"  //Related to how it's displayed
+		--
+		"\_b[\img\dex\%(_mon).png,inline,--option=use_self_alpha,--option=background]" //Displays images
+		--
+		"\_l[,@5]" //Related to how it's displayed
+		*/
 		
 		_print += "\_l[@-10]%(_dexno)\_l[@-45,@-5]\_a[%(_anmon)]\_b[\img\dex\%(_mon).png,inline,--option=use_self_alpha,--option=background]\_a\_l[,@5]"
+		//_print += "\_l[@-10]%(_dexno)\_l[@-45,@-5]\_b[\img\dex\%(_mon).png,inline,--option=use_self_alpha,--option=background]\_l[,@5]"
+		//_print += "\_l[@-10]%(_dexno)\_l[@-45,@-5]\_b[\img\dex\%(_mon).png,inline,--option=use_self_alpha,--option=background]\_l[,@5]" [%(anchor)linkhere]
+
+		//This one doesn't even display images _print += "\_l[@-10]%(_dexno)\_l[@-45,@-5]\_b[\img\dex\%(_mon).png,inline]\_l[,@5]"
+		
+		/*
+		//This one makes them all clumped
+		if !Flag(_mon)
+		{
+			_print += "%(_dexno)\_l[@-45,@-5]\_b[\img\dex\unknown.png,inline,--option=use_self_alpha,--option=background]\_l[,@5]"
+
+		}		*/
+		
+		/*
+		//Displays nothing
+		_print += "\_l[@-5]%(_dexno)\_l[@-45,@-5]\_b[\img\dex\%(_mon).png,inline,--option=use_self_alpha,--option=background]\_l[,@5]"
+		*/
+		
+		/*
+		//utter mess
+		_print += "%(_dexno)\_l[@-31,@-5]\_b[\img\dex\%(_mon).png,inline,--option=use_self_alpha,--option=background]\_l[,@5]"
+		*/
 	}
 	--
 	_print
@@ -223,7 +258,7 @@ Mamoswine
 Heatran
 	Heatran looks terrible. I do like this redesign by MrBonnyJohn though https://youtu.be/Z7e7ZeQ4-RU?t=3717
 */
-
+/*
 	//EXPERIMENTAL FUUUUUCK
 	_andex = _argv
 	_print = ""
@@ -251,4 +286,4 @@ Heatran
 			_dexno = "0" + TOSTR(_dexno)
 		}
 		--
-	}
+	}*/

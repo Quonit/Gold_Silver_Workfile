@@ -10,9 +10,9 @@
 ╚════██║██╔══╝  ██║╚██╗██║╚════██║    ██║╚██╔╝██║██╔══╝  ██║╚██╗██║██║   ██║
 ███████║███████╗██║ ╚████║███████║    ██║ ╚═╝ ██║███████╗██║ ╚████║╚██████╔╝
 ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝    ╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ */
-OpenSakuraMenu
+OpenSakuraMenu //the menu isn't opening and I DON'T KNOW WHY
 {
-	"\0\s[0]\b2"
+	"\_q\0\s[0]\b2"
 	--
 	MenuRun
 }
@@ -23,19 +23,19 @@ MenuRun
  	nowmin = Getnowmin
  	nowhour = Getnowhour
 	--
-	"\n\n\_q\b2" 
+	"\n\n\b2" 
 	--
 	if lastTalk != ""
 	{
 	  "\![*]\q[Repeat,OnLastTalk]\n\n[half]"
 	}
 	--
- 	"\![*]\q[Random Talk,OnAiTalk]\n"
+ 	"\![*]\q[Random,OnAiTalk]\n"
 	--
 	"\![*]\q[Pokedex,OnMenuPokedex]\n/
-	\![*]\q[Golds Pokemon,OnGoldmon]\n/
-	\![*]\q[Options,configmenu]\n/
-	\![*]\q[Functions,dosomething]\n/
+	\![*]\q[Ask about,OnGoldmon]\n\n/
+	\![*]\q[Functions,dosomething]/
+	\![*]\q[Settings,configmenu]\n/
 	\![*]\q[PokeeMan,OnTypeMon]\n/
  	\![*]\q[Nevermind,CANCEL]\n\n\n[half]%(wd) %(nowhour):%(nowmin) %(ap), %(month)/%(day)/%(year)\e"
 }
@@ -99,13 +99,11 @@ OpenKeroMenu
  {
 	 //You can ask about Silver's Pokemon, but they're ??? until you've gotten the Anchor.dic on them.
 	 
-	"\1\s[10]\b[2]"
-	--
-	"This is a menu introduction dialogue."
+	"\_q\1\s[10]\b[2]"
  	--
 	"\n\n[half]/
-	\![*]\q[Update,keroupdatecheck]\n/
- 	\![*]\q[Bug report,bugreport]\n\n/
+	\![*]\q[Check for Updates,keroupdatecheck]\n/
+ 	\![*]\q[Report a Bug,bugreport]\n\n/
 	\![*]\q[Test variable,testvariable]\n\n/
 	\![*]\q[Nothing,keroCANCEL]\e"
 }
@@ -182,32 +180,23 @@ Select.BACKTOMENU
 */
 Select.configmenu
 {
-TalkConfig
+TalkConfig //wait why do we need this. wh. why can't we just do OnTalkConfig nvm I don't feel like changing something so minor lol
 }
 TalkConfig
 {
-	"\0\b[2]\_q\" 
-	--
-	"f[bold,1]Your name:\f[bold,0] %(username) \f[sup,1](\q[Change it?,TEACHNAME])\f[sup,0]\n"
-	--
-	"\f[bold,1]Your pronouns:\f[bold,0] %(heshe)/%(himher)/%(hisher) \f[sup,1](\q[Change them?,TEACHPRONOUN])\f[sup,0]\n"
-	--
-	"\f[bold,1]Your birthday:\f[bold,0] %(birthdayprint) \f[sup,1](\q[Change it?,TEACHBDAY])\f[sup,0]\n\n"
-	--
-	"\f[bold,1]Talk Rate:\f[bold,0] - every %(talktime) \f[sup,1](\q[Change it,talkinter])\f[sup,0]\n\n"
-	--		
-		{
-		"\![*]Enable Uninstall? (NOW : %(deleteshitai))\n\q[ON,deleteon] \q[OFF,deleteoff]\n\n[half]\n"
-		}
-	--
-	"\![*]\q[Back to the menu,BACKTOMENU]\e"
+	"\0\b[2]\_q\f[bold,1]Your name:\f[bold,0] %(username) \f[sup,1](\q[Change it?,TEACHNAME])\f[sup,0]\n/
+	\f[bold,1]Your pronouns:\f[bold,0] %(heshe)/%(himher)/%(hisher) \f[sup,1](\q[Change them?,TEACHPRONOUN])\f[sup,0]\n/
+	\f[bold,1]Your birthday:\f[bold,0] %(birthdayprint) \f[sup,1](\q[Change it?,TEACHBDAY])\f[sup,0]\n/
+	\f[bold,1]Talk Rate:\f[bold,0] - every %(talktime) \f[sup,1](\q[Change it,talkinter])\f[sup,0]\n\n/
+	\![*]\q[Back to the menu,BACKTOMENU]\e"
 }
 Select.TEACHPRONOUN
 {
-	"\0\s[0]What pronouns do you want?\w5\n\n[half]\_q/
+	"\0\\i[55]Select your pronouns.\w5\n\n[half]\_q/
 	\![*]\q[He-His-Him,choicemasc]\n/
 	\![*]\q[She-Her-Her,choicefem]\n/	
-	\![*]\q[They-Their-Them,choiceneither]\e"
+	\![*]\q[They-Their-Them,choiceneither]\n/
+	\![*]\q[Enter Your Own,OnBootPronounTeach1]\e"
 }
 Select.choicemasc
 {
@@ -242,19 +231,10 @@ Select.choiceneither
 	--
 	"\0\s[0]The pronouns are now they them and their.\e"
 }
-Select.deleteon
-{
-	deleteshitai = "ON"
-	TalkConfig
-}
-Select.deleteoff
-{
-	deleteshitai = "OFF"
-	TalkConfig
-}
+//Option to enable or disable uninstall was here but. Like to be honest why do users need that? It's not even the actual uninstall button.
 Select.TEACHBDAY
 {	
-	"\0\s[0]What month were you born? \w8Name or number is fine.\![open,inputbox,OnUserBornMonth,-1]\e"
+	"\0\i[55]Input your birthmonth's name or number.\![open,inputbox,OnUserBornMonth,-1]\e"
 }
 OnUserBornMonth
 {
@@ -274,12 +254,12 @@ OnUserBornMonth
 	elseif _tempmonth == "december" || _tempmonth == "12" {bornmonth = 12; bornmonthprint = "December"}
 	else
 	{
-		"\0\s[0]That's not a valid month. Try again."
+		"\0\i[55]Input not recognized. Try again."
 		--
 		"\![open,inputbox,OnUserBornMonth,-1]\![set,balloontimeout,-1]\e"
 	}
 	--
-	"\0\s[0]So you were born in %(bornmonthprint).\n\w8What day was it?"
+	"\0\i[55] Birthmonth set to %(bornmonthprint).\n\w8Input the day."
 	--
 	"\![open,inputbox,OnUserBornDay,-1]\![set,balloontimeout,-1]\e"
 }
@@ -313,7 +293,7 @@ OnUserBornDay
 	}
 	else //If the day isn't valid, like the 10046th or something, this will open the input box again and have a \e so the dialogue below doesn't play.
 	{
-		"\0\s[0]That's not a valid day. Try again."
+		"\0\i[55]Input unrecognized. \w6Number digits only."
 		--
 		"\![open,inputbox,OnUserBornDay,-1]\e"
 	}	
@@ -322,61 +302,57 @@ birthchecked
 {
 	if userbirthday == dayslot //if today is the user's birthday
 		{
-			"\0\s[0]It's the user's birthday.\w8\1\s[10]Happy birthday, %(username).\e"
+			//"\0\i[55]It's the user's birthday.\w8\1\s[10]Happy birthday, %(username).\e"
 		}
 	elseif userbirthday == "12month 25day"
 		{
-			"\0\s[0]The user was born on Christmas.\w8\1\s[10]Happy birthday, %(username). \w5\s[15]AND JESUS!\w8\0\s[9]\n\n[half]We're supposed to be a blank template, knock it off before we get in trouble.\e"
+			//"\0\s[0]The user was born on Christmas.\w8\1\s[10]Happy birthday, %(username). \w5\s[15]AND JESUS!\w8\0\s[9]\n\n[half]We're supposed to be a blank template, knock it off before we get in trouble.\e"
 		}
 	else //if the birthday is not listed above.
 		{
-			"\0\s[0]Your birthday is %(bornmonthprint) %(borndayprint). We'll remember.\e"
+			"\0\i[55]User birthday set to %(bornmonthprint) %(borndayprint).\e"
 		}
 }
+
 Select.talkinter
  {
- 	"\0\s[0]\b2How often should we speak?\w8\1\s[10]The interval is currently set to %(talktime)./
- 	\0\n\n[half]/
- 	\![*]\q[Every 30 seconds,TALKMAX]\n/
-	\![*]\q[Every minute,TALKHIGH]\n/
-	\![*]\q[Every 3 minutes,TALKNORMAL]\n/
-	\![*]\q[Every 5 minutes,TALKPOOR]\n/
-	\![*]\q[Dont speak,TALKNONE]\n\n[half]/
-	\![*]\q[Dont change,TalksTill]\e"
-}
-Select.TalksTill
-{
-	"\0\s[0]No change to the talk rate.\e"
+ 	"\_q\0\i[55]Conversation rate: %(talktime)./
+	\0\n\n[half]/
+	\![*]\q[1 every 30 seconds,TALKMAX]\n/
+	\![*]\q[1 a minute,TALKHIGH]\n/
+	\![*]\q[1 every 3 minutes,TALKNORMAL]\n/
+	\![*]\q[1 every 5 minutes,TALKPOOR]\n/
+ 	\![*]\q[Off,TALKNONE]	%(ConfigMenuEnd)\e"
 }
 Select.TALKMAX
 {
 	talktime = "30 seconds" //this sets up the envelope properly
 	aitalkinterval = 30 //this changes the actual rate
-	"\0\s[0]We will speak every 30 seconds.\e"
+	"\0\i[55]Conversation rate set to %(talktime).%(ConfigMenuEnd)"
 }
 Select.TALKHIGH
 {
 	talktime = "minute"
 	aitalkinterval = 60
-	"\0\s[0]We will speak every minute.\e"
+	"\0\i[55]Conversation rate set to once per minunte.%(ConfigMenuEnd)"
 }
 Select.TALKNORMAL
 {
 	talktime = "3 minutes"
 	aitalkinterval = 180
-	"\0\s[0]We will speak every three minutes.\e"
+	"\0\i[55]Conversation rate set to every three minutes.%(ConfigMenuEnd)"
 }
 Select.TALKPOOR
 {
 	talktime = "5 minutes"
 	aitalkinterval = 300
-	"\1\s[10]We will speak every five minutes.\e"
+	"\0\i[55]Conversation rate set to once every five minutes.%(ConfigMenuEnd)"
 }
 Select.TALKNONE
 {
 	talktime = "...actually we won't talk at all"
 	aitalkinterval = 0
-	"\0\s[0]We will not speak.\e"
+	"\0\i[55]Random dialogue disabled.%(ConfigMenuEnd)"
 }
 Select.TEACHNAME
 {
