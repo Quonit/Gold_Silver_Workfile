@@ -2,8 +2,6 @@
 //Gold
 surface0 //Default
 {
-collision0,57,22,112,46,Head
-collision1,65,50,105,91,Face
 element0,overlay,surface0.png,0,0
 //Blink
 0interval,random,4
@@ -26,6 +24,28 @@ element0,overlay,surface0.png,0,0
 4interval,never
 4pattern0,1102,14,overlay,0,0
 4pattern1,-1,10,overlay,0,0
+
+//Arms
+//Thinking 1
+1interval,never
+1pattern0,1600,0,overlay,0,0
+//Crossed Arms
+2interval,never
+2pattern0,1601,0,overlay,0,0
+//Thinking hand on hip
+3interval,never
+3pattern0,1602,0,overlay,0,0
+
+//:L lips
+10interval,never
+10pattern0,1700,0,overlay,0,0
+//Grump >:T
+11interval,never
+11pattern0,1701,0,overlay,0,0
+//cleverthink
+12interval,never
+12pattern0,1702,0,overlay,0,0
+
 }
 
 surface1 //Argue
@@ -53,11 +73,14 @@ surface5 //Contemplative
 element0,overlay,surface1505.png,0,0
 //Widen Eyes
 9interval,never
-9pattern0,1600,0,overlay,0,0
+9pattern0,1703,0,overlay,0,0
 }
 
 surface6 //Chill? Old default
 {
+collision0,57,22,112,46,Head
+collision1,65,50,105,91,Face
+
 element0,overlay,surface1506.png,0,0
 }
 
