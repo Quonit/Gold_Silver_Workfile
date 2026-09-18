@@ -47,7 +47,7 @@ AiTalk
  // The envelope %(heshe)
 /*
 Grammar Rules:
- - Pokèmon is always spelled with the accent. Words including the prefix pokè- also include the accent.
+ - Pokèmon is always spelled with the accent. Words with the prefix pokè- also include the accent.
  - Types are capitalized. Ground Type, Bug Type, Flying Type, etc. Both words are capitalized.
  - Plural of any Type of Pokémon ends with Types. No Bugs, only Bug Types.
  - The plural of any Pokémon is just their name. No s or anything at the end. Plural Pikachu is Pikachu. 
@@ -126,7 +126,7 @@ RandomTalk : nonoverlap
 	//temp dialogue
 	"\0\s[2]Things must be difficult for Rock types.\1Why?\0They're weak to both Water AND Grass! Aren't those like, the most common types??? And they're usually starters too!\1 They have their strengths. \0Like what, not being able to go outside because the grass and water sting?"
 	
-	/*
+	/* //Strong Against
 	S: What type attacks are strong against Steel type?
 	--
 	Op1:
@@ -1315,7 +1315,7 @@ RandomTalk : nonoverlap
 		G: You can't say it didn't work, though!
 	*/
 	
-	/* //Grass/Steel
+	{/* //Grass/Steel
 	
 	G: What about... Hm... The best type combination for Grass? I'm gonna go out on a limb and say Steel.
 	S: (Sarcastic) How did you know?
@@ -1443,8 +1443,15 @@ RandomTalk : nonoverlap
 	\e:chain=fireghostchain*/
 
 }
-}
 
+	{ //Abilities???
+		/*
+		G: I bet... I remember more Pokemon's special abilities than you!
+		S: 
+		*/
+	}
+}
+}
 //--Chains
 jokechain
 {{CHAIN

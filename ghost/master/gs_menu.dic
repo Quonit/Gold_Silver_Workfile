@@ -10,7 +10,7 @@
 ╚════██║██╔══╝  ██║╚██╗██║╚════██║    ██║╚██╔╝██║██╔══╝  ██║╚██╗██║██║   ██║
 ███████║███████╗██║ ╚████║███████║    ██║ ╚═╝ ██║███████╗██║ ╚████║╚██████╔╝
 ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝    ╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ */
-OpenSakuraMenu //the menu isn't opening and I DON'T KNOW WHY
+OpenSakuraMenu
 {
 	"\_q\0\s[0]\b2"
 	--
@@ -33,10 +33,11 @@ MenuRun
  	"\![*]\q[Random,OnAiTalk]\n"
 	--
 	"\![*]\q[Pokedex,OnMenuPokedex]\n/
-	\![*]\q[Ask about,OnGoldmon]\n\n/
-	\![*]\q[Functions,dosomething]/
+	\![*]\q[Ask about,OnGoldmon]\n/
+	\![*]\q[Functions,dosomething]\n/
 	\![*]\q[Settings,configmenu]\n/
 	\![*]\q[PokeeMan,OnTypeMon]\n/
+	\![*]\q[Interval Stacker,OnISMenu]\n/
  	\![*]\q[Nevermind,CANCEL]\n\n\n[half]%(wd) %(nowhour):%(nowmin) %(ap), %(month)/%(day)/%(year)\e"
 }
 
