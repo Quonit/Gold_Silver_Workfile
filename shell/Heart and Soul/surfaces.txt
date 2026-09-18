@@ -18,26 +18,52 @@ version,1 //Changes from old definition to new definition. I don't think it's im
 //1100s - Talking/Blinking Frames
 //1200s - Arms
 
-surface0 //Default
+//Default
+surface0
 {
 element0,overlay,surface0.png,0,0
 
 collision0,361,136,486,185,Head 
 
-//Eyes
+//--Eyes
 //At User
 animation1.interval,runonce
 animation1.pattern0,overlay,1106,0,0,0,0
 //At Silver
 animation14.interval,never
 animation14.pattern0,overlay,1107,0,0,0
-
 //Blink
 animation2.interval,random,4
 animation2.pattern0,overlay,-1,100,0,0
 animation2.pattern1,overlayfast,1104,50,0,0
 animation2.pattern2,overlayfast,1105,100,0,0
 animation2.pattern3,overlay,-1,30,0,0
+
+//--Arms
+//At Rest
+animation5.interval,runonce
+animation5.pattern0,overlay,1205,0,0,0,0
+//Gesture Out
+animation7.interval,never
+animation7.pattern0,overlay,1203,0,0,0
+
+//--Behind Arms
+//Thinking hand on hip
+animation14.interval,runonce
+animation14.pattern0,overlay,1206,0,0,0
+//Raise Pokeball
+animation6.interval,
+animation6.pattern0,overlay,1204,0,0,0
+
+//:L lips
+animation11.interval,never
+animation11.pattern0,overlay,1700,0,0,0
+//Grump >:T
+animation12.interval,never
+animation12.pattern0,overlay,1701,0,0,0
+//cleverthink
+animation13.interval,never
+animation13.pattern0,overlay,1702,0,0,0
 
 //talk
 animation20.interval,talk,4
@@ -56,63 +82,37 @@ animation23.interval,never
 animation23.pattern0,overlay,1101,140,0,0
 animation23.pattern1,overlay,-1,100,0,0
 
-//Stop Talking-----------------------------------------------------------------------------
+//Stop Talking
 animation55.interval,never
 animation55.pattern0,stop,20
-
-//Arms
-//At Rest
-animation5.interval,runonce
-animation5.pattern0,overlay,1205,0,0,0,0
-//Raise Pokeball
-animation6.interval,runonce
-animation6.pattern0,overlay,1204,0,0,0
-//Gesture Out
-animation7.interval,never
-animation7.pattern0,overlay,1203,0,0,0
-//Thinking 1
-animation8.interval,never
-animation8.pattern0,overlay,1600,0,0,0
-//Crossed Arms
-animation9.interval,never
-animation9.pattern0,overlay,1601,0,0,0
-//Thinking hand on hip
-animation10.interval,never
-animation10.pattern0,overlay,1602,0,0,0
-
-//:L lips
-animation11.interval,never
-animation11.pattern0,overlay,1700,0,0,0
-//Grump >:T
-animation12.interval,never
-animation12.pattern0,overlay,1701,0,0,0
-//cleverthink
-animation13.interval,never
-animation13.pattern0,overlay,1702,0,0,0
-
 }
 
-surface1 //Argue
+//Argue
+surface1
 {
 element0,overlay,surface1001.png,0,0
 }
 
-surface2 //Crossed
+//Crossed
+surface2
 {
 element0,overlay,surface1002.png,0,0
 }
 
-surface3 //Arm Up Victorious
+//Arm Up Victorious
+surface3
 {
 element0,overlay,surface1003.png,0,0
 }
 
-surface4 //Amped Up
+//Amped Up
+surface4
 {
 element0,overlay,surface1004.png,0,0
 }
 
-surface5 //Contemplative
+//Contemplative
+surface5
 {
 element0,overlay,surface1005.png,0,0
 //Widen Eyes
@@ -120,7 +120,8 @@ animation9.interval,never
 animation9.pattern0,overlay,1703,0,0,0
 }
 
-surface6 //Chill? Old default
+//Chill
+surface6
 {
 collision0,57,22,112,46,Head
 collision1,65,50,105,91,Face
@@ -128,38 +129,51 @@ collision1,65,50,105,91,Face
 element0,overlay,surface1006.png,0,0
 }
 
-surface7 //Sparkle/Hopeful
+//Sparkle/Hopeful
+surface7
 {
 element0,overlay,surface1007.png,0,0
 }
 
-surface8 //Pokedex
+//Pokedex
+surface8
 {
 element0,overlay,surface1008.png,0,0
 //Add boop boops
 }
 
-surface9 //Share dex
+//Share dex
+surface9
 {
 element0,overlay,surface1009.png,0,0
 }
-surface11 //Pixel
+
+//Pixel
+surface11
 {
 element0,overlay,surface1011.png,0,0
 }
-surface12 //Hearts
+
+//Hearts
+surface12
 {
 element0,overlay,surface1012.png,0,0
 }
-surface13 //Awww
+
+//Awww
+surface13
 {
 element0,overlay,surface1013.png,0,0
 }
-surface14 //Defeated
+
+//Defeated
+surface14
 {
 element0,overlay,surface1014.png,0,0
 }
-surface15 //Yell at the sky
+
+//Yell at the sky
+surface15
 {
 element0,overlay,surface1015.png,0,0
 }
@@ -173,39 +187,38 @@ element0,overlay,surface1015.png,0,0
 //2200s - Arms
 //2300s - Misc
 
-surface10 //Default
+//Default
+surface10
 {
 element0,overlay,surface10.png,0,0
-//Collission
+
 collision1,385,134,520,200,Point
 
-//Eyes
+//--Eyes
 //Suspicious
 animation3.interval,runonce
 animation3.pattern0,overlay,2100,0,0,0
-//At Gold
-animation4.interval,never
-animation4.pattern0,overlay,2102,0,0,0
-
-//Arms
-//Front
-//Down
-animation1.interval,runonce
-animation1.pattern0,overlay,2202,0,0,0
-
-//Behind
-//Arm
-//Hip
-animation2.interval,runonce
-animation2.pattern0,overlay,2209,0,0,0
-
-
 //Blinking
 animation30.interval,random,4
 animation30.pattern0,overlay,-1,100,0,0
 animation30.pattern1,overlayfast,2105,50,0,0
 animation30.pattern2,overlayfast,2104,100,0,0
 animation30.pattern3,overlay,-1,30,0,0
+
+//At Gold
+animation4.interval,never
+animation4.pattern0,overlay,2102,0,0,0
+
+//--Arms
+//Down
+animation1.interval,runonce
+animation1.pattern0,overlay,2202,0,0,0
+
+//--Behind Arms
+//Hip
+animation2.interval,runonce
+animation2.pattern0,overlay,2209,0,0,0
+
 
 //talk
 animation20.interval,talk,4
@@ -224,7 +237,7 @@ animation23.interval,never
 animation23.pattern0,overlay,2101,140,0,0
 animation23.pattern1,overlay,-1,100,0,0
 
-//Stop Talking-----------------------------------------------------------------------------
+//Stop Talking
 animation55.interval,never
 animation55.pattern0,stop,20
 }
