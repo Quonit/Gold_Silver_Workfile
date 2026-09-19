@@ -56,9 +56,9 @@ Grammar Rules:
  - "Legendary" and "Mythical" are not proper nouns which they designate rare Pokémon to. All Pokémon are just Pokémon, and some of them just happen to have myths around them.
 */
 
-RandomTalk : nonoverlap
+RandomTalk : nonoverlap //"non overlap" forces it to play every piece of dialogue once before restarting.
 {
-	if litwickdex == 2
+	if litwickdex == 2 //This first set of ifelse statements are if I wanted any "follow up" dialogue to pokedex entries. This will not play unless the last thing you head was the pokedex entry. These take priority over regular random dialogue
 	{
 		litwikdex = 1 //So it only happens right after you ask about the Litwick line
 		/*
@@ -101,7 +101,7 @@ RandomTalk : nonoverlap
 		G: I think Konkurs would be happier with his friend just like him! He'd have someone to bond with.
 		*/
 	}
-	else
+	else //Regular random dialogue
 	{
 	/*
 	I can't find the joke but it was something like
@@ -109,6 +109,18 @@ RandomTalk : nonoverlap
 	> Gold: Um... Dark?
 	> Silver: You should know this! You have a Fairy Type on your team!
 	> Gold: I do?
+	
+		G: My neck hurts
+		S; You always say you hurt.
+		G: It’s true. I get migraines.
+
+		G: Deerilng that lost its mother? It always made me cry so much as a kid! My mom had to tell me the Deerling was just an actor and shared me photos of it being friends with the production crew, heheh
+		S: but the story is still real somewhere…
+		G: sad :(
+		
+		Gold: Everyone likes fingerless gloves. They’re cool, man
+		Silver: It’s just fingers.
+		Gold: Cool fingers.
 	*/
 	//"\1\s[10]What Pokemon do you think could beat a %(psychictype)?\w8\0\s[4]Atticus!\w4 Obviously!\1\s[206]\i[8]\w8\n\nSigh\w2.\w2.\w2.\e" <- Outdated, but not deleting out of respect
 	
@@ -125,6 +137,50 @@ RandomTalk : nonoverlap
 	
 	//temp dialogue
 	"\0\s[2]Things must be difficult for Rock types.\1Why?\0They're weak to both Water AND Grass! Aren't those like, the most common types??? And they're usually starters too!\1 They have their strengths. \0Like what, not being able to go outside because the grass and water sting?"
+	
+	//Gold: Ooo. If you were stranded on an island with only one Pokemon to save you, what would you pick?
+	//Silver: Do I own this Pokemon or would I have to catch it?
+	//—
+	//Gold: Hmm Good question… let’s do hard mode. You have to be able to befriend it first.
+	//Silver: I guess… Tropius isn’t bad. They’re friendly enough and it’s fruit make it better than just another flyer.
+	//Gold: Ooo a win for Tropius!
+	//—
+	//Gold: Easy mode, you can get whatever is there to help you.
+	//Silver: Maybe Latias…?
+	//Gold: You really think you’ll be able to hang on??? I believe in you…
+	
+		if timeslot == "earlymorning"
+		{
+		//Gold: They always say early pidgey gets the caterpie!
+		//Silver: You’re always waking up after me.
+		//Gold: I knowwww… I’m not very good at waking up early.
+		}
+		elseif timeslot == "morning"
+		{
+		"\0\s[0]This is a morning boot dialogue.\e"
+		}
+		elseif timeslot == "lunch"
+		{
+		"\0\s[0]This is a lunch boot dialogue.\1\s[10]Sure is.\e"
+		}
+		elseif timeslot == "afternoon"
+		{
+		"\1\s[10]This is an afternoon boot dialogue.\w8\0\s[0]That it is.\e"
+		}
+		elseif timeslot == "evening"
+		{
+ 		"\0\s[0]This is an evening boot dialogue.\1\s[10]Between the hours of 18 and 20.\e"
+		}
+		elseif timeslot == "latenight"
+		{
+ 		//Gold: Careful %(username), there are Ghost Types out at dark!
+		//Silver: I think %(username) will be fine.
+		}
+		else //Midnight
+		{
+		
+		}
+
 	
 	/* //Strong Against
 	S: What type attacks are strong against Steel type?
@@ -1450,6 +1506,17 @@ RandomTalk : nonoverlap
 		S: 
 		*/
 	}
+	
+	
+	//Gold: I’m so hungry I could eat a Snorlax…
+	//Silver: O.o?
+	//Gold: It’s just a matter of expression dude lol
+	//Silver: …good.
+
+	//IF NIGHT
+	//Gold: I want to lay down and then have a bunch of fluffy Pokemon lay on top of me as a blanket.
+	//Silver: You can buy imported Wooloo fur.
+	//Gold: So soft…
 }
 }
 //--Chains

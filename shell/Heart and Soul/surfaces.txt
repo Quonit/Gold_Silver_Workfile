@@ -37,7 +37,7 @@ animation3.pattern1,overlayfast,1104,50,0,0
 animation3.pattern2,overlayfast,1105,100,0,0
 animation3.pattern3,overlay,-1,30,0,0
 //Closed
-//animation4.interval,random,4
+//animation4.interval,never,4
 //animation4.pattern0,stop,3
 //animation4.pattern0,overlay,1105,0,0,0
 

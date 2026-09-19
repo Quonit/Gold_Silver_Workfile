@@ -194,7 +194,7 @@ dayslot
 }
 
 OnBoot
- {
+{
 	lastTalk = "" 
 	passhour = 0
 	passmin = 0
@@ -238,7 +238,9 @@ normalboottalk
  	{
 		if timeslot == "earlymorning"
 		{
-		"\0\s[0]This is an early morning boot dialogue.\w8\1\s[10]Between the hours of five and eight.\e"
+		//Gold: They always say early pidgey gets the caterpie!
+		//Silver: You’re always waking up after me.
+		//Gold: I knowwww… I’m not very good at waking up early.
 		}
 		elseif timeslot == "morning"
 		{
@@ -258,11 +260,12 @@ normalboottalk
 		}
 		elseif timeslot == "latenight"
 		{
- 		"\0\s[0]This is a late night boot dialogue.\1\w8\s[10]Between 21 and 24.\e"
+ 		//Gold: Careful %(username), there are Ghost Types out at dark!
+		//Silver: I think %(username) will be fine.
 		}
 		else //Midnight
 		{
-		"\0\s[0]This is a middle of the night boot dialogue.\1\w8\s[10]From midnight to five.\e"
+		
 		}
 	}
 }
@@ -273,14 +276,47 @@ OnClose
 {
 	if passmin >= 5 || passhour > 0	//This checks to see if you've had them open for at least five minutes.
 	{
-			//Q: probably move this to boot instead of close
+		//Q: probably move this to boot instead of close
 		//G: Man imagine if we had anywhere near as much boot dialogue as that other ghost.
 		//S: What other ghost?
 		//G: Come on, don't make me break the fourth wall without you!
+		
+		if timeslot == "earlymorning"
+		{
+		//Gold: They always say early pidgey gets the caterpie!
+		//Silver: You’re always waking up after me.
+		//Gold: I knowwww… I’m not very good at waking up early.
+		}
+		elseif timeslot == "morning"
+		{
+		"\0\s[0]This is a morning boot dialogue.\e"
+		}
+		elseif timeslot == "lunch"
+		{
+		"\0\s[0]This is a lunch boot dialogue.\1\s[10]Sure is.\e"
+		}
+		elseif timeslot == "afternoon"
+		{
+		"\1\s[10]This is an afternoon boot dialogue.\w8\0\s[0]That it is.\e"
+		}
+		elseif timeslot == "evening"
+		{
+ 		"\0\s[0]This is an evening boot dialogue.\1\s[10]Between the hours of 18 and 20.\e"
+		}
+		elseif timeslot == "latenight"
+		{
+ 		//Gold: Careful %(username), there are Ghost Types out at dark!
+		//Silver: I think %(username) will be fine.
+		}
+		else //Midnight
+		{
+		
+		}
+
 	}
  	else //This dialogue is for if they haven't been open for at least five minutes.
  	{
- 		"\0\s[0]This dialogue is for closing us before five minutes have passed.\w8\w8"
+ 		
 	}
  	--
 	"\-\e"

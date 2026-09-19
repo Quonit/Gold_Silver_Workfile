@@ -19,7 +19,9 @@ MouseMoveSakura //stoking
  			stroke = 0
 			if reference4 == "Head"
  			{
-				"\0\s[0]This is some petting dialogue.\e"
+				//G: You wanna know what’s under my hat?
+				//S: hair?
+				//G: trueeee
  			}
  			elseif reference4 == "Face"
  			{
@@ -42,9 +44,6 @@ MouseMoveKero //Silver
 			stroke = 0
 			if reference4 == "Face"
  			{
-				"\1\s[10]This is a face touching dialogue.\e"
-				"\1\s[10]This is another face touching dialogue.\e"
-				"\1\s[10]This is yet another face touching dialogue.\e"
  			}
 			elseif reference4 == "Point" //pet hair
 			{
