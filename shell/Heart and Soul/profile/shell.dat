@@ -2,11 +2,11 @@ Charset,UTF-8
 __system_settings_version__,2
 Char10.ratio.y,0.970370370
 Char1.balloon.isleft,1
-balloon0.offset,350.-125
+balloon0.offset,410.-129
 scriptbox.left,1447
 Char10.ratio.devid,rqZJLdEjfPvzZsQUju8Xfg==
 balloon1.offset,303.-118
-Char0.ratio.x,0.801562500
+Char0.ratio.x,0.819791667
 Char0.ratio.devid,rqZJLdEjfPvzZsQUju8Xfg==
 Char0.ratio.y,0.990740741
 Char0.balloon.isleft,1
@@ -16,7 +16,7 @@ scriptbox.top,22
 Char10.balloon.isleft,1
 seriko.scaling.percent.x,75
 seriko.scaling.percent.y,75
-Char1.ratio.x,0.649479167
+Char1.ratio.x,0.706250000
 Char1.ratio.y,0.990740741
 Char10.ratio.x,0.685416667
 __system_written_flag_do_not_remove__,written

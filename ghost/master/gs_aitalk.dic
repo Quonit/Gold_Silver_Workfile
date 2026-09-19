@@ -149,6 +149,7 @@ RandomTalk : nonoverlap //"non overlap" forces it to play every piece of dialogu
 	//Silver: Maybe Latias…?
 	//Gold: You really think you’ll be able to hang on??? I believe in you…
 	
+		//These only play during certain times of day
 		if timeslot == "earlymorning"
 		{
 		//Gold: They always say early pidgey gets the caterpie!
@@ -161,7 +162,10 @@ RandomTalk : nonoverlap //"non overlap" forces it to play every piece of dialogu
 		}
 		elseif timeslot == "lunch"
 		{
-		"\0\s[0]This is a lunch boot dialogue.\1\s[10]Sure is.\e"
+			//Gold: I’m so hungry I could eat a Snorlax…
+			//Silver: O.o?
+			//Gold: It’s just a matter of expression dude lol
+			//Silver: …good.
 		}
 		elseif timeslot == "afternoon"
 		{
@@ -173,12 +177,15 @@ RandomTalk : nonoverlap //"non overlap" forces it to play every piece of dialogu
 		}
 		elseif timeslot == "latenight"
 		{
- 		//Gold: Careful %(username), there are Ghost Types out at dark!
-		//Silver: I think %(username) will be fine.
+ 			//Gold: I want to lay down and then have a bunch of fluffy Pokemon lay on top of me as a blanket.
+			//Silver: You can buy imported Wooloo fur.
+			//Gold: So soft…
+
 		}
 		else //Midnight
 		{
-		
+			//Gold: Careful %(username), there are Ghost Types out at dark!
+			//Silver: I think %(username) will be fine.
 		}
 
 	
@@ -1497,6 +1504,14 @@ RandomTalk : nonoverlap //"non overlap" forces it to play every piece of dialogu
 	S: Maybe one day I'll have the opportunity to do the same.
 	G: NOT TODAY AND NOT TOMORROW, I'LL MAKE SURE OF THAT!
 	\e:chain=fireghostchain*/
+	/* Trace Wonder Gaurd
+	Gold: Do you think that Silklay can Trace Wonder Gaurd off a Shedinja?
+	Silver: Hm…
+	Gold: Silklay can copy a ton of Pokémon’s abilities for herself. If she copied Wonder Guard, only, like, Dark and Ghost and Bug Attacks could damage her.
+	Silver: In this scenario, you’d be up against a Shedinja… and it would win unless you have a way to get through its own Wonder Guard.
+	Silver: Your Gardevior only knows… Healing, Paychic, and Grass moves, so I don’t know if you’d win.
+	Gold: I guess not… hm \e:chain=tracewondergaurd
+	*/
 
 }
 
@@ -1507,16 +1522,6 @@ RandomTalk : nonoverlap //"non overlap" forces it to play every piece of dialogu
 		*/
 	}
 	
-	
-	//Gold: I’m so hungry I could eat a Snorlax…
-	//Silver: O.o?
-	//Gold: It’s just a matter of expression dude lol
-	//Silver: …good.
-
-	//IF NIGHT
-	//Gold: I want to lay down and then have a bunch of fluffy Pokemon lay on top of me as a blanket.
-	//Silver: You can buy imported Wooloo fur.
-	//Gold: So soft…
 }
 }
 //--Chains
@@ -1687,6 +1692,17 @@ rockcombochain
 	Gold: A Bug Type would still prefer to be part Steel instead, though.
 	Silver: It's a little hard to do better than Bug/Steel.
 */
+}}CHAIN
+
+tracewondergaurd
+{{CHAIN
+/*
+	Gold: WAIT SHE KNOWS SHADOW BALL she could totally beat Shedinja! Ghost good against Ghost!
+	Silver: She does?
+	Gold: Yeahh I don’t like using it though.
+	Silver: *Why^? It’s great coverage.
+	Gold: Once I saw a Mismagius soul separate from its body because of it… terrifying.
+	Silver: Ghost Moves can be creepy, I guess… You don’t have much of a backbone for it.*/
 }}CHAIN
 
 HourCheck

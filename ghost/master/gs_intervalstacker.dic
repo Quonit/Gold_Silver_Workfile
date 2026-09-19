@@ -1,498 +1,78 @@
-//Interval Stacker by Zichqec https://zichqec.github.io/s-the-skeleton/index.html
-//Seriko Parser by Levidre https://levidre.github.io/
-//Version 2.0.6
-
-//Please note, throughout this file I've used IS as an abbreviation for Interval Stacker, to avoid clashing with any other variables/functions the ghost may be using.
-//This could probably be commented better, but it's still much more manageable than the old Interval Stacker
-
-
-//just gonna reorganize things here so they're easier to find when i need them.
-
-OnISMenu
+TestParsing
 {
-	OnIntervalStackerMenu
+	ParseShell("..\..\shell\master", ("\surfaces.txt"))
 }
 
-OnIntervalStackerMenu
-{
-	
-	
-	if NeedsParse == 1
-		{
-		NeedsParse = 0
-		RunParse
-		}
 
-	if ISCurrentShell == ""; ISCurrentShell = "Select a shell"
-	if ISExport == ""; ISExport = "clipboard"
-	if ISDispSurfaceName == ""; ISDispSurfaceName = 0
-	if ISDispIntervalName == ""; ISDispIntervalName = 0
-	if ISDispSingleSurfaces == ""; ISDispSingleSurfaces = 0
-	if ISChar == ""; ISChar = "\p[0]"
-	//if ISCharDisp == ""; ISCharDisp = "Sakura"
-	if ISSavedPoses == ""; ISSavedPoses = IARRAY
-	if ISSavedDisp == ""; ISSavedPoses = IARRAY
-	if ISSavedInfo == ""; ISSavedPoses = IARRAY
-	if surfacesfilter == ""; surfacesfilter = IARRAY
-	if intervalsfilter == ""; intervalsfilter = IARRAY
-	if ISCollapsedCategories == ""; ISCollapsedCategories = IARRAY
-	if ISBalloonLines[1] == ""; ISBalloonLines[1] = "On"
-	
-	"\b4\![get,property,OnISBalloonLines,currentghost.balloon.scope(0).lines.initial]\0\_q\b2\*Welcome to Interval Stacker\f[sup,1]TM\f[sup,0] v2.0.6!\nWhat would you like to do?\n\n"
+Select.chooseShell
+{
+	_shellpaths = FENUM("../../shell/")
+	"%(lsto)Which shell are you on ?\f[italic,false]\n\n[half]\_q"
 	--
-	"/
-	\![*]\q[Create a new pose,OnISSurfaceList]\n\n/
-	//\![*]\q[See saved poses,OnISSavedPoses,display]\n\n/
-	Current Char: \n\![*]\q[%(OnISCharDisp),OnISChangeChar,other] \q[(Sakura),OnISChangeChar,sakura] \q[(Kero),OnISChangeChar,kero]\n/
-	Current Shell: \![*]\q[%(ISCurrentShell),OnISChangeShell] \q[(Reload),ISParseAgain]\n/
-	\![*]\q[Change filters,OnISParserFilters]\n/
-	//Surfaces will export to: \n\![*]\q[%(ISExport),OnISExport]\n/
-	//Keep menu position: \![*]\q[%(ISBalloonLines[1]),OnISBalloonPos]\n/
-	\![*]\q[Restore last pose,OnISSurfaceMenu]\n/
-	\![*]\q[About,OnISAbout]\n/
-	\![*]\q[Done,Done]\e"
-}
-
-OnISBalloonLines //Gets the number of lines in the balloon
-{
-	ISBalloonLines[0] = TOINT(reference0)
-}
-
-//-------Creating a pose-------
-OnISSurfaceList
-{
-	"\0\_q\b2\*\![set,autoscroll,0]Choose a surface\n\n\![*]\q[Back to Interval Stacker Menu,OnIntervalStackerMenu]\n\n"
-	--
-	"%(SurfacesList)"
-	--
-	"\n\![*]\q[Back to Interval Stacker Menu,OnIntervalStackerMenu]\e"
-}
-
-OnISApplySurface //When a new surface is selected
-{
-	ISCurrentPose = "\s[%(reference0)]"
-	ISCurrentDisp = "\s(%(reference0))"
-	ISCurrentInfo = "TEMP|%(reference0)"
-	ISExpandedCategories = ""
-	ISCurrentSurface = TOSTR(reference0) //There are TOSTRs here because aya is dumb :)
-	surfacetargeted = TOSTR(reference0)
-	OnISSurfaceMenu
-}
-
-OnISSurfaceMenu //Displays the surface with intervals to select from. The main function of the stacker.
-{
-	_balloonlines = ISBalloonLines[0] / 2 //Gets the center of the current balloon
-
-	_CurrentIntervals = ""
-	_c = 0
-	for _i = 1; _i < ARRAYSIZE(ISCurrentDisp); _i++
-	{
-		_temp = ISCurrentDisp[_i]
-		_CurrentIntervals += "\q[\i(%(_temp)),OnISRemoveInterval,%(_i)] "
-		//example output: \![*]\q[14 - blushu,OnISApplyInterval,14,Menupos:1]\n
-		_c++
-		if _c > 3
-		{
-			_CurrentIntervals += "\n"
-			_c = 0
-		}
-	}
-	
-	_intervaldisplay = IntervalsList
-	if ISBalloonLines[1] == "On"
-	{
-		if TOINT(reference1[1,":"]) < _balloonlines; _intervaldisplay = "\![set,autoscroll,disable]" + _intervaldisplay
-		
-		if "Menupos:" _in_ reference1
-		{
-			_pos = TOINT(reference1[1,":"]) + _balloonlines
-			_intervaldisplay = REPLACE(_intervaldisplay,"Menupos:%(_pos)]","]\![set,autoscroll,disable]")
-		}
-	}
-	else; _intervaldisplay = "\![set,autoscroll,disable]" + _intervaldisplay
-	
-	--
-	"\0\_q\b2\_l[-10000]%(ISChar)%(ISCurrentPose)\b[-1]\0\_l[0]-Surface %(ISCurrentSurface)-\*" //Displays the current pose
-	--
-	"\n\![*]\q[Export,ISPoseOutput] or \![*]\q[Save,ISSavePose] pose\n"
-	--
-	"\![*]\q[Back to surface list,OnISSurfaceList]\n\n[half]"
-	--
-	"Current pose:  \q[(Repeat),OnISSurfaceMenu] \q[(Clear),OnISApplySurface,%(surfacetargeted)]"
-	--
-	"\n\_?%(ISCurrentPose[0])\_? %(_CurrentIntervals)\n\n[half]"
-	--
-	"%(_intervaldisplay)"
-	--
-	"\n\![*]\q[Back to surface list,OnISSurfaceList]\e"
-}
-
-Select.ISPoseOutput //Exports the current pose
-{
-	_disp = ""
-	for _i = 0; _i < ARRAYSIZE(ISCurrentPose); _i++
-	{
-		_disp += "%(ISCurrentPose[_i])"
-	}
-	--
-	if ISExport == "text file"
-	{
-		_i = FOPEN("pose.txt","w")
-		_i = FWRITE("pose.txt","%(_disp)")
-		_i = FCLOSE("pose.txt")
-		--
-		"\![raise,OnISSurfaceMenu]"
-	}
-	elseif ISExport == "script log"
-	{
-		"%(_disp)    \![raise,OnISSurfaceMenu]"
-	}
-	else
-	{
-		_i = FUNCTIONEX("clipcopy.dll",_disp)
-		OnISSurfaceMenu
-	}
-}
-
-
-
-OnISApplyInterval //When an interval is clicked, adds it to the sakurascript line
-{
-	ISCurrentPose ,= "\i[%(reference0)]"
-	ISCurrentDisp ,= reference0
-	OnISSurfaceMenu
-}
-
-OnISRemoveInterval //When an interval is removed from the current pose
-{
-	ISCurrentPose[reference0] = IARRAY
-	ISCurrentDisp[reference0] = IARRAY
-	OnISSurfaceMenu
-}
-
-//toggling categories
-OnISToggleCategory
-{
-    _cat = reference0
-    if ",%(_cat)," _in_ ",%(ISExpandedCategories),"
-    {
-        _new = ""
-        foreach ISExpandedCategories ; _c
-        {
-            if _c != _cat
-            {
-                _new += ",%(_c)"
-            }
-        }
-        ISExpandedCategories = _new
-    }
-    else
-    {
-        ISExpandedCategories += ",%(_cat)"
-    }
-    --
-    OnISSurfaceMenu
-}
-
-
-
-//-------Changing Chars-------
-OnISChangeChar
-{
-	if reference0 == "sakura"
-	{
-		ISChar = "\p[0]"
-		//ISCharDispISCharDisp = "Sakura"
-		OnIntervalStackerMenu
-	}
-	elseif reference0 == "kero"
-	{
-		ISChar = "\p[1]"
-		//ISCharDisp = "Kero"
-		OnIntervalStackerMenu
-	}
-	else
-	{
-		"\0\_q\*Type the name of the Char you want to use.\n(0 for Sakura, 1 for Kero, 2+ for extra chars.)\![open,inputbox,OnISNewChar,-1]\n\n\![*]\q[Cancel,OnISCharCancel]\e"
-	}
-}
-
-OnISCharDisp
-{
-	if ISChar == "\p[0]"
-	{
-		"Sakura"
-	}
-	elseif ISChar == "\p[1]"
-	{
-		"Kero"
-	}
-	else
-	{
-		_disp = REPLACE(ISChar,"\p[","")
-		_disp = REPLACE(_disp,"]","")
-		_disp
-	}
-}
-
-OnISNewChar
-{
-	reference0 = TOINT(reference0)
-	ISChar = "\p[%(reference0)]"
-	//ISCharDisp = "%(reference0)"
-	OnIntervalStackerMenu
-}
-
-OnISCharCancel
-{
-	"\![close,inputbox,OnISNewChar]\![raise,OnIntervalStackerMenu]\e"
-}
-
-//-------Changing shells-------
-OnISChangeShell
-{
-	
-	"\0\_q\b2\*\![set,autoscroll,0]Which shell do you want to use?\n\n"
-	--
-	_shellpaths = FENUM("../../shell/") //This chunk of code checks in your shell folder to see what all shells your ghost has, then adds them to a list
 	_shells = ""
-	foreach _shellpaths; _path
+	foreach _shellpaths ; _path
 	{
-		_disp = ERASE(_path,0,1) //Displays the name of the shell without a \
-		_shells += "\![*]\q[%(_disp),OnISShellSelect,%(_path),%(_disp)]\n"
+		_shells = _shells + "\_a[%(_path)]\_q\![*]%(_path)\_a"+"\_q\n"
 	}
+	"%(_shells)"
+	
+}
+
+Select.scanShellMenu
+{
+	posecreated = ""
+	"\0%(lsta)What do you want to do with the shell ?\f[italic,false]\_q\n\n[half]"
 	--
-	"%(_shells)\e"
+	"\![*]\q[Create a pose,createShellPose]\n\![*]\q[Check the shell,checkShellPose]\n\![*]\q[Edit the filters,editShellFilters]"
+	
 }
 
-OnISShellSelect
+Select.createShellPose
 {
-	ISCurrentShell = reference1 //Sets a variable so you can see what shell you're on in the menu
-	NeedsParse = 1
+	posecreated = "\s["
+	"\0\_q\b2%(lsto)Which surface do you want ?\f[italic,false]\n\n[half]\_q%(SurfacesList)\_q"
 	--
-	OnIntervalStackerMenu
+	"\n\n[half]\![*]\q[Go back,scanShellMenu]"
 }
 
-Select.ISParseAgain //reloads the shell, then parses it again, then calls the menu. The menu must be called with raise or it just doesn't happen after the reload
+Select.checkShellPose
 {
-	NeedsParse = 1
-    "\![raise,OnIntervalStackerMenu]"
+	posecreated = ""
+	"\0\b2\_q%(lsto)Which surface do you want ?\f[italic,false]\n\n[half]\_q%(SurfacesList)\_q"
+	--
+	"\n\n[half]\![*]\q[Go back,scanShellMenu]"
 }
 
 
-
-
-
-
-//----------------------------------------------------------------------------------------------------
-
-//thanks for helping me with this levi lol
-MultipleFileLoop 
+Select.addintervaltopose
 {
-	//manually add the surfaces files here
-_files = ("surfaces1","surfaces2")
-
-intervalslist = IARRAY
-surfaceslist = IARRAY
-	
-foreach _files; _file
-	{ 
-	ParseShell ("\master", _file)
-	}
+	posecreated += "\i[%(intervaltargeted[0])]"
+	IntervalDescription
 }
 
-//this makes it so the parser only runs once when the main menu is opened, things that need to be parsed can be passed with a needparse = 1 tag to the menu.
-RunParse
+Select.removeintervaltopose
 {
-MultipleFileLoop("\%(ISCurrentShell)")
-OnIntervalStackerMenu
+	posecreated = REPLACE(posecreated,"\i[%(intervaltargeted[0])]","")
+	IntervalDescription
 }
 
-
-
-ParseShell //This is the function that actually parses the shell! This was all written by Levidre.
+Select.backintervallist
 {
-	//----------------Part 1: Initializing Files---------------------
-
-	//this finds the surfaces file and puts it in _file. argv[0] is the shell folder name.
-	_file = "..\..\shell" + _argv[0] + "\" + _argv[1] + ".txt"
-	//opens the file so it can be read etc. r means it can be read, not edited. puts it in _i i think?
-	_i = FOPEN(_file,"r")
-	
-	
-	//----------------Part 1: State Initializing---------------------
-	
-	
-	//these are all defining or resetting values that are going to be used
-	_pos = ""
-	_lastsurface = ""
-	_lastcomment = ""
-	_lastsurfacecategory = ""
-	_lastcategory = ""
-	
-	//reads a line by the file
-	_line = FREAD(_file)
-	
-	
-	//----------------Part 3: Main Parse Loop---------------------
-	
-	
-	//as long as the line doesn't equal -1 then it does the following. essentially as long as the file isn't over.
-	while _line != -1
-	{
-		
-		//----------------Part 3A: Trim Whitespace---------------------
-		
-		
-		//substr extracts values from the string, in this case it looks in _line above. it goes source, position starting from 0, and the length to extract. it's looking for the first character in the string and seeing if it's a space, or an indent
-		while (SUBSTR(_line,0,1)) == " " || (SUBSTR(_line,0,1)) == "	"
-		{
-			//it looks at _line again, moves the position one, then gets the length of the string -1. basically skipping spaces i think to get to the letters
-			_line = SUBSTR(_line,1,STRLEN(_line)-1)
-		}
-		//_withoutspace = REPLACE(REPLACE(_line,"	","")," ","")
-		
-		
-		//----------------Part 3B: Finding Comments---------------------
-		
-		
-		//extracts values from the string, this time from the beginning and looking for two or three characters. checking for comments. arraysize returns the number of things in an array.
-		//so split breaks apart a string with the specified value being the breaking point. it uses spaces to make each word a thing in the array, then counts if there are less than 10 words in the comment.
-		
-		//-- is the signifier for a category, anything that starts with //-- will be classified as a category
-		
-		//Note by Quo: I think this is the code that Zarla said was written by AI, to help find and create categories
-		if SUBSTR(_line,0,4) == "//--" && ARRAYSIZE(SPLIT(_line," ")) < 10
-			{
-				_lastcategory = REPLACE(REPLACE(SUBSTR(_line,4,STRLEN(_line)-1),"\","\\"),",","")
-			}
-		elseif SUBSTR(_line,0,2) == "//" && SUBSTR(_line,0,3) != "///" && ARRAYSIZE(SPLIT(_line," ")) < 10
-			{
-				_lastcomment = REPLACE(REPLACE(SUBSTR(_line,2,STRLEN(_line)-1),"\","\\"),",","")
-			}
-		elseif SUBSTR(_line,0,3) == "///" && ARRAYSIZE(SPLIT(_line," ")) < 10
-			{
-				_lastcomment = REPLACE(REPLACE(SUBSTR(_line,3,STRLEN(_line)-1),"\","\\"),",","")
-			}
-		
-		
-		//----------------Part 3C: Interval Parsing---------------------
-		
-		//if it finds an interval tag in the line
-		elseif "interval" _in_ _line
-		{
-			//split breaks apart _line into an array and puts it in temp. it's using interval, as the way to break apart the string, so there'd be things before interval, and after it. like 49interval,never would become [49,never]. 
-			_temp = SPLIT(_line,"interval,")
-			
-			//----------------CASE A: If there's an append-range---------------------
-			
-			
-			//if the _pos array has 2 things in it, like set by surface.append down below.
-			if ARRAYSIZE(_pos) == 2
-			{
-				//setting up a loop. it turns the first value in the _pos array into an integer and puts it in _i. as long as the integer in the second value is less than or equal to _i, it keeps going. i think. makes it keep going to the end.
-				//so if _pos had the values 1,3, then it'd run this three times.
-				for _i = TOINT(_pos[0]); _i <= TOINT(_pos[1]);_i++
-				{
-					//,= adds the line to the end of the intervalslist array. _temp grabs the first value from above, which would be the number, then the name stored in lastcomment, sticks the position value in there (so the surfaces these are supposed to append to, adds the category, and the animation method (i think?)
-					intervalslist ,= "%(_temp[0]),%(_lastcomment),%(_i),%(_lastcategory),%(_temp[1])"
-				}
-			}
-			
-			//----------------CASE B: No Append---------------------
-			
-			else
-			{
-				//if the arraysize for _pos is not 2. instead of _i it returns the last surface. so intervals in that single surface. number, name, surface, category, animation method?
-				intervalslist ,= "%(_temp[0]),%(_lastcomment),%(_lastsurface),%(_lastcategory),%(_temp[1])"
-			}
-			
-		}
-		
-		//----------------Part 3D: Finding Surfaces---------------------
-		
-		
-		//strstr looks for a substring in a string and returns its position. it's looking in _line for the substring surface, starting from 0. it only does this if element, append, and alias aren't in the line
-		//this is the line that finds the surface
-		elseif STRSTR(_line,"surface",0) == 0 && "element" !_in_ _line && "append" !_in_ _line && "alias" !_in_ _line
-		{
-			//splits _line into an array by the value "surface" and puts it in _temp
-			_temp = SPLIT(_line,"surface")
-			
-			//checks how many values are in _intervalslist and puts them in _index
-			_index = ARRAYSIZE(_intervalslist)
-			
-			//adds a string to the surfaceslist array, this one adding the surface number, _lastcomment, the _lastcategory value, and the array size from _index
-			surfaceslist ,= "%(_temp[1]),%(_lastcomment),%(_lastcategory),%(_index)"
-			
-			//puts surface into _lastsurface
-			_lastsurface = _temp[1]
-			
-			//clears lastcategory
-			_lastcategory = ""
-		}
-		
-		//----------------Part 3E: Finding Appends---------------------
-		
-		
-		//if it finds surface.append and it equals 0
-		elseif STRSTR(_line,"surface.append",0) == 0
-		{
-			//replaces surface.append with nothing and puts it back in _line
-			_line = REPLACE(_line,"surface.append","")
-			
-			//makes an array defined by - in _line and puts it in _pos. what this does is take the values at the end of surface.append like 1-3, and then makes an array with entries [1,3].
-			_pos = SPLIT(_line,"-")
-		}
-		//if _line is empty do nothing
-		elseif _line == ""
-		{}
-		
-		//----------------Part 3F: Resetting categories when the surface ends---------------------
-		
-		
-	//if there's a } in _line
-		if "}" _in_ _line
-		{
-			//store _lastsurfacecategory in _lastcategory
-			 _lastcategory = _lastsurfacecategory
-			 //clear the _pos value
-			_pos = ""
-		}
-		
-		//----------------Part 3G: Keep Reading---------------------
-		
-		
-		//read the file and store it in _line
-		_line = FREAD(_file)
-	}
-	
-	//----------------Part 4: Output Listing---------------------
-	
-	
-	//store the balloon value in _res
-	_res = "\b4"
-	//foreach takes out all the elements in an array in order. it's processing _intervalslist. it then stores them in _interval, and adds them to _res with a \n tag. essentially it's putting the interval values in the balloon.
-	foreach _intervalslist ; _interval
-	{
-		_res += "%(_interval)\n"
-	}
-	//"%(_res)"
-	//closes the file
-	_i = FCLOSE(_file)
+	IntervalsList
 }
 
+Select.opennewposefile
+{
+	_i = FOPEN("pose.txt","w")
+	_i = FWRITE("pose.txt","%(posecreated)")
+	_i = FCLOSE("pose.txt")
+	"\![open,file,pose.txt]\0%(lsto)* Here is the pose you created."
+}
 
-
-
-//this is for filtering
 ContainsKeyword
 {
-
 	_word = _argv[0]
-
 	_list = SPLIT(_argv[1],",")
-
 	foreach _list; _elem
 	{
 		if TOLOWER(_elem) _in_ TOLOWER(_word)
@@ -504,23 +84,30 @@ ContainsKeyword
 	0
 }
 
-//looks if a surface is empty
-IsSurfaceEmpty
+SurfaceDescription
 {
-	_surface = TOINT(_argv[0])
-	foreach intervalslist ; _interval
+	"\0\b2\_q%(lsta)Current surface :\n\n[half]\f[italic,false] - Surface %(surfacetargeted[0])"
+	--
+	if surfacetargeted[1]!= ""
 	{
-		if TOINT(_interval[2]) == _surface
-		{
-			1
-			return
-		}
+		" : %(surfacetargeted[1])"
 	}
-	0
+	--
+	if surfacetargeted[2] != ""
+	{
+		"\n - Catergory : %(surfacetargeted[2])"
+	}
+	--
+	if "\s[" _in_ posecreated
+	{
+		"\n\n[half]\![*]\q[Finish the pose,opennewposefile]"
+	}
+	--
+	"\n\n[half]\![*]\q[Go back,backintervallist]"
 }
 
 
-SurfacesList 
+SurfacesList
 {
 	_surfaces = ""
 	if ARRAYSIZE(surfacesfilter) != 0
@@ -529,37 +116,17 @@ SurfacesList
 		{
 			if ContainsKeyword(_surface[1],"%(surfacesfilter)") || ContainsKeyword(_surface[2],"%(surfacesfilter)")
 			{
-				if ISDispSingleSurfaces == 1
-				{
-					if IsSurfaceEmpty(_surface[0])
-					{
-						_surfaces += "\![*]\q[%(_surface[0]) - %(_surface[1]),OnISApplySurface,%(_surface[0])]\n"
-					}
-				}
-				else
-				{
-					_surfaces += "\![*]\q[%(_surface[0]) - %(_surface[1]),OnISApplySurface,%(_surface[0])]\n"
-				}
+				_surfaces = _surfaces + "\_a[surface%(_surface[0])]\_q\![*]%(_surface[1])\_a"+"\_q\n"
 			}
 		}
 	}
-	elseif ISDispSurfaceName == 1
+	elseif surfaceswithname == 1
 	{
 		foreach surfaceslist ; _surface
 		{
 			if _surface[1] != ""
 			{
-				if ISDispSingleSurfaces == 1
-				{
-					if IsSurfaceEmpty(_surface[0])
-					{
-						_surfaces += "\![*]\q[%(_surface[0]) - %(_surface[1]),OnISApplySurface,%(_surface[0])]\n"
-					}
-				}
-				else
-				{
-					_surfaces += "\![*]\q[%(_surface[0]) - %(_surface[1]),OnISApplySurface,%(_surface[0])]\n"
-				}
+				_surfaces = _surfaces + "\_a[surface%(_surface[0])]\_q\![*]%(_surface[1])\_a"+"\_q\n"
 			}
 		}
 	}
@@ -567,445 +134,438 @@ SurfacesList
 	{
 		foreach surfaceslist ; _surface
 		{
-			if ISDispSingleSurfaces == 1
-				{
-					if IsSurfaceEmpty(_surface[0])
-					{
-						_surfaces += "\![*]\q[%(_surface[0]) - %(_surface[1]),OnISApplySurface,%(_surface[0])]\n"
-					}
-				}
-				else
-				{
-					_surfaces += "\![*]\q[%(_surface[0]) - %(_surface[1]),OnISApplySurface,%(_surface[0])]\n"
-				}
+			_surfaces = _surfaces + "\_a[surface%(_surface[0])]\_q\![*]%(_surface[1])\_a"+"\_q\n"
 		}
 	}
 	"%(_surfaces)"
-}
-
-
-
-IntervalsList //Displays the list of intervals
-{
-	_i = 0
-    _intervals = ""
-    _seencategories = ""
-
-    if surfacetargeted != ""
-    {
-        //First pass: collect unique categories in order
-        foreach intervalslist ; _interval
-        {
-            if _interval[2] == surfacetargeted[0]
-            {
-                if !(",%(_interval[3])," _in_ ",%(_seencategories),")
-                {
-                    _seencategories += ",%(_interval[3])"
-                }
-            }
-        }
-
-        //Second pass: output by category
-        foreach _seencategories ; _category
-        {
-            if ",%(_category)," _in_ ",%(ISExpandedCategories),"
-            {
-                _intervals += "\![*]\q[▶ %(_category),OnISToggleCategory,%(_category),Menupos:%(_i)]\n"
-				_i++
-				
-                foreach intervalslist ; _interval
-                {
-                    if _interval[2] == surfacetargeted[0] && _interval[3] == _category
-                    {
-                        _intervals += "\![*]\q[  %(_interval[0]) - %(_interval[1]),OnISApplyInterval,%(_interval[0]),Menupos:%(_i)]\n"
-                        _i++
-                    }
-                }
-            }
-            else
-            {
-                _intervals += "\![*]\q[▼ %(_category),OnISToggleCategory,%(_category),Menupos:%(_i)]\n"
-				_i++
-            }
-        }
-    }
-    "%(_intervals)"
-}
-
-
-
-//-----Moving this stuff out of the way
-
-Select.ISSavePose
-{
-	"\0\*\_q\b4Please enter a name.\_l[-10000]\q[talk prevention,dontmindthis]\![open,inputbox,OnISSavedPoseName,-1]\e"
-}
-
-OnISSavedPoseName
-{
-	reference0 = REPLACE(reference0,"|","") //Removes illegal characters
-	reference0 = REPLACE(reference0,",","")
-	reference0 = REPLACE(reference0,"]","")
-	reference0 = REPLACE(reference0,"\","")
 	
-	_pose = ISCurrentPose[0]
-	_disp = ISCurrentDisp[0]
-	_surface = ISCurrentInfo[1,"|"]
-	for _i = 1; _i < ARRAYSIZE(ISCurrentPose); _i++
-	{
-		_pose += "|%(ISCurrentPose[_i])"
-		_disp += "|%(ISCurrentDisp[_i])"
-	}
-	ISSavedPoses ,= _pose
-	ISSavedDisp ,= _disp
-	if ARRAYSIZE(ISSavedInfo) == 0; ISSavedInfo[0] = "%(reference0)|%(_surface)"
-	else; ISSavedInfo ,= "%(reference0)|%(_surface)"
-	--
-	OnISSurfaceMenu
+	
 }
 
-
-
-//-------Saved Poses-------
-OnISSavedPoses
+IntervalDescription
 {
-	_display = ""
-	_number = ""
-	for _i = 0; _i < ARRAYSIZE(ISSavedPoses); _i++
+	"\0\b2\_q%(lsta)Current surface :\n\n[half]\f[italic,false] - Surface %(surfacetargeted[0])"
+	--
+	if surfacetargeted[1] != ""
 	{
-		_current = ISSavedInfo[_i]
-		_name = _current[0,"|"]
-		_surface = _current[1,"|"]
+		" : %(surfacetargeted[1])"
+	}
+	--
+	"\n\n[half]\0%(lsta)The interval :\n\n[half]\f[italic,false] - Interval %(intervaltargeted[0])"
+	--
+	if intervaltargeted[1] != ""
+	{
+		" : %(intervaltargeted[1])"
+	}
+	--
+	if intervaltargeted[2] != ""
+	{
+		"\n - Catergory : %(intervaltargeted[3])"
+	}
+	--
+	"\n - Type : %(intervaltargeted[4])"
+	--
+	if "\s[" _in_ posecreated
+	{
 		
-		if reference0 == "rename"
+		"\n\n[half] - Current pose : " + REPLACE(posecreated,"\","\\") + "\n"
+		--
+		"\n[half]\![*]\q[Apply it to the ghost,applycreatedpose]\n\![!]\q[Add it,addintervaltopose]"
+		--
+		if "\i[%(intervaltargeted[0])]" _in_ posecreated
 		{
-			_display += "\![*]\q[%(_name) - %(_surface),OnISSavedPoseExport,%(_i),rename,%(_name)]\n"
+			"     \![*]\q[Remove it,removeintervaltopose]"
 		}
-		elseif reference0 == "delete"
-		{
-			_display += "\![*]\q[%(_name) - %(_surface),OnISSavedPoseExport,%(_i),delete]\n"
-		}
-		else
-		{
-			_display += "\![*]\q[%(_name) - %(_surface),OnISSavedPoseExport,%(_i),display]\n"
-		}
+		--
+		"\n\![*]\q[Finish the pose,opennewposefile]"
 	}
 	--
-	if reference0 == "rename"; "\0\_q\b4\*Click a pose to rename it.\n\n"
-	elseif reference0 == "delete"; "\0\_q\b2\*Click a pose to delete it.\n\n"
-	else; "\0\_q\b4\*Click a pose to export it.\n\n"
-	--
-	if reference0 == "display"
-	{
-		"\![*]\q[Back to menu,OnIntervalStackerMenu]  \![*]\q[Load current pose,OnISSurfaceMenu]\n\![*]\q[Rename,OnISSavedPoses,rename] or \![*]\q[Delete,OnISSavedPoses,delete] a pose\n\n"
-	}
-	else
-	{
-		"\![*]\q[Back to saved poses,OnISSavedPoses,display]\n\n\n"
-	}
-	--
-	"%(_display)"
-	--
-	"\e"
+	"\n\n[half]\![*]\q[Go back,backintervallist]"
 }
 
-OnISSavedPoseExport
-{
-	_Pose = REPLACE(ISSavedPoses[reference0],"|",",")
-	_Disp = REPLACE(ISSavedDisp[reference0],"|",",")
-	ISCurrentPose = IARRAY
-	ISCurrentPose[0] = _Pose[0]
-	ISCurrentDisp = IARRAY
-	ISCurrentDisp[0] = _Disp[0]
-	surfacetargeted = TOSTR(_Pose[0])
-	surfacetargeted = REPLACE(surfacetargeted,"\s[","")
-	surfacetargeted = REPLACE(surfacetargeted,"]","")
 
-	for _i = 1; _i < ARRAYSIZE(_Pose); _i++
+IntervalsList
+{
+	intervaltargeted = ""
+	if "\s[" _in_ posecreated && "\s[%(surfacetargeted[0])]" !_in_ posecreated
 	{
-		ISCurrentPose ,= _Pose[_i]
-		ISCurrentDisp ,= _Disp[_i]
+		posecreated += "%(surfacetargeted[0])]"
 	}
-	
-	ISCurrentInfo = ISSavedInfo[reference0]
-	ISCurrentPos = reference0
-	ISCurrentSurface = ISCurrentInfo[1,"|"]
-	
-	_disp = ""
-	for _i = 0; _i < ARRAYSIZE(ISCurrentPose); _i++
-	{
-		_disp += "%(ISCurrentPose[_i])"
-	}
+	"\0%(lsta)\b2\_qWhat intervals do you want ?\f[italic,false]\n\n[half]\_q"
 	--
-	if reference1 == "rename"
+	_intervals = ""
+	if surfacetargeted != ""
 	{
-		"\0\_q\b4\![set,balloontimeout,-1]\*%(ISChar)\_l[-10000]%(ISCurrentPose)\b[-1]\0\_l[0]Please type a new name.\![open,inputbox,OnISSavedPoseRename,-1,%(reference2)]\n\n\![*]\q[Cancel,ISCancelRename]\e"
-	}
-	elseif reference1 == "delete"
-	{
-		"\0\_q\b4\![set,balloontimeout,-1]\*%(ISChar)\_l[-10000]%(ISCurrentPose)\b[-1]\0\_l[0,0]Are you sure you want to delete %(ISCurrentInfo[0,'|'])?\n\n\![*]\q[Yes,OnISSavedPoseDelete]  \![*]\q[No,OnISSavedPoseExport,delete]\e"
-	}
-	else
-	{
-		if ISExport == "text file"
+		if ARRAYSIZE(intervalsfilter) != 0
 		{
-			_i = FOPEN("pose.txt","w")
-			_i = FWRITE("pose.txt","%(_disp)")
-			_i = FCLOSE("pose.txt")
-			--
-			"%(_disp)\![raise,OnISSavedPoses,display]\e  Exported to pose.txt in your ghost's /ghost/master folder"
+			foreach intervalslist ; _interval
+			{
+				if (ContainsKeyword(_interval[1],"%(intervalsfilter)") || ContainsKeyword(_interval[3],"%(intervalsfilter)")) && _interval[2] == surfacetargeted[0]
+				{
+					_intervals = _intervals + "\_a[interval%(_interval[0])]\_q\![*]%(_interval[1])\_a"+"\_q\n"
+				}
+			}
 		}
-		elseif ISExport == "script log"
+		elseif intervalswithname == 1
 		{
-			if !(ISChar == "Sakura" || ISChar == "\p[0]"); "%(ISChar)";
-			--
-			"%(_disp)    \![raise,OnISSavedPoses,display]"
+			foreach intervalslist ; _interval
+			{
+				if _interval[1] != "" && _interval[2] == surfacetargeted[0]
+				{
+					_intervals = _intervals + "\_a[interval%(_interval[0])]\_q\![*]%(_interval[1])\_a"+"\_q\n"
+				}
+			}
 		}
 		else
 		{
-			_i = FUNCTIONEX("clipcopy.dll",_disp)
-			if !(ISChar == "Sakura" || ISChar == "\p[0]"); "%(ISChar)";
-			--
-			"\_q%(_disp)    \_q\![raise,OnISSavedPoses,display]"
+			foreach intervalslist ; _interval
+			{
+				if _interval[2] == surfacetargeted[0]
+				{
+					_intervals = _intervals + "\_a[interval%(_interval[0])]\_q\![*]%(_interval[1])\_a"+"\_q\n"
+				}
+			}
 		}
-	}
-}
 
-Select.ISCancelRename //Closes the input box, then goes back to the menu
-{
-	"\![close,inputbox,OnISSavedPoseRename]"
-	--
-	"\![raise,OnISSavedPoses,rename]"
-}
-
-OnISSavedPoseRename
-{
-	reference0 = REPLACE(reference0,"|","") //Removes illegal characters
-	reference0 = REPLACE(reference0,",","")
-	reference0 = REPLACE(reference0,"]","")
-	reference0 = REPLACE(reference0,"\","")
-	
-	ISCurrentInfo[0,"|"] = reference0
-	ISSavedInfo[ISCurrentPos] = ISCurrentInfo
-	
-	"\![raise,OnISSavedPoses,rename]"
-}
-
-OnISSavedPoseDelete
-{
-	ISCurrentPose = IARRAY
-	ISCurrentDisp = IARRAY
-	ISCurrentInfo = IARRAY
-	ISSavedPoses[ISCurrentPos] = IARRAY
-	ISSavedDisp[ISCurrentPos] = IARRAY
-	ISSavedInfo[ISCurrentPos] = IARRAY
-	--
-	"\![raise,OnISSavedPoses,delete]"
-}
-
-
-//-------Changing filters-------
-OnISParserFilters //This is a bunch of yes/no buttons, for clarity
-{
-	"\0\_q\b2\*\![set,autoscroll,0](These may cause lag with large shells!)\n\n"
-	--
-	"Display unnamed surfaces?\n("
-	--
-	if ISDispSurfaceName == 0; "\![*]"; else; " "
-	--
-	"\q[Yes,OnISDispSurfaceName,On] "
-	--
-	if ISDispSurfaceName == 1; "\![*]"; else; " "
-	--
-	"\q[No,OnISDispSurfaceName,Off])"
-	--
-	"\n\nDisplay unnamed intervals?\n("
-	--
-	if ISDispIntervalName == 0; "\![*]"; else; " "
-	--
-	"\q[Yes,OnISDispIntervalName,On] "
-	--
-	if ISDispIntervalName == 1; "\![*]"; else; " "
-	--
-	"\q[No,OnISDispIntervalName,Off])"
-	--
-	"\n\nDisplay surfaces with no intervals?\n("
-	--
-	if ISDispSingleSurfaces == 0; "\![*]"; else; " "
-	--
-	"\q[Yes,OnISDispSingleSurfaces,On] "
-	--
-	if ISDispSingleSurfaces == 1; "\![*]"; else; " "
-	--
-	"\q[No,OnISDispSingleSurfaces,Off])"
-	--
-	"\n\n\![*]\q[Surface filters (whitelist),OnISFilters,surface]\n\![*]\q[Interval filters (whitelist),OnISFilters,interval]"
-	--
-	"\n\n\![*]\q[Back to menu,OnIntervalStackerMenu]\e"
-}
-
-//When the buttons are clicked, these functions will change the variables
-OnISDispSurfaceName
-{
-	if reference0 == "Off"
-	{
-		ISDispSurfaceName = 1
 	}
 	else
-	{
-		ISDispSurfaceName = 0
-	}
-	--
-	OnISParserFilters
-}
-
-OnISDispIntervalName
-{
-	if reference0 == "Off"
-	{
-		ISDispIntervalName = 1
-	}
-	else
-	{
-		ISDispIntervalName = 0
-	}
-	--
-	OnISParserFilters
-}
-
-OnISDispSingleSurfaces
-{
-	if reference0 == "Off"
-	{
-		ISDispSingleSurfaces = 1
-	}
-	else
-	{
-		ISDispSingleSurfaces = 0
-	}
-	--
-	OnISParserFilters
-}
-
-//Filter lists - Filters are a whitelist, I would love to make it possible to change them to a blacklist too but it was causing issues
-OnISFilters //Displays the current filters, showing different ones based on if the user clicked on intervals or surfaces
-{
-	_disp = ""
-	if reference0 == "surface"
-	{
-		for _i = 0; _i < ARRAYSIZE(surfacesfilter); _i++
+	{	
+		if ARRAYSIZE(intervalsfilter) != 0
 		{
-			_disp += "\q[-%(surfacesfilter[_i]),OnISRemoveFilter,%(_i),surface]\n"
+			foreach intervalslist ; _interval
+			{
+				if ContainsKeyword(_interval[1],"%(intervalsfilter)")
+				{
+					_intervals = _intervals + "\_a[interval%(_interval[0])]\_q\![*]%(_interval[1])\_a"+"\_q\n"
+				}
+			}
 		}
-		"\0\_q\b2\*\![set,autoscroll,0]Current surface filters:\n(Click a filter to remove it)\n\n"
-	}
-	else
-	{
-		for _i = 0; _i < ARRAYSIZE(intervalsfilter); _i++
+		elseif intervalswithname == 1
 		{
-			_disp += "\q[-%(intervalsfilter[_i]),OnISRemoveFilter,%(_i),interval]\n"
+			foreach intervalslist ; _interval
+			{
+				if surfacetargeted[1] != ""
+				{
+					_intervals = _intervals + "\_a[interval%(_interval[0])]\_q\![*]%(_interval[1])\_a"+"\_q\n"
+				}
+			}
 		}
-		"\0\_q\b4\*\![set,autoscroll,0]Current interval filters:\n(Click a filter to remove it)\n\n"
+		else
+		{
+			foreach intervalslist ; _interval
+			{
+				_intervals = _intervals + "\_a[interval%(_interval[0])]\_q\![*]%(_interval[1])\_a"+"\_q\n"
+			}
+		}
 	}
+	"%(_intervals)\_q"
+	
 	--
-	"%(_disp)"
-	--
-	if reference0 == "surface"; "\n\![*]\q[Add a filter,OnISNewFilter,surface]"
-	else; "\n\![*]\q[Add a filter,OnISNewFilter,interval]"
-	--
-	"\n\n\![*]\q[Back to filters menu,OnISParserFilters]\e"
-}
-
-OnISNewFilter //Opens the input box to add a new surface filter
-{
-	"\0\_q\b4\![set,balloontimeout,-1]\*"
-	--
-	"Type a filter."
-	--
-	if reference0 == "surface"; "\![open,inputbox,OnISAddSurfaceFilter]"
-	else; "\![open,inputbox,OnISAddIntervalFilter]"
-	--
-	"\n\n\![*]\q[Back to filters,OnISBackToFilterMenu]\e"
-}
-
-OnISBackToFilterMenu //Closes the input box if it's open
-{
-	"\![close,inputbox,OnISAddSurfaceFilter]"
-	--
-	OnISParserFilters
-}
-
-OnISRemoveFilter //Removing a filter from the list
-{
-	if reference1 == "surface"
+	if "\s[" _in_ posecreated
 	{
-		surfacesfilter[reference0] = IARRAY
-		"\![raise,OnISFilters,surface]"
+		_temp = REPLACE(posecreated,"\","\\")
+		"\n\n[half]Current pose : %(_temp)"	
+		--
+		"\n\n[half]\![*]\q[Surface information,getsurfaceinformation]\n\![*]\q[Apply the pose,applycreatingposefrommenu]\n\![*]\q[Finish the pose,opennewposefile]\n[half]\n\![*]\q[Go back,createShellPose]"
 	}
 	else
 	{
-		intervalsfilter[reference0] = IARRAY
-		"\![raise,OnISFilters,interval]"
+		"\n\n[half]\![*]\q[Surface information,getsurfaceinformation]\n\![*]\q[Go back,checkShellPose]"
+	}
+
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Select.editShellFilters
+{
+	//surfacesfilter = IARRAY
+	///intervalsfilter = IARRAY
+	suppr = 0
+	"\0%(lsta)What filter do you want to edit ?\n\n[half]\_q"
+	--
+	"\![*]\q[Display surfaces without a name,displaySurfacesWithName] \n        \f[italic,true](currently "
+	--
+	if surfaceswithname == 1
+	{
+		"no"
+	}
+	else
+	{
+		"yes"
+	}
+	--
+	")\f[italic,false]\n/\![*]\q[Display intervals without a name,displayIntervalsWithName] \n        \f[italic,true](currently "
+	--
+	if intervalswithname == 1
+	{
+		"no"
+	}
+	else
+	{
+		"yes"
+	}
+	--
+	")\f[italic,false]\n/\![*]\q[Surfaces name filter,displaySurfacesFilter] \n        \f[italic,true](currently "
+	--
+	if ARRAYSIZE(surfacesfilter) == 0
+	{
+		"nothing"
+	}
+	elseif ARRAYSIZE(surfacesfilter) > 3
+	{
+		"a lot"
+	}
+	else
+	{
+		"'%(surfacesfilter)'"
+	}
+	--
+	")\f[italic,false]\n/\![*]\q[Intervals name filter,displayIntervalsFilter] \n        \f[italic,true](currently "
+	--
+	if ARRAYSIZE(intervalsfilter) == 0
+	{
+		"nothing"
+	}
+	elseif ARRAYSIZE(intervalsfilter) > 3
+	{
+		"a lot"
+	}
+	else
+	{
+		"'%(intervalsfilter)'"
+	}
+	--
+	"\n\n[half]\!{*]\q[Go back,scanShellMenu]"
+}
+
+Select.displaySurfacesWithName
+{
+	if surfaceswithname == 1
+	{
+		surfaceswithname = 0
+	}
+	else
+	{
+		surfaceswithname = 1
 	}
 }
 
-OnISAddSurfaceFilter //Accepts the users input and sends them back to the menu
+Select.displayIntervalsWithName
 {
-	reference0 = REPLACE(reference0,",","") //Removes illegal characters
-	reference0 = REPLACE(reference0,"\","")
+	if intervalswithname == 1
+	{
+		intervalswithname = 0
+	}
+	else
+	{
+		intervalswithname = 1
+	}
+}
+
+Select.displaySurfacesFilter
+{
+	"\0\b2\_q%(lsta)Here is the filter list :\n\n[half]"
+	--
+	_res = ""
+	foreach surfacesfilter ; _filter
+	{
+		_res = _res + " - %(_filter)"+"\n"
+	}
+	"%(_res)"
+	--
+	"\n[half]\![*]\q[Add one,addsurfacesfilter]     \![*]\q[Remove one,removesurfacesfilter]\n\![*]\q[Go Back,editShellFilters]"
+	
+}
+
+Select.addsurfacesfilter
+{
+	"\0%(lsta)What filter do you wnat ?\![open,inputbox,OnSurfacesFilter,-1]"
+}
+
+Select.removesurfacesfilter
+{
+	"\0\b2\_q%(lsta)Which one do you want to remove ?\_q\n\n[half]"
+	--
+	suppr = 1
+	_res = ""
+	foreach surfacesfilter ; _filter
+	{
+		_res = _res + "\_a[surfacesfilter%(_filter)]\_q\![*]%(_filter)\_a"+"\_q\n"
+	}
+	"%(_res)"
+	--
+	"\n[half]\![*]\q[Go Back,editShellFilters]"
+}
+
+OnSurfacesFilter
+{
 	surfacesfilter ,= reference0
-	--
-	"\![raise,OnISFilters,surface]"
+	Select.displaySurfacesFilter
 }
 
-OnISAddIntervalFilter //Same as above but with intervals
+Select.displayIntervalsFilter
 {
-	reference0 = REPLACE(reference0,",","") //Removes illegal characters
-	reference0 = REPLACE(reference0,"\","")
+	"\0\_q\b2%(lsta)Here is the filter list :\n\n[half]"
+	--
+	_res = ""
+	foreach intervalsfilter ; _filter
+	{
+		_res = _res + " - %(_filter)"+"\n"
+	}
+	"%(_res)"
+	--
+	"\![*]\q[Add one,addintervalsfilter]     \![*]\q[Remove one,removeintervalsfilter]\n\![*]\q[Go Back,editShellFilters]"
+}
+
+Select.addintervalsfilter
+{
+	"\0%(lsta)What filter do you wnat ?\![open,inputbox,OnIntervalsFilter,-1,%(intervalsfilter)]"
+}
+
+Select.removeintervalsfilter
+{
+	"\0\b2\_q%(lsta)Which one do you want to remove ?\_q\n\n[half]"
+	--
+	suppr = 1
+	_res = ""
+	foreach intervalsfilter ; _filter
+	{
+		_res = _res + "\_a[intervalsfilter%(_filter)]\_q\![*]%(_filter)\_a"+"\_q\n"
+	}
+	"%(_res)"
+	--
+	"\n[]\![*]\q[Go Back,editShellFilters]"
+}
+
+Select.applycreatedpose
+{
+	"\0\b2%(posecreated)%(IntervalDescription)"
+}
+
+Select.applycreatingposefrommenu
+{
+	"\0%(posecreated)%(IntervalsList)"
+}
+
+Select.getsurfaceinformation
+{
+	reference0 = "surfaceinfo%(surfacetargeted[0])"
+	OnAnchorSelect
+}
+
+OnIntervalsFilter
+{
 	intervalsfilter ,= reference0
-	--
-	"\![raise,OnISFilters,interval]"
+	Select.displayIntervalsFilter
+	
 }
 
-//-------Toggle for export-------
-OnISExport
+ParseShell
 {
-	if ISExport == "clipboard"
+	_path = _argv[0]
+	_files = _argv[1]
+	
+	foreach _files ; _filename
 	{
-		ISExport = "text file"
+		_file = _path + _filename
+		
+		_i = FOPEN(_file,"r")
+		
+		intervalslist = IARRAY
+		surfaceslist = IARRAY
+		_pos = ""
+		_lastsurfaces = IARRAY
+		_lastcomment = ""
+		_lastsurfacecategory = ""
+		_lastcategory = ""
+		_line = FREAD(_file)
+		while _line != -1
+		{
+			while _line == "" || STRSTR(_line, "{") == 0
+			{
+				_line = FREAD(_file)
+			}
+			if "}" _in_ _line
+			{
+				_lastcategory = _lastsurfacecategory
+			}
+			
+			// Removing any extra space in front of the line
+			while (SUBSTR(_line,0,1)) == " " || (SUBSTR(_line,0,1)) == "	"
+			{
+				_line = SUBSTR(_line,1,STRLEN(_line)-1)
+			}
+			
+			// If the line is a // comment and there are less than 10 words, it's considered a new comment and the previous comment is promoted to category
+			if SUBSTR(_line,0,2) == "//" && SUBSTR(_line,0,3) != "///" && ARRAYSIZE(SPLIT(_line," ")) < 10
+			{
+				if _lastcomment != ""
+				{
+					_lastcategory = _lastcomment
+				}
+				
+				if SUBSTR(_line,0,3) == "///" 
+				{
+					_lastcomment = REPLACE(REPLACE(SUBSTR(_line,3,STRLEN(_line)-1),"\","\\"),",","")
+				}
+				else
+				{
+					_lastcomment = REPLACE(REPLACE(SUBSTR(_line,2,STRLEN(_line)-1),"\","\\"),",","")
+				}
+			}
+			elseif "interval" _in_ _line
+			{
+				_temp = SPLIT(_line,".interval,")
+				_nb = REPLACE(_temp[0], "animation", "")
+				for _lastsurfaces ; _s
+				{
+					intervalslist ,= "%(_nb),%(_lastcomment),%(_s),%(_lastcategory),%(_temp[1])"
+				}
+				
+				_lastcomment = ""
+				
+			}
+			elseif STRSTR(_line,"surface",0) == 0 && "element" !_in_ _line && "alias" !_in_ _line
+			{
+				_line = SUBSTR(_line,0,STRLEN("surface")-1)
+				_list_surfaces = SPLIT(_line, ",")
+				
+				foreach _list_surfaces ; _s 
+				{
+					if "-" _in_ _s
+					{
+						for _i = TOINT(SPLIT(_s, "-"))[0]; _i <= TOINT(SPLIT(_s, "-")[1]) ; _i++
+						{
+							_lastsurfaces ,= _i
+						}
+					}
+					else
+					{
+						_lastsurfaces ,= _s
+					}
+				}
+			}
+			
+			if ARRAYSIZE(_lastsurfaces) == 1 && "append" !_in_ _line
+			{
+				if _lastcategory != ""
+				{
+					_lastsurfacecategory = _lastcategory
+				}
+				surfaceslist ,= "%(_line),%(_lastcomment),%(_lastcategory)"
+				_lastcomment = ""
+				_lastcategory = ""
+			}
+	
+			_line = FREAD(_file)
+		}
+		_res = "\b2"
+		foreach _intervalslist ; _interval
+		{
+			_res += "%(_interval)\n"
+		}
+		//"%(_res)"
+		_i = FCLOSE(_file)
+		
 	}
-	elseif ISExport == "text file"
-	{
-		ISExport = "script log"
-	}
-	else
-	{
-		ISExport = "clipboard"
-	}
-	--
-	OnIntervalStackerMenu
-}
-
-OnISBalloonPos
-{
-	if ISBalloonLines[1] != "On"; ISBalloonLines[1] = "On"
-	else; ISBalloonLines[1] = "Off"
-	--
-	OnIntervalStackerMenu
-}
-
-
-//-------About-------
-OnISAbout
-{
-	"\0\_q\![set,autoscroll,disable]\b2Interval Stacker v2.0.6 - 5/27/21\n\n/
-	\_a[https://levidre.github.io/]Levidre\_a - Seriko Parser\n/
-	\_a[https://zichqec.github.io/s-the-skeleton/index.html]Zichqec\_a - Stacker and Interface\n/
-	\_a[http://ashido.com/ukagaka/walkthrough.html]Zarla\_a - Idea and moral support\n\n/
-	This set of functions is a tool for ghosts that use many combined intervals to create poses, or as we dubbed it, 'interval stacking'. Select your current shell and it will be run through the parser to gather the names and numbers of surfaces and intervals, based on the comments above them in surfaces.txt. If things don't look quite right, you can try adjusting the settings in the filters menu.\n\n/
-	Once your surfaces and intervals are appearing, you can create poses by selecting a surface, then selecting intervals to layer on top. You can click added intervals in the 'current pose' display to remove them, or click the play again button to repeat any animations. Poses may be saved and named, then recalled later for further editing or to export again.\n\n/
-	When you have a pose you're happy with, click on the export button to export the pose. You may choose to copy it to your clipboard using a saori, export it to the script log so you can copy it out, or to save it as pose.txt in the /ghost/master folder. You may choose between these options on the main menu.\n\n/
-	If you make edits to your surfaces.txt file, clicking (reload) next to the shell name on the interval stacker menu will both reload your shell and run it through the parser again, so any changes are reflected within the menus.\x"
-	--
-	"\![raise,OnIntervalStackerMenu]"
 }
