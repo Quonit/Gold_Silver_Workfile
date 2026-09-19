@@ -1,5 +1,21 @@
-The Red and Blue shell for Gold and Silver.  Assuming that you're in here, it must mean you're snooping through the files! Facinating.
+The Heart and Soul shell for Gold and Silver.  Assuming that you're in here, it must mean you're snooping through the files! Facinating.
 
-I made two seperate shells because it's divided on what eye color the characters have, and at first I was going to just make two shells where the eye color was different. Then I decided if I'm having two shells, might as well change all of the colors so that the eye color fits more. It was just fun to make.
+This is the third shell I made for this ghost. The original two were pallet swaps of each other, named "Red and Blue Version" and "Gold and Silver Version". Quite cute.
 
-This shell uses more cool tones.
+This shell is named after the remakes, of course.
+
+The original was drawn in 2021 and never finished. After five years of deliberating on the colors and designs, I finally remade it starting September 2026.
+
+Gold
+- The base design is from Ethan (the player character)'s design in the games, that being the hat, red jacket, and gray pants.
+- The goggles are from the manga version, Gold, because they look cool.
+- The jacket puff is a reference to fanon designs of Sans from Undertale because my player character was named Sens.
+- He has two triangles at the bottom of his jacket to match Silver. The rest of his design is themed around these triangles, like the jacket puff being big and spikey and the way the zipper is slightly open.
+- Fingerless gloves are cool, man
+
+Silver
+- Mostly unchanged from the games, except he has darker pants because they matched better than the indigo
+- Longer hair that he grew out over the game's timeline
+- Sens' jacket puff and Silver's hair mirrors each other so one is down and the other is up
+
+For more information on the coding, look in the surface.txt. If you want to mess around with the shell yourself, I left some code in to trigger "developer mode" by naming yourself either "Devtest" or "Quonit". You likely won't have any use for it, but it might be fun to mess around with the poses!

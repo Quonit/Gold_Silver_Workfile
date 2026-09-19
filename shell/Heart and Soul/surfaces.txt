@@ -1,7 +1,4 @@
 //Heart and Soul
-//This is the third shell I made for this ghost. The original two were pallet swaps of each other, named "Red and Blue Version" and "Gold and Silver Version". Quite cute.
-//This shell is named after the remakes, of course.
-//The original was drawn in 2021 and never finished. After five years of deliberating on the colors and designs, I finally remade it starting September 2026.
 
 //Inspired by how Zarla makes her shells, this one is set up with "bases" with no arms or facial features, that then get those appended onto them like stickers. This makes more smoother transitions between various expressions, more natural poses, and, less work, in my opinion.
 //I've included comments and guides on certain parts in case anyone is curious. My code is free to use.
@@ -30,30 +27,47 @@ collision0,361,136,486,185,Head
 animation1.interval,runonce
 animation1.pattern0,overlay,1106,0,0,0,0
 //At Silver
-animation14.interval,never
-animation14.pattern0,overlay,1107,0,0,0
+animation2.interval,never
+animation2.pattern0,stop,1
+animation2.pattern1,overlay,1107,0,0,0
 //Blink
-animation2.interval,random,4
-animation2.pattern0,overlay,-1,100,0,0
-animation2.pattern1,overlayfast,1104,50,0,0
-animation2.pattern2,overlayfast,1105,100,0,0
-animation2.pattern3,overlay,-1,30,0,0
+animation3.interval,random,4
+animation3.pattern0,overlay,-1,100,0,0
+animation3.pattern1,overlayfast,1104,50,0,0
+animation3.pattern2,overlayfast,1105,100,0,0
+animation3.pattern3,overlay,-1,30,0,0
+//Closed
+//animation4.interval,random,4
+//animation4.pattern0,stop,3
+//animation4.pattern0,overlay,1105,0,0,0
+
+//--Mouth
+//Neutral
+animation5.interval,never
+animation5.pattern0,stop,20
+animation5.pattern1,overlay,1100,0,0,0
 
 //--Arms
 //At Rest
-animation5.interval,runonce
-animation5.pattern0,overlay,1205,0,0,0,0
-//Gesture Out
+animation6.interval,runonce
+animation6.pattern0,overlay,1205,0,0,0,0
+//In Pocket
 animation7.interval,never
-animation7.pattern0,overlay,1203,0,0,0
+animation7.pattern0,stop,5
+animation7.pattern1,overlay,1200,0,0,0
+//Gesture Out
+animation8.interval,never
+animation8.pattern0,stop,5
+animation8.pattern1,overlay,1203,0,0,0
 
 //--Behind Arms
 //Thinking hand on hip
-animation14.interval,runonce
-animation14.pattern0,overlay,1206,0,0,0
+animation9.interval,runonce
+animation9.pattern0,overlay,1206,0,0,0
 //Raise Pokeball
-animation6.interval,
-animation6.pattern0,overlay,1204,0,0,0
+animation10.interval,
+animation10.pattern0,stop,14
+animation10.pattern0,overlay,1204,0,0,0
 
 //:L lips
 animation11.interval,never
@@ -87,13 +101,51 @@ animation55.interval,never
 animation55.pattern0,stop,20
 }
 
-//Argue
+//Leaning to Silver
 surface1
 {
 element0,overlay,surface1001.png,0,0
+
+//--Eyes
+//At Silver
+animation1.interval,runonce
+animation1.pattern0,overlay,1108,0,0,0,0
+//Blink
+animation3.interval,random,4
+animation3.pattern0,overlay,-1,100,0,0
+animation3.pattern1,overlayfast,1112,50,0,0
+animation3.pattern2,overlayfast,1113,100,0,0
+animation3.pattern3,overlay,-1,30,0,0
+
+//--Mouth
+//Neutral
+animation5.interval,runonce
+animation5.pattern0,stop,20
+animation5.pattern1,overlay,1109,0,0,0
+
+//talk
+animation20.interval,talk,4
+animation20.pattern0,alternativestart,(21,22,23)
+
+animation21.interval,never
+animation21.pattern0,overlay,1110,100,0,0
+animation21.pattern1,overlay,1111,130,0,0
+animation21.pattern2,overlay,-1,100,0,0
+
+animation22.interval,never
+animation22.pattern0,overlay,1111,140,0,0
+animation22.pattern1,overlay,-1,100,0,0
+
+animation23.interval,never
+animation23.pattern0,overlay,1110,140,0,0
+animation23.pattern1,overlay,-1,100,0,0
+
+//Stop Talking
+animation55.interval,never
+animation55.pattern0,stop,20
 }
 
-//Crossed
+//Who knows really
 surface2
 {
 element0,overlay,surface1002.png,0,0
